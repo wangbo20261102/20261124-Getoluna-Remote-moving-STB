@@ -1,0 +1,29 @@
+{
+  "telemetry_last_age_sec": 69.94,
+  "no_motion_commands": true,
+  "robot_service_last_observed": "inactive",
+  "screenshot_dynamics": [
+    1.8,
+    0,
+    0,
+    0,
+    0.004,
+    0,
+    0,
+    0.004,
+    0,
+    0.03
+  ],
+  "unresolved": [
+    "actual arm variant and rated wrist torque",
+    "actual tool mass and centre of mass",
+    "two-arm internal interaction forces",
+    "loaded joint commanded/actual angles and torque"
+  ],
+  "apex_file_j6_d": 0,
+  "user_observation": "Whole part approximately 3 kg, held by both arms; wrist droop recovers after unloading",
+  "date": "2026-11-24",
+  "no_parameter_writes": true,
+  "apex_file_j6_k": 0.5,
+  "runtime_gain_verified": false
+}

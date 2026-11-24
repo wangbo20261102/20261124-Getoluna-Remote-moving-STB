@@ -1,0 +1,20 @@
+{
+  "Content": {
+    "chassis.length": 0.67,
+    "chassis.lidar_type": 1,
+    "chassis.motion_model": 1,
+    "chassis.threshold.acceleration.angular": 2.0,
+    "chassis.threshold.acceleration.linear": 1.5,
+    "chassis.threshold.deceleration.angular": 2.0,
+    "chassis.threshold.deceleration.linear": 1.5,
+    "chassis.threshold.speed.angular": 2.0,
+    "chassis.threshold.speed.linear": 1.5,
+    "chassis.wheel_base": 0.46,
+    "chassis.wheel_spacing.front": 0.439,
+    "chassis.wheel_spacing.rear": 0.439,
+    "chassis.width": 0.548
+  },
+  "ErrorCode": 0,
+  "ErrorMessage": "success",
+  "Interface": "/api/Config/Chassis/GetParam"
+}

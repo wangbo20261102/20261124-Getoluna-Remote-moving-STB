@@ -1,0 +1,136 @@
+/marvin_robot_node:
+  ros__parameters:
+    accel_ratio: 100
+    arm_supported_control_modes:
+    - 1
+    - 2
+    body_joints:
+    - Leg_J1_Joint
+    - Leg_J2_Joint
+    - Leg_J3_Joint
+    - Leg_J4_Joint
+    - Leg_J5_Joint
+    - Leg_J6_Joint
+    body_pd:
+      d:
+      - 20.0
+      - 10.0
+      - 6.0
+      - 4.0
+      - 3.0
+      - 2.0
+      k:
+      - 80.0
+      - 20.0
+      - 30.0
+      - 20.0
+      - 20.0
+      - 20.0
+    body_supported_control_modes:
+    - 1
+    - 2
+    check_cmd_timestamp: true
+    head_joints:
+    - Head_J1_joint
+    - Head_J2_joint
+    left_joints:
+    - Arm_L1_Joint
+    - Arm_L2_Joint
+    - Arm_L3_Joint
+    - Arm_L4_Joint
+    - Arm_L5_Joint
+    - Arm_L6_Joint
+    - Arm_L7_Joint
+    left_pd:
+      d:
+      - 0.6
+      - 0.2
+      - 0.2
+      - 0.16
+      - 0.0
+      - 0.0
+      - 0.0
+      k:
+      - 3.0
+      - 3.0
+      - 3.0
+      - 3.0
+      - 0.5
+      - 0.5
+      - 0.5
+    left_tool:
+    - 1.8
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.004
+    - 0.0
+    - 0.0
+    - 0.004
+    - 0.0
+    - 0.03
+    lift_joints: []
+    lift_supported_control_modes:
+    - 1
+    mode1_targets:
+    - 1
+    - 1
+    - 1
+    - 0
+    mode3_targets:
+    - 2
+    - 1
+    - 2
+    - 0
+    pd_cmd_cycle_time_ms: 2
+    publish_cmd_pos_debug: false
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    right_joints:
+    - Arm_R1_Joint
+    - Arm_R2_Joint
+    - Arm_R3_Joint
+    - Arm_R4_Joint
+    - Arm_R5_Joint
+    - Arm_R6_Joint
+    - Arm_R7_Joint
+    right_pd:
+      d:
+      - 0.6
+      - 0.2
+      - 0.2
+      - 0.16
+      - 0.0
+      - 0.0
+      - 0.0
+      k:
+      - 3.0
+      - 3.0
+      - 3.0
+      - 3.0
+      - 0.5
+      - 0.5
+      - 0.5
+    right_tool:
+    - 1.8
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.004
+    - 0.0
+    - 0.0
+    - 0.004
+    - 0.0
+    - 0.03
+    robot_info_publish_period_s: 5.0
+    robot_info_topic: info/robot_info
+    robot_ip: 6.6.7.190
+    robot_type: Gento_Luna
+    speed_ratio: 100
+    use_sim_time: false
+

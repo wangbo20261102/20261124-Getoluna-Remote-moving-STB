@@ -1,0 +1,22 @@
+[OUTPUT] 
+Internal ctest changing into directory: /home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build
+
+[HANDLER_OUTPUT] 
+Test project /home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build
+
+    Start 3: ros_adapter
+    Start 5: wrist_recovery
+    Start 6: release_reliability
+1/6 Test #6: release_reliability ..............   Passed   38.32 sec
+    Start 4: trigger_without_position
+2/6 Test #5: wrist_recovery ...................   Passed   38.50 sec
+    Start 2: manual
+3/6 Test #2: manual ...........................   Passed    0.03 sec
+    Start 1: protocol
+4/6 Test #1: protocol .........................   Passed    0.01 sec
+5/6 Test #4: trigger_without_position .........   Passed   20.54 sec
+6/6 Test #3: ros_adapter ......................   Passed   67.46 sec
+
+100% tests passed, 0 tests failed out of 6
+
+Total Test time (real) =  67.46 sec

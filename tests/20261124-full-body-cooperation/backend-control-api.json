@@ -1,0 +1,402 @@
+{
+  "paths": {
+    "/api/v1/robot/status": {
+      "get": {
+        "summary": "Robot Status V1",
+        "operationId": "robot_status_v1_api_v1_robot_status_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Robot Status V1 Api V1 Robot Status Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/robot/mode": {
+      "post": {
+        "summary": "Set Robot Mode V1",
+        "operationId": "set_robot_mode_v1_api_v1_robot_mode_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ModeRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Set Robot Mode V1 Api V1 Robot Mode Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/robot/ready": {
+      "post": {
+        "summary": "Set Robot Ready V1",
+        "operationId": "set_robot_ready_v1_api_v1_robot_ready_post",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Set Robot Ready V1 Api V1 Robot Ready Post"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/robot/speed": {
+      "post": {
+        "summary": "Set Speed Factor V1",
+        "operationId": "set_speed_factor_v1_api_v1_robot_speed_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SpeedFactorRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Set Speed Factor V1 Api V1 Robot Speed Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/robot/reset": {
+      "post": {
+        "summary": "Reset Robot V1",
+        "operationId": "reset_robot_v1_api_v1_robot_reset_post",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Reset Robot V1 Api V1 Robot Reset Post"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/robot/go_home": {
+      "post": {
+        "summary": "Go Home V1",
+        "operationId": "go_home_v1_api_v1_robot_go_home_post",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Go Home V1 Api V1 Robot Go Home Post"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/set_mode": {
+      "post": {
+        "summary": "Set Robot Mode",
+        "operationId": "set_robot_mode_set_mode_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ModeRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Set Robot Mode Set Mode Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/get_current_mode": {
+      "get": {
+        "summary": "Get Current Mode",
+        "operationId": "get_current_mode_get_current_mode_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Get Current Mode Get Current Mode Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/get_speed_factor": {
+      "get": {
+        "summary": "Get Speed Factor",
+        "operationId": "get_speed_factor_get_speed_factor_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Get Speed Factor Get Speed Factor Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/robot/reset": {
+      "post": {
+        "summary": "Reset Robot Legacy",
+        "operationId": "reset_robot_legacy_api_robot_reset_post",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Reset Robot Legacy Api Robot Reset Post"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "schemas": {
+    "BackendConnectRequest": {
+      "properties": {
+        "client_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Client Id"
+        },
+        "client_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Client Name"
+        },
+        "client_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Client Version"
+        },
+        "capabilities": {
+          "anyOf": [
+            {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Capabilities"
+        }
+      },
+      "type": "object",
+      "title": "BackendConnectRequest"
+    },
+    "HTTPValidationError": {
+      "properties": {
+        "detail": {
+          "items": {
+            "$ref": "#/components/schemas/ValidationError"
+          },
+          "type": "array",
+          "title": "Detail"
+        }
+      },
+      "type": "object",
+      "title": "HTTPValidationError"
+    },
+    "ModeRequest": {
+      "properties": {
+        "mode": {
+          "type": "integer",
+          "title": "Mode"
+        }
+      },
+      "type": "object",
+      "required": [
+        "mode"
+      ],
+      "title": "ModeRequest"
+    },
+    "SpeedFactorRequest": {
+      "properties": {
+        "speed_factor": {
+          "type": "number",
+          "title": "Speed Factor"
+        }
+      },
+      "type": "object",
+      "required": [
+        "speed_factor"
+      ],
+      "title": "SpeedFactorRequest"
+    },
+    "ValidationError": {
+      "properties": {
+        "loc": {
+          "items": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          "type": "array",
+          "title": "Location"
+        },
+        "msg": {
+          "type": "string",
+          "title": "Message"
+        },
+        "type": {
+          "type": "string",
+          "title": "Error Type"
+        },
+        "input": {
+          "title": "Input"
+        },
+        "ctx": {
+          "type": "object",
+          "title": "Context"
+        }
+      },
+      "type": "object",
+      "required": [
+        "loc",
+        "msg",
+        "type"
+      ],
+      "title": "ValidationError"
+    }
+  }
+}

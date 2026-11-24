@@ -1,0 +1,105 @@
+{
+  "read_only": true,
+  "home_source": "/opt/kernelmind/apex/install/marvin_description/share/marvin_description/mjcf/Gento_Luna/scene_teleop_luna.xml keyframe home",
+  "pico_source": "arm-chain-20261124-172906.json",
+  "pico_body_timestamp": {
+    "sec": 1795512546,
+    "nanosec": 276441504
+  },
+  "coordinate_frame": "Each torso origin and torso orientation, nominal x-forward y-left z-up",
+  "pico_data": "ROS VrBody after existing per-segment retargeting, not raw headset coordinates",
+  "home_joint_positions_rad": [
+    0.0,
+    0.4,
+    -0.6,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.57,
+    -1.41,
+    -1.3,
+    -1.57,
+    -0.151,
+    -0.01,
+    0.157,
+    -1.57,
+    -1.41,
+    1.3,
+    -1.57,
+    0.151,
+    -0.01,
+    -0.157
+  ],
+  "results": {
+    "left": {
+      "pico_mapped_elbow_in_torso_m": [
+        0.18681862924576173,
+        0.36092317120556866,
+        0.05750584394499785
+      ],
+      "robot_home_elbow_in_torso_m": [
+        0.00020575733097405024,
+        0.2568665800597032,
+        -0.14909450085137563
+      ],
+      "home_minus_pico_m": [
+        -0.18661287191478768,
+        -0.10405659114586546,
+        -0.2066003447963735
+      ],
+      "difference_norm_m": 0.29721345964670437,
+      "home_joint4_pivot_in_torso_m": [
+        0.01755039003445847,
+        0.25211365186968415,
+        -0.14985172605020508
+      ],
+      "home_shoulder_in_torso_m": [
+        1.2319355064622913e-18,
+        0.21460000000000015,
+        0.1115
+      ],
+      "home_hand_in_torso_m": [
+        0.40902994402094633,
+        0.170137065717581,
+        -0.1833206143507834
+      ]
+    },
+    "right": {
+      "pico_mapped_elbow_in_torso_m": [
+        0.17784746857344194,
+        -0.38869130428847937,
+        0.04299725022958994
+      ],
+      "robot_home_elbow_in_torso_m": [
+        0.00020736288682993915,
+        -0.2568665800561846,
+        -0.1490944995793033
+      ],
+      "home_minus_pico_m": [
+        -0.177640105686612,
+        0.13182472423229474,
+        -0.19209174980889324
+      ],
+      "difference_norm_m": 0.2929727042096476,
+      "home_joint4_pivot_in_torso_m": [
+        0.01755203603821114,
+        -0.25211376466199614,
+        -0.14985150625068863
+      ],
+      "home_shoulder_in_torso_m": [
+        -2.6347949767152833e-18,
+        -0.21460000000000015,
+        0.11149999999999989
+      ],
+      "home_hand_in_torso_m": [
+        0.40903248089596134,
+        -0.17013971184820859,
+        -0.18331743933837436
+      ]
+    }
+  },
+  "changes_applied": false,
+  "caution": "Single live posture sample is not a neutral-pose calibration; computed differences are not yet suitable for direct deployment as offsets."
+}

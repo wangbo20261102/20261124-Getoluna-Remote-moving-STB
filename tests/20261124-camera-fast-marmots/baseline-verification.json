@@ -1,0 +1,17 @@
+{
+  "protected_originals_checked": 3836,
+  "changed_protected_originals": [
+    "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\pico-usb-keepalive-status.json"
+  ],
+  "volatile_live_files_excluded": [
+    "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\local-watch-process.json",
+    "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\pico-feedback-20261124-085242-error.log",
+    "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\pico-feedback-20261124-085242.log",
+    "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\pico-feedback-state.json",
+    "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\pico-usb-sharing-20261124-085236-error.log",
+    "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\pico-usb-sharing-20261124-085236.log",
+    "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\pico-usb-sharing-state.json"
+  ],
+  "archive_checksum_failures": [],
+  "baseline_intact": false
+}

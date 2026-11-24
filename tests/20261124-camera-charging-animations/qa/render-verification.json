@@ -1,0 +1,10 @@
+{
+  "offline_render": true,
+  "charging_visibility_commands": [
+    "0 Success",
+    "0 Success",
+    "0 Success",
+    "0 Success"
+  ],
+  "real_battery_data_modified": false
+}

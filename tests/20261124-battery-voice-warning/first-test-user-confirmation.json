@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-24",
+  "test_count": 3,
+  "message": "warning，请立即充电",
+  "start_interval_seconds": 10,
+  "user_confirmation": "已听到 3 次，正常",
+  "display_modified": false,
+  "real_battery_data_modified": false
+}

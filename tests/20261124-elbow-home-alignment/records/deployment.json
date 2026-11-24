@@ -1,0 +1,11 @@
+{
+  "installed": true,
+  "files": {
+    "controller_udp.py": "/opt/kernelmind/apex/install/marvin_teleop/lib/marvin_teleop/controller_udp.py",
+    "robot_param.yaml": "/opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/config/luna/robot_param.yaml",
+    "elbow_home_alignment.py": "/opt/kernelmind/apex/install/marvin_teleop/lib/marvin_teleop/elbow_home_alignment.py"
+  },
+  "robot_restarted": false,
+  "home_sent": false,
+  "other_ik_tasks_modified": false
+}

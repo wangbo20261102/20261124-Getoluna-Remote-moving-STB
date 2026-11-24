@@ -1,0 +1,18 @@
+[
+  {
+    "Path": "E:\\Github\\Mubea-EV-Gentoluna-tests\\20261124-gripper-release-fix\\libGentoSDK.release-fix.so",
+    "Hash": "07CECBCE36EBCD89E915CF5A7F274DB2159251F68DCAB83D707A5D3F7A85AA43"
+  },
+  {
+    "Path": "E:\\Github\\Mubea-EV-Gentoluna-tests\\20261124-gripper-release-fix\\source\\wrist_adapter.hpp",
+    "Hash": "9401B919CDA5A57D6321373F65360D06414B1618702D042481F18A5EB973A186"
+  },
+  {
+    "Path": "E:\\Github\\Mubea-EV-Gentoluna-tests\\20261124-gripper-release-fix\\source\\wrist_protocol.hpp",
+    "Hash": "435639A0E9B33311570B1497D35883B6BCDB426F849428E3D6AE82363B01D835"
+  },
+  {
+    "Path": "E:\\Github\\Mubea-EV-Gentoluna-tests\\20261124-gripper-release-fix\\source\\verify\\test_ros_adapter.cpp",
+    "Hash": "5DEF96B64A213509CC281A92673269BB41EE06FB0F0E5B93E61F5A7DFA80A62D"
+  }
+]

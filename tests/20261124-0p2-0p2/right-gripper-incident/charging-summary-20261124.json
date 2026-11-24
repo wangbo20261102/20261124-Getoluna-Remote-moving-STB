@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "last_percent": 28,
+    "voltage_min": 50.0,
+    "voltage_max": 50.099998474121094,
+    "current_min": 5.300000190734863,
+    "current_max": 5.400000095367432,
+    "temperature": 18,
+    "health": 98,
+    "all_charging": true,
+    "error_codes": [
+      0
+    ]
+  },
+  {
+    "id": 2,
+    "last_percent": 27,
+    "voltage_min": 50.0,
+    "voltage_max": 50.099998474121094,
+    "current_min": 5.699999809265137,
+    "current_max": 5.900000095367432,
+    "temperature": 19,
+    "health": 98,
+    "all_charging": true,
+    "error_codes": [
+      0
+    ]
+  }
+]

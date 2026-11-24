@@ -1,0 +1,31 @@
+{
+  "original_untouched": true,
+  "all_original_archive_checksums_match": true,
+  "checked": [
+    {
+      "name": "20261124-before-0p2.tar.gz",
+      "size": 479191,
+      "sha256": "0e450ef52ed8ad71d45ccc03bfaf7623dbd7ccfa9df5178296b83acfcd64983e"
+    },
+    {
+      "name": "all-prior-local-files.zip",
+      "size": 903673186,
+      "sha256": "6870521a692faa575970330c0e8a3288ccd5529ca74fe44b311954ae011395a2"
+    },
+    {
+      "name": "baseline-description.json",
+      "size": 653,
+      "sha256": "48f68e99398879cc3c54e912e5ee52169bf536febe792ea7e6290bef44f484bd"
+    },
+    {
+      "name": "capture_baseline.py",
+      "size": 2327,
+      "sha256": "dd5f4ee7390e7acd524d7d29d13eb0dd36090261461c9e0820a5846cf874ded3"
+    },
+    {
+      "name": "FILE-MANIFEST.json",
+      "size": 1701580,
+      "sha256": "70a0cc652e3d8653f7462cc0203cc8c85aa55f2fcb7937638fa937926efcfb11"
+    }
+  ]
+}

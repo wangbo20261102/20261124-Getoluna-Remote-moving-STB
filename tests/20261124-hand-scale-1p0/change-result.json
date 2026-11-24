@@ -1,0 +1,9 @@
+{
+  "left_hand": 1.0,
+  "right_hand": 1.0,
+  "other_yaml_bytes_unchanged": true,
+  "old_sha256": "cade0e4a3e0ebbcd927dcfa024b492678ed4e63458d55d994cfd45f8ea5332eb",
+  "new_sha256": "c76de05937dcc9b11979339d57a07165bbc07714aa5097f9c7191d7b87b79a8b",
+  "reloaded": "apex-teleop.service",
+  "robot_service_restarted": false
+}

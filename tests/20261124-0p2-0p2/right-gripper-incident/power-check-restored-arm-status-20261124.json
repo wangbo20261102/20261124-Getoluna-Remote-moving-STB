@@ -1,0 +1,71 @@
+[
+  {
+    "status": {
+      "ok": true,
+      "data": {
+        "control_ready": true,
+        "control_error": false,
+        "control_error_message": "",
+        "arm_state": [
+          2,
+          2,
+          1,
+          2,
+          0,
+          0
+        ],
+        "arm_state_age_sec": 0.002016305923461914,
+        "current_mode": 2,
+        "speed_factor": 1.0,
+        "current_input_mode": 1
+      }
+    },
+    "pc_time": "2026-11-24T10:43:43.8773642+08:00"
+  },
+  {
+    "status": {
+      "ok": true,
+      "data": {
+        "control_ready": true,
+        "control_error": false,
+        "control_error_message": "",
+        "arm_state": [
+          2,
+          2,
+          1,
+          2,
+          0,
+          0
+        ],
+        "arm_state_age_sec": 0.004843473434448242,
+        "current_mode": 2,
+        "speed_factor": 1.0,
+        "current_input_mode": 1
+      }
+    },
+    "pc_time": "2026-11-24T10:43:48.9465525+08:00"
+  },
+  {
+    "status": {
+      "ok": true,
+      "data": {
+        "control_ready": true,
+        "control_error": false,
+        "control_error_message": "",
+        "arm_state": [
+          2,
+          2,
+          1,
+          2,
+          0,
+          0
+        ],
+        "arm_state_age_sec": 0.005820751190185547,
+        "current_mode": 2,
+        "speed_factor": 1.0,
+        "current_input_mode": 1
+      }
+    },
+    "pc_time": "2026-11-24T10:43:54.0381995+08:00"
+  }
+]

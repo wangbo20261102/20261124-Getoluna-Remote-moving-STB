@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "batteries": {
+    "1": {"kind": "turtle", "width": 112, "height": 70, "x_fraction": 0.77, "y_fraction": 0.024, "travel_fraction": 0.12, "cycle_seconds": 40, "motion": "forward_wrap", "restart_pause_seconds": 0.6, "trail_dots": 9},
+    "2": {"kind": "snail", "width": 112, "height": 70, "x_fraction": 0.77, "y_fraction": 0.091, "travel_fraction": 0.12, "cycle_seconds": 60, "motion": "forward_wrap", "restart_pause_seconds": 0.6, "trail_dots": 9}
+  }
+}

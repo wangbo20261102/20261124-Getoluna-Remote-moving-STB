@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-24",
+  "timezone": "Asia/Shanghai",
+  "classification": "电量不足引起的报警",
+  "classification_source": "用户明确指定的归档结论",
+  "resolution": "用户已通过 Apex 进入阻抗模式并完成复位",
+  "observed_controller_state": {
+    "arm_state": [2, 2, 1, 2, 0, 0],
+    "control_ready": true,
+    "control_error": false,
+    "feedback_age_seconds": 0.005662202835083008
+  },
+  "future_priority_warning": {
+    "condition": "任一电池 SOC < 30%",
+    "context": "后续联机检查、测试准备和故障排查",
+    "message": "电量低于 30%，请优先充电；本项目有低电量相关报警历史",
+    "background_monitor_installed": false,
+    "factory_thresholds_modified": false,
+    "automatic_servo_disable": false
+  },
+  "technical_causality_isolated": false,
+  "raw_diagnostic_evidence_preserved": true,
+  "baseline_modified": false
+}

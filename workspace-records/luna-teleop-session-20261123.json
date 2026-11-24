@@ -1,0 +1,72 @@
+{
+  "recorded_at": "2026-11-23T17:40:07.0611238+08:00",
+  "task": "PICO USB to Windows Ethernet to Gento Luna",
+  "robot_host": "6.6.7.100",
+  "pc_ethernet": "6.6.7.200/24",
+  "pico_serial": "PA9210MGK8060159G",
+  "pico_model": "A9210",
+  "apex_version": "1.0.7_pxr",
+  "repo_commit": "976f094004a8b9e873d8bdc6d13b90d18020cc8a",
+  "adb": "37.0.1-15733141",
+  "usb_route": "6.6.7.100/32 via tun0",
+  "pico_vpn_address": "10.0.0.2/32",
+  "sharing": {
+    "DeviceSerial": "PA9210MGK8060159G",
+    "RelayStartedAt": "2026-11-23T17:38:40.4492916+08:00",
+    "RelayPid": 11280,
+    "Stderr": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\work\\gentoluna-box-mime\\vr\\windows\\pico-usb-sharing-20261123-173840-error.log",
+    "RelayPath": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\work\\gentoluna-box-mime\\vr\\windows\\tools\\gnirehtet-v2.5.1\\gnirehtet-rust-win64\\gnirehtet.exe",
+    "Stdout": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\work\\gentoluna-box-mime\\vr\\windows\\pico-usb-sharing-20261123-173840.log",
+    "Port": 31416,
+    "UpdatedAt": "2026-11-23T17:38:41.5642648+08:00"
+  },
+  "feedback": {
+    "pid": 8024,
+    "nodePath": "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1119-907-0_26.1119.907.0_x64__3k8sg7r9htsxt\\dependencies\\node\\bin\\node.exe",
+    "worker": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\work\\gentoluna-box-mime\\vr\\windows\\tools\\pico-feedback\\relay.cjs",
+    "serial": "PA9210MGK8060159G",
+    "startedAt": "2026-11-23T09:38:43.318Z",
+    "phase": "connected",
+    "localAddress": "6.6.7.200",
+    "robot": "6.6.7.100",
+    "received": {
+      "9002": 0,
+      "9003": 0
+    },
+    "forwarded": {
+      "9002": 0,
+      "9003": 0
+    },
+    "coalesced": 0,
+    "rejected": 0,
+    "headset": {
+      "delivered9002": 0,
+      "delivered9003": 0,
+      "acknowledgedAt": "2026-11-23T09:40:04.74Z"
+    },
+    "updatedAt": "2026-11-23T09:40:04.74Z"
+  },
+  "video_check": {
+    "target_fps": 30,
+    "measured_fps": 11.490531307713407,
+    "frames": 30,
+    "input": "1920x1080 YUYV"
+  },
+  "robot_sdk_sha256": "4cdbe4a52db7361891be7b05040574577625d58b59ab8a353ec3220cc1a3bbaf",
+  "warnings": [
+    "Intermittent ARM0/ARM1 wrist register reply timeout, automatic recovery logged.",
+    "No headset TCP9010 session or UDP9002/9003 feedback verified yet.",
+    "Luna robot clock is ahead of this PC by approximately 15 minutes; clocks unchanged."
+  ],
+  "robot_motion_commands_issued": false,
+  "download_checksums": [
+    {
+      "Path": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\work\\gentoluna-box-mime\\vr\\windows\\tools\\downloads\\platform-tools.zip",
+      "Hash": "45F4D63113E895EBDE0C90F194099A4676B6AC653BD28D54314A9E022BBC1A99"
+    },
+    {
+      "Path": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\work\\gentoluna-box-mime\\vr\\windows\\tools\\downloads\\gnirehtet.zip",
+      "Hash": "7F5B1063E7895182AA60DEF1437E50363C3758144088DCD079037BB7C3C46A1C"
+    }
+  ]
+}

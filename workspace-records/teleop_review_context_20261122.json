@@ -1,0 +1,76 @@
+{
+  "review_date": "2026-11-22",
+  "repository": "https://github.com/Zhangshih2317/gentoluna-box-mime",
+  "commit": "976f094004a8b9e873d8bdc6d13b90d18020cc8a",
+  "release": "v0.3.0, 2026-11-21",
+  "local_reference": "work/gentoluna-box-mime",
+  "user_selected_topology": "PICO USB to Windows PC; PC Ethernet to Luna",
+  "robot_contacted": false,
+  "hardware_actions_run": false,
+  "original_repository_modified": false,
+  "offline_checks": {
+    "root_python_tests": "94 passed in isolated work/luna-review-venv; socket connections blocked by repository runner",
+    "vr_python_syntax_files": 9,
+    "windows_powershell_parse_files": 6,
+    "feedback_node_syntax": "node --check passed",
+    "native_ros_tests": "not run locally; repository includes historical 5/5 CTest results"
+  },
+  "current_reference_environment": {
+    "domain_controller": "6.6.7.100",
+    "motion_controller": "6.6.7.190",
+    "ros_domain": 24,
+    "ros_environment": "/etc/apex/apex_ros_env.sh",
+    "backend_and_tool": "1.0.6.81g Humble ARM64",
+    "windows_apex": "1.0.33 reproduction baseline; 1.1.7.1 separate trial",
+    "pico_apk": "Apex_Teleop_1.0.7_pxr.apk",
+    "pico_app": "com.KernalMind.Apex_Teleop",
+    "sdk_base": "4.4.2, fixed vendor source 5a5f24332aba242a99b6c39d3f4ffde312d705ee",
+    "controller_version_historical": "4.4.4",
+    "custom_wrist_library": "/usr/local/lib/luna-apex-wrist/sdk/libGentoSDK.so",
+    "custom_wrist_sha256": "2dc21fc7b1e9ab53c83b854d8ecdb23fb041e5c8d8e23e77edad82f36683f6c9"
+  },
+  "data_paths": {
+    "backend_http": 8080,
+    "controller_tcp": 9010,
+    "feedback_udp": [9002, 9003],
+    "feedback_adb_tcp": 39002,
+    "usb_relay_tcp": 31416,
+    "headset_tunnel": "10.0.0.2/32",
+    "vpn_route": "6.6.7.100/32",
+    "video_signaling": 8554,
+    "video_media": "dynamic WebRTC UDP; verify actual interface and destination",
+    "pico_video_room": "10",
+    "pc_video_room": "11"
+  },
+  "wrist_mapping": {
+    "left": "ARM0/485A",
+    "right": "ARM1/485A",
+    "open": 0,
+    "close": 9000,
+    "speed_percent": 60,
+    "torque_percent": 60,
+    "gesture": "side grip enables arm following too; release index trigger first; >80% close, <20% open; edge-triggered",
+    "feedback_topics": ["/info/wrist485_L", "/info/wrist485_R"],
+    "feedback_fields": ["actual_position", "speed", "status_word", "fault_A", "alarm_B"],
+    "recovery": "faulted side only, read-only checks at 3/6/9/12/15 seconds; recovered requires fresh gesture; fifth failed round locks that side"
+  },
+  "camera_baseline": {
+    "device": "D435 color V4L2; /dev/video12 is historical example, must re-enumerate",
+    "input": "1920x1080 YUYV 30fps",
+    "stream": "H264 atlas 3840x2160 with original color in top-left, other tiles empty; Mono; no depth",
+    "target_bitrate": 8000000,
+    "historical_receiver_result": "820 frames/30.81 seconds = 26.61 fps; 7.55 Mbps, not end-to-end latency"
+  },
+  "verify_when_user_connects": [
+    "Fresh device/network/versions/service state; historical information is not current live state",
+    "Only one SDK owner; old gento-unified-control-8760 and J7 scripts must not compete with Apex Robot",
+    "Do not restart installed services or overwrite libraries before checking drop-ins and loaded hashes",
+    "Check wired route Preferred address; do not replace PC .200 with documentation .101 without need",
+    "ADB USB authorization, tun0, gnirehtet reverse, feedback relay connected plus counters increasing",
+    "Actual wrist 8-pin type and two read-only preflight messages; do not use root USB-gripper defaults",
+    "Camera selected live node, room exclusivity, frame growth, actual media route",
+    "Ready/Home/impedance/PD mode only after actual baseline check; historical 106/-10 is not solved by repeating mode=3",
+    "control_grippers.py uses Paramiko default keys/agent, not gentoluna SSH alias's custom IdentityFile automatically",
+    "All real motion, mode changes and maintenance installations require user-controlled session scope"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "mode": "direct sticks; no press; left fore/aft and lateral; right turn",
+  "baseline": "E:\\Github\\Mubea-EV-Gentoluna-baselines\\20261124-before-0p2",
+  "date": "2026-11-24",
+  "caps": {
+    "angular_rad_s": 0.2,
+    "planar_m_s": 0.2
+  },
+  "runtime": "/home/nvidia/luna-test-runs/20261124-0p2-0p2/pico_chassis_bridge.py",
+  "baseline_files_must_not_change": true,
+  "independent_trial": "E:\\Github\\Mubea-EV-Gentoluna-tests\\20261124-0p2-0p2",
+  "test_duration_seconds": 300,
+  "maxhub_must_remain_active": true
+}

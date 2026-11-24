@@ -1,0 +1,81 @@
+● apex-robot.service - Apex Robot Control module
+     Loaded: loaded (/etc/systemd/system/apex-robot.service; disabled; vendor preset: enabled)
+    Drop-In: /etc/systemd/system/apex-robot.service.d
+             └─70-luna-ctag.conf
+     Active: active (running) since Tue 2026-11-24 09:10:50 CST; 41min ago
+   Main PID: 137097 (ros2)
+      Tasks: 31 (limit: 74756)
+     Memory: 45.7M
+        CPU: 26min 1.477s
+     CGroup: /system.slice/apex-robot.service
+             ├─137097 /usr/bin/python3 /opt/ros/humble/bin/ros2 launch marvin_ros_control bringup_control_gento_luna.launch.py use_rviz:=false
+             ├─137164 /opt/kernelmind/apex/install/marvin_ros_control/lib/marvin_ros_control/marvin_robot_node --ros-args --log-level INFO --ros-args -r __node:=marvin_robot_node --params-file /opt/kernelmind/apex/install/marvin_ros_control/share/marvin_ros_control/config/robot_param_luna.yaml
+             └─137166 /opt/ros/humble/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher --params-file /tmp/launch_params_h19_3aqu
+
+Nov 24 09:50:33 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795485033.006782880] [apex_ctag_wrist]: ARM0 recovered on check 3; fresh gesture required
+Nov 24 09:50:33 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795485033.073010464] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+Nov 24 09:50:35 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795485035.415478976] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+Nov 24 09:50:56 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795485056.376263872] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+Nov 24 09:50:58 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795485058.716536928] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+Nov 24 09:51:32 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795485092.573884320] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+Nov 24 09:51:34 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795485094.915818016] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+Nov 24 09:51:51 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795485111.966926688] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+Nov 24 09:51:54 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795485114.768636352] [apex_ctag_wrist]: ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0100 received=0: empty wrist register reply
+Nov 24 09:51:54 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795485114.787028416] [apex_ctag_wrist]: Apex CTAG Tool detached
+
+○ apex-teleop.service - Apex Teleop and Replay module
+     Loaded: loaded (/etc/systemd/system/apex-teleop.service; disabled; vendor preset: enabled)
+     Active: inactive (dead)
+
+Nov 24 09:51:53 vision bash[139655]: [controller_udp.py-5] RuntimeError: Unable to convert call argument to Python object (compile in debug mode for details)
+Nov 24 09:51:54 vision bash[139655]: [ERROR] [qp_controller-3]: process has died [pid 141386, exit code -2, cmd '/opt/kernelmind/apex/install/marvin_qp_controller/lib/marvin_qp_controller/qp_controller --ros-args -r __node:=qp_controller --params-file /opt/kernelmind/apex/install/marvin_qp_controller/share/marvin_qp_controller/config/luna/robot_param.yaml --params-file /tmp/launch_params_0t9bcbo5 --params-file /tmp/launch_params_m1zu4321'].
+Nov 24 09:51:54 vision bash[139655]: [INFO] [joint_cmd_mux-4]: process has finished cleanly [pid 141390]
+Nov 24 09:51:54 vision bash[139655]: [INFO] [ik_request_mux-2]: process has finished cleanly [pid 141381]
+Nov 24 09:51:54 vision bash[139655]: [INFO] [gento_replay_node-7]: process has finished cleanly [pid 141418]
+Nov 24 09:51:54 vision bash[139655]: [ERROR] [controller_udp.py-5]: process has died [pid 141394, exit code 1, cmd '/opt/kernelmind/apex/install/marvin_teleop/lib/marvin_teleop/controller_udp.py --ros-args -r __node:=VR_reader --params-file /opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/config/luna/robot_param.yaml --params-file /opt/kernelmind/apex/install/marvin_ros_control/share/marvin_ros_control/config/robot_param_luna.yaml --params-file /tmp/launch_params_27_ctjt5'].
+Nov 24 09:51:54 vision bash[139655]: [ERROR] [gento_replay_ui_node-8]: process has died [pid 141445, exit code -2, cmd '/opt/kernelmind/apex/install/gento_replay/lib/gento_replay/gento_replay_ui_node --ros-args -r __node:=gento_replay_ui_node --params-file /tmp/launch_params_nc4cwx1v'].
+Nov 24 09:51:54 vision systemd[1]: apex-teleop.service: Deactivated successfully.
+Nov 24 09:51:54 vision systemd[1]: Stopped Apex Teleop and Replay module.
+Nov 24 09:51:54 vision systemd[1]: apex-teleop.service: Consumed 1h 47min 22.795s CPU time.
+
+○ apex-tool.service - Apex Tool module
+     Loaded: loaded (/etc/systemd/system/apex-tool.service; disabled; vendor preset: enabled)
+    Drop-In: /etc/systemd/system/apex-tool.service.d
+             └─70-luna-ctag.conf
+     Active: inactive (dead)
+
+Nov 24 08:31:53 vision systemd[1]: Started Apex Tool module.
+Nov 24 08:31:53 vision python3[13307]: CTAG2F90D wrist tool enabled for ARM0/485A and ARM1/485A
+Nov 24 08:33:19 vision systemd[1]: Stopping Apex Tool module...
+Nov 24 08:33:19 vision systemd[1]: apex-tool.service: Deactivated successfully.
+Nov 24 08:33:19 vision systemd[1]: Stopped Apex Tool module.
+Nov 24 09:10:53 vision systemd[1]: Started Apex Tool module.
+Nov 24 09:10:53 vision python3[138765]: CTAG2F90D wrist tool enabled for ARM0/485A and ARM1/485A
+Nov 24 09:51:54 vision systemd[1]: Stopping Apex Tool module...
+Nov 24 09:51:54 vision systemd[1]: apex-tool.service: Deactivated successfully.
+Nov 24 09:51:54 vision systemd[1]: Stopped Apex Tool module.
+
+● apex-camera.service - Apex Camera module
+     Loaded: loaded (/etc/systemd/system/apex-camera.service; disabled; vendor preset: enabled)
+    Drop-In: /etc/systemd/system/apex-camera.service.d
+             └─60-d435.conf
+     Active: active (running) since Tue 2026-11-24 09:10:37 CST; 41min ago
+   Main PID: 136708 (ros2)
+      Tasks: 63 (limit: 74756)
+     Memory: 310.7M
+        CPU: 58min 14.110s
+     CGroup: /system.slice/apex-camera.service
+             ├─136708 /usr/bin/python3 /opt/ros/humble/bin/ros2 launch gmsl_quadcam quad_csi_quickview.launch.py params_file:=/home/nvidia/d435-preview/apex-color1080.yaml
+             ├─136839 python3 /opt/kernelmind/apex/install/gmsl_quadcam/lib/gmsl_quadcam/webrtc_signal_server.py --ros-args -r __node:=webrtc_signal_server --params-file /tmp/launch_params_we55bvyw --params-file /tmp/launch_params_gafgkjq7
+             └─136841 /opt/kernelmind/apex/install/gmsl_quadcam/lib/gmsl_quadcam/quad_csi_quickview --ros-args -r __node:=quad_csi_quickview --params-file /home/nvidia/d435-preview/apex-color1080.yaml --params-file /tmp/launch_params_jwl7xvte
+
+Nov 24 09:52:25 vision bash[136708]: [quad_csi_quickview-2] [gstreamer] gstreamer message qos ==> v4l2src0
+Nov 24 09:52:25 vision bash[136708]: [quad_csi_quickview-2] [gstreamer] gstreamer message qos ==> v4l2src0
+Nov 24 09:52:27 vision bash[136708]: [quad_csi_quickview-2] [gstreamer] gstreamer message qos ==> v4l2src0
+Nov 24 09:52:27 vision bash[136708]: [quad_csi_quickview-2] [gstreamer] gstreamer message qos ==> v4l2src0
+Nov 24 09:52:28 vision bash[136708]: [quad_csi_quickview-2] [gstreamer] gstreamer message qos ==> v4l2src0
+Nov 24 09:52:28 vision bash[136708]: [quad_csi_quickview-2] [gstreamer] gstreamer message qos ==> v4l2src0
+Nov 24 09:52:28 vision bash[136708]: [quad_csi_quickview-2] [gstreamer] gstreamer message qos ==> v4l2src0
+Nov 24 09:52:30 vision bash[136708]: [quad_csi_quickview-2] [gstreamer] gstreamer message qos ==> v4l2src0
+Nov 24 09:52:30 vision bash[136708]: [quad_csi_quickview-2] [gstreamer] gstreamer message qos ==> v4l2src0
+Nov 24 09:52:30 vision bash[136708]: [quad_csi_quickview-2] [gstreamer] gstreamer message qos ==> v4l2src0

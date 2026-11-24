@@ -1,0 +1,7 @@
+{
+  "/usr/local/lib/luna-apex-wrist/sdk/libGentoSDK.so": "4cdbe4a52db7361891be7b05040574577625d58b59ab8a353ec3220cc1a3bbaf",
+  "/etc/systemd/system/apex-robot.service.d/70-luna-ctag.conf": "53ed2a0e07bfb76e56d2207b2c421d64aa58861c8feb5e646a076a73971a2e8f",
+  "/etc/systemd/system/apex-tool.service.d/70-luna-ctag.conf": "e37db97ef439d2800d8445b17dc549a4632d9b5999cfab1419a90c16deccbfcb",
+  "/opt/kernelmind/apex/install/marvin_ros_control/share/marvin_ros_control/config/robot_param_luna.yaml": "54ea33096348d3d60395176e0eb5bed96845f85877b162fff7c64400db487fea",
+  "/opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/config/luna/robot_param.yaml": "cade0e4a3e0ebbcd927dcfa024b492678ed4e63458d55d994cfd45f8ea5332eb"
+}

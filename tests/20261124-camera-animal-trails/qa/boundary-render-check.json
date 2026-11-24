@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "counts": {
+    "0": {
+      "turtle_colored_pixels": 1368,
+      "snail_colored_pixels": 2177
+    },
+    "10": {
+      "turtle_colored_pixels": 1403,
+      "snail_colored_pixels": 2164
+    },
+    "20.3": {
+      "turtle_colored_pixels": 0,
+      "snail_colored_pixels": 2177
+    },
+    "20.9": {
+      "turtle_colored_pixels": 1407,
+      "snail_colored_pixels": 2177
+    },
+    "30.3": {
+      "turtle_colored_pixels": 1365,
+      "snail_colored_pixels": 0
+    }
+  }
+}

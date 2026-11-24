@@ -1,0 +1,1986 @@
+[
+  {
+    "robot_time": "2026-11-24T13:44:14.870190",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:44:17.216144",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:44:23.006725",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:44:25.361107",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:44:52.650045",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:44:54.995977",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:44:59.353492",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:45:02.269186",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:45:04.610566",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:46:09.284320",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:46:11.485888",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:46:12.201779",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:46:13.828197",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:46:14.546297",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:46:47.647643",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:46:48.387398",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:46:50.575861",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:46:50.744460",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:46:52.918733",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:47:23.544792",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:47:25.901720",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:47:26.189505",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:47:28.531618",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:47:59.728014",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:48:02.079215",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:48:04.780121",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:48:07.697217",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:48:10.044126",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:48:35.226651",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=11: damaged wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:48:38.146744",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:48:40.486920",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:48:43.084205",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:48:45.428159",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:49:21.703330",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:49:24.048351",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:49:49.145611",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:49:51.487901",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:50:00.271792",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:50:03.188657",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:50:05.539503",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:50:24.545991",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:50:27.461082",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:50:29.803510",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:50:38.555949",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:50:40.897243",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:50:49.263550",
+    "message": "ARM0 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:50:49.294546",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:50:49.963674",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T13:50:51.260898",
+    "message": "ARM1 suspended: ARM1/485A function=0x06 register=0x0108 received=0: start acknowledgement missing; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:50:53.837743",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:00.607802",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:03.180372",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:16.394242",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:18.736712",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:36.288464",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=11: damaged wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:38.632635",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:46.641060",
+    "message": "ARM0 trigger 0.90 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:46.672323",
+    "message": "ARM1 trigger 0.98 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:46.983462",
+    "message": "ARM0 trigger 0.01 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:47.035796",
+    "message": "ARM1 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:47.834725",
+    "message": "ARM1 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:49.161233",
+    "message": "ARM0 suspended: ARM0/485A function=0x06 register=0x0108 received=0: start acknowledgement missing; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:51.731594",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:54.534123",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:51:56.875777",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:52:13.503429",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:52:16.422141",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:52:18.770329",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:52:33.119004",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:52:36.038151",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:52:38.382366",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:52:54.189229",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:52:56.990951",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:52:59.794582",
+    "message": "ARM0 check 2 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:53:02.139038",
+    "message": "ARM0 recovered on check 3; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:53:11.418394",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:53:13.768301",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:53:25.488918",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:53:27.833178",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:53:49.231020",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:53:51.574519",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:01.686253",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:04.609840",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:06.956229",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:09.241563",
+    "message": "ARM0 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:09.242426",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:09.846304",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:10.786726",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:13.147503",
+    "message": "ARM0 trigger 0.17 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:14.018873",
+    "message": "ARM0 suspended: ARM0/485A function=0x06 register=0x0108 received=0: stop acknowledgement missing; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:16.599772",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:17.116953",
+    "message": "ARM0 trigger 0.84 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:17.520843",
+    "message": "ARM0 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:18.280969",
+    "message": "ARM0 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:22.061141",
+    "message": "ARM1 suspended: wrist motion supervision timed out; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:24.640196",
+    "message": "ARM1 check 1 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:27.211123",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:29.568856",
+    "message": "ARM0 trigger 0.80 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:30.147522",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:32.173234",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:34.973853",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0100 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:37.324848",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:38.147167",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:40.718479",
+    "message": "ARM0 check 1 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T13:54:43.293413",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:05.508641",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:08.424582",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:10.767154",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:14.819360",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:17.167264",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:28.015761",
+    "message": "ARM0 trigger 0.95 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:28.523624",
+    "message": "ARM0 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:31.025147",
+    "message": "ARM0 trigger 0.98 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:31.082105",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0102 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:33.426159",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:34.502785",
+    "message": "ARM0 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:35.077449",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:37.507653",
+    "message": "ARM0 trigger 0.10 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:38.624833",
+    "message": "ARM0 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:43.771466",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:46.116030",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:49.454183",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=11: damaged wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:49.937151",
+    "message": "ARM1 trigger 0.82 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:50.506431",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:50.989396",
+    "message": "ARM1 trigger 0.07 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:51.584573",
+    "message": "ARM1 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:52.384220",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:55:54.734624",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:56:21.674470",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:56:24.014845",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:56:31.096962",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:56:33.901749",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:56:36.703270",
+    "message": "ARM0 check 2 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:56:39.050072",
+    "message": "ARM0 recovered on check 3; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:02.401738",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:04.751309",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:15.150136",
+    "message": "ARM1 trigger 0.99 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:15.160505",
+    "message": "ARM0 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:15.732789",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:15.789673",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:27.784486",
+    "message": "ARM0 suspended: wrist motion supervision timed out; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:27.787956",
+    "message": "ARM1 suspended: wrist motion supervision timed out; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:30.360885",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:30.365342",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:37.635310",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:39.358470",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:40.555535",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:41.702599",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:57:42.897130",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:04.921374",
+    "message": "ARM0 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:04.942790",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:05.199925",
+    "message": "ARM0 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:05.260067",
+    "message": "ARM1 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:06.068532",
+    "message": "ARM0 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:06.088697",
+    "message": "ARM1 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:15.342193",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:16.017004",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:17.685139",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:18.363715",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:19.305681",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:22.112840",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:24.913218",
+    "message": "ARM0 check 2 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:27.255750",
+    "message": "ARM0 recovered on check 3; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:50.601722",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:52.954920",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:54.757095",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:58:57.100335",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T13:59:26.791028",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T13:59:29.708110",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T13:59:32.055137",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:10.372702",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:13.295055",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:15.637208",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:15.761576",
+    "message": "ARM0 trigger 0.95 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:15.761576",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:16.462139",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:16.493618",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:18.024035",
+    "message": "ARM0 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:18.106657",
+    "message": "ARM1 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:18.606896",
+    "message": "ARM0 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:19.626083",
+    "message": "ARM1 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:20.368556",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:20.724531",
+    "message": "ARM1 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:23.589702",
+    "message": "ARM1 suspended: ARM1/485A function=0x06 register=0x0108 received=0: start acknowledgement missing; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:24.394152",
+    "message": "ARM1 stop: ARM1/485A function=0x06 register=0x0108 received=0: stop acknowledgement missing"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:26.163543",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:34.954292",
+    "message": "ARM0 trigger 0.80 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:34.965062",
+    "message": "ARM1 trigger 0.92 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:35.546201",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:35.551630",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:39.726472",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:42.297563",
+    "message": "ARM0 check 1 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:44.871385",
+    "message": "ARM0 check 2 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:47.448297",
+    "message": "ARM0 recovered on check 3; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:47.920773",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:50.840290",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:53.410962",
+    "message": "ARM1 check 2 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:56.214122",
+    "message": "ARM1 check 3 failed: ARM1/485A function=0x03 register=0x0100 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:00:58.788322",
+    "message": "ARM1 recovered on check 4; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:01:15.645959",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:01:17.988795",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:01:26.169234",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:01:28.511866",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:01:48.891613",
+    "message": "ARM0 trigger 0.84 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:01:49.242374",
+    "message": "ARM0 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:01:50.039241",
+    "message": "ARM0 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:01:52.008844",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:01:54.582903",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:01:56.203415",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:01:56.759438",
+    "message": "ARM1 trigger 0.94 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:01:57.188733",
+    "message": "ARM1 trigger 0.06 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:01:58.077014",
+    "message": "ARM1 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:01:59.010835",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:02:01.352480",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:02:03.955397",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:02:06.307273",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:02:26.432260",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=11: damaged wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:02:28.775822",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:02:46.860359",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:02:49.667969",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0100 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:02:52.011522",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:03.433977",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:06.355297",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:08.699751",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:20.225190",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:23.148508",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:25.487177",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:37.506347",
+    "message": "ARM1 trigger 0.94 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:37.527373",
+    "message": "ARM0 trigger 0.87 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:38.112042",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:39.038278",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:40.971608",
+    "message": "ARM0 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:41.923415",
+    "message": "ARM0 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:44.584416",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:47.393195",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:49.733541",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:51.219808",
+    "message": "ARM1 suspended: wrist motion supervision timed out; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:53.787976",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:55.446459",
+    "message": "ARM0 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:56.230328",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:03:58.754807",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:01.096033",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:08.243953",
+    "message": "ARM0 suspended: wrist motion supervision timed out; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:10.811257",
+    "message": "ARM0 check 1 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:13.386568",
+    "message": "ARM0 check 2 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:16.308741",
+    "message": "ARM0 check 3 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:18.883573",
+    "message": "ARM0 recovered on check 4; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:36.521293",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:38.864021",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:51.902733",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:54.816625",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:56.546418",
+    "message": "ARM1 trigger 0.82 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:57.119969",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:57.157024",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:57.292361",
+    "message": "ARM1 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:04:58.275476",
+    "message": "ARM1 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:05:02.546427",
+    "message": "ARM0 trigger 0.85 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:05:03.123500",
+    "message": "ARM0 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:05:05.758895",
+    "message": "ARM0 suspended: ARM0/485A function=0x06 register=0x0108 received=0: start acknowledgement missing; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:05:08.332077",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:05:52.477931",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:05:55.391617",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:05:57.737154",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:03.937685",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:06.280654",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:30.006280",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:30.447421",
+    "message": "ARM0 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:31.019133",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:32.924934",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:35.267489",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:36.961633",
+    "message": "ARM1 trigger 0.84 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:38.680319",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:40.436442",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:40.528853",
+    "message": "ARM1 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:41.474213",
+    "message": "ARM1 suspended: ARM1/485A function=0x06 register=0x0108 received=0: stop acknowledgement missing; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:43.357752",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:44.049470",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:45.928194",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:46.913246",
+    "message": "ARM1 trigger 0.85 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:47.238545",
+    "message": "ARM1 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:49.282801",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:49.978384",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:52.049129",
+    "message": "ARM1 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:53.052169",
+    "message": "ARM1 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:53.708183",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:06:54.281543",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:06.469859",
+    "message": "ARM1 suspended: wrist motion supervision timed out; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:09.387388",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:11.963948",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:15.740552",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:18.083300",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:45.810087",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:48.151456",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:52.812358",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:53.394147",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:53.780959",
+    "message": "ARM1 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:55.175701",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:56.124349",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0100 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:57.550021",
+    "message": "ARM0 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:58.126777",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:07:58.490988",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:08:00.405133",
+    "message": "ARM0 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:08:02.877412",
+    "message": "ARM0 suspended: ARM0/485A function=0x06 register=0x0108 received=0: start acknowledgement missing; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:08:03.680592",
+    "message": "ARM0 stop: ARM0/485A function=0x06 register=0x0108 received=0: stop acknowledgement missing"
+  },
+  {
+    "robot_time": "2026-11-24T14:08:05.454311",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:08:08.665970",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:08:09.247419",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:08:09.791667",
+    "message": "ARM1 trigger 0.16 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:08:10.888651",
+    "message": "ARM1 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:08:27.984469",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:08:30.900662",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:08:33.251436",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:09:01.876221",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:09:04.792152",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:09:07.136440",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:09:39.352046",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:09:39.512468",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=11: damaged wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:09:41.871581",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:09:42.268526",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:09:44.611049",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:16.527524",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:17.617810",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:19.441913",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:19.963821",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:21.785271",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:38.280120",
+    "message": "ARM0 trigger 0.98 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:38.280958",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:38.877081",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:38.885235",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:51.039832",
+    "message": "ARM0 suspended: wrist motion supervision timed out; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:51.053161",
+    "message": "ARM1 suspended: wrist motion supervision timed out; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:53.606412",
+    "message": "ARM0 check 1 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:53.627638",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:55.245119",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:56.176811",
+    "message": "ARM0 check 2 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:57.588182",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:10:58.752577",
+    "message": "ARM0 recovered on check 3; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:11:28.563447",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:11:30.910749",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:11:33.024152",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:11:35.368857",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:11:36.753228",
+    "message": "ARM0 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:11:36.754012",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:11:37.058190",
+    "message": "ARM0 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:11:37.100170",
+    "message": "ARM1 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:11:37.903647",
+    "message": "ARM1 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:11:37.939610",
+    "message": "ARM0 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:04.751518",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:07.670100",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:10.013580",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:11.188072",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:14.104260",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:16.446672",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:20.739409",
+    "message": "ARM0 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:20.739409",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:21.331019",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:21.339798",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:33.542101",
+    "message": "ARM1 suspended: wrist motion supervision timed out; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:33.560673",
+    "message": "ARM0 suspended: wrist motion supervision timed out; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:36.112557",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:36.134336",
+    "message": "ARM0 check 1 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:38.704361",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:48.984161",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:51.898956",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:12:54.253111",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:16.688883",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:19.033162",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:25.744308",
+    "message": "ARM0 trigger 0.82 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:25.765503",
+    "message": "ARM1 trigger 0.98 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:26.170914",
+    "message": "ARM0 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:26.201963",
+    "message": "ARM1 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:28.998467",
+    "message": "ARM0 suspended: ARM0/485A function=0x06 register=0x0108 received=0: start acknowledgement missing; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:29.467884",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:31.575609",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:31.815038",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:34.911612",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:35.499993",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:36.730291",
+    "message": "ARM1 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:39.245717",
+    "message": "ARM1 suspended: ARM1/485A function=0x06 register=0x0108 received=0: start acknowledgement missing; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:41.826297",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:52.556337",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:55.477534",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:13:57.817617",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:14:05.203835",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:14:07.539196",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:14:17.837017",
+    "message": "ARM1 trigger 0.84 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:14:17.871471",
+    "message": "ARM0 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:14:18.414891",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:14:18.439312",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:14:29.194318",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:14:30.607098",
+    "message": "ARM1 suspended: wrist motion supervision timed out; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:14:31.763128",
+    "message": "ARM0 check 1 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:14:33.176693",
+    "message": "ARM1 check 1 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:14:34.329868",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:14:35.745391",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:14:43.007037",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:14:45.354900",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:04.933929",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:07.280638",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:29.562550",
+    "message": "ARM0 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:29.573458",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:30.158314",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:31.678736",
+    "message": "ARM0 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:31.802615",
+    "message": "ARM1 suspended: ARM1/485A function=0x06 register=0x0108 received=0: start acknowledgement missing; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:32.608489",
+    "message": "ARM1 stop: ARM1/485A function=0x06 register=0x0108 received=0: stop acknowledgement missing"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:32.813517",
+    "message": "ARM0 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:34.376016",
+    "message": "ARM1 check 1 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:36.956154",
+    "message": "ARM1 check 2 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:39.534481",
+    "message": "ARM1 recovered on check 3; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:41.112929",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:42.443042",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:43.028034",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:43.456207",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:44.884223",
+    "message": "ARM1 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:45.079469",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:45.884603",
+    "message": "ARM1 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:46.693719",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:47.272887",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:47.377062",
+    "message": "ARM1 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:47.883929",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:48.452305",
+    "message": "ARM1 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:50.225462",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:15:58.358179",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:16:01.273211",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:16:03.616482",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:16:16.829479",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:16:19.175465",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:16:36.619999",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:16:38.983667",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:16:50.175343",
+    "message": "ARM0 trigger 0.80 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:16:50.196147",
+    "message": "ARM1 trigger 0.87 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:16:50.752936",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:16:50.784096",
+    "message": "ARM1 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:16:52.521419",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:16:55.436553",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:16:58.014866",
+    "message": "ARM0 check 2 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:00.828385",
+    "message": "ARM0 check 3 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:02.844322",
+    "message": "ARM1 suspended: wrist motion supervision timed out; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:03.404663",
+    "message": "ARM0 check 4 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:05.413777",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:05.983019",
+    "message": "ARM0 check 5 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:05.983411",
+    "message": "ARM0 still suspended after five failed checks; stop not confirmed; retrying in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:08.558312",
+    "message": "ARM0 check 6 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:11.124679",
+    "message": "ARM0 recovered on check 7; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:14.295715",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:16.637359",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:28.849068",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:31.196084",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:33.613538",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:36.420562",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:38.763590",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:52.068568",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:54.416004",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:58.508092",
+    "message": "ARM0 trigger 0.84 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:58.593762",
+    "message": "ARM1 trigger 0.94 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:17:59.110578",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:01.415148",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0100 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:03.760026",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:04.061909",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=11: damaged wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:06.645863",
+    "message": "ARM0 check 1 failed: wrist position not stable after stop"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:07.681436",
+    "message": "ARM1 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:08.296477",
+    "message": "ARM1 trigger 0.15 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:09.231606",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:09.788301",
+    "message": "ARM1 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:14.257775",
+    "message": "ARM0 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:14.874865",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:15.452403",
+    "message": "ARM0 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:16.407211",
+    "message": "ARM0 suspended: ARM0/485A function=0x06 register=0x0108 received=0: stop acknowledgement missing; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:18.978749",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:24.245782",
+    "message": "ARM0 trigger 1.00 requested close"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:24.831160",
+    "message": "ARM0 trigger 0.00 requested open"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:24.842749",
+    "message": "ARM0 close command acknowledged (target 9000)"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:25.773755",
+    "message": "ARM0 open command acknowledged (target 0)"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:41.323548",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:18:43.665065",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:19:07.973399",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:19:10.891937",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:19:13.232518",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:19:17.508170",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:19:19.852722",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:19:45.498603",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:19:48.414470",
+    "message": "ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:19:50.755175",
+    "message": "ARM1 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:19:52.973069",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:19:55.313813",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:20:23.775562",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:20:26.116796",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:20:29.174070",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:20:32.093680",
+    "message": "ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply"
+  },
+  {
+    "robot_time": "2026-11-24T14:20:34.437256",
+    "message": "ARM0 recovered on check 2; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:21:01.551445",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:21:03.893743",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:21:39.273624",
+    "message": "ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:21:41.270010",
+    "message": "ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s"
+  },
+  {
+    "robot_time": "2026-11-24T14:21:41.613944",
+    "message": "ARM1 recovered on check 1; fresh gesture required"
+  },
+  {
+    "robot_time": "2026-11-24T14:21:43.611743",
+    "message": "ARM0 recovered on check 1; fresh gesture required"
+  }
+]

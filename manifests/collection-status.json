@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-24",
+  "timezone": "Asia/Shanghai",
+  "collected_at": "2026-11-24T20:20:16.108965+08:00",
+  "test_versions": 21,
+  "source_files_copied": 1368,
+  "source_bytes_copied": 1849959108,
+  "robot_new_capture": false,
+  "robot_connection_result": "SSH to 6.6.7.100 timed out during banner exchange on two attempts; no service/motion/config changes attempted.",
+  "battery_at_archive": "无法连接，无法读取新鲜电量，不能判断当前是否低于 30%。历史电量保留在各原始报告中。",
+  "excluded_recreatable_working_files": [
+    "work/luna-review-venv",
+    "nested .git metadata",
+    "working __pycache__ (test directories and frozen baseline retain their originals)"
+  ],
+  "raw_codex_session": "Not published: export only visible user/assistant text, with password replies removed.",
+  "all_originals_kept_in_place": true
+}

@@ -1,0 +1,165 @@
+{
+  "结论": "已确认腕部夹爪通信回包间歇缺失；恢复后的重新手势门控会使已发生的松开操作不能自动续行。物理丢包环节尚未隔离定位。",
+  "用户观察": "左右夹爪在抓取后松开不稳定，多次尝试才能完全松开。",
+  "直接证据": [
+    {
+      "侧": "左",
+      "机器人日志时间": "14:18:15—14:18:19",
+      "过程": [
+        "扳机0.00，已收到张开请求",
+        "0x0108停止回执缺失，暂停该侧",
+        "恢复后要求新手势"
+      ]
+    },
+    {
+      "侧": "右",
+      "机器人日志时间": "14:13:36—14:13:42",
+      "过程": [
+        "扳机0.00，已收到张开请求",
+        "0x0108启动回执缺失，暂停该侧",
+        "恢复后要求新手势"
+      ]
+    }
+  ],
+  "检查窗口统计": {
+    "diagnostic_directory": "/home/nvidia/luna-test-runs/20261124-gripper-release-diagnosis/142206",
+    "stats": {
+      "left": {
+        "open_requests": 16,
+        "open_acknowledgements": 9,
+        "close_requests": 28,
+        "close_acknowledgements": 19,
+        "suspensions": 69,
+        "recovered": 69,
+        "missing_start_ack": 4,
+        "missing_stop_ack": 2,
+        "damaged_read_suspensions": 6,
+        "empty_read_suspensions": 53,
+        "motion_timeout_suspensions": 4
+      },
+      "right": {
+        "open_requests": 18,
+        "open_acknowledgements": 12,
+        "close_requests": 30,
+        "close_acknowledgements": 18,
+        "suspensions": 67,
+        "recovered": 67,
+        "missing_start_ack": 4,
+        "missing_stop_ack": 1,
+        "damaged_read_suspensions": 0,
+        "empty_read_suspensions": 54,
+        "motion_timeout_suspensions": 8
+      }
+    },
+    "first_event": "2026-11-24T13:44:14.870190",
+    "last_event": "2026-11-24T14:21:43.611743",
+    "no_settings_changed": true
+  },
+  "统计说明": "requested与acknowledged数量不等不能直接作为失败率；快速反向、手势撤销也会取消请求。驱动回执不等于机械开合到位。",
+  "当前只读采样": {
+    "read_only": true,
+    "duration_seconds": 30,
+    "counts": {
+      "/info/vr_connected": 30,
+      "/info/wrist485_R": 34,
+      "/info/wrist485_L": 27
+    },
+    "trigger_ranges": {},
+    "last": {
+      "/info/vr_connected": false,
+      "/info/wrist485_R": [
+        0,
+        0,
+        21,
+        0,
+        0
+      ],
+      "/info/wrist485_L": [
+        0,
+        0,
+        21,
+        0,
+        0
+      ]
+    }
+  },
+  "当前机器人": {
+    "ok": true,
+    "data": {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.005116939544677734,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    }
+  },
+  "当前电池": {
+    "received_at": "2026-11-24T14:24:52.330050+08:00",
+    "fresh": true,
+    "seconds_since_feedback": 0.9,
+    "batteries": [
+      {
+        "id": 1,
+        "energy": 79,
+        "health": 98,
+        "is_in_place": true,
+        "is_charging": false,
+        "voltage": 49.400001525878906,
+        "current": -2.5,
+        "temperature": 25.0,
+        "is_connected": true,
+        "error_code": 0
+      },
+      {
+        "id": 2,
+        "energy": 79,
+        "health": 98,
+        "is_in_place": true,
+        "is_charging": false,
+        "voltage": 49.400001525878906,
+        "current": -2.700000047683716,
+        "temperature": 25.0,
+        "is_connected": true,
+        "error_code": 0
+      }
+    ],
+    "audio": {
+      "enabled": true,
+      "state": "finished",
+      "playing": null,
+      "last_error": null,
+      "language": "zh-CN",
+      "volume_percent": 100,
+      "charging_notifications": true,
+      "confirmed_charging": false
+    }
+  },
+  "证据边界": [
+    "未进行新的开合测试；30秒采样时PICO未连接，只有真实夹爪反馈",
+    "未确定缺回包发生在主控SDK、控制器转发、腕部线路或夹爪驱动的哪一处",
+    "当前电量约80%，无电池错误；本次没有证据支持把松开问题归因于低电量"
+  ],
+  "其他保持原样": {
+    "软件和配置哈希一致": true,
+    "服务重启次数": 0,
+    "控制模式修改次数": 0,
+    "手柄映射修改次数": 0,
+    "寄存器写入次数": 0,
+    "助手发送开合动作次数": 0,
+    "MAXHUB": "7497 ./DongleClient",
+    "投屏服务": "active"
+  },
+  "修复范围建议": "先定位并修复夹爪通信回执与恢复处理，保持手臂、主体、底盘、映射、速度、力度、阈值和投屏设置；不通过取消故障保护或恢复后自动松开夹爪掩盖问题。",
+  "已部署修复": false,
+  "记录时间": "2026-11-24T14:24:53.242145"
+}

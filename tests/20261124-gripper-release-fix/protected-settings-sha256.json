@@ -1,0 +1,10 @@
+{
+  "/etc/apex/apex.env": "7be73833e8b4472fe20bb6c5bb465fb943c4bfe112bdcda8d7aa44d4f0031a36",
+  "/etc/systemd/system/apex-robot.service.d/70-luna-ctag.conf": "53ed2a0e07bfb76e56d2207b2c421d64aa58861c8feb5e646a076a73971a2e8f",
+  "/etc/systemd/system/apex-tool.service.d/70-luna-ctag.conf": "e37db97ef439d2800d8445b17dc549a4632d9b5999cfab1419a90c16deccbfcb",
+  "/opt/kernelmind/apex/install/marvin_ros_control/share/marvin_ros_control/config/robot_param_luna.yaml": "54ea33096348d3d60395176e0eb5bed96845f85877b162fff7c64400db487fea",
+  "/opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/config/luna/robot_param.yaml": "cade0e4a3e0ebbcd927dcfa024b492678ed4e63458d55d994cfd45f8ea5332eb",
+  "/opt/kernelmind/apex/install/marvin_qp_controller/share/marvin_qp_controller/config/luna/robot_param.yaml": "b6acadcb229a6be199dd95cc4ac92cc78b6c4cccedbee890dee4025bd58f8465",
+  "/opt/kernelmind/apex/install/marvin_qp_controller/share/marvin_qp_controller/config/luna/velocity_limits.json": "e7820eee008c7e73677010030a9f68d4de50e020d16446e7a0b4c26b9a55135c",
+  "/home/nvidia/luna-test-runs/20261124-camera-fast-marmots/animations.json": "8f4702e3b5236e062f8f02868b7c53cf4b2c991cbf06745241ef633bacf89c47"
+}

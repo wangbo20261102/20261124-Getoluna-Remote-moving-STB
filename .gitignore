@@ -1,0 +1,7 @@
+/archives/
+/reference-project/
+/frozen-baseline/
+/prepublish-secret-scan.json
+/publication-result.json
+__pycache__/
+*.pyc

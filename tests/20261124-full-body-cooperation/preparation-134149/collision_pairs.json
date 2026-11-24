@@ -1,0 +1,6 @@
+{
+  "collision_pairs": [
+    [["Arm_L4_Link_collision", "Arm_R4_Link_collision"], ["Leg_J6_Link_collision"]],
+    [["Arm_L3_Link_collision", "Arm_R3_Link_collision"], ["Leg_J6_Link_collision"]]
+  ]
+}

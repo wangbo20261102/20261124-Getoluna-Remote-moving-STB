@@ -1,0 +1,9 @@
+{
+  "immutable_archive_checksum_failures": [],
+  "working_file_change": "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\pico-usb-keepalive-status.json",
+  "working_file_role": "PICO USB keepalive live runtime status, not the frozen archive",
+  "changed_fields": [
+    "updatedAt"
+  ],
+  "no_restore_or_baseline_manifest_edit": true
+}

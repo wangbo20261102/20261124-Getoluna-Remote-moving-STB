@@ -1,0 +1,33 @@
+{
+  "mode": "explicit_three_playback_test",
+  "real_battery_data_modified": false,
+  "requested_count": 3,
+  "results": [
+    {
+      "number": 1,
+      "started_mono": 10480.566298272,
+      "relative_seconds": 0.00020668800061685033,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "number": 2,
+      "started_mono": 10490.566231104,
+      "relative_seconds": 10.00013951999972,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "number": 3,
+      "started_mono": 10500.566209248,
+      "relative_seconds": 20.000117663999845,
+      "returncode": 0,
+      "stderr": ""
+    }
+  ],
+  "start_intervals_seconds": [
+    9.999932831999104,
+    9.999978144000124
+  ],
+  "success": true
+}

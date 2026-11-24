@@ -1,0 +1,1 @@
+{"ok":true,"data":{"control_ready":false,"control_error":true,"control_error_message":"Invalid control state: left=100, right=100","arm_state":[100,100,1,2,0,0],"arm_state_age_sec":0.006036520004272461,"current_mode":-1,"speed_factor":1.0,"current_input_mode":1}}

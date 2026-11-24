@@ -1,0 +1,50 @@
+/**:
+  ros__parameters:
+    left_joints:
+      - Joint1_L
+      - Joint2_L
+      - Joint3_L
+      - Joint4_L
+      - Joint5_L
+      - Joint6_L
+      - Joint7_L
+    right_joints:
+      - Joint1_R
+      - Joint2_R
+      - Joint3_R
+      - Joint4_R
+      - Joint5_R
+      - Joint6_R
+      - Joint7_R
+    body_joint_num: 6
+    eef_name_left: left_tool
+    eef_name_right: right_tool
+    mjcf_file: Gento_Luna/Gento_Luna.xml
+    robot_height: 1.7
+    tcp_hook_thres: 1.0
+    support_frame_enabled: true
+    support_frame_filter_alpha: 0.2
+    support_frame_use_z: false
+
+    body_retarget_mode: per_segment
+    human_scale_table:
+      head: 1.0
+      pelvis: 1.0
+      left_hip: 1.1
+      right_hip: 1.1
+      left_knee: 1.2
+      right_knee: 1.2
+      left_foot: 1.1
+      right_foot: 1.1
+      left_shoulder: 1.0
+      right_shoulder: 1.0
+      left_elbow: 1.0
+      right_elbow: 1.0
+      left_hand: 1.0
+      right_hand: 1.0
+
+/VR_reader:
+  ros__parameters:
+    enable_tcp: true
+    elbow_home_alignment.enabled: true
+    elbow_home_alignment.state_file: /home/nvidia/luna-test-runs/20261124-elbow-home-alignment/calibration.json

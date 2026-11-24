@@ -1,0 +1,36 @@
+{
+  "robot_time": "2026-11-24T13:49:13.910391",
+  "diagnosis": "PICO link and pose/enable pipeline active; QP blocked by required Home initialization",
+  "evidence_file": "arm-chain-20261124-134837.json",
+  "read_only_observation_seconds": 12,
+  "vr_connected_messages": 12,
+  "left_enable_true": 734,
+  "right_enable_true": 738,
+  "left_pose_messages": 734,
+  "right_pose_messages": 738,
+  "body_available": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "ik_request_messages": 3179,
+  "qp_arm_command_messages": [
+    0,
+    0
+  ],
+  "require_go_home_on_startup": true,
+  "startup_log": "Waiting for control/go_home before starting QP output",
+  "home_or_motion_sent": false,
+  "services_restarted": false,
+  "operator_steps": [
+    "Release both side grips and triggers; center joysticks",
+    "With the robot in a safe prepared pose and the movement area clear, execute Home in Apex",
+    "After Home completes, align controllers with virtual wrists and engage the side grips again"
+  ]
+}

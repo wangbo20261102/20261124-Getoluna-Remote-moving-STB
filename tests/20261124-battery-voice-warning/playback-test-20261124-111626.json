@@ -1,0 +1,89 @@
+{
+  "mode": "explicit_playback_test",
+  "real_battery_data_modified": false,
+  "requested_count": 10,
+  "results": [
+    {
+      "number": 1,
+      "started_mono": 10558.124192864,
+      "relative_seconds": 0.00020991999917896464,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "number": 2,
+      "started_mono": 10568.124169792,
+      "relative_seconds": 10.00018684799943,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "number": 3,
+      "started_mono": 10578.124238368,
+      "relative_seconds": 20.000255423999988,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "number": 4,
+      "started_mono": 10588.12415136,
+      "relative_seconds": 30.000168415999724,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "number": 5,
+      "started_mono": 10598.1242072,
+      "relative_seconds": 40.000224256000365,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "number": 6,
+      "started_mono": 10608.124090944,
+      "relative_seconds": 50.00010800000018,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "number": 7,
+      "started_mono": 10618.124112448,
+      "relative_seconds": 60.00012950400014,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "number": 8,
+      "started_mono": 10628.124092416,
+      "relative_seconds": 70.00010947199917,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "number": 9,
+      "started_mono": 10638.124148672,
+      "relative_seconds": 80.00016572799905,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "number": 10,
+      "started_mono": 10648.124093184,
+      "relative_seconds": 90.00011024000014,
+      "returncode": 0,
+      "stderr": ""
+    }
+  ],
+  "start_intervals_seconds": [
+    9.999976928000251,
+    10.000068576000558,
+    9.999912991999736,
+    10.000055840000641,
+    9.999883743999817,
+    10.00002150399996,
+    9.999979967999025,
+    10.00005625599988,
+    9.999944512001093
+  ],
+  "success": true
+}

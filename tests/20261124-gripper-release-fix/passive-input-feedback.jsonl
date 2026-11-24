@@ -1,0 +1,193 @@
+{"mono": 26841.021671296, "time": 1795506374.7123513, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26841.312572384, "time": 1795506375.0032523, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26841.738436544, "time": 1795506375.4291155, "topic": "/info/vr_connected", "value": false}
+{"mono": 26841.829956352, "time": 1795506375.5206363, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26842.11553776, "time": 1795506375.806217, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26842.634357472, "time": 1795506376.3250368, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26842.73952544, "time": 1795506376.4302049, "topic": "/info/vr_connected", "value": false}
+{"mono": 26842.91990112, "time": 1795506376.6105802, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26843.433094656, "time": 1795506377.1237738, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26843.720796384, "time": 1795506377.4114757, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26843.73690912, "time": 1795506377.427589, "topic": "/info/vr_connected", "value": false}
+{"mono": 26844.24476832, "time": 1795506377.9354477, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26844.529961376, "time": 1795506378.2206407, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26844.740058176, "time": 1795506378.4307377, "topic": "/info/vr_connected", "value": false}
+{"mono": 26845.061083488, "time": 1795506378.7517629, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26845.340234848, "time": 1795506379.030914, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26845.764948096, "time": 1795506379.4556272, "topic": "/info/vr_connected", "value": false}
+{"mono": 26845.858853472, "time": 1795506379.549533, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26846.140642976, "time": 1795506379.8313224, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26846.666700288, "time": 1795506380.357379, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26846.737748256, "time": 1795506380.4284275, "topic": "/info/vr_connected", "value": false}
+{"mono": 26846.942359296, "time": 1795506380.6330383, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26847.468538336, "time": 1795506381.1592176, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26847.7391104, "time": 1795506381.42979, "topic": "/info/vr_connected", "value": false}
+{"mono": 26847.746276768, "time": 1795506381.436956, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26848.279317344, "time": 1795506381.9699967, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26848.548355808, "time": 1795506382.2390347, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26848.736958656, "time": 1795506382.4276378, "topic": "/info/vr_connected", "value": false}
+{"mono": 26849.085996096, "time": 1795506382.7766752, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26849.359052032, "time": 1795506383.0497324, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26849.738261888, "time": 1795506383.4289415, "topic": "/info/vr_connected", "value": false}
+{"mono": 26849.889764544, "time": 1795506383.5804436, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26850.166488256, "time": 1795506383.8571677, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26850.696768096, "time": 1795506384.3874474, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26850.73966032, "time": 1795506384.4303396, "topic": "/info/vr_connected", "value": false}
+{"mono": 26850.967398048, "time": 1795506384.6580777, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26851.514577152, "time": 1795506385.2052562, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26851.737326848, "time": 1795506385.428006, "topic": "/info/vr_connected", "value": false}
+{"mono": 26851.774760864, "time": 1795506385.46544, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26852.312576288, "time": 1795506386.0032554, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26852.578365536, "time": 1795506386.2690449, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26852.736889792, "time": 1795506386.4275692, "topic": "/info/vr_connected", "value": false}
+{"mono": 26853.113551264, "time": 1795506386.8042302, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26853.388666624, "time": 1795506387.079346, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26853.738877472, "time": 1795506387.4295568, "topic": "/info/vr_connected", "value": false}
+{"mono": 26853.926770432, "time": 1795506387.61745, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26854.736797408, "time": 1795506388.4274764, "topic": "/info/vr_connected", "value": false}
+{"mono": 26854.740849664, "time": 1795506388.4315288, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26855.534598016, "time": 1795506389.2252777, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26855.737572832, "time": 1795506389.4282522, "topic": "/info/vr_connected", "value": false}
+{"mono": 26856.34373408, "time": 1795506390.0344133, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26856.737433728, "time": 1795506390.428113, "topic": "/info/vr_connected", "value": false}
+{"mono": 26857.018023136, "time": 1795506390.7087023, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26857.149747776, "time": 1795506390.840427, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26857.267322912, "time": 1795506390.9580019, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26857.737712544, "time": 1795506391.4283924, "topic": "/info/vr_connected", "value": false}
+{"mono": 26857.956195776, "time": 1795506391.6468751, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26858.064774496, "time": 1795506391.755454, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26858.741017888, "time": 1795506392.4316974, "topic": "/info/vr_connected", "value": false}
+{"mono": 26858.769892, "time": 1795506392.460571, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26858.872267936, "time": 1795506392.562947, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26859.567481408, "time": 1795506393.2581606, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26859.6696888, "time": 1795506393.360368, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26859.736929664, "time": 1795506393.4276092, "topic": "/info/vr_connected", "value": false}
+{"mono": 26860.385356736, "time": 1795506394.0760365, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26860.486397472, "time": 1795506394.1770768, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26860.736435584, "time": 1795506394.4271142, "topic": "/info/vr_connected", "value": false}
+{"mono": 26861.17820976, "time": 1795506394.868889, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26861.290086144, "time": 1795506394.9807656, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26861.739966976, "time": 1795506395.4306462, "topic": "/info/vr_connected", "value": false}
+{"mono": 26861.979987968, "time": 1795506395.6706674, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26862.096928512, "time": 1795506395.787608, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26862.736352576, "time": 1795506396.4270315, "topic": "/info/vr_connected", "value": false}
+{"mono": 26862.796804544, "time": 1795506396.4874842, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26862.892739264, "time": 1795506396.5834184, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26863.602750016, "time": 1795506397.2934291, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26863.69650816, "time": 1795506397.387188, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26863.736532032, "time": 1795506397.4272115, "topic": "/info/vr_connected", "value": false}
+{"mono": 26864.418725344, "time": 1795506398.1094046, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26864.503310464, "time": 1795506398.1939902, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26864.741168608, "time": 1795506398.4318476, "topic": "/info/vr_connected", "value": false}
+{"mono": 26865.228886112, "time": 1795506398.919566, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26865.332188928, "time": 1795506399.0228682, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26865.739018208, "time": 1795506399.4296975, "topic": "/info/vr_connected", "value": false}
+{"mono": 26866.02463872, "time": 1795506399.7153182, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26866.12067584, "time": 1795506399.811355, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26866.737031648, "time": 1795506400.4277112, "topic": "/info/vr_connected", "value": false}
+{"mono": 26866.824184416, "time": 1795506400.5148637, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26866.921659584, "time": 1795506400.612339, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26867.631844, "time": 1795506401.322523, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26867.736956576, "time": 1795506401.427636, "topic": "/info/vr_connected", "value": false}
+{"mono": 26867.738067136, "time": 1795506401.4287457, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26868.441822624, "time": 1795506402.1325023, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26868.54768688, "time": 1795506402.2383661, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26868.736452096, "time": 1795506402.4271314, "topic": "/info/vr_connected", "value": false}
+{"mono": 26869.2461784, "time": 1795506402.936857, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26869.348119744, "time": 1795506403.0387993, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26869.737168768, "time": 1795506403.427848, "topic": "/info/vr_connected", "value": false}
+{"mono": 26870.053115456, "time": 1795506403.7437947, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26870.14777232, "time": 1795506403.8384516, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26870.73805136, "time": 1795506404.4287302, "topic": "/info/vr_connected", "value": false}
+{"mono": 26870.858804032, "time": 1795506404.5494838, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26870.965591616, "time": 1795506404.6562715, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26871.660970208, "time": 1795506405.3516493, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26871.736401088, "time": 1795506405.4270804, "topic": "/info/vr_connected", "value": false}
+{"mono": 26871.768167008, "time": 1795506405.4588468, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26872.467571136, "time": 1795506406.1582506, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26872.57467456, "time": 1795506406.265354, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26872.736443296, "time": 1795506406.4271224, "topic": "/info/vr_connected", "value": false}
+{"mono": 26873.379387488, "time": 1795506407.070067, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26873.737704608, "time": 1795506407.428384, "topic": "/info/vr_connected", "value": false}
+{"mono": 26874.191113696, "time": 1795506407.881793, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26874.744543264, "time": 1795506408.4352224, "topic": "/info/vr_connected", "value": false}
+{"mono": 26874.984459296, "time": 1795506408.6751385, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26875.73882224, "time": 1795506409.4295015, "topic": "/info/vr_connected", "value": false}
+{"mono": 26875.783996512, "time": 1795506409.474676, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26876.595618944, "time": 1795506410.2862983, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26876.738532448, "time": 1795506410.4292116, "topic": "/info/vr_connected", "value": false}
+{"mono": 26877.390478176, "time": 1795506411.0811577, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26877.738274816, "time": 1795506411.4289536, "topic": "/info/vr_connected", "value": false}
+{"mono": 26878.203702208, "time": 1795506411.8943822, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26878.736723712, "time": 1795506412.4274027, "topic": "/info/vr_connected", "value": false}
+{"mono": 26879.014234144, "time": 1795506412.7049131, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26879.018601728, "time": 1795506412.709281, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26879.252895552, "time": 1795506412.9435751, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26879.736878816, "time": 1795506413.4275587, "topic": "/info/vr_connected", "value": false}
+{"mono": 26879.808472768, "time": 1795506413.4991524, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26880.059451968, "time": 1795506413.750131, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26880.609974112, "time": 1795506414.300654, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26880.736432992, "time": 1795506414.4271123, "topic": "/info/vr_connected", "value": false}
+{"mono": 26880.863550848, "time": 1795506414.5542302, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26881.413605888, "time": 1795506415.1042855, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26881.669546688, "time": 1795506415.3602257, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26881.738282496, "time": 1795506415.4289618, "topic": "/info/vr_connected", "value": false}
+{"mono": 26882.222096288, "time": 1795506415.9127758, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26882.469344672, "time": 1795506416.1600237, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26882.737159072, "time": 1795506416.4278386, "topic": "/info/vr_connected", "value": false}
+{"mono": 26883.031016448, "time": 1795506416.721696, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26883.27755168, "time": 1795506416.9682314, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26883.737526656, "time": 1795506417.428206, "topic": "/info/vr_connected", "value": false}
+{"mono": 26883.834078144, "time": 1795506417.5247574, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26884.079464128, "time": 1795506417.7701433, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26884.642189696, "time": 1795506418.332869, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26884.737608256, "time": 1795506418.4282875, "topic": "/info/vr_connected", "value": false}
+{"mono": 26884.886164608, "time": 1795506418.5768442, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26885.443645184, "time": 1795506419.1343248, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26885.686233408, "time": 1795506419.3769128, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26885.73726288, "time": 1795506419.427942, "topic": "/info/vr_connected", "value": false}
+{"mono": 26886.25013504, "time": 1795506419.9408145, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26886.491060064, "time": 1795506420.181739, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26886.74064112, "time": 1795506420.4313207, "topic": "/info/vr_connected", "value": false}
+{"mono": 26887.057948576, "time": 1795506420.7486281, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26887.291140704, "time": 1795506420.9818199, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26887.739675936, "time": 1795506421.4303555, "topic": "/info/vr_connected", "value": false}
+{"mono": 26887.868708096, "time": 1795506421.5593872, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26888.096836384, "time": 1795506421.7875154, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26888.664949536, "time": 1795506422.3556292, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26888.736686496, "time": 1795506422.4273655, "topic": "/info/vr_connected", "value": false}
+{"mono": 26888.894465152, "time": 1795506422.5851443, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26889.476404032, "time": 1795506423.167083, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26889.703145856, "time": 1795506423.3938248, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26889.740774464, "time": 1795506423.4314542, "topic": "/info/vr_connected", "value": false}
+{"mono": 26890.522084896, "time": 1795506424.212765, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26890.741397536, "time": 1795506424.4320765, "topic": "/info/vr_connected", "value": false}
+{"mono": 26891.321944928, "time": 1795506425.012624, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26891.737737312, "time": 1795506425.4284165, "topic": "/info/vr_connected", "value": false}
+{"mono": 26892.117870752, "time": 1795506425.8085501, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26892.738923296, "time": 1795506426.4296029, "topic": "/info/vr_connected", "value": false}
+{"mono": 26892.928932736, "time": 1795506426.6196122, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26893.736257856, "time": 1795506427.426937, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26893.736982752, "time": 1795506427.427661, "topic": "/info/vr_connected", "value": false}
+{"mono": 26894.533515936, "time": 1795506428.2241955, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26894.737606272, "time": 1795506428.4282851, "topic": "/info/vr_connected", "value": false}
+{"mono": 26895.341275648, "time": 1795506429.0319552, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26895.736651008, "time": 1795506429.42733, "topic": "/info/vr_connected", "value": false}
+{"mono": 26896.038631136, "time": 1795506429.72931, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26896.15789104, "time": 1795506429.84857, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26896.285531872, "time": 1795506429.9762113, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26896.738962912, "time": 1795506430.4296422, "topic": "/info/vr_connected", "value": false}
+{"mono": 26896.95034224, "time": 1795506430.6410213, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26897.083612128, "time": 1795506430.7742915, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26897.73714416, "time": 1795506431.427823, "topic": "/info/vr_connected", "value": true}
+{"mono": 26897.760537984, "time": 1795506431.451217, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26897.89005632, "time": 1795506431.580735, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26898.56606288, "time": 1795506432.2567425, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26898.69873776, "time": 1795506432.3894167, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26898.73799968, "time": 1795506432.428679, "topic": "/info/vr_connected", "value": true}
+{"mono": 26899.369148992, "time": 1795506433.0598283, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26899.494665216, "time": 1795506433.185344, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26899.742199456, "time": 1795506433.4328787, "topic": "/info/vr_connected", "value": true}
+{"mono": 26900.171677888, "time": 1795506433.862357, "topic": "/info/wrist485_R", "value": [0, 0, 21, 0, 0]}
+{"mono": 26900.312335392, "time": 1795506434.0030148, "topic": "/info/wrist485_L", "value": [0, 0, 21, 0, 0]}
+{"mono": 26900.737482496, "time": 1795506434.428162, "topic": "/info/vr_connected", "value": true}

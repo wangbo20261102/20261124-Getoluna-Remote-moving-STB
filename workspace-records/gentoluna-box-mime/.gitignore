@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+config/robot.local.json
+config/grippers.local.json
+/vendor/
+config/*private*
+*.pem
+*.key
+/reference/
+/evidence/
+points/*GEOMETRY_CACHE.json
+.pytest_cache/
+dist/

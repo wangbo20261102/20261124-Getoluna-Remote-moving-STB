@@ -1,0 +1,67 @@
+{
+  "planned_seconds": 300,
+  "completed": true,
+  "reason": "timer_complete",
+  "initial_robot": {
+    "control_ready": true,
+    "control_error": false,
+    "control_error_message": "",
+    "arm_state": [
+      2,
+      2,
+      1,
+      2,
+      0,
+      0
+    ],
+    "arm_state_age_sec": 0.003382444381713867,
+    "current_mode": 2,
+    "speed_factor": 1.0,
+    "current_input_mode": 1
+  },
+  "initial_batteries": {
+    "received_at": "2026-11-24T13:32:51.141325+08:00",
+    "fresh": true,
+    "seconds_since_feedback": 0.7,
+    "batteries": [
+      {
+        "id": 1,
+        "energy": 93,
+        "health": 98,
+        "is_in_place": true,
+        "is_charging": false,
+        "voltage": 49.5,
+        "current": -2.5,
+        "temperature": 25.0,
+        "is_connected": true,
+        "error_code": 0
+      },
+      {
+        "id": 2,
+        "energy": 93,
+        "health": 98,
+        "is_in_place": true,
+        "is_charging": false,
+        "voltage": 49.5,
+        "current": -2.5,
+        "temperature": 26.0,
+        "is_connected": true,
+        "error_code": 0
+      }
+    ],
+    "audio": {
+      "enabled": true,
+      "state": "finished",
+      "playing": null,
+      "last_error": null,
+      "language": "zh-CN",
+      "volume_percent": 100,
+      "charging_notifications": true,
+      "confirmed_charging": false
+    }
+  },
+  "start_mono": 18838.431009088,
+  "start_robot_wall": 1795498372.1216843,
+  "bridge_exit_code": 0,
+  "end_mono": 19139.35939536
+}

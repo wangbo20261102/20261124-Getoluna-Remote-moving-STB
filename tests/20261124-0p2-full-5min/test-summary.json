@@ -1,0 +1,56 @@
+{
+  "completed": true,
+  "reason": "timer_complete",
+  "recorded_seconds": 300.6469173760015,
+  "command_count": 1839,
+  "feedback_count": 5735,
+  "max_command_linear_m_s": 0.2,
+  "max_command_angular_rad_s": 0.2,
+  "command_caps_respected": true,
+  "command_directions_observed": {
+    "forward": true,
+    "backward": true,
+    "left": true,
+    "right": true,
+    "turn_left": true,
+    "turn_right": true
+  },
+  "zero_commands": 110,
+  "safety_check_count": 298,
+  "all_arm_checks_healthy": true,
+  "feedback_with_driver_errors": 0,
+  "feedback_with_unsafe_flags": 0,
+  "final_batteries": [
+    {
+      "id": 1,
+      "energy": 92,
+      "health": 98,
+      "is_in_place": true,
+      "is_charging": false,
+      "voltage": 49.400001525878906,
+      "current": -2.5999999046325684,
+      "temperature": 25.0,
+      "is_connected": true,
+      "error_code": 0
+    },
+    {
+      "id": 2,
+      "energy": 92,
+      "health": 98,
+      "is_in_place": true,
+      "is_charging": false,
+      "voltage": 49.5,
+      "current": -2.700000047683716,
+      "temperature": 26.0,
+      "is_connected": true,
+      "error_code": 0
+    }
+  ],
+  "last_command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "last_event": "exit",
+  "bridge_exit_code": 0
+}

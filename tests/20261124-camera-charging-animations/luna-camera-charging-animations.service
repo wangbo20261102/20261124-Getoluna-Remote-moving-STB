@@ -1,0 +1,16 @@
+[Unit]
+Description=Luna camera battery overlay with charging turtle and snail
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/nvidia/luna-test-runs/20261124-camera-charging-animations/preview_guard.py
+Restart=on-failure
+RestartSec=10
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+KillMode=control-group
+TimeoutStopSec=8
+
+[Install]
+WantedBy=default.target

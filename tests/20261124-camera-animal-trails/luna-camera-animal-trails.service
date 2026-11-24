@@ -1,0 +1,16 @@
+[Unit]
+Description=Luna battery animals with forward motion and dotted trails
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/nvidia/luna-test-runs/20261124-camera-animal-trails/preview_guard.py
+Restart=on-failure
+RestartSec=10
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+KillMode=control-group
+TimeoutStopSec=8
+
+[Install]
+WantedBy=default.target

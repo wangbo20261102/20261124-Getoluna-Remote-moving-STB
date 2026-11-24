@@ -1,0 +1,9 @@
+{
+  "test_count": 10,
+  "completed": true,
+  "playback_errors": 0,
+  "interval_min": 9.999883743999817,
+  "interval_max": 10.000068576000558,
+  "report": "playback-test-20261124-111626.json",
+  "total_test_playbacks": 13
+}

@@ -1,0 +1,6 @@
+{
+  "planned_seconds": 300,
+  "completed": false,
+  "reason": "Arm/gripper input service unexpectedly active: apex-teleop",
+  "end_mono": 18816.750992672
+}

@@ -1,0 +1,15 @@
+[Unit]
+Description=Luna below 30 percent battery voice warning every 10 seconds
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/nvidia/luna-test-runs/20261124-battery-voice-charging-stop/battery_voice.py
+Restart=on-failure
+RestartSec=5
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+TimeoutStopSec=4
+
+[Install]
+WantedBy=default.target

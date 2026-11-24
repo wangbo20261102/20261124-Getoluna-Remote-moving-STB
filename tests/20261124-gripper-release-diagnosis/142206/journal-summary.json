@@ -1,0 +1,34 @@
+{
+  "diagnostic_directory": "/home/nvidia/luna-test-runs/20261124-gripper-release-diagnosis/142206",
+  "stats": {
+    "left": {
+      "open_requests": 16,
+      "open_acknowledgements": 9,
+      "close_requests": 28,
+      "close_acknowledgements": 19,
+      "suspensions": 69,
+      "recovered": 69,
+      "missing_start_ack": 4,
+      "missing_stop_ack": 2,
+      "damaged_read_suspensions": 6,
+      "empty_read_suspensions": 53,
+      "motion_timeout_suspensions": 4
+    },
+    "right": {
+      "open_requests": 18,
+      "open_acknowledgements": 12,
+      "close_requests": 30,
+      "close_acknowledgements": 18,
+      "suspensions": 67,
+      "recovered": 67,
+      "missing_start_ack": 4,
+      "missing_stop_ack": 1,
+      "damaged_read_suspensions": 0,
+      "empty_read_suspensions": 54,
+      "motion_timeout_suspensions": 8
+    }
+  },
+  "first_event": "2026-11-24T13:44:14.870190",
+  "last_event": "2026-11-24T14:21:43.611743",
+  "no_settings_changed": true
+}

@@ -1,0 +1,38 @@
+{
+  "robot_time": "2026-11-24T16:10:49.016264",
+  "reported_trigger": "Right J6 exceeded 60 degrees, per operator",
+  "observed_right_j6_deg_before_clear": 1.0918,
+  "before_arm_states": [
+    2,
+    100,
+    1,
+    2,
+    0,
+    0
+  ],
+  "after_clear": {
+    "ok": true,
+    "data": {
+      "control_ready": false,
+      "control_error": true,
+      "control_error_message": "Control state mismatch: left=2, right=0",
+      "arm_state": [
+        2,
+        0,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.006448984146118164,
+      "current_mode": -1,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    }
+  },
+  "fault_cleared_to_idle": true,
+  "remaining": "Right arm needs re-enable after physical support and neutral-input confirmation",
+  "limits_changed": false,
+  "home_sent": false,
+  "arm_trajectory_sent": false
+}

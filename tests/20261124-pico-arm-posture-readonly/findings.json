@@ -1,0 +1,38 @@
+{
+  "read_only": true,
+  "source": "arm-chain-20261124-171650.json",
+  "observations": {
+    "left": {
+      "enable_messages": 487,
+      "enabled_samples": 487,
+      "hand_target": {
+        "x": 0.2419621363282204,
+        "y": 0.5305186837911606,
+        "z": 0.7576426267623901
+      },
+      "hand_minus_torso_x_m": 0.4907121226191521,
+      "max_command_feedback_difference_deg": 0.3271582426625708
+    },
+    "right": {
+      "enable_messages": 471,
+      "enabled_samples": 471,
+      "hand_target": {
+        "x": 0.1978546854108572,
+        "y": -0.09991541653871533,
+        "z": 0.7662129282951355
+      },
+      "hand_minus_torso_x_m": 0.4466046717017889,
+      "max_command_feedback_difference_deg": 2.714787985410178
+    }
+  },
+  "both_hand_scales_runtime": 1.5,
+  "mode_runtime": "per_segment",
+  "configuration_findings": {
+    "elbow_position_cost": 0,
+    "elbow_orientation_cost": 0.5,
+    "hand_position_cost": 8.5
+  },
+  "conclusion": "Active control pipeline; forward displacement already present in IK hand targets. Current mapping scales elbow-to-hand vectors, while IK has no elbow-position task. Exact contribution of XR calibration/coordinate offsets versus IK posture choice is not isolated.",
+  "photo_note": "Headset appears at neck rather than normal eye position; effect on current tracking not independently verified.",
+  "actions": "No parameter writes, service restarts, calibration, Home or motion commands issued."
+}

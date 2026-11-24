@@ -1,0 +1,1100 @@
+{
+  "Content": {
+    "Agv": [
+      {
+        "chassis": {
+          "length": 0.67,
+          "lidar_type": 1,
+          "width": 0.548
+        },
+        "energy": {
+          "enable_auto_charge": true,
+          "threshold": {
+            "force_charge": 30,
+            "low_alarm": 20
+          }
+        },
+        "id": 1,
+        "light": {
+          "enable_auto_control": true
+        },
+        "max_speed": {
+          "angular": 0.2,
+          "linear": 0.2
+        },
+        "name": "AMR-1",
+        "navigation": {
+          "autonomous": {
+            "min_distance": 0.1
+          },
+          "goal_tolerance": {
+            "angular": 0.2,
+            "linear": 0.2
+          }
+        },
+        "uuid": "{5be10169-9fe3-4d49-b7f0-a256da1d31fa}"
+      }
+    ],
+    "Alarm": [],
+    "Map": [
+      {
+        "floorParams": {
+          "1": {
+            "bmap": {
+              "geometry": {
+                "height": 18.7,
+                "width": 14.100000000000001,
+                "x": -3.83064,
+                "y": -8.97165
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/1/floor1/map_2d.bmap",
+              "resolution": 0,
+              "uuid": "{feabe209-1bcc-38d3-8f99-1fe450c418ad}"
+            },
+            "dx": 0,
+            "dy": 0,
+            "id": 1,
+            "mapId": 1,
+            "name": "",
+            "pcd": {
+              "geometry": {
+                "height": -13,
+                "width": 5,
+                "x": -4,
+                "y": 10
+              },
+              "id": 0,
+              "maxZ": 3.896826982498169,
+              "minZ": -0.3025522530078888,
+              "name": "../../config/map/1/floor1/map_3d.pcd",
+              "resolution": 0,
+              "uuid": "{efbc9373-7a46-3733-a012-e0cc14cbff3d}"
+            },
+            "png": {
+              "geometry": {
+                "height": 18.7,
+                "width": 14.100000000000001,
+                "x": -3.83064,
+                "y": -8.97165
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/1/floor1/map_2d_show.png",
+              "resolution": 0,
+              "uuid": "{feabe209-1bcc-38d3-8f99-1fe450c418ad}"
+            },
+            "png_slam": {
+              "geometry": {
+                "height": 0,
+                "width": 0,
+                "x": 0,
+                "y": 0
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/1/floor1/map_2d.png",
+              "resolution": 0,
+              "uuid": "{f84d110d-8fa7-31ba-9ab3-7ff61559ec19}"
+            },
+            "rotate": 0,
+            "uuid": "{00000000-0000-0000-0000-000000000000}",
+            "xml": {
+              "geometry": {
+                "height": 0,
+                "width": 0,
+                "x": 0,
+                "y": 0
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "",
+              "resolution": 0,
+              "uuid": "{00000000-0000-0000-0000-000000000000}"
+            },
+            "yaml": {
+              "geometry": {
+                "height": 18.7,
+                "width": 14.100000000000001,
+                "x": -3.83064,
+                "y": -8.97165
+              },
+              "id": 0,
+              "maxZ": 1,
+              "minZ": 0.5,
+              "name": "../../config/map/1/floor1/map_info.yaml",
+              "resolution": 0.05,
+              "uuid": "{e5fef042-e4ab-388a-8f3d-3c86211f4432}"
+            }
+          }
+        },
+        "id": 1,
+        "lastUpdateTime": 1775001484,
+        "mapType": 0,
+        "name": "test",
+        "uuid": "{9c524572-3d55-4141-888b-79148fc3e8ff}"
+      },
+      {
+        "floorParams": {
+          "1": {
+            "bmap": {
+              "geometry": {
+                "height": 18.6,
+                "width": 7.7,
+                "x": -3.20445,
+                "y": -8.47979
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/3/floor1/map_2d.bmap",
+              "resolution": 0,
+              "uuid": "{9440e926-d843-32fa-b34e-5a3f62003202}"
+            },
+            "dx": 0,
+            "dy": 0,
+            "id": 1,
+            "mapId": 3,
+            "name": "",
+            "pcd": {
+              "geometry": {
+                "height": -11,
+                "width": 3,
+                "x": -4,
+                "y": 11
+              },
+              "id": 0,
+              "maxZ": 3.8870952129364014,
+              "minZ": -0.28328749537467957,
+              "name": "../../config/map/3/floor1/map_3d.pcd",
+              "resolution": 0,
+              "uuid": "{a35c47e6-4763-3b28-b604-feaecba2f0d5}"
+            },
+            "png": {
+              "geometry": {
+                "height": 18.6,
+                "width": 7.7,
+                "x": -3.20445,
+                "y": -8.47979
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/3/floor1/map_2d_show.png",
+              "resolution": 0,
+              "uuid": "{9440e926-d843-32fa-b34e-5a3f62003202}"
+            },
+            "png_slam": {
+              "geometry": {
+                "height": 0,
+                "width": 0,
+                "x": 0,
+                "y": 0
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/3/floor1/map_2d.png",
+              "resolution": 0,
+              "uuid": "{a7a3a178-16b2-3d8e-a745-1fff4be70bf5}"
+            },
+            "rotate": 0,
+            "uuid": "{00000000-0000-0000-0000-000000000000}",
+            "xml": {
+              "geometry": {
+                "height": 0,
+                "width": 0,
+                "x": 0,
+                "y": 0
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "",
+              "resolution": 0,
+              "uuid": "{00000000-0000-0000-0000-000000000000}"
+            },
+            "yaml": {
+              "geometry": {
+                "height": 18.6,
+                "width": 7.7,
+                "x": -3.20445,
+                "y": -8.47979
+              },
+              "id": 0,
+              "maxZ": 1,
+              "minZ": 0.5,
+              "name": "../../config/map/3/floor1/map_info.yaml",
+              "resolution": 0.05,
+              "uuid": "{0e11c353-e387-37ba-b578-e200b28c015a}"
+            }
+          }
+        },
+        "id": 3,
+        "lastUpdateTime": 1774958944,
+        "mapType": 0,
+        "name": "2026年8月10日",
+        "uuid": "{709bed51-8a6c-466f-92ee-c7b3b58ab9a3}"
+      },
+      {
+        "floorParams": {
+          "1": {
+            "bmap": {
+              "geometry": {
+                "height": 11.600000000000001,
+                "width": 18.75,
+                "x": -9.67944,
+                "y": -3.21554
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/4/floor1/map_2d.bmap",
+              "resolution": 0,
+              "uuid": "{41bd875d-6f78-3e37-bce9-97f79ae75cd5}"
+            },
+            "dx": 0,
+            "dy": 0,
+            "id": 1,
+            "mapId": 4,
+            "name": "",
+            "pcd": {
+              "geometry": {
+                "height": -11,
+                "width": 12,
+                "x": -10,
+                "y": 9
+              },
+              "id": 0,
+              "maxZ": 3.928945541381836,
+              "minZ": -0.24329912662506104,
+              "name": "../../config/map/4/floor1/map_3d.pcd",
+              "resolution": 0,
+              "uuid": "{eb76ba4f-6f39-348d-8f1c-969de0e86077}"
+            },
+            "png": {
+              "geometry": {
+                "height": 11.600000000000001,
+                "width": 18.75,
+                "x": -9.67944,
+                "y": -3.21554
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/4/floor1/map_2d_show.png",
+              "resolution": 0,
+              "uuid": "{41bd875d-6f78-3e37-bce9-97f79ae75cd5}"
+            },
+            "png_slam": {
+              "geometry": {
+                "height": 0,
+                "width": 0,
+                "x": 0,
+                "y": 0
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/4/floor1/map_2d.png",
+              "resolution": 0,
+              "uuid": "{2be322e9-bc59-3b14-b403-375b7e68be07}"
+            },
+            "rotate": 0,
+            "uuid": "{00000000-0000-0000-0000-000000000000}",
+            "xml": {
+              "geometry": {
+                "height": 0,
+                "width": 0,
+                "x": 0,
+                "y": 0
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "",
+              "resolution": 0,
+              "uuid": "{00000000-0000-0000-0000-000000000000}"
+            },
+            "yaml": {
+              "geometry": {
+                "height": 11.600000000000001,
+                "width": 18.75,
+                "x": -9.67944,
+                "y": -3.21554
+              },
+              "id": 0,
+              "maxZ": 1,
+              "minZ": 0.5,
+              "name": "../../config/map/4/floor1/map_info.yaml",
+              "resolution": 0.05,
+              "uuid": "{eb5d2875-6084-3788-96ee-4bb197284cf1}"
+            }
+          }
+        },
+        "id": 4,
+        "lastUpdateTime": 1774958015,
+        "mapType": 0,
+        "name": "实验室",
+        "uuid": "{d39a1284-222a-45c3-a92e-d2236b40db92}"
+      },
+      {
+        "floorParams": {
+          "1": {
+            "bmap": {
+              "geometry": {
+                "height": 13.100000000000001,
+                "width": 11.450000000000001,
+                "x": -6.48653,
+                "y": -7.97807
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/5/floor1/map_2d.bmap",
+              "resolution": 0,
+              "uuid": "{eb7504d3-481a-3851-bddb-667c3bf4ffb5}"
+            },
+            "dx": 0,
+            "dy": 0,
+            "id": 1,
+            "mapId": 5,
+            "name": "",
+            "pcd": {
+              "geometry": {
+                "height": -33,
+                "width": 13,
+                "x": -11,
+                "y": 29
+              },
+              "id": 0,
+              "maxZ": 74.0842056274414,
+              "minZ": -0.2058795690536499,
+              "name": "../../config/map/5/floor1/map_3d.pcd",
+              "resolution": 0,
+              "uuid": "{7c066fc6-7c88-3cef-a728-456263909c84}"
+            },
+            "png": {
+              "geometry": {
+                "height": 13.100000000000001,
+                "width": 11.450000000000001,
+                "x": -6.48653,
+                "y": -7.97807
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/5/floor1/map_2d_show.png",
+              "resolution": 0,
+              "uuid": "{eb7504d3-481a-3851-bddb-667c3bf4ffb5}"
+            },
+            "png_slam": {
+              "geometry": {
+                "height": 0,
+                "width": 0,
+                "x": 0,
+                "y": 0
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/5/floor1/map_2d.png",
+              "resolution": 0,
+              "uuid": "{801d3307-f7b9-32d0-941e-0d24416dc195}"
+            },
+            "rotate": 0,
+            "uuid": "{00000000-0000-0000-0000-000000000000}",
+            "xml": {
+              "geometry": {
+                "height": 0,
+                "width": 0,
+                "x": 0,
+                "y": 0
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "",
+              "resolution": 0,
+              "uuid": "{00000000-0000-0000-0000-000000000000}"
+            },
+            "yaml": {
+              "geometry": {
+                "height": 13.100000000000001,
+                "width": 11.450000000000001,
+                "x": -6.48653,
+                "y": -7.97807
+              },
+              "id": 0,
+              "maxZ": 1,
+              "minZ": 0.5,
+              "name": "../../config/map/5/floor1/map_info.yaml",
+              "resolution": 0.05,
+              "uuid": "{e2d8b476-1351-3c23-8c91-8108a578b443}"
+            }
+          }
+        },
+        "id": 5,
+        "lastUpdateTime": 1774995668,
+        "mapType": 0,
+        "name": "实验场地",
+        "uuid": "{e6556e2e-ac8c-4eb3-80f7-57bc8e8b8666}"
+      },
+      {
+        "floorParams": {
+          "1": {
+            "bmap": {
+              "geometry": {
+                "height": 12.450000000000001,
+                "width": 9.850000000000001,
+                "x": -6.10843,
+                "y": -6.72156
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/6/floor1/map_2d.bmap",
+              "resolution": 0,
+              "uuid": "{cd15952d-6479-3a13-a38c-dd300f1be209}"
+            },
+            "dx": 0,
+            "dy": 0,
+            "id": 1,
+            "mapId": 6,
+            "name": "",
+            "pcd": {
+              "geometry": {
+                "height": -27,
+                "width": 32,
+                "x": -37,
+                "y": 13
+              },
+              "id": 0,
+              "maxZ": 8.833118438720703,
+              "minZ": -0.6873235702514648,
+              "name": "../../config/map/6/floor1/map_3d.pcd",
+              "resolution": 0,
+              "uuid": "{c77df625-7b96-3f7c-8632-5ebf284e47aa}"
+            },
+            "png": {
+              "geometry": {
+                "height": 12.450000000000001,
+                "width": 9.850000000000001,
+                "x": -6.10843,
+                "y": -6.72156
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/6/floor1/map_2d_show.png",
+              "resolution": 0,
+              "uuid": "{cd15952d-6479-3a13-a38c-dd300f1be209}"
+            },
+            "png_slam": {
+              "geometry": {
+                "height": 0,
+                "width": 0,
+                "x": 0,
+                "y": 0
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/6/floor1/map_2d.png",
+              "resolution": 0,
+              "uuid": "{beaf8d94-ec65-3210-83c9-c4b1f6c5a24c}"
+            },
+            "rotate": 0,
+            "uuid": "{00000000-0000-0000-0000-000000000000}",
+            "xml": {
+              "geometry": {
+                "height": 0,
+                "width": 0,
+                "x": 0,
+                "y": 0
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "",
+              "resolution": 0,
+              "uuid": "{00000000-0000-0000-0000-000000000000}"
+            },
+            "yaml": {
+              "geometry": {
+                "height": 12.450000000000001,
+                "width": 9.850000000000001,
+                "x": -6.10843,
+                "y": -6.72156
+              },
+              "id": 0,
+              "maxZ": 1,
+              "minZ": 0.5,
+              "name": "../../config/map/6/floor1/map_info.yaml",
+              "resolution": 0.05,
+              "uuid": "{6e8d01d9-2295-33a2-b20a-2b4cd50b7c43}"
+            }
+          }
+        },
+        "id": 6,
+        "lastUpdateTime": 1774966125,
+        "mapType": 0,
+        "name": "tj-lab",
+        "uuid": "{5784ffb9-dcaf-4069-b27f-e40cf25826eb}"
+      },
+      {
+        "floorParams": {
+          "1": {
+            "bmap": {
+              "geometry": {
+                "height": 35.35,
+                "width": 69,
+                "x": -29.7625,
+                "y": -22.9697
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/7/floor1/map_2d.bmap",
+              "resolution": 0,
+              "uuid": "{72ce9d14-78dc-3721-b1d3-4f317191297f}"
+            },
+            "dx": 0,
+            "dy": 0,
+            "id": 1,
+            "mapId": 7,
+            "name": "",
+            "pcd": {
+              "geometry": {
+                "height": -26,
+                "width": 21,
+                "x": -38,
+                "y": 15
+              },
+              "id": 0,
+              "maxZ": 14.591797828674316,
+              "minZ": -2.904184103012085,
+              "name": "../../config/map/7/floor1/map_3d.pcd",
+              "resolution": 0,
+              "uuid": "{171a69df-74cd-3085-a463-c765572d8057}"
+            },
+            "png": {
+              "geometry": {
+                "height": 35.35,
+                "width": 69,
+                "x": -29.7625,
+                "y": -22.9697
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/7/floor1/map_2d_show.png",
+              "resolution": 0,
+              "uuid": "{72ce9d14-78dc-3721-b1d3-4f317191297f}"
+            },
+            "png_slam": {
+              "geometry": {
+                "height": 0,
+                "width": 0,
+                "x": 0,
+                "y": 0
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/7/floor1/map_2d.png",
+              "resolution": 0,
+              "uuid": "{0293fb5e-1a04-39c7-adb5-45399d97beb2}"
+            },
+            "rotate": 0,
+            "uuid": "{00000000-0000-0000-0000-000000000000}",
+            "xml": {
+              "geometry": {
+                "height": 0,
+                "width": 0,
+                "x": 0,
+                "y": 0
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "",
+              "resolution": 0,
+              "uuid": "{00000000-0000-0000-0000-000000000000}"
+            },
+            "yaml": {
+              "geometry": {
+                "height": 35.35,
+                "width": 69,
+                "x": -29.7625,
+                "y": -22.9697
+              },
+              "id": 0,
+              "maxZ": 1,
+              "minZ": 0.5,
+              "name": "../../config/map/7/floor1/map_info.yaml",
+              "resolution": 0.05,
+              "uuid": "{1c17b7e2-9911-3cd3-8406-6aaf3728dfd8}"
+            }
+          }
+        },
+        "id": 7,
+        "lastUpdateTime": 1774957417,
+        "mapType": 0,
+        "name": "mubea",
+        "uuid": "{f7bfc1e6-da99-4e8d-b5f2-9ee41c3db804}"
+      },
+      {
+        "floorParams": {
+          "1": {
+            "bmap": {
+              "geometry": {
+                "height": 49.35,
+                "width": 72.8,
+                "x": -39.5054,
+                "y": -16.8922
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/8/floor1/map_2d.bmap",
+              "resolution": 0,
+              "uuid": "{76975a8a-fcd7-3a3d-9c23-1e60137d3d5c}"
+            },
+            "dx": 0,
+            "dy": 0,
+            "id": 1,
+            "mapId": 8,
+            "name": "",
+            "pcd": {
+              "geometry": {
+                "height": -43,
+                "width": 38,
+                "x": -40,
+                "y": 33
+              },
+              "id": 0,
+              "maxZ": 14.933629035949707,
+              "minZ": -4.80014705657959,
+              "name": "../../config/map/8/floor1/map_3d.pcd",
+              "resolution": 0,
+              "uuid": "{1080d564-28b9-3981-97a9-365720fe6a84}"
+            },
+            "png": {
+              "geometry": {
+                "height": 49.35,
+                "width": 72.8,
+                "x": -39.5054,
+                "y": -16.8922
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/8/floor1/map_2d_show.png",
+              "resolution": 0,
+              "uuid": "{76975a8a-fcd7-3a3d-9c23-1e60137d3d5c}"
+            },
+            "png_slam": {
+              "geometry": {
+                "height": 0,
+                "width": 0,
+                "x": 0,
+                "y": 0
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "../../config/map/8/floor1/map_2d.png",
+              "resolution": 0,
+              "uuid": "{ee9bbc0b-ff8c-3f3e-974c-2d71f61bf08b}"
+            },
+            "rotate": 0,
+            "uuid": "{00000000-0000-0000-0000-000000000000}",
+            "xml": {
+              "geometry": {
+                "height": 0,
+                "width": 0,
+                "x": 0,
+                "y": 0
+              },
+              "id": 0,
+              "maxZ": 0,
+              "minZ": 0,
+              "name": "",
+              "resolution": 0,
+              "uuid": "{00000000-0000-0000-0000-000000000000}"
+            },
+            "yaml": {
+              "geometry": {
+                "height": 49.35,
+                "width": 72.8,
+                "x": -39.5054,
+                "y": -16.8922
+              },
+              "id": 0,
+              "maxZ": 1,
+              "minZ": 0.5,
+              "name": "../../config/map/8/floor1/map_info.yaml",
+              "resolution": 0.05,
+              "uuid": "{1008f3fc-2952-3c2e-ad8d-9a296000e2ea}"
+            }
+          }
+        },
+        "id": 8,
+        "lastUpdateTime": 1774969875,
+        "mapType": 0,
+        "name": "2026.9.11 test",
+        "uuid": "{be3405d8-dce0-47df-8575-b9c39ee7690b}"
+      }
+    ],
+    "PreTask": [
+      {
+        "id": 1,
+        "name": "test",
+        "taskData": {
+          "mapId": 1,
+          "maxLoopTimes": 10000000,
+          "navigationMode": 1,
+          "stationList": [
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10025,
+              "stationName": "47"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10010,
+              "stationName": "10"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10009,
+              "stationName": "9"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10001,
+              "stationName": "1"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10002,
+              "stationName": "2"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10004,
+              "stationName": "4"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10013,
+              "stationName": "31"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10005,
+              "stationName": "5"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10015,
+              "stationName": "32"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10020,
+              "stationName": "38"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10016,
+              "stationName": "40"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10024,
+              "stationName": "42"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10017,
+              "stationName": "44"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10019,
+              "stationName": "46"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10016,
+              "stationName": "40"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10008,
+              "stationName": "8"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10025,
+              "stationName": "47"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10010,
+              "stationName": "10"
+            },
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10025,
+              "stationName": "47"
+            }
+          ],
+          "taskNum": "a8737a17-07c9-4191-826b-88caf41ecef6"
+        },
+        "uuid": "{9aafb0c1-087e-454f-bf85-1843d732ac5d}"
+      },
+      {
+        "id": 2,
+        "name": "1",
+        "taskData": {
+          "mapId": 1,
+          "maxLoopTimes": 10000000,
+          "navigationMode": 1,
+          "stationList": [
+            {
+              "actionParam": 0,
+              "actionType": 0,
+              "stationId": 10025,
+              "stationName": "47"
+            }
+          ],
+          "taskNum": "a49a519b-a8d0-4dc2-9650-c5714fae2f4d"
+        },
+        "uuid": "{4d48dfb2-1aa7-4dd7-bd56-4d5a45a70453}"
+      }
+    ],
+    "Sql": [],
+    "Station": [
+      {
+        "actionTypeList": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "columnLabel": "",
+        "id": 10001,
+        "labelOffsetX": 0,
+        "labelOffsetY": 0,
+        "mapId": 2,
+        "name": "1",
+        "nodeMode": 0,
+        "nodeParamList": {
+          "1": {
+            "actionParams": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "nodeId": "2-1-1",
+            "parkingAngle": null,
+            "positioningParamList": []
+          }
+        },
+        "parkingType": 0,
+        "rowIndex": 0,
+        "stationTypeId": 0,
+        "uuid": "{94c8b2cb-033a-4006-bfb8-505148e00dad}"
+      },
+      {
+        "actionTypeList": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "columnLabel": "",
+        "id": 10002,
+        "labelOffsetX": 0,
+        "labelOffsetY": 0,
+        "mapId": 2,
+        "name": "2",
+        "nodeMode": 0,
+        "nodeParamList": {
+          "1": {
+            "actionParams": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "nodeId": "2-1-2",
+            "parkingAngle": null,
+            "positioningParamList": []
+          }
+        },
+        "parkingType": 0,
+        "rowIndex": 0,
+        "stationTypeId": 0,
+        "uuid": "{d766bd0b-bffc-409a-9793-aa42954290a8}"
+      },
+      {
+        "actionTypeList": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "columnLabel": "",
+        "id": 10003,
+        "labelOffsetX": 0,
+        "labelOffsetY": 0,
+        "mapId": 1,
+        "name": "xx2",
+        "nodeMode": 0,
+        "nodeParamList": {
+          "1": {
+            "actionParams": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "nodeId": "1-1-8",
+            "parkingAngle": null,
+            "positioningParamList": [
+              {
+                "params": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1.7453292519943295
+                ],
+                "type": 1
+              }
+            ]
+          }
+        },
+        "parkingType": 0,
+        "rowIndex": 0,
+        "stationTypeId": 10001,
+        "uuid": "{c3f5b055-76df-4b8e-bbc7-fdfb50703a9d}"
+      },
+      {
+        "actionTypeList": [
+          0,
+          1,
+          3
+        ],
+        "columnLabel": "",
+        "id": 10004,
+        "labelOffsetX": 0,
+        "labelOffsetY": 0,
+        "mapId": 3,
+        "name": "1212",
+        "nodeMode": 0,
+        "nodeParamList": {
+          "1": {
+            "actionParams": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "nodeId": "3-1-3",
+            "parkingAngle": null,
+            "positioningParamList": []
+          }
+        },
+        "parkingType": 1,
+        "rowIndex": 0,
+        "stationTypeId": 0,
+        "uuid": "{2a4f6328-2f2a-4b2c-b266-ff6e58da5fe1}"
+      }
+    ],
+    "StationType": [
+      {
+        "actionTypeList": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "agvBufferStatusLimit": 0,
+        "agvTypeList": [],
+        "id": 10001,
+        "name": "测试站台",
+        "parkingType": 0,
+        "stationKind": 0,
+        "uuid": "{5bb984c1-4309-4a3c-9ef4-2291784968ad}"
+      }
+    ],
+    "System": [
+      {
+        "id": 1,
+        "name": "",
+        "uuid": "{00000000-0000-0000-0000-000000000000}",
+        "versionParam": {
+          "id": 0,
+          "name": "",
+          "platformVersion": "",
+          "robotVersion": "",
+          "serverVersion": "",
+          "uuid": "{00000000-0000-0000-0000-000000000000}"
+        }
+      }
+    ]
+  },
+  "ErrorCode": 0,
+  "ErrorMessage": "Success",
+  "Interface": "/api/Config/GetAllParam",
+  "TimeStamp": "2026-03-31 22:01:05"
+}

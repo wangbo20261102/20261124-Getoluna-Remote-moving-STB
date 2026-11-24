@@ -1,0 +1,15 @@
+/**:
+  ros__parameters:
+    control_frequency_hz: 500.0
+    body_joint_num: 6
+    mink_scene_file: Gento_Luna/scene_teleop_luna.xml
+    ik_tasks_file: luna/ik_tasks.yaml
+    collision_pairs_file: luna/collision_pairs.json
+    velocity_limits_file: luna/velocity_limits.json
+    go_home_joint_speed: 0.3
+    go_home_min_duration: 1.0
+    require_go_home_on_startup: true
+    # moving local origin subtracted from all IK targets:
+    # "pelvis" = pelvis ground projection (xy), "foot_midpoint" = feet midpoint
+    support_frame_source: pelvis
+    support_frame_filter_alpha: 0.2

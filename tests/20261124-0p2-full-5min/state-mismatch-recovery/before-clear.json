@@ -1,0 +1,1 @@
+{"ok":true,"data":{"control_ready":false,"control_error":true,"control_error_message":"Control state mismatch: left=0, right=2","arm_state":[0,2,1,2,0,0],"arm_state_age_sec":0.0035037994384765625,"current_mode":-1,"speed_factor":1.0,"current_input_mode":1}}

@@ -1,0 +1,188 @@
+Nov 24 13:40:15 vision systemd[1]: Starting Apex Teleop and Replay module...
+Nov 24 13:40:18 vision bash[2218685]: [INFO] [1795498818.023774080] [apex_backend_state]: Apex backend state node started
+Nov 24 13:40:18 vision bash[2218685]: Teleop guard passed: Robot Control service is active
+Nov 24 13:40:18 vision systemd[1]: Started Apex Teleop and Replay module.
+Nov 24 13:40:19 vision bash[2219738]: [INFO] [launch]: All log files can be found below /var/log/apex/ros/2026-11-24-13-40-19-708321-vision-2219738
+Nov 24 13:40:19 vision bash[2219738]: [INFO] [launch]: Default logging verbosity is set to INFO
+Nov 24 13:40:19 vision bash[2219738]: [INFO] [teleop_manager_v2-1]: process started with pid [2221310]
+Nov 24 13:40:19 vision bash[2219738]: [INFO] [ik_request_mux-2]: process started with pid [2221313]
+Nov 24 13:40:19 vision bash[2219738]: [INFO] [qp_controller-3]: process started with pid [2221316]
+Nov 24 13:40:19 vision bash[2219738]: [INFO] [joint_cmd_mux-4]: process started with pid [2221322]
+Nov 24 13:40:19 vision bash[2219738]: [INFO] [controller_udp.py-5]: process started with pid [2221328]
+Nov 24 13:40:19 vision bash[2219738]: [INFO] [static_transform_publisher-6]: process started with pid [2221333]
+Nov 24 13:40:19 vision bash[2219738]: [INFO] [gento_replay_node-7]: process started with pid [2221336]
+Nov 24 13:40:19 vision bash[2219738]: [INFO] [gento_replay_ui_node-8]: process started with pid [2221353]
+Nov 24 13:40:20 vision bash[2219738]: [static_transform_publisher-6] [INFO] [1795498820.025056192] [tracking_base_tf]: Spinning until stopped - publishing transform
+Nov 24 13:40:20 vision bash[2219738]: [static_transform_publisher-6] translation: ('0.000000', '0.000000', '-0.050000')
+Nov 24 13:40:20 vision bash[2219738]: [static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+Nov 24 13:40:20 vision bash[2219738]: [static_transform_publisher-6] from 'base_link' to 'tracking_base_link'
+Nov 24 13:40:20 vision bash[2219738]: [ik_request_mux-2] [INFO] [1795498820.027258208] [ik_request_mux]: ik_request_mux active source 0 (teleop), output topic 'control/ik_request'
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] [INFO] [1795498820.046217600] [motion_node]: ref_dir loaded: [0.000000, 0.300000, 1.000000]
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] [INFO] [1795498820.046828576] [motion_node]: left_base_name: base_L
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] [INFO] [1795498820.046870208] [motion_node]: right_base_name: base_R
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] [INFO] [1795498820.046884320] [motion_node]: eef_nameA: left_tool
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] [INFO] [1795498820.046892768] [motion_node]: eef_nameB: right_tool
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] [INFO] [1795498820.046900864] [motion_node]: ik_request_topic: control/teleop/ik_request
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] [INFO] [1795498820.046908416] [motion_node]: ik_request_frame: tracking_base_link
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] [INFO] [1795498820.124953056] [motion_node]: URDF: /opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/config/marvin_CCS_m6.urdf
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] [INFO] [1795498820.125142464] [motion_node]: SRDF: /opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/config/marvin_robot.srdf
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] [INFO] [1795498820.125161504] [motion_node]: MJCF: /opt/kernelmind/apex/install/marvin_description/share/marvin_description/mjcf/Gento_Luna/Gento_Luna.xml
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] model.nq = 22
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] model.nv = 22
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] ee_idA: 41, ee_idB: 60
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: universe
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Leg_J1_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Leg_J2_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Leg_J3_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Leg_J4_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Leg_J5_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Leg_J6_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Head_J1_joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Head_J2_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Arm_L1_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Arm_L2_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Arm_L3_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Arm_L4_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Arm_L5_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Arm_L6_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Arm_L7_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Arm_R1_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Arm_R2_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Arm_R3_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Arm_R4_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Arm_R5_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] joint name: Arm_R6_Joint
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] license ok
+Nov 24 13:40:20 vision bash[2219738]: [teleop_manager_v2-1] [WARN] [1795498820.134108128] [motion_node]: IKRequest frame transform tracking_base_link <- base_link failed: "tracking_base_link" passed to lookupTransform argument target_frame does not exist. ; falling back to base_link
+Nov 24 13:40:20 vision bash[2219738]: [gento_replay_node-7] [INFO] [1795498820.152887104] [gento_replay_node]: gento_replay ready: record_input=control/teleop/ik_request, mink_request=control/replay/ik_request, record_dir=/home/nvidia/gento_replay_bags
+Nov 24 13:40:20 vision bash[2219738]: [joint_cmd_mux-4] [INFO] [1795498820.183552480] [joint_cmd_mux]: joint_cmd_mux active source 0 (teleop), output prefix 'control'
+Nov 24 13:40:21 vision bash[2219738]: [controller_udp.py-5] glove_mode: False
+Nov 24 13:40:21 vision bash[2219738]: [controller_udp.py-5] Traceback (most recent call last):
+Nov 24 13:40:21 vision bash[2219738]: [controller_udp.py-5]   File "/opt/kernelmind/apex/install/marvin_teleop/lib/marvin_teleop/controller_udp.py", line 1032, in <module>
+Nov 24 13:40:21 vision bash[2219738]: [controller_udp.py-5]     main()
+Nov 24 13:40:21 vision bash[2219738]: [controller_udp.py-5]   File "/opt/kernelmind/apex/install/marvin_teleop/lib/marvin_teleop/controller_udp.py", line 1026, in main
+Nov 24 13:40:21 vision bash[2219738]: [controller_udp.py-5]     node = UDPPoseReceiver()
+Nov 24 13:40:21 vision bash[2219738]: [controller_udp.py-5]   File "/opt/kernelmind/apex/install/marvin_teleop/lib/marvin_teleop/controller_udp.py", line 316, in __init__
+Nov 24 13:40:21 vision bash[2219738]: [controller_udp.py-5]     self.socka.bind((self.udp_ip, self.udp_portA))
+Nov 24 13:40:21 vision bash[2219738]: [controller_udp.py-5] OSError: [Errno 98] Address already in use
+Nov 24 13:40:21 vision bash[2219738]: [gento_replay_ui_node-8] [INFO] [1795498821.895238048] [gento_replay_ui_node]: gento_replay UI ready on 0.0.0.0:8012; record_service=control/gento_replay/record_named, playback_service=control/gento_replay/playback_named
+Nov 24 13:40:21 vision bash[2219738]: [gento_replay_ui_node-8] INFO:     Started server process [2221353]
+Nov 24 13:40:21 vision bash[2219738]: [gento_replay_ui_node-8] INFO:     Waiting for application startup.
+Nov 24 13:40:21 vision bash[2219738]: [gento_replay_ui_node-8] INFO:     Application startup complete.
+Nov 24 13:40:21 vision bash[2219738]: [gento_replay_ui_node-8] INFO:     Uvicorn running on http://0.0.0.0:8012 (Press CTRL+C to quit)
+Nov 24 13:40:22 vision bash[2219738]: [ERROR] [controller_udp.py-5]: process has died [pid 2221328, exit code 1, cmd '/opt/kernelmind/apex/install/marvin_teleop/lib/marvin_teleop/controller_udp.py --ros-args -r __node:=VR_reader --params-file /opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/config/luna/robot_param.yaml --params-file /opt/kernelmind/apex/install/marvin_ros_control/share/marvin_ros_control/config/robot_param_luna.yaml --params-file /tmp/launch_params_y9_sidd4'].
+Nov 24 13:40:22 vision bash[2219738]: [qp_controller-3] [INFO] [1795498822.462412512] [qp_controller]: C++ QP controller initialized at 500.0 Hz, model=/opt/kernelmind/apex/install/marvin_description/share/marvin_description/mjcf/Gento_Luna/scene_teleop_luna.xml, nv=22, home_q[nq=22]: L6(idx13)=-0.0100 L7(idx14)=0.1570  R6(idx20)=-0.0100 R7(idx21)=-0.1570
+Nov 24 13:40:22 vision bash[2219738]: [qp_controller-3] [WARN] [1795498822.464035712] [qp_controller]: Ignoring IKRequest until robot_state reports movable mode
+Nov 24 13:40:22 vision bash[2219738]: [qp_controller-3] [INFO] [1795498822.464323360] [qp_controller]: QP configuration synced from robot feedback
+Nov 24 13:40:22 vision bash[2219738]: [qp_controller-3] [INFO] [1795498822.467696480] [qp_controller]: QP configuration synced from robot feedback at control enable
+Nov 24 13:40:22 vision bash[2219738]: [qp_controller-3] [INFO] [1795498822.467899264] [qp_controller]: Waiting for control/go_home before starting QP output
+Nov 24 13:40:22 vision bash[2219738]: [qp_controller-3] [INFO] [1795498822.467966528] [qp_controller]: Blending QP output with joint feedback for 2.000s: IKRequest stream reconnected
+Nov 24 13:43:48 vision systemd[1]: Stopping Apex Teleop and Replay module...
+Nov 24 13:43:48 vision bash[2219738]: [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+Nov 24 13:43:48 vision bash[2219738]: [teleop_manager_v2-1] [INFO] [1795499028.565429280] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Nov 24 13:43:48 vision bash[2219738]: [joint_cmd_mux-4] [INFO] [1795499028.565459136] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Nov 24 13:43:48 vision bash[2219738]: [gento_replay_node-7] [INFO] [1795499028.565548800] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Nov 24 13:43:48 vision bash[2219738]: [ik_request_mux-2] [INFO] [1795499028.566090816] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Nov 24 13:43:48 vision bash[2219738]: [INFO] [gento_replay_ui_node-8]: sending signal 'SIGINT' to process[gento_replay_ui_node-8]
+Nov 24 13:43:48 vision bash[2219738]: [INFO] [gento_replay_node-7]: sending signal 'SIGINT' to process[gento_replay_node-7]
+Nov 24 13:43:48 vision bash[2219738]: [INFO] [static_transform_publisher-6]: sending signal 'SIGINT' to process[static_transform_publisher-6]
+Nov 24 13:43:48 vision bash[2219738]: [INFO] [joint_cmd_mux-4]: sending signal 'SIGINT' to process[joint_cmd_mux-4]
+Nov 24 13:43:48 vision bash[2219738]: [INFO] [qp_controller-3]: sending signal 'SIGINT' to process[qp_controller-3]
+Nov 24 13:43:48 vision bash[2219738]: [INFO] [ik_request_mux-2]: sending signal 'SIGINT' to process[ik_request_mux-2]
+Nov 24 13:43:48 vision bash[2219738]: [INFO] [teleop_manager_v2-1]: sending signal 'SIGINT' to process[teleop_manager_v2-1]
+Nov 24 13:43:48 vision bash[2219738]: [static_transform_publisher-6] [INFO] [1795499028.566426112] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Nov 24 13:43:48 vision bash[2219738]: [ERROR] [ik_request_mux-2]: process has died [pid 2221313, exit code -2, cmd '/opt/kernelmind/apex/install/marvin_qp_controller/lib/marvin_qp_controller/ik_request_mux --ros-args -r __node:=ik_request_mux --params-file /tmp/launch_params_h23cfe1x'].
+Nov 24 13:43:48 vision bash[2219738]: [qp_controller-3] [INFO] [1795499028.578890240] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Nov 24 13:43:48 vision bash[2219738]: [ERROR] [static_transform_publisher-6]: process has died [pid 2221333, exit code -2, cmd '/opt/ros/humble/lib/tf2_ros/static_transform_publisher --x 0.0 --y 0.0 --z -0.05 --frame-id base_link --child-frame-id tracking_base_link --ros-args -r __node:=tracking_base_tf'].
+Nov 24 13:43:48 vision bash[2219738]: [gento_replay_node-7] [INFO] [1795499028.587487456] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Nov 24 13:43:48 vision bash[2219738]: [gento_replay_ui_node-8] Traceback (most recent call last):
+Nov 24 13:43:48 vision bash[2219738]: [gento_replay_ui_node-8]   File "/opt/kernelmind/apex/install/gento_replay/lib/gento_replay/gento_replay_ui_node", line 268, in <module>
+Nov 24 13:43:48 vision bash[2219738]: [gento_replay_ui_node-8]     main()
+Nov 24 13:43:48 vision bash[2219738]: [gento_replay_ui_node-8]   File "/opt/kernelmind/apex/install/gento_replay/lib/gento_replay/gento_replay_ui_node", line 262, in main
+Nov 24 13:43:48 vision bash[2219738]: [gento_replay_ui_node-8]     ui_node.destroy_node()
+Nov 24 13:43:48 vision bash[2219738]: [gento_replay_ui_node-8]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 1691, in destroy_node
+Nov 24 13:43:48 vision bash[2219738]: [gento_replay_ui_node-8]     self.destroy_service(self._services[0])
+Nov 24 13:43:48 vision bash[2219738]: [gento_replay_ui_node-8]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 1615, in destroy_service
+Nov 24 13:43:48 vision bash[2219738]: [gento_replay_ui_node-8]     service.destroy()
+Nov 24 13:43:48 vision bash[2219738]: [gento_replay_ui_node-8]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/service.py", line 93, in destroy
+Nov 24 13:43:48 vision bash[2219738]: [gento_replay_ui_node-8]     self.__service.destroy_when_not_in_use()
+Nov 24 13:43:48 vision bash[2219738]: [gento_replay_ui_node-8] KeyboardInterrupt
+Nov 24 13:43:48 vision bash[2219738]: [joint_cmd_mux-4] [INFO] [1795499028.589192992] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Nov 24 13:43:48 vision bash[2219738]: [ERROR] [teleop_manager_v2-1]: process has died [pid 2221310, exit code -2, cmd '/opt/kernelmind/apex/install/marvin_teleop/lib/marvin_teleop/teleop_manager_v2 --ros-args -r __node:=motion_node --params-file /opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/config/luna/robot_param.yaml --params-file /tmp/launch_params_y12ga9qc --params-file /tmp/launch_params_xd7nfwhr --params-file /tmp/launch_params_pkmhv82e --params-file /tmp/launch_params_6v6126vu'].
+Nov 24 13:43:48 vision bash[2219738]: [ERROR] [qp_controller-3]: process has died [pid 2221316, exit code -2, cmd '/opt/kernelmind/apex/install/marvin_qp_controller/lib/marvin_qp_controller/qp_controller --ros-args -r __node:=qp_controller --params-file /opt/kernelmind/apex/install/marvin_qp_controller/share/marvin_qp_controller/config/luna/robot_param.yaml --params-file /tmp/launch_params_11teu8g6 --params-file /tmp/launch_params_zu_iopk6'].
+Nov 24 13:43:48 vision bash[2219738]: [INFO] [gento_replay_node-7]: process has finished cleanly [pid 2221336]
+Nov 24 13:43:48 vision bash[2219738]: [INFO] [joint_cmd_mux-4]: process has finished cleanly [pid 2221322]
+Nov 24 13:43:48 vision bash[2219738]: [ERROR] [gento_replay_ui_node-8]: process has died [pid 2221353, exit code -2, cmd '/opt/kernelmind/apex/install/gento_replay/lib/gento_replay/gento_replay_ui_node --ros-args -r __node:=gento_replay_ui_node --params-file /tmp/launch_params_u7r79458'].
+Nov 24 13:43:49 vision systemd[1]: apex-teleop.service: Deactivated successfully.
+Nov 24 13:43:49 vision systemd[1]: Stopped Apex Teleop and Replay module.
+Nov 24 13:43:49 vision systemd[1]: apex-teleop.service: Consumed 4min 35.881s CPU time.
+Nov 24 13:43:49 vision systemd[1]: Starting Apex Teleop and Replay module...
+Nov 24 13:43:52 vision bash[2439290]: [INFO] [1795499032.017001920] [apex_backend_state]: Apex backend state node started
+Nov 24 13:43:52 vision bash[2439290]: Teleop guard passed: Robot Control service is active
+Nov 24 13:43:52 vision systemd[1]: Started Apex Teleop and Replay module.
+Nov 24 13:43:53 vision bash[2440355]: [INFO] [launch]: All log files can be found below /var/log/apex/ros/2026-11-24-13-43-53-755393-vision-2440355
+Nov 24 13:43:53 vision bash[2440355]: [INFO] [launch]: Default logging verbosity is set to INFO
+Nov 24 13:43:54 vision bash[2440355]: [INFO] [teleop_manager_v2-1]: process started with pid [2441999]
+Nov 24 13:43:54 vision bash[2440355]: [INFO] [ik_request_mux-2]: process started with pid [2442003]
+Nov 24 13:43:54 vision bash[2440355]: [INFO] [qp_controller-3]: process started with pid [2442007]
+Nov 24 13:43:54 vision bash[2440355]: [INFO] [joint_cmd_mux-4]: process started with pid [2442011]
+Nov 24 13:43:54 vision bash[2440355]: [INFO] [controller_udp.py-5]: process started with pid [2442019]
+Nov 24 13:43:54 vision bash[2440355]: [INFO] [static_transform_publisher-6]: process started with pid [2442024]
+Nov 24 13:43:54 vision bash[2440355]: [INFO] [gento_replay_node-7]: process started with pid [2442065]
+Nov 24 13:43:54 vision bash[2440355]: [INFO] [gento_replay_ui_node-8]: process started with pid [2442092]
+Nov 24 13:43:54 vision bash[2440355]: [static_transform_publisher-6] [INFO] [1795499034.068343136] [tracking_base_tf]: Spinning until stopped - publishing transform
+Nov 24 13:43:54 vision bash[2440355]: [static_transform_publisher-6] translation: ('0.000000', '0.000000', '-0.050000')
+Nov 24 13:43:54 vision bash[2440355]: [static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+Nov 24 13:43:54 vision bash[2440355]: [static_transform_publisher-6] from 'base_link' to 'tracking_base_link'
+Nov 24 13:43:54 vision bash[2440355]: [joint_cmd_mux-4] [INFO] [1795499034.078831104] [joint_cmd_mux]: joint_cmd_mux active source 0 (teleop), output prefix 'control'
+Nov 24 13:43:54 vision bash[2440355]: [gento_replay_node-7] [INFO] [1795499034.151342496] [gento_replay_node]: gento_replay ready: record_input=control/teleop/ik_request, mink_request=control/replay/ik_request, record_dir=/home/nvidia/gento_replay_bags
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] [INFO] [1795499034.165847776] [motion_node]: ref_dir loaded: [0.000000, 0.300000, 1.000000]
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] [INFO] [1795499034.172711872] [motion_node]: left_base_name: base_L
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] [INFO] [1795499034.176074656] [motion_node]: right_base_name: base_R
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] [INFO] [1795499034.178494208] [motion_node]: eef_nameA: left_tool
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] [INFO] [1795499034.181438816] [motion_node]: eef_nameB: right_tool
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] [INFO] [1795499034.183614368] [motion_node]: ik_request_topic: control/teleop/ik_request
+Nov 24 13:43:54 vision bash[2440355]: [ik_request_mux-2] [INFO] [1795499034.185363616] [ik_request_mux]: ik_request_mux active source 0 (teleop), output topic 'control/ik_request'
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] [INFO] [1795499034.187095584] [motion_node]: ik_request_frame: tracking_base_link
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] [INFO] [1795499034.276635200] [motion_node]: URDF: /opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/config/marvin_CCS_m6.urdf
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] [INFO] [1795499034.276725888] [motion_node]: SRDF: /opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/config/marvin_robot.srdf
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] [INFO] [1795499034.276738464] [motion_node]: MJCF: /opt/kernelmind/apex/install/marvin_description/share/marvin_description/mjcf/Gento_Luna/Gento_Luna.xml
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] model.nq = 22
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] model.nv = 22
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] ee_idA: 41, ee_idB: 60
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: universe
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Leg_J1_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Leg_J2_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Leg_J3_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Leg_J4_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Leg_J5_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Leg_J6_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Head_J1_joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Head_J2_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Arm_L1_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Arm_L2_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Arm_L3_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Arm_L4_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Arm_L5_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Arm_L6_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Arm_L7_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Arm_R1_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Arm_R2_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Arm_R3_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Arm_R4_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Arm_R5_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] joint name: Arm_R6_Joint
+Nov 24 13:43:54 vision bash[2440355]: [teleop_manager_v2-1] license ok
+Nov 24 13:43:55 vision bash[2440355]: [controller_udp.py-5] [INFO] [1795499035.409298944] [VR_reader]: [TCP] Waiting for headset on port 9010...
+Nov 24 13:43:55 vision bash[2440355]: [controller_udp.py-5] [INFO] [1795499035.422131808] [VR_reader]: TCP session manager listening on port 9010
+Nov 24 13:43:55 vision bash[2440355]: [controller_udp.py-5] [INFO] [1795499035.426181664] [VR_reader]: Listening UDP on 0.0.0.0:9000, 0.0.0.0:9001
+Nov 24 13:43:55 vision bash[2440355]: [gento_replay_ui_node-8] [INFO] [1795499035.764116384] [gento_replay_ui_node]: gento_replay UI ready on 0.0.0.0:8012; record_service=control/gento_replay/record_named, playback_service=control/gento_replay/playback_named
+Nov 24 13:43:55 vision bash[2440355]: [gento_replay_ui_node-8] INFO:     Started server process [2442092]
+Nov 24 13:43:55 vision bash[2440355]: [gento_replay_ui_node-8] INFO:     Waiting for application startup.
+Nov 24 13:43:55 vision bash[2440355]: [gento_replay_ui_node-8] INFO:     Application startup complete.
+Nov 24 13:43:55 vision bash[2440355]: [gento_replay_ui_node-8] INFO:     Uvicorn running on http://0.0.0.0:8012 (Press CTRL+C to quit)
+Nov 24 13:43:56 vision bash[2440355]: [qp_controller-3] [INFO] [1795499036.407384032] [qp_controller]: C++ QP controller initialized at 500.0 Hz, model=/opt/kernelmind/apex/install/marvin_description/share/marvin_description/mjcf/Gento_Luna/scene_teleop_luna.xml, nv=22, home_q[nq=22]: L6(idx13)=-0.0100 L7(idx14)=0.1570  R6(idx20)=-0.0100 R7(idx21)=-0.1570
+Nov 24 13:43:56 vision bash[2440355]: [qp_controller-3] [WARN] [1795499036.410995808] [qp_controller]: Ignoring IKRequest until robot_state reports movable mode
+Nov 24 13:43:56 vision bash[2440355]: [qp_controller-3] [INFO] [1795499036.413856672] [qp_controller]: QP configuration synced from robot feedback
+Nov 24 13:43:56 vision bash[2440355]: [qp_controller-3] [INFO] [1795499036.416463296] [qp_controller]: Waiting for control/go_home before starting QP output
+Nov 24 13:43:56 vision bash[2440355]: [qp_controller-3] [INFO] [1795499036.419060928] [qp_controller]: Blending QP output with joint feedback for 2.000s: IKRequest stream reconnected

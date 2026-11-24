@@ -1,0 +1,109 @@
+{
+  "robot_time": "2026-11-24T13:44:56.588952",
+  "mode": "operator_control_no_test_timer",
+  "robot": {
+    "ok": true,
+    "data": {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.009862422943115234,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    }
+  },
+  "battery": {
+    "received_at": "2026-11-24T13:44:55.888419+08:00",
+    "fresh": true,
+    "seconds_since_feedback": 0.5,
+    "batteries": [
+      {
+        "id": 1,
+        "energy": 90,
+        "health": 98,
+        "is_in_place": true,
+        "is_charging": false,
+        "voltage": 49.400001525878906,
+        "current": -2.5,
+        "temperature": 25.0,
+        "is_connected": true,
+        "error_code": 0
+      },
+      {
+        "id": 2,
+        "energy": 90,
+        "health": 98,
+        "is_in_place": true,
+        "is_charging": false,
+        "voltage": 49.5,
+        "current": -2.5999999046325684,
+        "temperature": 25.0,
+        "is_connected": true,
+        "error_code": 0
+      }
+    ],
+    "audio": {
+      "enabled": true,
+      "state": "finished",
+      "playing": null,
+      "last_error": null,
+      "language": "zh-CN",
+      "volume_percent": 100,
+      "charging_notifications": true,
+      "confirmed_charging": false
+    }
+  },
+  "factory_files_unchanged": true,
+  "robot_teleop_tool_services": "active\nactive\nactive",
+  "manual_chassis_service": "active",
+  "display_voice_services": "active\nactive",
+  "maxhub": "7497 ./DongleClient",
+  "pico_tcp_session": "",
+  "limits": {
+    "chassis_linear_m_s": 0.2,
+    "chassis_angular_rad_s": 0.2,
+    "factory_arm_limits_unchanged": true,
+    "arm_speed_and_impedance_gains_unchanged": true
+  },
+  "home_sent_by_assistant": false,
+  "automatic_motion_test_started": false,
+  "operator_remaining_steps": [
+    "Reconnect PICO to 6.6.7.100",
+    "Factory QP waits for Home initialization; operator controls Home after preparing a safe posture",
+    "Body follows only with valid body tracking"
+  ],
+  "gripper_readback": {
+    "left": [
+      0,
+      0,
+      21,
+      0,
+      0
+    ],
+    "right": [
+      0,
+      0,
+      21,
+      0,
+      0
+    ],
+    "fields": [
+      "position",
+      "speed",
+      "state_word",
+      "fault_A",
+      "alarm_B"
+    ],
+    "note": "Read-only samples at setup; no open/close tests were commanded"
+  },
+  "input_mode": 1
+}

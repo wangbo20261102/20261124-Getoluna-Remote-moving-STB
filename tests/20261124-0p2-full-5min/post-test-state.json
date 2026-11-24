@@ -1,0 +1,79 @@
+{
+  "chassis_after_stop": [
+    {
+      "linearSpeedVec3": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "angularSpeed": 0,
+      "isNormal": true,
+      "workStatus": 14,
+      "driverErrorCodeVec": []
+    },
+    {
+      "linearSpeedVec3": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "angularSpeed": 0,
+      "isNormal": true,
+      "workStatus": 14,
+      "driverErrorCodeVec": []
+    },
+    {
+      "linearSpeedVec3": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "angularSpeed": 0,
+      "isNormal": true,
+      "workStatus": 14,
+      "driverErrorCodeVec": []
+    },
+    {
+      "linearSpeedVec3": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "angularSpeed": 0,
+      "isNormal": true,
+      "workStatus": 14,
+      "driverErrorCodeVec": []
+    },
+    {
+      "linearSpeedVec3": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "angularSpeed": 0,
+      "isNormal": true,
+      "workStatus": 14,
+      "driverErrorCodeVec": []
+    }
+  ],
+  "robot": {
+    "ok": true,
+    "data": {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.0027954578399658203,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    }
+  }
+}

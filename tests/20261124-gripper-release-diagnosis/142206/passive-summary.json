@@ -1,0 +1,27 @@
+{
+  "read_only": true,
+  "duration_seconds": 30,
+  "counts": {
+    "/info/vr_connected": 30,
+    "/info/wrist485_R": 34,
+    "/info/wrist485_L": 27
+  },
+  "trigger_ranges": {},
+  "last": {
+    "/info/vr_connected": false,
+    "/info/wrist485_R": [
+      0,
+      0,
+      21,
+      0,
+      0
+    ],
+    "/info/wrist485_L": [
+      0,
+      0,
+      21,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "candidate_sha256": "07cecbce36ebcd89e915cf5a7f274db2159251f68dcab83d707a5d3f7a85aa43",
+  "baseline_reproduced": true,
+  "dependencies_resolved": true,
+  "missing_exports": [
+    "_ZN5wrist14SharedTerminal13exchange_onceEiRKSt6vectorIhSaIhEEm"
+  ],
+  "protected_settings_unchanged": true,
+  "tests": "[OUTPUT] \nInternal ctest changing into directory: /home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build\n\n[HANDLER_OUTPUT] \nTest project /home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build\n\n    Start 3: ros_adapter\n    Start 5: wrist_recovery\n    Start 6: release_reliability\n1/6 Test #6: release_reliability ..............   Passed   38.32 sec\n    Start 4: trigger_without_position\n2/6 Test #5: wrist_recovery ...................   Passed   38.50 sec\n    Start 2: manual\n3/6 Test #2: manual ...........................   Passed    0.03 sec\n    Start 1: protocol\n4/6 Test #1: protocol .........................   Passed    0.01 sec\n5/6 Test #4: trigger_without_position .........   Passed   20.54 sec\n6/6 Test #3: ros_adapter ......................   Passed   67.46 sec\n\n100% tests passed, 0 tests failed out of 6\n\nTotal Test time (real) =  67.46 sec\n",
+  "deployed": false,
+  "missing_vendor_exports": [],
+  "expected_internal_signature_changes": [
+    "_ZN5wrist14SharedTerminal13exchange_onceEiRKSt6vectorIhSaIhEEm"
+  ],
+  "ready_for_supported_restart": true
+}

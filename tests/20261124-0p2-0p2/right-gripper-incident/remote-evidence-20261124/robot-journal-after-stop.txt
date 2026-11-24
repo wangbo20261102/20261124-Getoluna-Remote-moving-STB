@@ -1,0 +1,192 @@
+2026-11-24T09:39:27+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484367.926267744] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:39:30+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484370.268448768] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:39:41+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484381.731630368] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:39:44+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484384.076036672] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+2026-11-24T09:40:04+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484404.098880256] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:40:07+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484407.014374656] [apex_ctag_wrist]: ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+2026-11-24T09:40:09+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484409.360586496] [apex_ctag_wrist]: ARM0 recovered on check 2; fresh gesture required
+2026-11-24T09:40:20+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484420.324036480] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:40:23+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484423.241874272] [apex_ctag_wrist]: ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+2026-11-24T09:40:25+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484425.585710784] [apex_ctag_wrist]: ARM1 recovered on check 2; fresh gesture required
+2026-11-24T09:40:40+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484440.805290560] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:40:43+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484443.147115424] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:40:44+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484444.763470656] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:40:47+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484447.575405120] [apex_ctag_wrist]: ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply
+2026-11-24T09:40:49+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484449.917151712] [apex_ctag_wrist]: ARM0 recovered on check 2; fresh gesture required
+2026-11-24T09:40:58+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484458.599952128] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:41:00+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484460.944938432] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+2026-11-24T09:41:16+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484476.509264608] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:41:18+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484478.852755200] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:41:52+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484512.689796704] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:41:55+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484515.032723616] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:42:15+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484535.198574528] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:42:18+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484538.116313408] [apex_ctag_wrist]: ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+2026-11-24T09:42:20+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484540.463493632] [apex_ctag_wrist]: ARM1 recovered on check 2; fresh gesture required
+2026-11-24T09:42:28+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484548.870129024] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:42:31+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484551.785064544] [apex_ctag_wrist]: ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+2026-11-24T09:42:34+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484554.124495360] [apex_ctag_wrist]: ARM0 recovered on check 2; fresh gesture required
+2026-11-24T09:42:53+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484573.480228320] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:42:55+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484575.833224320] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+2026-11-24T09:43:05+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484585.532734624] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:43:07+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484587.875902784] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:43:09+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484589.499446464] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:43:11+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484591.841565984] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:43:36+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484616.235091712] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:43:38+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484618.577021504] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+2026-11-24T09:43:41+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484621.669048512] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:43:44+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484624.010143296] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:44:09+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484649.970152992] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:44:12+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484652.885869696] [apex_ctag_wrist]: ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+2026-11-24T09:44:15+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484655.227901888] [apex_ctag_wrist]: ARM1 recovered on check 2; fresh gesture required
+2026-11-24T09:44:17+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484657.825450144] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:44:20+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484660.170166336] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:44:49+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484689.158158912] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:44:51+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484691.510771936] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+2026-11-24T09:44:53+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484693.980463040] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:44:56+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484696.895664576] [apex_ctag_wrist]: ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+2026-11-24T09:44:59+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484699.239156224] [apex_ctag_wrist]: ARM0 recovered on check 2; fresh gesture required
+2026-11-24T09:45:26+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484726.950439552] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:45:29+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484729.865730304] [apex_ctag_wrist]: ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+2026-11-24T09:45:30+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484730.638526784] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:45:32+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484732.208894240] [apex_ctag_wrist]: ARM1 recovered on check 2; fresh gesture required
+2026-11-24T09:45:32+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484732.982819008] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:46:05+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484765.247420288] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:46:06+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484766.917009024] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:46:07+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484767.591607712] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+2026-11-24T09:46:09+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484769.258578304] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:46:43+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484803.099559680] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:46:43+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484803.798782400] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:46:45+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484805.440331584] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:46:46+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484806.142227264] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+2026-11-24T09:47:19+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484839.268641952] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:47:22+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484842.188936192] [apex_ctag_wrist]: ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+2026-11-24T09:47:22+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484842.399905792] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:47:24+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484844.530644576] [apex_ctag_wrist]: ARM0 recovered on check 2; fresh gesture required
+2026-11-24T09:47:25+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484845.314191744] [apex_ctag_wrist]: ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+2026-11-24T09:47:27+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484847.655754048] [apex_ctag_wrist]: ARM1 recovered on check 2; fresh gesture required
+2026-11-24T09:47:55+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484875.791672064] [apex_ctag_wrist]: ARM0 trigger 1.00 requested close
+2026-11-24T09:47:55+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484875.791821568] [apex_ctag_wrist]: ARM1 trigger 1.00 requested close
+2026-11-24T09:47:55+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484875.975711488] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:47:56+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484876.076835424] [apex_ctag_wrist]: ARM1 trigger 0.11 requested open
+2026-11-24T09:47:56+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484876.946931872] [apex_ctag_wrist]: ARM1 open command acknowledged (target 0)
+2026-11-24T09:47:58+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484878.316312928] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:47:59+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484879.943614592] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:48:00+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484880.421542496] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:48:02+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484882.746389024] [apex_ctag_wrist]: ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply
+2026-11-24T09:48:02+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484882.776793088] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+2026-11-24T09:48:05+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484885.550593376] [apex_ctag_wrist]: ARM0 check 2 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply
+2026-11-24T09:48:07+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484887.892090816] [apex_ctag_wrist]: ARM0 recovered on check 3; fresh gesture required
+2026-11-24T09:48:08+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484888.439424768] [apex_ctag_wrist]: ARM0 trigger 1.00 requested close
+2026-11-24T09:48:08+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484888.746751904] [apex_ctag_wrist]: ARM0 trigger 0.00 requested open
+2026-11-24T09:48:10+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484890.547601344] [apex_ctag_wrist]: ARM0 open command acknowledged (target 0)
+2026-11-24T09:48:31+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484911.745417344] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:48:34+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484914.086273888] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:48:39+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484919.007285344] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:48:41+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484921.347909824] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+2026-11-24T09:48:43+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484923.299375392] [apex_ctag_wrist]: ARM1 trigger 1.00 requested close
+2026-11-24T09:48:43+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484923.320321728] [apex_ctag_wrist]: ARM0 trigger 1.00 requested close
+2026-11-24T09:48:43+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484923.878374048] [apex_ctag_wrist]: ARM1 close command acknowledged (target 9000)
+2026-11-24T09:48:43+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484923.900900096] [apex_ctag_wrist]: ARM0 close command acknowledged (target 9000)
+2026-11-24T09:48:55+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484935.902888480] [apex_ctag_wrist]: ARM1 suspended: wrist motion supervision timed out; first check in 2s
+2026-11-24T09:48:55+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484935.906079296] [apex_ctag_wrist]: ARM0 suspended: wrist motion supervision timed out; first check in 2s
+2026-11-24T09:48:58+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484938.488838592] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+2026-11-24T09:48:58+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484938.488990048] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:49:08+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484948.167746816] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:49:10+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484950.513894816] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:49:17+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484957.030289536] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:49:19+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484959.952064384] [apex_ctag_wrist]: ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+2026-11-24T09:49:22+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484962.294066752] [apex_ctag_wrist]: ARM1 recovered on check 2; fresh gesture required
+2026-11-24T09:49:26+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484966.667821920] [marvin_robot_node]: Robot not in postion or impedance mode.
+2026-11-24T09:49:26+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484966.667957248] [marvin_robot_node]: Robot not in position or impedance mode.
+2026-11-24T09:49:26+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484966.667994592] [marvin_robot_node]: Robot not in position or impedance mode.
+2026-11-24T09:49:44+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484984.356614944] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:49:47+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484987.274882624] [apex_ctag_wrist]: ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+2026-11-24T09:49:49+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484989.623614400] [apex_ctag_wrist]: ARM0 recovered on check 2; fresh gesture required
+2026-11-24T09:49:55+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795484995.323439104] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:49:57+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795484997.670178560] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+2026-11-24T09:50:25+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795485025.041408704] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:50:27+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795485027.843789888] [apex_ctag_wrist]: ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply
+2026-11-24T09:50:30+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795485030.647210720] [apex_ctag_wrist]: ARM0 check 2 failed: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply
+2026-11-24T09:50:33+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795485033.006782880] [apex_ctag_wrist]: ARM0 recovered on check 3; fresh gesture required
+2026-11-24T09:50:33+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795485033.073010464] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:50:35+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795485035.415478976] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+2026-11-24T09:50:56+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795485056.376263872] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:50:58+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795485058.716536928] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:51:32+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795485092.573884320] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:51:34+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795485094.915818016] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:51:51+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795485111.966926688] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:51:54+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [WARN] [1795485114.768636352] [apex_ctag_wrist]: ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0100 received=0: empty wrist register reply
+2026-11-24T09:51:54+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795485114.787028416] [apex_ctag_wrist]: Apex CTAG Tool detached
+2026-11-24T09:55:33+0800 vision systemd[1]: Stopping Apex Robot Control module...
+2026-11-24T09:55:33+0800 vision launch_robot.sh[137097]: [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+2026-11-24T09:55:33+0800 vision launch_robot.sh[137097]: [INFO] [robot_state_publisher-2]: sending signal 'SIGINT' to process[robot_state_publisher-2]
+2026-11-24T09:55:33+0800 vision launch_robot.sh[137097]: [INFO] [marvin_robot_node-1]: sending signal 'SIGINT' to process[marvin_robot_node-1]
+2026-11-24T09:55:33+0800 vision launch_robot.sh[137097]: [robot_state_publisher-2] [INFO] [1795485333.067678304] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+2026-11-24T09:55:33+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795485333.067753120] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+2026-11-24T09:55:33+0800 vision launch_robot.sh[137097]: [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 137166]
+2026-11-24T09:55:38+0800 vision launch_robot.sh[137097]: [ERROR] [marvin_robot_node-1]: process[marvin_robot_node-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+2026-11-24T09:55:38+0800 vision launch_robot.sh[137097]: [INFO] [marvin_robot_node-1]: sending signal 'SIGTERM' to process[marvin_robot_node-1]
+2026-11-24T09:55:38+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] Shutdown complete. Robot servos turned off and faults cleared.
+2026-11-24T09:55:38+0800 vision launch_robot.sh[137097]: [marvin_robot_node-1] [INFO] [1795485338.619829440] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+2026-11-24T09:55:38+0800 vision launch_robot.sh[137097]: [INFO] [marvin_robot_node-1]: process has finished cleanly [pid 137164]
+2026-11-24T09:55:38+0800 vision systemd[1]: apex-robot.service: Deactivated successfully.
+2026-11-24T09:55:38+0800 vision systemd[1]: Stopped Apex Robot Control module.
+2026-11-24T09:55:38+0800 vision systemd[1]: apex-robot.service: Consumed 27min 20.377s CPU time.
+2026-11-24T09:58:29+0800 vision systemd[1]: Started Apex Robot Control module.
+2026-11-24T09:58:30+0800 vision launch_robot.sh[2862283]: [INFO] [launch]: All log files can be found below /var/log/apex/ros/2026-11-24-09-58-30-843348-vision-2862283
+2026-11-24T09:58:30+0800 vision launch_robot.sh[2862283]: [INFO] [launch]: Default logging verbosity is set to INFO
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [INFO] [marvin_robot_node-1]: process started with pid [2862349]
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [INFO] [robot_state_publisher-2]: process started with pid [2862351]
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] Arm active: 1
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] Head active: 1
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] Body active: 1
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] Lift active: 0
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] Joint names loading
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] Joint names loaded from parameters:
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485511.256648000] [marvin_robot_node]: PD command cycle time: 2 ms
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [WARN] [1795485511.278506144] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.278779680] [robot_state_publisher]: got segment Arm_L1_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.278905728] [robot_state_publisher]: got segment Arm_L2_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.278920192] [robot_state_publisher]: got segment Arm_L3_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.278928928] [robot_state_publisher]: got segment Arm_L4_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.278936320] [robot_state_publisher]: got segment Arm_L5_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.278943104] [robot_state_publisher]: got segment Arm_L6_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.278950048] [robot_state_publisher]: got segment Arm_L7_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.278956544] [robot_state_publisher]: got segment Arm_R1_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.278963776] [robot_state_publisher]: got segment Arm_R2_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.278970240] [robot_state_publisher]: got segment Arm_R3_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.278976960] [robot_state_publisher]: got segment Arm_R4_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.278983904] [robot_state_publisher]: got segment Arm_R5_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.278990464] [robot_state_publisher]: got segment Arm_R6_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.278996896] [robot_state_publisher]: got segment Arm_R7_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.279003616] [robot_state_publisher]: got segment Head_J1_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.279010176] [robot_state_publisher]: got segment Head_J2_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.279016736] [robot_state_publisher]: got segment Leg_J1_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.279023424] [robot_state_publisher]: got segment Leg_J2_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.279030272] [robot_state_publisher]: got segment Leg_J3_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.279036896] [robot_state_publisher]: got segment Leg_J4_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.279043520] [robot_state_publisher]: got segment Leg_J5_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.279050080] [robot_state_publisher]: got segment Leg_J6_Link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.279056704] [robot_state_publisher]: got segment base_link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [robot_state_publisher-2] [INFO] [1795485511.279063232] [robot_state_publisher]: got segment tracking_base_link
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] Link ms: 2
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] marvin_robot: Successfully linked to robot at IP: 6.6.7.190, latency: 2 ms
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485511.366914368] [CAN]: Successfully opened CAN socket on interface vcan0
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485511.367069792] [CAN]: Successfully opened CAN socket on interface vcan1
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485511.367318656] [marvin_robot_node]: Robot successfully connected.
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485511.372847552] [marvin_robot_node]: Robot info initialized: type=Gento_Luna, controller_version=263172 (4.4.4)
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485511.372954048] [marvin_robot_node]: CMD_Joint_Pos debug publisher: disabled
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485511.372970048] [marvin_robot_node]: Joint command timestamp check: enabled
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485511.375291584] [apex_ctag_wrist]: Apex CTAG Tool attached (vr)
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485511.926950336] [marvin_robot_node]: speed ratio 100
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485511.927107712] [marvin_robot_node]: acc ratio 100
+2026-11-24T09:58:31+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485511.967744608] [marvin_robot_node]: Marvin Robot Node initialized.
+2026-11-24T09:58:33+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485513.516621632] [apex_ctag_wrist]: CTAG ARM1/485A passed read-only preflight
+2026-11-24T09:58:33+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485513.531449600] [apex_ctag_wrist]: CTAG ARM0/485A passed read-only preflight
+2026-11-24T09:58:34+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [WARN] [1795485514.322829056] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:58:36+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485516.664980736] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+2026-11-24T09:58:44+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [WARN] [1795485524.016336000] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:58:46+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485526.358714784] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+2026-11-24T09:58:46+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [INFO] [1795485526.669594208] [marvin_robot_node]: Robot is ready.
+2026-11-24T09:59:11+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [WARN] [1795485551.302369184] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+2026-11-24T09:59:14+0800 vision launch_robot.sh[2862283]: [marvin_robot_node-1] [WARN] [1795485554.218159296] [apex_ctag_wrist]: ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply

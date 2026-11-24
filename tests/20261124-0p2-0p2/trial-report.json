@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-24",
+  "baseline": "E:\\Github\\Mubea-EV-Gentoluna-baselines\\20261124-before-0p2",
+  "trial_directory": "E:\\Github\\Mubea-EV-Gentoluna-tests\\20261124-0p2-0p2",
+  "runtime": "/home/nvidia/luna-test-runs/20261124-0p2-0p2/pico_chassis_bridge.py",
+  "program_sha256": "2dcbbf8b8c7e2ff5c1647e4545e693cd8e13fe2e16aa75e4d54dce1b6f040862",
+  "limits": {
+    "planar_m_s": 0.2,
+    "angular_rad_s": 0.2
+  },
+  "timer_seconds": 300,
+  "recorded_seconds": 264.721,
+  "command_count": 241,
+  "stop_count": 26,
+  "feedback_count": 5051,
+  "max_command_planar_m_s": 0.2,
+  "max_command_angular_rad_s": 0.2,
+  "command_caps_verified": true,
+  "command_axis_min": [
+    -0.034558823529411774,
+    -0.023529411764705885,
+    -0.2
+  ],
+  "command_axis_max": [
+    0.2,
+    -0.0,
+    -0.0
+  ],
+  "feedback_planar_m_s": {
+    "p95": 0.005087537225335836,
+    "p99": 0.07999999821186066,
+    "peak": 0.13300000131130219
+  },
+  "feedback_angular_rad_s": {
+    "p95": 0.0,
+    "p99": 0.1829789459030188,
+    "peak": 0.2050626101709204
+  },
+  "last_feedback": {
+    "time": 1795485116.862155,
+    "mono": 5583.171477504,
+    "event": "feedback",
+    "velocity": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "angular": 0,
+    "work_status": 14,
+    "normal": true,
+    "flags": {
+      "isScram": false,
+      "isSoftAuto": false,
+      "isPause": false,
+      "isSuspend": false,
+      "isParkingMode": false,
+      "isReseting": false,
+      "isFallback": false
+    }
+  },
+  "last_command": {
+    "time": 1795485027.4056494,
+    "mono": 5493.71497216,
+    "event": "command_sent",
+    "command": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "permitted": true,
+    "neutral_seen": true
+  },
+  "bridge_exited": true,
+  "baseline_verification": {
+    "protected_originals_checked": 3836,
+    "changed_protected_originals": [],
+    "volatile_live_files_excluded": [
+      "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\local-watch-process.json",
+      "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\pico-feedback-20261124-085242-error.log",
+      "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\pico-feedback-20261124-085242.log",
+      "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\pico-feedback-state.json",
+      "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\pico-usb-sharing-20261124-085236-error.log",
+      "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\pico-usb-sharing-20261124-085236.log",
+      "E:\\Github\\Mubea-EV-Gentoluna\\teleop-20261123\\pc\\pico-usb-sharing-state.json"
+    ],
+    "archive_checksum_failures": [],
+    "baseline_intact": true
+  },
+  "controller_configuration_changed_keys": [],
+  "maxhub": "Client PID7497 and preview guard checked active; preview frames still increasing",
+  "hardware_speed_note": "These are firmware-reported speeds. Command caps are verified separately; physical speed calibration and transient interpretation remain separate acceptance work.",
+  "status": "interrupted_by_user_for_right_wrist_fault",
+  "completed_full_5_minutes": false,
+  "interruption_reason": "User reported right wrist/gripper drooping and requested teleoperation stop. Do not resume PICO automatically.",
+  "final_live_velocity_note": "The final recorded chassis feedback was zero; this is not a new live speed measurement at report generation.",
+  "clock_note": "Use monotonic recorded_seconds. Robot wall clock is approximately 15 minutes ahead of the Windows host."
+}

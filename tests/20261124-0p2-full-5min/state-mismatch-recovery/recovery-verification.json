@@ -1,0 +1,151 @@
+{
+  "samples": [
+    {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.0022802352905273438,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    },
+    {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.006891489028930664,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    },
+    {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.0027894973754882812,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    },
+    {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.0014791488647460938,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    },
+    {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.0036826133728027344,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    },
+    {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.00469660758972168,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    }
+  ],
+  "all_healthy": true,
+  "battery": {
+    "received_at": "2026-11-24T13:26:58.972472+08:00",
+    "fresh": true,
+    "seconds_since_feedback": 0.6,
+    "batteries": [
+      {
+        "id": 1,
+        "energy": 95,
+        "health": 98,
+        "is_in_place": true,
+        "is_charging": false,
+        "voltage": 49.5,
+        "current": -2.5999999046325684,
+        "temperature": 25.0,
+        "is_connected": true,
+        "error_code": 0
+      },
+      {
+        "id": 2,
+        "energy": 95,
+        "health": 98,
+        "is_in_place": true,
+        "is_charging": false,
+        "voltage": 49.5,
+        "current": -2.5999999046325684,
+        "temperature": 26.0,
+        "is_connected": true,
+        "error_code": 0
+      }
+    ],
+    "audio": {
+      "enabled": true,
+      "state": "finished",
+      "playing": null,
+      "last_error": null,
+      "language": "zh-CN",
+      "volume_percent": 100,
+      "charging_notifications": true,
+      "confirmed_charging": false
+    }
+  },
+  "display_services": "active\nactive",
+  "maxhub": "7497 ./DongleClient",
+  "motion_inputs": "inactive\ninactive"
+}

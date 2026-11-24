@@ -1,0 +1,97 @@
+{
+  "robot_time": "2026-11-24T16:13:51.777192",
+  "recovered": true,
+  "samples": [
+    {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.008392095565795898,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    },
+    {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.005367279052734375,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    },
+    {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.004780769348144531,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    },
+    {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.002984285354614258,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    },
+    {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.002855539321899414,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    }
+  ],
+  "recovery": "clear_fault; isolate Teleop inputs; position mode; impedance mode; restart Teleop and manual chassis",
+  "limits_changed": false,
+  "home_sent": false,
+  "pico_requires_reconnect": true,
+  "qp_requires_home_initialization_after_teleop_restart": true,
+  "journal": "Nov 24 16:09:51 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [WARN] [1795507791.993741376] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s\nNov 24 16:09:54 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [INFO] [1795507794.340529376] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required\nNov 24 16:10:04 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [WARN] [1795507804.218196320] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s\nNov 24 16:10:06 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [INFO] [1795507806.560052928] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required\nNov 24 16:10:28 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [WARN] [1795507828.057334080] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s\nNov 24 16:10:30 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [INFO] [1795507830.400692384] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required\nNov 24 16:11:04 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [WARN] [1795507864.111630528] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s\nNov 24 16:11:07 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [WARN] [1795507867.027519968] [apex_ctag_wrist]: ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply\nNov 24 16:11:09 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [INFO] [1795507869.372693024] [apex_ctag_wrist]: ARM0 recovered on check 2; fresh gesture required\nNov 24 16:11:17 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [ERROR] [1795507877.373317792] [marvin_robot_node]: Failed to set mode to 3.\nNov 24 16:11:20 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [WARN] [1795507880.561849888] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s\nNov 24 16:11:22 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [INFO] [1795507882.910648512] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required\nNov 24 16:11:36 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [INFO] [1795507896.250626112] [marvin_robot_node]: Mode set to 1 successfully.\nNov 24 16:11:58 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [WARN] [1795507918.295943744] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s\nNov 24 16:12:01 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [WARN] [1795507921.216389024] [apex_ctag_wrist]: ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply\nNov 24 16:12:03 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [INFO] [1795507923.563346304] [apex_ctag_wrist]: ARM1 recovered on check 2; fresh gesture required\nNov 24 16:12:16 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [WARN] [1795507936.103883968] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s\nNov 24 16:12:18 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [INFO] [1795507938.444599680] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required\nNov 24 16:12:25 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [ERROR] [1795507945.346525568] [marvin_robot_node]: Failed to set mode to 3.\nNov 24 16:12:35 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [WARN] [1795507955.726930400] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s\nNov 24 16:12:38 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [INFO] [1795507958.077756416] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required\nNov 24 16:12:52 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [WARN] [1795507972.171989472] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s\nNov 24 16:12:55 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [WARN] [1795507975.096005696] [apex_ctag_wrist]: ARM0 check 1 failed: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply\nNov 24 16:12:57 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [INFO] [1795507977.437527584] [apex_ctag_wrist]: ARM0 recovered on check 2; fresh gesture required\nNov 24 16:13:12 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [INFO] [1795507992.215810464] [marvin_robot_node]: Mode set to 1 successfully.\nNov 24 16:13:14 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [WARN] [1795507994.259348928] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s\nNov 24 16:13:16 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [INFO] [1795507996.606810656] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required\nNov 24 16:13:21 vision launch_robot.sh[1285170]: [marvin_robot_node-1] [INFO] [1795508001.461097568] [marvin_robot_node]: Mode set to 3 successfully."
+}

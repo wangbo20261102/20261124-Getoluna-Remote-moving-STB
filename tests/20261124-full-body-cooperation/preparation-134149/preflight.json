@@ -1,0 +1,147 @@
+{
+  "robot_time": "2026-11-24T13:41:49.965892",
+  "factory_files_sha256": {
+    "/opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/launch/teleop_luna.launch.py": "a80d14f8f85c66b719ab02fe1aa91e83a96f79bae9483ffb8a6bf71270b6e4fa",
+    "/opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/config/luna/robot_param.yaml": "cade0e4a3e0ebbcd927dcfa024b492678ed4e63458d55d994cfd45f8ea5332eb",
+    "/opt/kernelmind/apex/install/marvin_ros_control/share/marvin_ros_control/config/robot_param_luna.yaml": "54ea33096348d3d60395176e0eb5bed96845f85877b162fff7c64400db487fea",
+    "/opt/kernelmind/apex/install/marvin_qp_controller/share/marvin_qp_controller/config/luna/robot_param.yaml": "b6acadcb229a6be199dd95cc4ac92cc78b6c4cccedbee890dee4025bd58f8465",
+    "/opt/kernelmind/apex/install/marvin_qp_controller/share/marvin_qp_controller/config/luna/velocity_limits.json": "e7820eee008c7e73677010030a9f68d4de50e020d16446e7a0b4c26b9a55135c",
+    "/opt/kernelmind/apex/install/marvin_qp_controller/share/marvin_qp_controller/config/luna/ik_tasks.yaml": "0674205d8079e49d6e0658dc9ea0ed7743efdb9e7eef61240311f702423ab5b7",
+    "/opt/kernelmind/apex/install/marvin_qp_controller/share/marvin_qp_controller/config/luna/collision_pairs.json": "012c24b316693cb6672fa536e0e76f2245c167af4431383bb7b1f901c42f0976"
+  },
+  "robot": {
+    "ok": true,
+    "data": {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.008063793182373047,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    }
+  },
+  "battery": {
+    "received_at": "2026-11-24T13:41:48.930529+08:00",
+    "fresh": true,
+    "seconds_since_feedback": 0.5,
+    "batteries": [
+      {
+        "id": 1,
+        "energy": 91,
+        "health": 98,
+        "is_in_place": true,
+        "is_charging": false,
+        "voltage": 49.5,
+        "current": -2.5,
+        "temperature": 25.0,
+        "is_connected": true,
+        "error_code": 0
+      },
+      {
+        "id": 2,
+        "energy": 91,
+        "health": 98,
+        "is_in_place": true,
+        "is_charging": false,
+        "voltage": 49.5,
+        "current": -2.5999999046325684,
+        "temperature": 25.0,
+        "is_connected": true,
+        "error_code": 0
+      }
+    ],
+    "audio": {
+      "enabled": true,
+      "state": "finished",
+      "playing": null,
+      "last_error": null,
+      "language": "zh-CN",
+      "volume_percent": 100,
+      "charging_notifications": true,
+      "confirmed_charging": false
+    }
+  },
+  "motion_started": false,
+  "scope_requested": [
+    "arms",
+    "body",
+    "head",
+    "grippers",
+    "chassis"
+  ],
+  "chassis_caps": {
+    "linear_m_s": 0.2,
+    "angular_rad_s": 0.2
+  },
+  "preflight_findings": [
+    "Factory QP requires go_home on startup",
+    "Full body requires waist/leg tracking",
+    "Current Robot stays holding; no Home/reset or gain/limit writes sent"
+  ],
+  "services": "active\nactive\nactive",
+  "prior_chassis_summary": {
+    "completed": true,
+    "reason": "timer_complete",
+    "recorded_seconds": 300.6469173760015,
+    "command_count": 1839,
+    "feedback_count": 5735,
+    "max_command_linear_m_s": 0.2,
+    "max_command_angular_rad_s": 0.2,
+    "command_caps_respected": true,
+    "command_directions_observed": {
+      "forward": true,
+      "backward": true,
+      "left": true,
+      "right": true,
+      "turn_left": true,
+      "turn_right": true
+    },
+    "zero_commands": 110,
+    "safety_check_count": 298,
+    "all_arm_checks_healthy": true,
+    "feedback_with_driver_errors": 0,
+    "feedback_with_unsafe_flags": 0,
+    "final_batteries": [
+      {
+        "id": 1,
+        "energy": 92,
+        "health": 98,
+        "is_in_place": true,
+        "is_charging": false,
+        "voltage": 49.400001525878906,
+        "current": -2.5999999046325684,
+        "temperature": 25.0,
+        "is_connected": true,
+        "error_code": 0
+      },
+      {
+        "id": 2,
+        "energy": 92,
+        "health": 98,
+        "is_in_place": true,
+        "is_charging": false,
+        "voltage": 49.5,
+        "current": -2.700000047683716,
+        "temperature": 26.0,
+        "is_connected": true,
+        "error_code": 0
+      }
+    ],
+    "last_command": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "last_event": "exit",
+    "bridge_exit_code": 0
+  }
+}
