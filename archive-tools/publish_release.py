@@ -31,11 +31,21 @@ headers = {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github
 
 def api(method, url, body=None):
     data = None if body is None else json.dumps(body).encode('utf-8')
-    req = urllib.request.Request(url, data=data, method=method,
-        headers={**headers, 'Content-Type': 'application/json'})
-    with urllib.request.urlopen(req, timeout=45) as r:
-        b = r.read()
-        return json.loads(b) if b else None
+    for attempt in range(4):
+        req = urllib.request.Request(url, data=data, method=method,
+            headers={**headers, 'Content-Type': 'application/json'})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                b = r.read()
+                return json.loads(b) if b else None
+        except urllib.error.HTTPError as exc:
+            if exc.code not in [429, 500, 502, 503, 504] or method == 'POST' or attempt == 3:
+                raise
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
+            if method == 'POST' or attempt == 3:
+                raise
+        print(json.dumps({'api_retry': attempt + 1, 'method': method}), flush=True)
+        time.sleep(2 ** attempt)
 
 head = subprocess.check_output(['git', '-C', str(ROOT), 'rev-parse', 'HEAD'], text=True).strip()
 remote = subprocess.check_output(['git', '-C', str(ROOT), 'ls-remote', 'origin', 'refs/heads/main'], text=True).split()[0]
@@ -104,7 +114,7 @@ package = json.loads((ROOT / 'archives/package-result.json').read_text())
 archive_asset = next(a for a in uploaded if a['name'] == package['archive'])
 if archive_asset.get('digest'):
     assert archive_asset['digest'] == 'sha256:' + package['sha256']
-release = api('PATCH', release['url'], {'draft': False})
+release = api('PATCH', release['url'], {'draft': False, 'target_commitish': head})
 receipt = {'repository': 'https://github.com/' + REPO, 'commit': head,
            'release': release['html_url'], 'draft': release['draft'],
            'assets': [{k: a.get(k) for k in ['name', 'size', 'digest', 'browser_download_url']} for a in uploaded]}

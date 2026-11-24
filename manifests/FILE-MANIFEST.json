@@ -23,8 +23,8 @@
     },
     {
       "path": "archive-tools/publish_release.py",
-      "bytes": 6093,
-      "sha256": "cfa1035f0f1d03bf1fb75d167bf2f34d977a53e85499631f7d724add47d144fa"
+      "bytes": 6614,
+      "sha256": "0a6a4f0e68a8b12319d9935292aeb11a00311714499b33fdc47d36229f948953"
     },
     {
       "path": "archive-tools/verify_archive.py",
@@ -6963,5 +6963,5 @@
     }
   ],
   "file_count": 1392,
-  "total_bytes": 1856124302
+  "total_bytes": 1856124823
 }
