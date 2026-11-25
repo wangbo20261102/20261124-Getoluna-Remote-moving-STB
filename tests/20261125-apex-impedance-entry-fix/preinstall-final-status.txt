@@ -1,0 +1,8 @@
+2026-11-25T13:39:41+08:00
+{"received_at": "2026-11-25T13:39:41.227877+08:00", "fresh": true, "seconds_since_feedback": 0.9, "batteries": [{"id": 1, "energy": 42, "health": 98, "is_in_place": true, "is_charging": false, "voltage": 48.599998474121094, "current": -2.700000047683716, "temperature": 21.0, "is_connected": true, "error_code": 0}, {"id": 2, "energy": 41, "health": 98, "is_in_place": true, "is_charging": false, "voltage": 48.599998474121094, "current": -2.5999999046325684, "temperature": 21.0, "is_connected": true, "error_code": 0}], "audio": {"enabled": true, "state": "ready", "playing": null, "last_error": null, "language": "zh-CN", "volume_percent": 100, "charging_notifications": true, "confirmed_charging": false}}{"ok":true,"data":{"control_ready":true,"control_error":false,"control_error_message":"","arm_state":[2,2,1,2,0,0],"arm_state_age_sec":0.0042650699615478516,"current_mode":2,"speed_factor":1.0,"current_input_mode":1}}/opt/kernelmind/apex/install/marvin_ros_control/lib/marvin_ros_control/marvin_robot_node: OK
+/usr/local/lib/luna-apex-wrist/sdk/libGentoSDK.so: OK
+/opt/kernelmind/apex/install/marvin_ros_control/share/marvin_ros_control/config/robot_param_luna.yaml: OK
+active
+inactive
+inactive
+inactive

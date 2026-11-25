@@ -1,0 +1,245 @@
+{
+  "recorded_at": "2026-11-25T09:47:17.0168411+08:00",
+  "robot": "6.6.7.100",
+  "operator_confirmed": "Area clear; unloaded; both wrists supported",
+  "battery": {
+    "received_at": "2026-11-25T10:02:53.461007+08:00",
+    "fresh": true,
+    "seconds_since_feedback": 0.7,
+    "batteries": [
+      {
+        "id": 1,
+        "energy": 91,
+        "health": 98,
+        "is_in_place": true,
+        "is_charging": false,
+        "voltage": 49.400001525878906,
+        "current": -2.299999952316284,
+        "temperature": 21.0,
+        "is_connected": true,
+        "error_code": 0
+      },
+      {
+        "id": 2,
+        "energy": 91,
+        "health": 98,
+        "is_in_place": true,
+        "is_charging": false,
+        "voltage": 49.5,
+        "current": -2.4000000953674316,
+        "temperature": 21.0,
+        "is_connected": true,
+        "error_code": 0
+      }
+    ],
+    "audio": {
+      "enabled": true,
+      "state": "ready",
+      "playing": null,
+      "last_error": null,
+      "language": "zh-CN",
+      "volume_percent": 100,
+      "charging_notifications": true,
+      "confirmed_charging": false
+    }
+  },
+  "robot_status": {
+    "ok": true,
+    "data": {
+      "control_ready": false,
+      "control_error": true,
+      "control_error_message": "Control state mismatch: left=2, right=100",
+      "arm_state": [
+        2,
+        100,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.008049726486206055,
+      "current_mode": -1,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    }
+  },
+  "modules": {
+    "ok": true,
+    "data": [
+      {
+        "id": "camera",
+        "name": "Camera",
+        "description": "GMSL quad camera and WebRTC stream.",
+        "service": "apex-camera.service",
+        "load_state": "loaded",
+        "unit_file_state": "enabled",
+        "active_state": "active",
+        "sub_state": "running",
+        "result": "success",
+        "exec_main_pid": 115919,
+        "exec_main_status": 0,
+        "fragment_path": "/etc/systemd/system/apex-camera.service",
+        "active_enter_timestamp": "Wed 2026-11-25 10:00:23 CST",
+        "inactive_enter_timestamp": "Wed 2026-11-25 09:59:59 CST",
+        "state_change_timestamp": "Wed 2026-11-25 10:00:23 CST",
+        "healthy": true,
+        "error": false
+      },
+      {
+        "id": "robot",
+        "name": "Robot Control",
+        "description": "Marvin ROS control and robot state publisher.",
+        "service": "apex-robot.service",
+        "load_state": "loaded",
+        "unit_file_state": "disabled",
+        "active_state": "active",
+        "sub_state": "running",
+        "result": "success",
+        "exec_main_pid": 117276,
+        "exec_main_status": 0,
+        "fragment_path": "/etc/systemd/system/apex-robot.service",
+        "active_enter_timestamp": "Wed 2026-11-25 10:01:08 CST",
+        "inactive_enter_timestamp": "n/a",
+        "state_change_timestamp": "Wed 2026-11-25 10:01:08 CST",
+        "healthy": true,
+        "error": false
+      },
+      {
+        "id": "teleop",
+        "name": "Teleop + Replay",
+        "description": "Teleoperation, IK, planner, command mux and replay nodes.",
+        "service": "apex-teleop.service",
+        "load_state": "loaded",
+        "unit_file_state": "disabled",
+        "active_state": "active",
+        "sub_state": "running",
+        "result": "success",
+        "exec_main_pid": 142909,
+        "exec_main_status": 0,
+        "fragment_path": "/etc/systemd/system/apex-teleop.service",
+        "active_enter_timestamp": "Wed 2026-11-25 10:01:34 CST",
+        "inactive_enter_timestamp": "n/a",
+        "state_change_timestamp": "Wed 2026-11-25 10:01:34 CST",
+        "healthy": true,
+        "error": false
+      },
+      {
+        "id": "dnsmasq",
+        "name": "DNSMasq DHCP",
+        "description": "DHCP service for automatic robot-side IP assignment.",
+        "service": "apex-dnsmasq.service",
+        "load_state": "loaded",
+        "unit_file_state": "disabled",
+        "active_state": "inactive",
+        "sub_state": "dead",
+        "result": "success",
+        "exec_main_pid": 0,
+        "exec_main_status": 0,
+        "fragment_path": "/etc/systemd/system/apex-dnsmasq.service",
+        "active_enter_timestamp": "n/a",
+        "inactive_enter_timestamp": "n/a",
+        "state_change_timestamp": "n/a",
+        "healthy": false,
+        "error": false
+      },
+      {
+        "id": "tool",
+        "name": "Tool",
+        "description": "End-effector tool module for DM gripper, ZY gripper, or Wuji hands.",
+        "service": "apex-tool.service",
+        "load_state": "loaded",
+        "unit_file_state": "disabled",
+        "active_state": "active",
+        "sub_state": "running",
+        "result": "success",
+        "exec_main_pid": 143098,
+        "exec_main_status": 0,
+        "fragment_path": "/etc/systemd/system/apex-tool.service",
+        "active_enter_timestamp": "Wed 2026-11-25 10:01:34 CST",
+        "inactive_enter_timestamp": "n/a",
+        "state_change_timestamp": "Wed 2026-11-25 10:01:34 CST",
+        "healthy": true,
+        "error": false
+      }
+    ]
+  },
+  "feedback": {
+    "pid": 24700,
+    "nodePath": "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1123-915-0_26.1123.915.0_x64__3k8sg7r9htsxt\\dependencies\\node\\bin\\node.exe",
+    "worker": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\work\\gentoluna-box-mime\\vr\\windows\\tools\\pico-feedback\\relay.cjs",
+    "serial": "PA9210MGK8060159G",
+    "startedAt": "2026-11-25T01:45:05.336Z",
+    "phase": "connected",
+    "localAddress": "6.6.7.200",
+    "robot": "6.6.7.100",
+    "received": {
+      "9002": 0,
+      "9003": 0
+    },
+    "forwarded": {
+      "9002": 0,
+      "9003": 0
+    },
+    "coalesced": 0,
+    "rejected": 0,
+    "headset": {
+      "delivered9002": 0,
+      "delivered9003": 0,
+      "acknowledgedAt": "2026-11-25T01:47:11.816Z"
+    },
+    "updatedAt": "2026-11-25T01:47:11.816Z"
+  },
+  "actions": [
+    "Restored USB VPN and feedback relay",
+    "Requested Camera start without restarting active service",
+    "Started Robot",
+    "Called set_ready",
+    "Started Teleop and Tool; chassis bridge follows Teleop"
+  ],
+  "home_issued": false,
+  "mode_change_issued": false,
+  "motion_command_issued": false,
+  "pending": "PICO Apex controller-mode connection; onsite normal Home and hold sequence before removing supports",
+  "wrist_note": "ARM0 empty register reply auto-recovered on first check; latest both fault A and alarm B are 0",
+  "camera_probe": {
+    "values": {
+      "/info/wrist485_R": {
+        "layout": {
+          "dim": [],
+          "data_offset": 0
+        },
+        "data": [
+          0,
+          0,
+          21,
+          0,
+          0
+        ]
+      },
+      "/info/vr_connected": {
+        "data": false
+      },
+      "/info/wrist485_L": {
+        "layout": {
+          "dim": [],
+          "data_offset": 0
+        },
+        "data": [
+          0,
+          0,
+          21,
+          0,
+          0
+        ]
+      }
+    },
+    "counts": {
+      "/quad_tile/compressed": 79,
+      "/info/wrist485_R": 10,
+      "/info/vr_connected": 8,
+      "/info/wrist485_L": 9
+    },
+    "camera_fps": 10.033073290342978,
+    "last_image_bytes": 336593
+  }
+}

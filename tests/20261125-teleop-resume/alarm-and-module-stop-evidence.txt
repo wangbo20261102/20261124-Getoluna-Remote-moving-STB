@@ -1,0 +1,106 @@
+2026-11-25T10:03:24+08:00
+inactive
+inactive
+inactive
+active
+inactive
+{"ok":true,"data":{"control_ready":false,"control_error":true,"control_error_message":"Control state mismatch: left=2, right=100","arm_state":[2,100,1,2,0,0],"arm_state_age_sec":28.38089418411255,"current_mode":-1,"speed_factor":1.0,"current_input_mode":1}}{"received_at": "2026-11-25T10:03:24.232398+08:00", "fresh": true, "seconds_since_feedback": 0.4, "batteries": [{"id": 1, "energy": 90, "health": 98, "is_in_place": true, "is_charging": false, "voltage": 49.5, "current": -1.7999999523162842, "temperature": 21.0, "is_connected": true, "error_code": 0}, {"id": 2, "energy": 91, "health": 98, "is_in_place": true, "is_charging": false, "voltage": 49.5, "current": -1.7999999523162842, "temperature": 21.0, "is_connected": true, "error_code": 0}], "audio": {"enabled": true, "state": "ready", "playing": null, "last_error": null, "language": "zh-CN", "volume_percent": 100, "charging_notifications": true, "confirmed_charging": false}}Nov 25 10:01:08 vision sudo[117273]:   nvidia : PWD=/opt/kernelmind/apex ; USER=root ; COMMAND=/usr/bin/systemctl start apex-robot.service
+Nov 25 10:01:08 vision sudo[117273]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 25 10:01:08 vision systemd[1]: Started Apex Robot Control module.
+Nov 25 10:01:08 vision sudo[117273]: pam_unix(sudo:session): session closed for user root
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [INFO] [launch]: All log files can be found below /var/log/apex/ros/2026-11-25-10-01-09-481844-vision-117276
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [INFO] [launch]: Default logging verbosity is set to INFO
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [INFO] [marvin_robot_node-1]: process started with pid [117341]
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [INFO] [robot_state_publisher-2]: process started with pid [117343]
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] Arm active: 1
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] Head active: 1
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] Body active: 1
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] Lift active: 0
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] Joint names loading
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] Joint names loaded from parameters:
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572069.866812512] [marvin_robot_node]: PD command cycle time: 2 ms
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [WARN] [1795572069.872318784] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872557216] [robot_state_publisher]: got segment Arm_L1_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872688640] [robot_state_publisher]: got segment Arm_L2_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872702240] [robot_state_publisher]: got segment Arm_L3_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872710080] [robot_state_publisher]: got segment Arm_L4_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872716736] [robot_state_publisher]: got segment Arm_L5_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872723232] [robot_state_publisher]: got segment Arm_L6_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872729568] [robot_state_publisher]: got segment Arm_L7_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872736000] [robot_state_publisher]: got segment Arm_R1_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872742432] [robot_state_publisher]: got segment Arm_R2_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872748928] [robot_state_publisher]: got segment Arm_R3_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872755744] [robot_state_publisher]: got segment Arm_R4_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872762112] [robot_state_publisher]: got segment Arm_R5_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872768448] [robot_state_publisher]: got segment Arm_R6_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872774688] [robot_state_publisher]: got segment Arm_R7_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872781312] [robot_state_publisher]: got segment Head_J1_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872787840] [robot_state_publisher]: got segment Head_J2_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872794432] [robot_state_publisher]: got segment Leg_J1_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872800896] [robot_state_publisher]: got segment Leg_J2_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872807808] [robot_state_publisher]: got segment Leg_J3_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872814112] [robot_state_publisher]: got segment Leg_J4_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872820576] [robot_state_publisher]: got segment Leg_J5_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872827040] [robot_state_publisher]: got segment Leg_J6_Link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872833600] [robot_state_publisher]: got segment base_link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572069.872839840] [robot_state_publisher]: got segment tracking_base_link
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] Link ms: 2
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] marvin_robot: Successfully linked to robot at IP: 6.6.7.190, latency: 2 ms
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572069.958596416] [CAN]: Successfully opened CAN socket on interface vcan0
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572069.958684096] [CAN]: Successfully opened CAN socket on interface vcan1
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572069.958782464] [marvin_robot_node]: Robot successfully connected.
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572069.963140256] [marvin_robot_node]: Robot info initialized: type=Gento_Luna, controller_version=263172 (4.4.4)
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572069.963247904] [marvin_robot_node]: CMD_Joint_Pos debug publisher: disabled
+Nov 25 10:01:09 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572069.963262944] [marvin_robot_node]: Joint command timestamp check: enabled
+Nov 25 10:01:10 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572070.505418592] [marvin_robot_node]: speed ratio 100
+Nov 25 10:01:10 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572070.505586336] [marvin_robot_node]: acc ratio 100
+Nov 25 10:01:10 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572070.548398016] [marvin_robot_node]: Marvin Robot Node initialized.
+Nov 25 10:01:17 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572077.877882720] [marvin_robot_node]: Robot is ready.
+Nov 25 10:01:31 vision sudo[140078]:   nvidia : PWD=/opt/kernelmind/apex ; USER=root ; COMMAND=/usr/bin/systemctl start apex-teleop.service
+Nov 25 10:01:31 vision sudo[140078]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 25 10:01:34 vision sudo[140078]: pam_unix(sudo:session): session closed for user root
+Nov 25 10:01:34 vision sudo[143073]:   nvidia : PWD=/opt/kernelmind/apex ; USER=root ; COMMAND=/usr/bin/systemctl start apex-tool.service
+Nov 25 10:01:34 vision sudo[143073]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 25 10:01:34 vision sudo[143073]: pam_unix(sudo:session): session closed for user root
+Nov 25 10:01:34 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572094.556773696] [apex_ctag_wrist]: Apex CTAG Tool attached (vr)
+Nov 25 10:01:36 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572096.716617568] [apex_ctag_wrist]: CTAG ARM0/485A passed read-only preflight
+Nov 25 10:01:37 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572097.666314464] [apex_ctag_wrist]: CTAG ARM1/485A passed read-only preflight
+Nov 25 10:01:51 vision launch_robot.sh[117276]: [marvin_robot_node-1] [WARN] [1795572111.125316416] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+Nov 25 10:01:53 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572113.466292000] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+Nov 25 10:02:06 vision launch_robot.sh[117276]: [marvin_robot_node-1] [WARN] [1795572126.578074720] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+Nov 25 10:02:08 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572128.919740672] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+Nov 25 10:02:13 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572133.118138528] [marvin_robot_node]: Mode set to 0 successfully.
+Nov 25 10:02:18 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572138.961422496] [marvin_robot_node]: Mode set to 0 successfully.
+Nov 25 10:02:24 vision launch_robot.sh[117276]: [marvin_robot_node-1] [ERROR] [1795572144.207330656] [marvin_robot_node]: Failed to set mode to 3.
+Nov 25 10:02:36 vision launch_robot.sh[117276]: [marvin_robot_node-1] [WARN] [1795572156.214940288] [apex_ctag_wrist]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+Nov 25 10:02:38 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572158.558237664] [apex_ctag_wrist]: ARM1 recovered on check 1; fresh gesture required
+Nov 25 10:02:48 vision launch_robot.sh[117276]: [marvin_robot_node-1] [WARN] [1795572168.201774144] [apex_ctag_wrist]: ARM0 suspended: ARM0/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+Nov 25 10:02:50 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572170.549824480] [apex_ctag_wrist]: ARM0 recovered on check 1; fresh gesture required
+Nov 25 10:02:54 vision sudo[224152]:   nvidia : PWD=/opt/kernelmind/apex ; USER=root ; COMMAND=/usr/bin/systemctl stop apex-camera.service
+Nov 25 10:02:54 vision sudo[224152]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 25 10:02:54 vision sudo[224560]:   nvidia : PWD=/opt/kernelmind/apex ; USER=root ; COMMAND=/usr/bin/systemctl stop apex-teleop.service
+Nov 25 10:02:54 vision sudo[224560]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 25 10:02:55 vision sudo[224152]: pam_unix(sudo:session): session closed for user root
+Nov 25 10:02:55 vision sudo[224560]: pam_unix(sudo:session): session closed for user root
+Nov 25 10:02:56 vision sudo[226223]:   nvidia : PWD=/opt/kernelmind/apex ; USER=root ; COMMAND=/usr/bin/systemctl stop apex-robot.service
+Nov 25 10:02:56 vision sudo[226223]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 25 10:02:56 vision systemd[1]: Stopping Apex Robot Control module...
+Nov 25 10:02:56 vision launch_robot.sh[117276]: [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+Nov 25 10:02:56 vision launch_robot.sh[117276]: [INFO] [robot_state_publisher-2]: sending signal 'SIGINT' to process[robot_state_publisher-2]
+Nov 25 10:02:56 vision launch_robot.sh[117276]: [INFO] [marvin_robot_node-1]: sending signal 'SIGINT' to process[marvin_robot_node-1]
+Nov 25 10:02:56 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572176.103959200] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Nov 25 10:02:56 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572176.103952480] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Nov 25 10:02:56 vision launch_robot.sh[117276]: [robot_state_publisher-2] [INFO] [1795572176.107860192] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Nov 25 10:02:56 vision launch_robot.sh[117276]: [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 117343]
+Nov 25 10:02:56 vision sudo[226997]:   nvidia : PWD=/opt/kernelmind/apex ; USER=root ; COMMAND=/usr/bin/systemctl stop apex-tool.service
+Nov 25 10:02:56 vision sudo[226997]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 25 10:02:56 vision sudo[226997]: pam_unix(sudo:session): session closed for user root
+Nov 25 10:03:01 vision launch_robot.sh[117276]: [ERROR] [marvin_robot_node-1]: process[marvin_robot_node-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+Nov 25 10:03:01 vision launch_robot.sh[117276]: [INFO] [marvin_robot_node-1]: sending signal 'SIGTERM' to process[marvin_robot_node-1]
+Nov 25 10:03:01 vision launch_robot.sh[117276]: [marvin_robot_node-1] Shutdown complete. Robot servos turned off and faults cleared.
+Nov 25 10:03:01 vision launch_robot.sh[117276]: [marvin_robot_node-1] [INFO] [1795572181.412452704] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Nov 25 10:03:01 vision launch_robot.sh[117276]: [INFO] [marvin_robot_node-1]: process has finished cleanly [pid 117341]
+Nov 25 10:03:01 vision systemd[1]: apex-robot.service: Deactivated successfully.
+Nov 25 10:03:01 vision systemd[1]: Stopped Apex Robot Control module.
+Nov 25 10:03:01 vision systemd[1]: apex-robot.service: Consumed 54.707s CPU time.
+Nov 25 10:03:01 vision sudo[226223]: pam_unix(sudo:session): session closed for user root

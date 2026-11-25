@@ -1,0 +1,8 @@
+before {"ok": true, "data": {"control_ready": false, "control_error": true, "control_error_message": "Control state mismatch: left=2, right=100", "arm_state": [2, 100, 1, 2, 0, 0], "arm_state_age_sec": 0.004197120666503906, "current_mode": -1, "speed_factor": 1.0, "current_input_mode": -1}}
+fault_guard {"http_status": 503, "body": "{\"detail\":\"Fresh, fault-free Robot feedback is required; inspect and explicitly clear existing faults first\"}"}
+explicit_single_clear_reply {"success": false, "message": ""}
+after_clear_feedback {"ok": true, "data": {"control_ready": false, "control_error": true, "control_error_message": "Control state mismatch: left=2, right=0", "arm_state": [2, 0, 1, 2, 0, 0], "arm_state_age_sec": 0.0045413970947265625, "current_mode": -1, "speed_factor": 1.0, "current_input_mode": -1}}
+explicit_idle_reply {"ok": true, "data": {"success": true, "mode": 0, "actual_mode": 0, "error_code": 0}}
+idle_feedback {"ok": true, "data": {"control_ready": true, "control_error": false, "control_error_message": "", "arm_state": [0, 0, 0, 0, 0, 0], "arm_state_age_sec": 0.0059850215911865234, "current_mode": 0, "speed_factor": 1.0, "current_input_mode": -1}}
+ready_reply {"ok": true, "data": {"success": true, "message": "Robot is ready."}}
+VERIFICATION <HTTPError 503: 'Service Unavailable'>

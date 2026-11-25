@@ -1,0 +1,109 @@
+os name:Linux size:5
+os version:5.15.148-rt-tegra size:17
+cpu info: ARMv8 Processor rev 1 (v8l)
+net__enable_lwip_mode!
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+net__socketpair socket: 1, 2
+
+net__try_connect_tcp_lwip: 192.168.244.253, 1883, (null), 0
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+Lwip_getsockopt: 0, 0
+Connect broker succuss: 0
+net__try_connect: 0
+double free or corruption (out)
+os name:Linux size:5
+os version:5.15.148-rt-tegra size:17
+cpu info: ARMv8 Processor rev 1 (v8l)
+net__enable_lwip_mode!
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+net__socketpair socket: 1, 2
+
+net__try_connect_tcp_lwip: 192.168.244.253, 1883, (null), 0
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+Cannot Connect the broker: 0
+net__try_connect: 27
+
+net__try_connect_tcp_lwip: 192.168.244.253, 1883, (null), 0
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+Lwip_getsockopt: 0, 0
+Connect broker succuss: 0
+net__try_connect: 0
+os name:Linux size:5
+os version:5.15.148-rt-tegra size:17
+cpu info: ARMv8 Processor rev 1 (v8l)
+net__enable_lwip_mode!
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+net__socketpair socket: 1, 2
+
+net__try_connect_tcp_lwip: 192.168.244.253, 1883, (null), 0
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+Lwip_getsockopt: 0, 0
+Connect broker succuss: 0
+net__try_connect: 0
+os name:Linux size:5
+os version:5.15.148-rt-tegra size:17
+cpu info: ARMv8 Processor rev 1 (v8l)
+net__enable_lwip_mode!
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+net__socketpair socket: 1, 2
+
+net__try_connect_tcp_lwip: 192.168.244.253, 1883, (null), 0
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+Lwip_getsockopt: 0, 0
+Connect broker succuss: 0
+net__try_connect: 0
+
+net__try_connect_tcp_lwip: 192.168.244.253, 1883, (null), 0
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+Cannot Connect the broker: 0
+net__try_connect: 27
+
+net__try_connect_tcp_lwip: 192.168.244.253, 1883, (null), 0
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+Cannot Connect the broker: 0
+net__try_connect: 27
+
+net__try_connect_tcp_lwip: 192.168.244.253, 1883, (null), 0
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+Cannot Connect the broker: 0
+net__try_connect: 27
+
+net__try_connect_tcp_lwip: 192.168.244.253, 1883, (null), 0
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+os name:Linux size:5
+os version:5.15.148-rt-tegra size:17
+cpu info: ARMv8 Processor rev 1 (v8l)
+net__enable_lwip_mode!
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+net__socketpair socket: 1, 2
+
+net__try_connect_tcp_lwip: 192.168.244.253, 1883, (null), 0
+LWIP_FIONBIO: 0x8008667e
+lwip set nonblock success!
+Lwip_getsockopt: 0, 0
+Connect broker succuss: 0
+net__try_connect: 0

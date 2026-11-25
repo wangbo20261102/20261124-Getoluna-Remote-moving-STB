@@ -41,3 +41,11 @@
 - 原临时底盘用户服务重启后消失；现为持久系统服务 `luna-pico-manual-chassis.service`，WantedBy/Requisite/PartOf 均关联 `apex-teleop.service`，随操作人员启动 Teleop 才启动，不随整机开机自动启动运动。桥程序和 0.2 m/s、0.2 rad/s 上限未变。
 - FXPlatform 工具参数窗口的输入变量在初始化和断连重置时设为全 0，并非工具参数读回。机器人控制配置文件仍为双侧 `[1.8,0,0,0,0.004,0,0,0.004,0,0.03]`，原始配置 SHA-256 `54ea33096348d3d60395176e0eb5bed96845f85877b162fff7c64400db487fea` 未变。
 - 用户随后确认空载、双腕已支撑、FXPlatform 已断开，已启动 Robot 并仅执行 `/control/set_ready`。运行中的 Robot 参数服务返回左右两组工具数组与保存值一致；6 次反馈均新鲜、ready=true、error=false，各部件待机 0。未调用 Home、模式切换、遥操或夹爪动作；继续保留双腕支撑直到现场正常进入保持模式。核验是 Robot 运行参数读回，不是控制器 EEPROM 独立读回，也没有整机断电测试。证据在 `20261125-tool-runtime-verification`。
+
+## 2026-11-25 Apex 原始阻抗按钮入口修复
+
+- 已部署独立版本 `E:\Github\Mubea-EV-Gentoluna-tests\20261125-apex-impedance-entry-fix`，机器人同名目录位于 `/home/nvidia/luna-test-runs/`。仅更新 Apex 后端 `apex_backend/ros_state.py`，SHA-256 为 `060945ed9b2efeced2767840369ede8cfe527d53c04fbc2a12ee35118b126f6d`。正式备份 `/var/backups/luna-apex-mode-entry.sz1f8HE0/ros_state.py`。未替换厂家 Robot 二进制或夹爪 SDK。
+- 原入口直接请求 mode=3，ROS RPC 默认等待仅2秒。修复入口串行处理切换，在有效且静止的关节反馈下，先建立 mode=1 位置保持并等待稳定，再请求 mode=3；模式 RPC 使用12秒上限，以新鲜双臂状态确认成功。Tool 若原先开启，会在切换前暂停，仅成功后恢复；驱动故障不自动清错，不调用 Home，不反复重试模式。
+- 已通过14项后端测试；临时后端两轮实机模式转换耗时约3.06/3.62秒，Tool 初始关闭/开启各一轮。用户完成 sudo 安装后，已实际点击原始 Apex 待机按钮及阻抗按钮，界面显示 Switched to mode 3，连续6次新鲜反馈为双臂2、ready=true、error=false。该次退出状态保持双臂阻抗，Teleop/Tool/底盘桥暂停，未执行Home。
+- 部署前已有配置中的双侧工具质量为1.5kg，本次保持该配置及其哈希不变；此前1.8kg记录保留为历史事实。此处记录配置读值，不代表重新测量实际载荷。
+- 当日上午曾捕获右J6 `0xFF18`（SDK释义 Motor stall）、整臂102，以及PD请求106。此后软件入口成功验证不用于反向证明这些历史报警的硬件根因；相关原始证据仍保存在 `20261125-mode3-right-arm-diagnostic`。未采用的旧Robot参考源码研究不属于部署内容。

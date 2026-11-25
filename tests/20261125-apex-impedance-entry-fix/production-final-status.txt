@@ -1,0 +1,14 @@
+2026-11-25T13:43:26+08:00
+{"received_at": "2026-11-25T13:43:26.472162+08:00", "fresh": true, "seconds_since_feedback": 0.1, "batteries": [{"id": 1, "energy": 41, "health": 98, "is_in_place": true, "is_charging": false, "voltage": 48.599998474121094, "current": -2.5999999046325684, "temperature": 21.0, "is_connected": true, "error_code": 0}, {"id": 2, "energy": 40, "health": 98, "is_in_place": true, "is_charging": false, "voltage": 48.599998474121094, "current": -2.5999999046325684, "temperature": 21.0, "is_connected": true, "error_code": 0}], "audio": {"enabled": true, "state": "ready", "playing": null, "last_error": null, "language": "zh-CN", "volume_percent": 100, "charging_notifications": true, "confirmed_charging": false}}060945ed9b2efeced2767840369ede8cfe527d53c04fbc2a12ee35118b126f6d  /opt/kernelmind/apex/install/apex_backend/lib/python3.10/site-packages/apex_backend/ros_state.py
+/opt/kernelmind/apex/install/marvin_ros_control/lib/marvin_ros_control/marvin_robot_node: OK
+/usr/local/lib/luna-apex-wrist/sdk/libGentoSDK.so: OK
+/opt/kernelmind/apex/install/marvin_ros_control/share/marvin_ros_control/config/robot_param_luna.yaml: OK
+/var/backups/luna-apex-mode-entry.sz1f8HE0
+active
+inactive
+inactive
+inactive
+active
+Nov 25 13:41:50 vision launch_robot.sh[2098093]: [marvin_robot_node-1] [INFO] [1795585310.017598016] [marvin_robot_node]: Mode set to 0 successfully.
+Nov 25 13:42:10 vision launch_robot.sh[2098093]: [marvin_robot_node-1] [INFO] [1795585330.524174912] [marvin_robot_node]: Mode set to 1 successfully.
+Nov 25 13:42:11 vision launch_robot.sh[2098093]: [marvin_robot_node-1] [INFO] [1795585331.589686816] [marvin_robot_node]: Mode set to 3 successfully.

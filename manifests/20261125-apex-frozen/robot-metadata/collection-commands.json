@@ -1,0 +1,20 @@
+{
+  "system-services.txt": {
+    "returncode": 0
+  },
+  "system-units.txt": {
+    "returncode": 0
+  },
+  "user-units.txt": {
+    "returncode": 0
+  },
+  "journal-current-boot.txt": {
+    "returncode": 0
+  },
+  "package-version.txt": {
+    "returncode": 0
+  },
+  "system-time-and-boot.txt": {
+    "returncode": 0
+  }
+}

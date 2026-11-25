@@ -1,0 +1,105 @@
+{
+  "archive_name": "robot-apex-runtime-and-records.tar.gz",
+  "roots": [
+    {
+      "source": "/home/nvidia/luna-archive-exports/20261125-apex-impedance-frozen/metadata",
+      "archive_prefix": "metadata"
+    },
+    {
+      "source": "/opt/kernelmind/apex/install",
+      "archive_prefix": "robot/opt/kernelmind/apex/install"
+    },
+    {
+      "source": "/etc/apex",
+      "archive_prefix": "robot/etc/apex"
+    },
+    {
+      "source": "/usr/local/lib/luna-apex-wrist",
+      "archive_prefix": "robot/usr/local/lib/luna-apex-wrist"
+    },
+    {
+      "source": "/usr/local/include/gentosdk",
+      "archive_prefix": "robot/usr/local/include/gentosdk"
+    },
+    {
+      "source": "/home/nvidia/luna-test-runs",
+      "archive_prefix": "robot/home/nvidia/luna-test-runs"
+    },
+    {
+      "source": "/home/nvidia/luna-ready-20261123",
+      "archive_prefix": "robot/home/nvidia/luna-ready-20261123"
+    },
+    {
+      "source": "/home/nvidia/d435-preview",
+      "archive_prefix": "robot/home/nvidia/d435-preview"
+    },
+    {
+      "source": "/home/nvidia/.config/systemd/user",
+      "archive_prefix": "robot/home/nvidia/.config/systemd/user"
+    },
+    {
+      "source": "/home/nvidia/tianji-robot-SDK/PYTHON_SDK",
+      "archive_prefix": "robot/home/nvidia/tianji-robot-SDK/PYTHON_SDK"
+    },
+    {
+      "source": "/var/log/apex",
+      "archive_prefix": "robot/var/log/apex"
+    },
+    {
+      "source": "/etc/systemd/system/apex-backend.service",
+      "archive_prefix": "robot/etc/systemd/system/apex-backend.service"
+    },
+    {
+      "source": "/etc/systemd/system/apex-camera.service",
+      "archive_prefix": "robot/etc/systemd/system/apex-camera.service"
+    },
+    {
+      "source": "/etc/systemd/system/apex-camera.service.d",
+      "archive_prefix": "robot/etc/systemd/system/apex-camera.service.d"
+    },
+    {
+      "source": "/etc/systemd/system/apex-dnsmasq.service",
+      "archive_prefix": "robot/etc/systemd/system/apex-dnsmasq.service"
+    },
+    {
+      "source": "/etc/systemd/system/apex-robot.service",
+      "archive_prefix": "robot/etc/systemd/system/apex-robot.service"
+    },
+    {
+      "source": "/etc/systemd/system/apex-robot.service.d",
+      "archive_prefix": "robot/etc/systemd/system/apex-robot.service.d"
+    },
+    {
+      "source": "/etc/systemd/system/apex-teleop.service",
+      "archive_prefix": "robot/etc/systemd/system/apex-teleop.service"
+    },
+    {
+      "source": "/etc/systemd/system/apex-teleop.service.wants",
+      "archive_prefix": "robot/etc/systemd/system/apex-teleop.service.wants"
+    },
+    {
+      "source": "/etc/systemd/system/apex-tool.service",
+      "archive_prefix": "robot/etc/systemd/system/apex-tool.service"
+    },
+    {
+      "source": "/etc/systemd/system/apex-tool.service.d",
+      "archive_prefix": "robot/etc/systemd/system/apex-tool.service.d"
+    },
+    {
+      "source": "/etc/systemd/system/luna-battery-display.service",
+      "archive_prefix": "robot/etc/systemd/system/luna-battery-display.service"
+    },
+    {
+      "source": "/etc/systemd/system/luna-battery-screen.service",
+      "archive_prefix": "robot/etc/systemd/system/luna-battery-screen.service"
+    },
+    {
+      "source": "/etc/systemd/system/luna-fx-hotspot.service",
+      "archive_prefix": "robot/etc/systemd/system/luna-fx-hotspot.service"
+    },
+    {
+      "source": "/etc/systemd/system/luna-pico-manual-chassis.service",
+      "archive_prefix": "robot/etc/systemd/system/luna-pico-manual-chassis.service"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+Nov 25 17:37:43 FUSION kernel: [  318.487674] hrtimer: interrupt took 10992 ns
+Nov 25 17:38:00 FUSION anacron[1666]: Job `cron.daily' terminated
+Nov 25 17:42:30 FUSION anacron[1666]: Job `cron.weekly' started
+Nov 25 17:42:30 FUSION anacron[19548]: Updated timestamp for job `cron.weekly' to 2026-11-25
+Nov 25 17:42:42 FUSION anacron[1666]: Job `cron.weekly' terminated
+Nov 25 17:45:35 FUSION kernel: [  790.372590] __FX_ServoFsmEnable: obj_id = 0, ax_id = 0, ctrl_word = 0xc00f
+Nov 25 17:45:35 FUSION kernel: [  790.372599] __FX_ServoFsmEnable: obj_id = 0, ax_id = 1, ctrl_word = 0xc00f
+Nov 25 17:45:35 FUSION kernel: [  790.372603] __FX_ServoFsmEnable: obj_id = 0, ax_id = 2, ctrl_word = 0xc00f
+Nov 25 17:45:35 FUSION kernel: [  790.372606] __FX_ServoFsmEnable: obj_id = 0, ax_id = 3, ctrl_word = 0xc00f
+Nov 25 17:45:35 FUSION kernel: [  790.372609] __FX_ServoFsmEnable: obj_id = 0, ax_id = 4, ctrl_word = 0xc00f
+Nov 25 17:45:35 FUSION kernel: [  790.372612] __FX_ServoFsmEnable: obj_id = 0, ax_id = 5, ctrl_word = 0xc00f
+Nov 25 17:45:35 FUSION kernel: [  790.372616] __FX_ServoFsmEnable: obj_id = 0, ax_id = 6, ctrl_word = 0xc00f
+Nov 25 17:45:35 FUSION kernel: [  790.444765] __FX_ServoFsmSetTCtrl_11: obj_id = 1, ax_id = 0, ctrl_word = 0xc000
+Nov 25 17:45:35 FUSION kernel: [  790.444774] __FX_ServoFsmSetTCtrl_11: obj_id = 1, ax_id = 1, ctrl_word = 0xc000
+Nov 25 17:45:35 FUSION kernel: [  790.444778] __FX_ServoFsmSetTCtrl_11: obj_id = 1, ax_id = 2, ctrl_word = 0xc000
+Nov 25 17:45:35 FUSION kernel: [  790.444781] __FX_ServoFsmSetTCtrl_11: obj_id = 1, ax_id = 3, ctrl_word = 0xc000
+Nov 25 17:45:35 FUSION kernel: [  790.444784] __FX_ServoFsmSetTCtrl_11: obj_id = 1, ax_id = 4, ctrl_word = 0xc000
+Nov 25 17:45:35 FUSION kernel: [  790.444788] __FX_ServoFsmSetTCtrl_11: obj_id = 1, ax_id = 5, ctrl_word = 0xc000
+Nov 25 17:45:35 FUSION kernel: [  790.444791] __FX_ServoFsmSetTCtrl_11: obj_id = 1, ax_id = 6, ctrl_word = 0xc000
+Nov 25 17:45:35 FUSION kernel: [  790.450764] __FX_ServoFsmShutDown: obj_id = 1, ax_id = 0, ctrl_word = 0xc006
+Nov 25 17:45:35 FUSION kernel: [  790.450771] __FX_ServoFsmShutDown: obj_id = 1, ax_id = 1, ctrl_word = 0xc006
+Nov 25 17:45:35 FUSION kernel: [  790.450775] __FX_ServoFsmShutDown: obj_id = 1, ax_id = 2, ctrl_word = 0xc006
+Nov 25 17:45:35 FUSION kernel: [  790.450778] __FX_ServoFsmShutDown: obj_id = 1, ax_id = 3, ctrl_word = 0xc006
+Nov 25 17:45:35 FUSION kernel: [  790.450782] __FX_ServoFsmShutDown: obj_id = 1, ax_id = 4, ctrl_word = 0xc006
+Nov 25 17:45:35 FUSION kernel: [  790.450785] __FX_ServoFsmShutDown: obj_id = 1, ax_id = 5, ctrl_word = 0xc006
+Nov 25 17:45:35 FUSION kernel: [  790.450788] __FX_ServoFsmShutDown: obj_id = 1, ax_id = 6, ctrl_word = 0xc006
+Nov 25 17:45:35 FUSION kernel: [  790.454759] __FX_ServoFsmSwitchOnAndEnable: obj_id = 1, ax_id = 1, ctrl_word = 0xc00f
+Nov 25 17:45:35 FUSION kernel: [  790.454766] __FX_ServoFsmSwitchOnAndEnable: obj_id = 1, ax_id = 4, ctrl_word = 0xc00f
+Nov 25 17:45:35 FUSION kernel: [  790.455764] __FX_ServoFsmSwitchOnAndEnable: obj_id = 1, ax_id = 0, ctrl_word = 0xc00f
+Nov 25 17:45:35 FUSION kernel: [  790.455771] __FX_ServoFsmSwitchOnAndEnable: obj_id = 1, ax_id = 2, ctrl_word = 0xc00f
+Nov 25 17:45:35 FUSION kernel: [  790.455775] __FX_ServoFsmSwitchOnAndEnable: obj_id = 1, ax_id = 3, ctrl_word = 0xc00f
+Nov 25 17:45:35 FUSION kernel: [  790.455778] __FX_ServoFsmSwitchOnAndEnable: obj_id = 1, ax_id = 6, ctrl_word = 0xc00f
+Nov 25 17:45:35 FUSION kernel: [  790.553759] __FX_ServoFsmDisable: obj_id = 1, ax_id = 0, ctrl_word = 0xc007
+Nov 25 17:45:35 FUSION kernel: [  790.553767] __FX_ServoFsmDisable: obj_id = 1, ax_id = 1, ctrl_word = 0xc007
+Nov 25 17:45:35 FUSION kernel: [  790.553771] __FX_ServoFsmDisable: obj_id = 1, ax_id = 2, ctrl_word = 0xc007
+Nov 25 17:45:35 FUSION kernel: [  790.553775] __FX_ServoFsmDisable: obj_id = 1, ax_id = 3, ctrl_word = 0xc007
+Nov 25 17:45:35 FUSION kernel: [  790.553778] __FX_ServoFsmDisable: obj_id = 1, ax_id = 4, ctrl_word = 0xc007
+Nov 25 17:45:37 FUSION kernel: [  792.106732] __FX_ServoFsmEnable: obj_id = 2, ax_id = 0, ctrl_word = 0xc00f
+Nov 25 17:45:37 FUSION kernel: [  792.106740] __FX_ServoFsmEnable: obj_id = 2, ax_id = 1, ctrl_word = 0xc00f
+Nov 25 17:45:37 FUSION kernel: [  792.106744] __FX_ServoFsmEnable: obj_id = 2, ax_id = 2, ctrl_word = 0xc00f
+Nov 25 17:45:37 FUSION kernel: [  792.106747] __FX_ServoFsmEnable: obj_id = 2, ax_id = 3, ctrl_word = 0xc00f
+Nov 25 17:45:37 FUSION kernel: [  792.106750] __FX_ServoFsmEnable: obj_id = 2, ax_id = 4, ctrl_word = 0xc00f
+Nov 25 17:45:37 FUSION kernel: [  792.106754] __FX_ServoFsmEnable: obj_id = 2, ax_id = 5, ctrl_word = 0xc00f
+Nov 25 17:45:37 FUSION kernel: [  792.178818] __FX_ServoFsmEnable: obj_id = 2, ax_id = 0, ctrl_word = 0x000f
+Nov 25 17:45:37 FUSION kernel: [  792.178829] __FX_ServoFsmEnable: obj_id = 2, ax_id = 1, ctrl_word = 0x000f
+Nov 25 17:46:10 FUSION kernel: [  825.738146] __FX_ServoFsmResetRising: obj_id = 1, ax_id = 0, ctrl_word = 0xc087
+Nov 25 17:46:10 FUSION kernel: [  825.738155] __FX_ServoFsmResetRising: obj_id = 1, ax_id = 1, ctrl_word = 0xc087
+Nov 25 17:46:10 FUSION kernel: [  825.738159] __FX_ServoFsmResetRising: obj_id = 1, ax_id = 2, ctrl_word = 0xc087
+Nov 25 17:46:10 FUSION kernel: [  825.738162] __FX_ServoFsmResetRising: obj_id = 1, ax_id = 3, ctrl_word = 0xc087
+Nov 25 17:46:10 FUSION kernel: [  825.738166] __FX_ServoFsmResetRising: obj_id = 1, ax_id = 4, ctrl_word = 0xc087
+Nov 25 17:46:10 FUSION kernel: [  825.738169] __FX_ServoFsmResetRising: obj_id = 1, ax_id = 5, ctrl_word = 0xc086
+Nov 25 17:46:10 FUSION kernel: [  825.738172] __FX_ServoFsmResetRising: obj_id = 1, ax_id = 6, ctrl_word = 0xc087
+Nov 25 17:46:10 FUSION kernel: [  825.748145] __FX_ServoFsmResetFalling: obj_id = 1, ax_id = 0, ctrl_word = 0xc007
+Nov 25 17:46:10 FUSION kernel: [  825.748153] __FX_ServoFsmResetFalling: obj_id = 1, ax_id = 1, ctrl_word = 0xc007
+Nov 25 17:46:10 FUSION kernel: [  825.748157] __FX_ServoFsmResetFalling: obj_id = 1, ax_id = 2, ctrl_word = 0xc007
+Nov 25 17:46:10 FUSION kernel: [  825.748160] __FX_ServoFsmResetFalling: obj_id = 1, ax_id = 3, ctrl_word = 0xc007
+Nov 25 17:46:10 FUSION kernel: [  825.748163] __FX_ServoFsmResetFalling: obj_id = 1, ax_id = 4, ctrl_word = 0xc007
+Nov 25 17:46:10 FUSION kernel: [  825.748167] __FX_ServoFsmResetFalling: obj_id = 1, ax_id = 5, ctrl_word = 0xc006
+Nov 25 17:46:10 FUSION kernel: [  825.748170] __FX_ServoFsmResetFalling: obj_id = 1, ax_id = 6, ctrl_word = 0xc007
+Nov 25 17:46:13 FUSION kernel: [  828.329914] __FX_ServoFsmDisable: obj_id = 0, ax_id = 0, ctrl_word = 0xc007
+Nov 25 17:46:13 FUSION kernel: [  828.329923] __FX_ServoFsmDisable: obj_id = 0, ax_id = 1, ctrl_word = 0xc007
+Nov 25 17:46:13 FUSION kernel: [  828.329927] __FX_ServoFsmDisable: obj_id = 0, ax_id = 2, ctrl_word = 0xc007
+Nov 25 17:46:13 FUSION kernel: [  828.329931] __FX_ServoFsmDisable: obj_id = 0, ax_id = 3, ctrl_word = 0xc007
+Nov 25 17:46:13 FUSION kernel: [  828.329934] __FX_ServoFsmDisable: obj_id = 0, ax_id = 4, ctrl_word = 0xc007
+Nov 25 17:46:13 FUSION kernel: [  828.329937] __FX_ServoFsmDisable: obj_id = 0, ax_id = 5, ctrl_word = 0xc007
+Nov 25 17:46:13 FUSION kernel: [  828.329940] __FX_ServoFsmDisable: obj_id = 0, ax_id = 6, ctrl_word = 0xc007
+Nov 25 17:46:13 FUSION kernel: [  828.665786] __FX_ServoFsmDisable: obj_id = 2, ax_id = 0, ctrl_word = 0xc007
+Nov 25 17:46:13 FUSION kernel: [  828.665794] __FX_ServoFsmDisable: obj_id = 2, ax_id = 1, ctrl_word = 0xc007
+Nov 25 17:46:13 FUSION kernel: [  828.665798] __FX_ServoFsmDisable: obj_id = 2, ax_id = 2, ctrl_word = 0xc007
+Nov 25 17:46:13 FUSION kernel: [  828.665801] __FX_ServoFsmDisable: obj_id = 2, ax_id = 3, ctrl_word = 0xc007
+Nov 25 17:46:13 FUSION kernel: [  828.665805] __FX_ServoFsmDisable: obj_id = 2, ax_id = 4, ctrl_word = 0xc007
+Nov 25 17:46:13 FUSION kernel: [  828.665808] __FX_ServoFsmDisable: obj_id = 2, ax_id = 5, ctrl_word = 0xc007
+Nov 25 17:46:14 FUSION kernel: [  829.100773] __FX_ServoFsmDisable: obj_id = 2, ax_id = 0, ctrl_word = 0x0007
+Nov 25 17:46:14 FUSION kernel: [  829.100781] __FX_ServoFsmDisable: obj_id = 2, ax_id = 1, ctrl_word = 0x0007
+Nov 25 17:47:30 FUSION anacron[1666]: Job `cron.monthly' started
+Nov 25 17:47:30 FUSION anacron[1666]: Job `cron.monthly' terminated
+Nov 25 17:47:30 FUSION anacron[1666]: Normal exit (3 jobs run)
+Nov 25 17:47:30 FUSION anacron[19578]: Updated timestamp for job `cron.monthly' to 2026-11-25
+Nov 25 17:53:30 FUSION kernel: [ 1265.987603] __FX_ServoFsmResetRising: obj_id = 1, ax_id = 0, ctrl_word = 0xc087
+Nov 25 17:53:30 FUSION kernel: [ 1265.987613] __FX_ServoFsmResetRising: obj_id = 1, ax_id = 1, ctrl_word = 0xc087
+Nov 25 17:53:30 FUSION kernel: [ 1265.987617] __FX_ServoFsmResetRising: obj_id = 1, ax_id = 2, ctrl_word = 0xc087
+Nov 25 17:53:30 FUSION kernel: [ 1265.987620] __FX_ServoFsmResetRising: obj_id = 1, ax_id = 3, ctrl_word = 0xc087
+Nov 25 17:53:30 FUSION kernel: [ 1265.987623] __FX_ServoFsmResetRising: obj_id = 1, ax_id = 4, ctrl_word = 0xc087
+Nov 25 17:53:30 FUSION kernel: [ 1265.987627] __FX_ServoFsmResetRising: obj_id = 1, ax_id = 5, ctrl_word = 0xc086
+Nov 25 17:53:30 FUSION kernel: [ 1265.987630] __FX_ServoFsmResetRising: obj_id = 1, ax_id = 6, ctrl_word = 0xc087
+Nov 25 17:53:30 FUSION kernel: [ 1265.997600] __FX_ServoFsmResetFalling: obj_id = 1, ax_id = 0, ctrl_word = 0xc007
+Nov 25 17:53:30 FUSION kernel: [ 1265.997607] __FX_ServoFsmResetFalling: obj_id = 1, ax_id = 1, ctrl_word = 0xc007
+Nov 25 17:53:30 FUSION kernel: [ 1265.997611] __FX_ServoFsmResetFalling: obj_id = 1, ax_id = 2, ctrl_word = 0xc007
+Nov 25 17:53:30 FUSION kernel: [ 1265.997614] __FX_ServoFsmResetFalling: obj_id = 1, ax_id = 3, ctrl_word = 0xc007
+Nov 25 17:53:30 FUSION kernel: [ 1265.997617] __FX_ServoFsmResetFalling: obj_id = 1, ax_id = 4, ctrl_word = 0xc007
+Nov 25 17:53:30 FUSION kernel: [ 1265.997621] __FX_ServoFsmResetFalling: obj_id = 1, ax_id = 5, ctrl_word = 0xc006
+Nov 25 17:53:30 FUSION kernel: [ 1265.997624] __FX_ServoFsmResetFalling: obj_id = 1, ax_id = 6, ctrl_word = 0xc007
+Nov 25 17:53:32 FUSION kernel: [ 1267.021579] __FX_ServoFsmSetPCtrl_10: obj_id = 1, ax_id = 0, ctrl_word = 0x8007
+Nov 25 17:53:32 FUSION kernel: [ 1267.021587] __FX_ServoFsmSetPCtrl_10: obj_id = 1, ax_id = 1, ctrl_word = 0x8007
+Nov 25 17:53:32 FUSION kernel: [ 1267.021591] __FX_ServoFsmSetPCtrl_10: obj_id = 1, ax_id = 2, ctrl_word = 0x8007
+Nov 25 17:53:32 FUSION kernel: [ 1267.021594] __FX_ServoFsmSetPCtrl_10: obj_id = 1, ax_id = 3, ctrl_word = 0x8007
+Nov 25 17:53:32 FUSION kernel: [ 1267.021597] __FX_ServoFsmSetPCtrl_10: obj_id = 1, ax_id = 4, ctrl_word = 0x8007
+Nov 25 17:53:32 FUSION kernel: [ 1267.021600] __FX_ServoFsmSetPCtrl_10: obj_id = 1, ax_id = 5, ctrl_word = 0x8006
+Nov 25 17:53:32 FUSION kernel: [ 1267.021604] __FX_ServoFsmSetPCtrl_10: obj_id = 1, ax_id = 6, ctrl_word = 0x8007
+Nov 25 17:53:32 FUSION kernel: [ 1267.027579] __FX_ServoFsmEnable: obj_id = 1, ax_id = 0, ctrl_word = 0x800f
+Nov 25 17:53:32 FUSION kernel: [ 1267.027586] __FX_ServoFsmEnable: obj_id = 1, ax_id = 1, ctrl_word = 0x800f
+Nov 25 17:53:32 FUSION kernel: [ 1267.027590] __FX_ServoFsmEnable: obj_id = 1, ax_id = 2, ctrl_word = 0x800f
+Nov 25 17:53:32 FUSION kernel: [ 1267.027593] __FX_ServoFsmEnable: obj_id = 1, ax_id = 3, ctrl_word = 0x800f
+Nov 25 17:53:32 FUSION kernel: [ 1267.027597] __FX_ServoFsmEnable: obj_id = 1, ax_id = 4, ctrl_word = 0x800f
+Nov 25 17:53:32 FUSION kernel: [ 1267.027600] __FX_ServoFsmShutDown: obj_id = 1, ax_id = 5, ctrl_word = 0x8006
+Nov 25 17:53:32 FUSION kernel: [ 1267.027603] __FX_ServoFsmEnable: obj_id = 1, ax_id = 6, ctrl_word = 0x800f
+Nov 25 17:53:32 FUSION kernel: [ 1267.028573] __FX_ServoFsmSwitchOnAndEnable: obj_id = 1, ax_id = 5, ctrl_word = 0x800f

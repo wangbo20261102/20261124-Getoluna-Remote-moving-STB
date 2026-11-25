@@ -1,0 +1,9 @@
+{
+  "name": "Gento Luna 协作搬运控制台",
+  "ssh_host": "gentoluna",
+  "robot_ip": "6.6.7.100",
+  "controller_ip": "6.6.7.190",
+  "remote_dir": "/home/nvidia/luna-test-runs/20261125-unified-console",
+  "usb_dir": "E:/Github/Mubea-EV-Gentoluna/teleop-20261123/pc",
+  "approved_sdk_sha256": "07cecbce36ebcd89e915cf5a7f274db2159251f68dcab83d707a5d3f7a85aa43"
+}

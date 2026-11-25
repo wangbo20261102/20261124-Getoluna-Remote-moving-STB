@@ -1,0 +1,81 @@
+{
+  "archive_name": "windows-apex-and-local-evidence.tar.gz",
+  "roots": [
+    {
+      "source": "C:\\Users\\Wang Bo\\AppData\\Local\\Programs\\Apex Teleop",
+      "archive_prefix": "windows/Apex-Teleop-installation"
+    },
+    {
+      "source": "E:\\tianji-robot-SDK-Gento_Skye-Luna-ARM&body\\tianji-robot-SDK-Gento_Skye-Luna\\FXPlatform.exe",
+      "archive_prefix": "windows/FXPlatform/FXPlatform.exe"
+    },
+    {
+      "source": "E:\\Github\\Mubea-EV-Gentoluna-Remote moving STB\\apps",
+      "archive_prefix": "local/apps"
+    },
+    {
+      "source": "E:\\Github\\Mubea-EV-Gentoluna-Remote moving STB\\archives\\20261125-apex-impedance-frozen\\local-attachments",
+      "archive_prefix": "attachments"
+    },
+    {
+      "source": "E:\\Github\\Mubea-EV-Gentoluna-tests\\20261125-apex-impedance-entry-fix",
+      "archive_prefix": "local/tests/20261125-apex-impedance-entry-fix"
+    },
+    {
+      "source": "E:\\Github\\Mubea-EV-Gentoluna-tests\\20261125-camera-device-fix",
+      "archive_prefix": "local/tests/20261125-camera-device-fix"
+    },
+    {
+      "source": "E:\\Github\\Mubea-EV-Gentoluna-tests\\20261125-maxhub-startup-fix",
+      "archive_prefix": "local/tests/20261125-maxhub-startup-fix"
+    },
+    {
+      "source": "E:\\Github\\Mubea-EV-Gentoluna-tests\\20261125-mode3-right-arm-diagnostic",
+      "archive_prefix": "local/tests/20261125-mode3-right-arm-diagnostic"
+    },
+    {
+      "source": "E:\\Github\\Mubea-EV-Gentoluna-tests\\20261125-teleop-resume",
+      "archive_prefix": "local/tests/20261125-teleop-resume"
+    },
+    {
+      "source": "E:\\Github\\Mubea-EV-Gentoluna-tests\\20261125-tool-consistency-check",
+      "archive_prefix": "local/tests/20261125-tool-consistency-check"
+    },
+    {
+      "source": "E:\\Github\\Mubea-EV-Gentoluna-tests\\20261125-tool-runtime-verification",
+      "archive_prefix": "local/tests/20261125-tool-runtime-verification"
+    },
+    {
+      "source": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\AGENTS.md",
+      "archive_prefix": "local/project-records/AGENTS.md"
+    },
+    {
+      "source": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\20261124_右臂报警归档与电量提醒.md",
+      "archive_prefix": "local/project-records/20261124_右臂报警归档与电量提醒.md"
+    },
+    {
+      "source": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\work\\gentoluna-offline-tests-20261122.txt",
+      "archive_prefix": "local/work/gentoluna-offline-tests-20261122.txt"
+    },
+    {
+      "source": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\work\\luna_read_live_inputs.py",
+      "archive_prefix": "local/work/luna_read_live_inputs.py"
+    },
+    {
+      "source": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\work\\luna-handoff-20261123-text.txt",
+      "archive_prefix": "local/work/luna-handoff-20261123-text.txt"
+    },
+    {
+      "source": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\work\\luna-teleop-session-20261123.json",
+      "archive_prefix": "local/work/luna-teleop-session-20261123.json"
+    },
+    {
+      "source": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\work\\luna-teleop-session-20261124.json",
+      "archive_prefix": "local/work/luna-teleop-session-20261124.json"
+    },
+    {
+      "source": "C:\\Users\\Wang Bo\\OneDrive\\Documents\\ChatGPT\\Mubea 弹簧开发\\work\\teleop_review_context_20261122.json",
+      "archive_prefix": "local/work/teleop_review_context_20261122.json"
+    }
+  ]
+}

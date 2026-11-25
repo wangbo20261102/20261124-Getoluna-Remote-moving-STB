@@ -1,0 +1,11 @@
+2026-11-25T10:16:08+08:00
+{"received_at": "2026-11-25T10:16:07.478392+08:00", "fresh": true, "seconds_since_feedback": 0.4, "batteries": [{"id": 1, "energy": 88, "health": 98, "is_in_place": true, "is_charging": false, "voltage": 49.5, "current": -1.7999999523162842, "temperature": 21.0, "is_connected": true, "error_code": 0}, {"id": 2, "energy": 88, "health": 98, "is_in_place": true, "is_charging": false, "voltage": 49.5, "current": -1.7999999523162842, "temperature": 21.0, "is_connected": true, "error_code": 0}], "audio": {"enabled": true, "state": "ready", "playing": null, "last_error": null, "language": "zh-CN", "volume_percent": 100, "charging_notifications": true, "confirmed_charging": false}}inactive
+inactive
+inactive
+inactive
+active
+active
+active
+active
+54ea33096348d3d60395176e0eb5bed96845f85877b162fff7c64400db487fea  /opt/kernelmind/apex/install/marvin_ros_control/share/marvin_ros_control/config/robot_param_luna.yaml
+07cecbce36ebcd89e915cf5a7f274db2159251f68dcab83d707a5d3f7a85aa43  /usr/local/lib/luna-apex-wrist/sdk/libGentoSDK.so

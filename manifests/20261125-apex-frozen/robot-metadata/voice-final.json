@@ -1,0 +1,13 @@
+{
+  "message": "warning，请立即充电",
+  "threshold_percent": 30,
+  "repeat_seconds": 10.0,
+  "low_batteries": [],
+  "playing": false,
+  "live_playback_count": 0,
+  "alarm_latched": false,
+  "charging_detected": false,
+  "source_fresh": true,
+  "last_error": null,
+  "updated_at": "2026-11-25T13:52:52.120695+08:00"
+}

@@ -1,0 +1,121 @@
+{
+  "events": [
+    {
+      "label": "before",
+      "time": 1795584996.8772802,
+      "data": {
+        "ok": true,
+        "data": {
+          "control_ready": false,
+          "control_error": true,
+          "control_error_message": "Control state mismatch: left=2, right=100",
+          "arm_state": [
+            2,
+            100,
+            1,
+            2,
+            0,
+            0
+          ],
+          "arm_state_age_sec": 0.004197120666503906,
+          "current_mode": -1,
+          "speed_factor": 1.0,
+          "current_input_mode": -1
+        }
+      }
+    },
+    {
+      "label": "fault_guard",
+      "time": 1795584996.8933027,
+      "data": {
+        "http_status": 503,
+        "body": "{\"detail\":\"Fresh, fault-free Robot feedback is required; inspect and explicitly clear existing faults first\"}"
+      }
+    },
+    {
+      "label": "explicit_single_clear_reply",
+      "time": 1795585001.0367434,
+      "data": {
+        "success": false,
+        "message": ""
+      }
+    },
+    {
+      "label": "after_clear_feedback",
+      "time": 1795585001.570383,
+      "data": {
+        "ok": true,
+        "data": {
+          "control_ready": false,
+          "control_error": true,
+          "control_error_message": "Control state mismatch: left=2, right=0",
+          "arm_state": [
+            2,
+            0,
+            1,
+            2,
+            0,
+            0
+          ],
+          "arm_state_age_sec": 0.0045413970947265625,
+          "current_mode": -1,
+          "speed_factor": 1.0,
+          "current_input_mode": -1
+        }
+      }
+    },
+    {
+      "label": "explicit_idle_reply",
+      "time": 1795585002.6518953,
+      "data": {
+        "ok": true,
+        "data": {
+          "success": true,
+          "mode": 0,
+          "actual_mode": 0,
+          "error_code": 0
+        }
+      }
+    },
+    {
+      "label": "idle_feedback",
+      "time": 1795585002.9622304,
+      "data": {
+        "ok": true,
+        "data": {
+          "control_ready": true,
+          "control_error": false,
+          "control_error_message": "",
+          "arm_state": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arm_state_age_sec": 0.0059850215911865234,
+          "current_mode": 0,
+          "speed_factor": 1.0,
+          "current_input_mode": -1
+        }
+      }
+    },
+    {
+      "label": "ready_reply",
+      "time": 1795585003.0022175,
+      "data": {
+        "ok": true,
+        "data": {
+          "success": true,
+          "message": "Robot is ready."
+        }
+      }
+    }
+  ],
+  "home_calls": 0,
+  "sdk_links": 0,
+  "reset_attempts": 1,
+  "exception": "<HTTPError 503: 'Service Unavailable'>",
+  "success": false
+}

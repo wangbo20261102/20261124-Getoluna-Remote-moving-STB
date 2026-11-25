@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "archive": {
+    "name": "windows-apex-and-local-evidence.tar.gz",
+    "bytes": 322410137,
+    "sha256": "aa8abe476dc7a58deb04eb0bf4dda0c899e1988700974ffc6c2954266e2467b9"
+  },
+  "entries_verified": 5610,
+  "source_changed_during_capture": 0,
+  "source_truncated_during_capture": 0
+}

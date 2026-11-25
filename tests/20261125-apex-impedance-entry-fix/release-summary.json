@@ -1,0 +1,556 @@
+{
+  "status": "Installed and verified through original Apex desktop buttons",
+  "scope": "Apex backend ros_state.py only. No Robot executable or SDK replacement.",
+  "findings": [
+    "Original mode RPC deadline is 2.0 seconds. Validated full prepared transitions required 3.060 and 3.623 seconds.",
+    "Original button path directly requests mode3; known successful preparation uses position hold before mode3.",
+    "Requested mode must be confirmed by fresh controller feedback; normal intermediate mismatches must not be treated as terminal drive faults."
+  ],
+  "changes": [
+    "Serialize mode requests",
+    "Reject existing faults, stale joint feedback, moving arms, or J6 close to recorded limit",
+    "For mode3 pause previously active Tool, request mode1, confirm position hold and stationary feedback, then request mode3",
+    "Use 12s bounded RPC timeout; confirm actual controller state",
+    "Restore Tool only after confirmed success; no implicit reset, Home, or retries"
+  ],
+  "unit_tests": 14,
+  "hardware_validation": {
+    "events": [
+      {
+        "label": "before",
+        "time": 1795585109.9645994,
+        "data": {
+          "ok": true,
+          "data": {
+            "control_ready": true,
+            "control_error": false,
+            "control_error_message": "",
+            "arm_state": [
+              2,
+              2,
+              1,
+              2,
+              0,
+              0
+            ],
+            "arm_state_age_sec": 0.002678394317626953,
+            "current_mode": 2,
+            "speed_factor": 1.0,
+            "current_input_mode": -1
+          }
+        }
+      },
+      {
+        "label": "tool_stop",
+        "time": 1795585110.0557194,
+        "data": {
+          "ok": true,
+          "data": {
+            "action": "stop",
+            "module": "tool",
+            "service": "apex-tool.service",
+            "status": {
+              "id": "tool",
+              "name": "Tool",
+              "description": "End-effector tool module for DM gripper, ZY gripper, or Wuji hands.",
+              "service": "apex-tool.service",
+              "load_state": "loaded",
+              "unit_file_state": "disabled",
+              "active_state": "inactive",
+              "sub_state": "dead",
+              "result": "success",
+              "exec_main_pid": 0,
+              "exec_main_status": 0,
+              "fragment_path": "/etc/systemd/system/apex-tool.service",
+              "active_enter_timestamp": "n/a",
+              "inactive_enter_timestamp": "n/a",
+              "state_change_timestamp": "n/a",
+              "healthy": false,
+              "error": false
+            }
+          }
+        }
+      },
+      {
+        "label": "idle",
+        "time": 1795585111.465704,
+        "data": {
+          "ok": true,
+          "data": {
+            "success": true,
+            "mode": 0,
+            "actual_mode": 0,
+            "error_code": 0
+          }
+        }
+      },
+      {
+        "label": "mode3_reply",
+        "time": 1795585114.8272452,
+        "data": {
+          "tool_initially_active": false,
+          "duration_sec": 3.060235040000407,
+          "reply": {
+            "ok": true,
+            "data": {
+              "success": true,
+              "mode": 3,
+              "actual_mode": 2,
+              "error_code": 0
+            }
+          }
+        }
+      },
+      {
+        "label": "cycle_passed",
+        "time": 1795585116.5516346,
+        "data": {
+          "tool_initially_active": false,
+          "samples": 6
+        }
+      },
+      {
+        "label": "tool_start",
+        "time": 1795585116.6282365,
+        "data": {
+          "ok": true,
+          "data": {
+            "action": "start",
+            "module": "tool",
+            "service": "apex-tool.service",
+            "status": {
+              "id": "tool",
+              "name": "Tool",
+              "description": "End-effector tool module for DM gripper, ZY gripper, or Wuji hands.",
+              "service": "apex-tool.service",
+              "load_state": "loaded",
+              "unit_file_state": "disabled",
+              "active_state": "active",
+              "sub_state": "running",
+              "result": "success",
+              "exec_main_pid": 3429939,
+              "exec_main_status": 0,
+              "fragment_path": "/etc/systemd/system/apex-tool.service",
+              "active_enter_timestamp": "Wed 2026-11-25 13:38:36 CST",
+              "inactive_enter_timestamp": "n/a",
+              "state_change_timestamp": "Wed 2026-11-25 13:38:36 CST",
+              "healthy": true,
+              "error": false
+            }
+          }
+        }
+      },
+      {
+        "label": "idle",
+        "time": 1795585118.0496924,
+        "data": {
+          "ok": true,
+          "data": {
+            "success": true,
+            "mode": 0,
+            "actual_mode": 0,
+            "error_code": 0
+          }
+        }
+      },
+      {
+        "label": "mode3_reply",
+        "time": 1795585121.9742923,
+        "data": {
+          "tool_initially_active": true,
+          "duration_sec": 3.62295283200001,
+          "reply": {
+            "ok": true,
+            "data": {
+              "success": true,
+              "mode": 3,
+              "actual_mode": 2,
+              "error_code": 0
+            }
+          }
+        }
+      },
+      {
+        "label": "cycle_passed",
+        "time": 1795585123.669805,
+        "data": {
+          "tool_initially_active": true,
+          "samples": 6
+        }
+      },
+      {
+        "label": "tool_final_stop",
+        "time": 1795585123.7561681,
+        "data": {
+          "ok": true,
+          "data": {
+            "action": "stop",
+            "module": "tool",
+            "service": "apex-tool.service",
+            "status": {
+              "id": "tool",
+              "name": "Tool",
+              "description": "End-effector tool module for DM gripper, ZY gripper, or Wuji hands.",
+              "service": "apex-tool.service",
+              "load_state": "loaded",
+              "unit_file_state": "disabled",
+              "active_state": "inactive",
+              "sub_state": "dead",
+              "result": "success",
+              "exec_main_pid": 0,
+              "exec_main_status": 0,
+              "fragment_path": "/etc/systemd/system/apex-tool.service",
+              "active_enter_timestamp": "n/a",
+              "inactive_enter_timestamp": "n/a",
+              "state_change_timestamp": "n/a",
+              "healthy": false,
+              "error": false
+            }
+          }
+        }
+      }
+    ],
+    "cycles": [
+      {
+        "tool_initially_active": false,
+        "duration_sec": 3.060235040000407,
+        "samples": [
+          {
+            "control_ready": true,
+            "control_error": false,
+            "control_error_message": "",
+            "arm_state": [
+              2,
+              2,
+              1,
+              2,
+              0,
+              0
+            ],
+            "arm_state_age_sec": 0.005053281784057617,
+            "current_mode": 2,
+            "speed_factor": 1.0,
+            "current_input_mode": -1
+          },
+          {
+            "control_ready": true,
+            "control_error": false,
+            "control_error_message": "",
+            "arm_state": [
+              2,
+              2,
+              1,
+              2,
+              0,
+              0
+            ],
+            "arm_state_age_sec": 0.0026733875274658203,
+            "current_mode": 2,
+            "speed_factor": 1.0,
+            "current_input_mode": -1
+          },
+          {
+            "control_ready": true,
+            "control_error": false,
+            "control_error_message": "",
+            "arm_state": [
+              2,
+              2,
+              1,
+              2,
+              0,
+              0
+            ],
+            "arm_state_age_sec": 0.003704071044921875,
+            "current_mode": 2,
+            "speed_factor": 1.0,
+            "current_input_mode": -1
+          },
+          {
+            "control_ready": true,
+            "control_error": false,
+            "control_error_message": "",
+            "arm_state": [
+              2,
+              2,
+              1,
+              2,
+              0,
+              0
+            ],
+            "arm_state_age_sec": 0.004382610321044922,
+            "current_mode": 2,
+            "speed_factor": 1.0,
+            "current_input_mode": -1
+          },
+          {
+            "control_ready": true,
+            "control_error": false,
+            "control_error_message": "",
+            "arm_state": [
+              2,
+              2,
+              1,
+              2,
+              0,
+              0
+            ],
+            "arm_state_age_sec": 0.0012278556823730469,
+            "current_mode": 2,
+            "speed_factor": 1.0,
+            "current_input_mode": -1
+          },
+          {
+            "control_ready": true,
+            "control_error": false,
+            "control_error_message": "",
+            "arm_state": [
+              2,
+              2,
+              1,
+              2,
+              0,
+              0
+            ],
+            "arm_state_age_sec": 0.0033261775970458984,
+            "current_mode": 2,
+            "speed_factor": 1.0,
+            "current_input_mode": -1
+          }
+        ],
+        "tool_after": "inactive"
+      },
+      {
+        "tool_initially_active": true,
+        "duration_sec": 3.62295283200001,
+        "samples": [
+          {
+            "control_ready": true,
+            "control_error": false,
+            "control_error_message": "",
+            "arm_state": [
+              2,
+              2,
+              1,
+              2,
+              0,
+              0
+            ],
+            "arm_state_age_sec": 0.006191253662109375,
+            "current_mode": 2,
+            "speed_factor": 1.0,
+            "current_input_mode": -1
+          },
+          {
+            "control_ready": true,
+            "control_error": false,
+            "control_error_message": "",
+            "arm_state": [
+              2,
+              2,
+              1,
+              2,
+              0,
+              0
+            ],
+            "arm_state_age_sec": 0.0064580440521240234,
+            "current_mode": 2,
+            "speed_factor": 1.0,
+            "current_input_mode": -1
+          },
+          {
+            "control_ready": true,
+            "control_error": false,
+            "control_error_message": "",
+            "arm_state": [
+              2,
+              2,
+              1,
+              2,
+              0,
+              0
+            ],
+            "arm_state_age_sec": 0.0067555904388427734,
+            "current_mode": 2,
+            "speed_factor": 1.0,
+            "current_input_mode": -1
+          },
+          {
+            "control_ready": true,
+            "control_error": false,
+            "control_error_message": "",
+            "arm_state": [
+              2,
+              2,
+              1,
+              2,
+              0,
+              0
+            ],
+            "arm_state_age_sec": 0.0048520565032958984,
+            "current_mode": 2,
+            "speed_factor": 1.0,
+            "current_input_mode": -1
+          },
+          {
+            "control_ready": true,
+            "control_error": false,
+            "control_error_message": "",
+            "arm_state": [
+              2,
+              2,
+              1,
+              2,
+              0,
+              0
+            ],
+            "arm_state_age_sec": 0.0012614727020263672,
+            "current_mode": 2,
+            "speed_factor": 1.0,
+            "current_input_mode": -1
+          },
+          {
+            "control_ready": true,
+            "control_error": false,
+            "control_error_message": "",
+            "arm_state": [
+              2,
+              2,
+              1,
+              2,
+              0,
+              0
+            ],
+            "arm_state_age_sec": 0.002930879592895508,
+            "current_mode": 2,
+            "speed_factor": 1.0,
+            "current_input_mode": -1
+          }
+        ],
+        "tool_after": "active"
+      }
+    ],
+    "home_calls": 0,
+    "reset_calls": 0,
+    "sdk_links": 0,
+    "success": true
+  },
+  "protected_values": "Robot, SDK, and current YAML hashes verified unchanged. YAML currently contains 1.5kg on both sides; this patch does not alter it.",
+  "current_robot": "Both arms impedance state2; ready=true,error=false. Teleop/Tool/chassis bridge paused; Camera active. No Home executed.",
+  "battery_latest": "Battery1 41%, Battery2 40%, neither charging, fresh",
+  "installation": "sudo bash /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/install_backend.sh",
+  "cpp_study": "Archived investigation only; compile detected reference-source ABI mismatch with current factory binary. No replacement executable was built or installed. Deploy manifest includes only ros_state.py.",
+  "production_apex_button_validation": {
+    "performed": true,
+    "ui_action": "Clicked Apex standby button, then original impedance button",
+    "ui_message": "Switched to mode 3",
+    "ui_observation": "Arm A2, Arm B2, Healthy; no mode alarm",
+    "samples": [
+      {
+        "control_ready": true,
+        "control_error": false,
+        "control_error_message": "",
+        "arm_state": [
+          2,
+          2,
+          1,
+          2,
+          0,
+          0
+        ],
+        "arm_state_age_sec": 0.0017757415771484375,
+        "current_mode": 2,
+        "speed_factor": 1.0,
+        "current_input_mode": -1
+      },
+      {
+        "control_ready": true,
+        "control_error": false,
+        "control_error_message": "",
+        "arm_state": [
+          2,
+          2,
+          1,
+          2,
+          0,
+          0
+        ],
+        "arm_state_age_sec": 0.006865978240966797,
+        "current_mode": 2,
+        "speed_factor": 1.0,
+        "current_input_mode": -1
+      },
+      {
+        "control_ready": true,
+        "control_error": false,
+        "control_error_message": "",
+        "arm_state": [
+          2,
+          2,
+          1,
+          2,
+          0,
+          0
+        ],
+        "arm_state_age_sec": 0.0052683353424072266,
+        "current_mode": 2,
+        "speed_factor": 1.0,
+        "current_input_mode": -1
+      },
+      {
+        "control_ready": true,
+        "control_error": false,
+        "control_error_message": "",
+        "arm_state": [
+          2,
+          2,
+          1,
+          2,
+          0,
+          0
+        ],
+        "arm_state_age_sec": 0.0008063316345214844,
+        "current_mode": 2,
+        "speed_factor": 1.0,
+        "current_input_mode": -1
+      },
+      {
+        "control_ready": true,
+        "control_error": false,
+        "control_error_message": "",
+        "arm_state": [
+          2,
+          2,
+          1,
+          2,
+          0,
+          0
+        ],
+        "arm_state_age_sec": 0.0018041133880615234,
+        "current_mode": 2,
+        "speed_factor": 1.0,
+        "current_input_mode": -1
+      },
+      {
+        "control_ready": true,
+        "control_error": false,
+        "control_error_message": "",
+        "arm_state": [
+          2,
+          2,
+          1,
+          2,
+          0,
+          0
+        ],
+        "arm_state_age_sec": 0.0014865398406982422,
+        "current_mode": 2,
+        "speed_factor": 1.0,
+        "current_input_mode": -1
+      }
+    ],
+    "all_six_passed": true
+  },
+  "installed_backend_sha256": "060945ed9b2efeced2767840369ede8cfe527d53c04fbc2a12ee35118b126f6d",
+  "production_backup": "/var/backups/luna-apex-mode-entry.sz1f8HE0/ros_state.py"
+}

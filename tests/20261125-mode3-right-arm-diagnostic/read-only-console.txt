@@ -1,0 +1,38 @@
+{"states": [{"cur": 0, "cmd": 0, "err": 0}, {"cur": 0, "cmd": 0, "err": 0}], "errors": {"left": [0, "J1: 0x0000 - No error\nJ2: 0x0000 - No error\nJ3: 0x0000 - No error\nJ4: 0x0000 - No error\nJ5: 0x0000 - No error\nJ6: 0x0000 - No error\nJ7: 0x0000 - No error"], "right": [0, "J1: 0x0000 - No error\nJ2: 0x0000 - No error\nJ3: 0x0000 - No error\nJ4: 0x0000 - No error\nJ5: 0x0000 - No error\nJ6: 0x0000 - No error\nJ7: 0x0000 - No error"]}, "physical": {"left": [0, 2], "right": [0, 2]}, "limits": {"left": [{"LimitNeg": [0, -173.0], "LimitPos": [0, 173.0]}, {"LimitNeg": [0, -118.0], "LimitPos": [0, 118.0]}, {"LimitNeg": [0, -173.0], "LimitPos": [0, 173.0]}, {"LimitNeg": [0, -145.0], "LimitPos": [0, 45.0]}, {"LimitNeg": [0, -173.0], "LimitPos": [0, 173.0]}, {"LimitNeg": [0, -60.0], "LimitPos": [0, 60.0]}, {"LimitNeg": [0, -90.0], "LimitPos": [0, 90.0]}], "right": [{"LimitNeg": [0, -173.0], "LimitPos": [0, 173.0]}, {"LimitNeg": [0, -118.0], "LimitPos": [0, 118.0]}, {"LimitNeg": [0, -173.0], "LimitPos": [0, 173.0]}, {"LimitNeg": [0, -145.0], "LimitPos": [0, 45.0]}, {"LimitNeg": [0, -173.0], "LimitPos": [0, 173.0]}, {"LimitNeg": [0, -60.0], "LimitPos": [0, 60.0]}, {"LimitNeg": [0, -90.0], "LimitPos": [0, 90.0]}]}}
+[DEBG][L1] FX_L1_System_Link: Set L1 API log level 0x0000000f
+[INFO][L1] FX_L1_System_Link: Link success, communication delay is 3ms
+[DEBG][L1] FX_L1_Param_GetString: Get R.BASIC.Name=GentoLuna success
+[DEBG][L1] FX_L1_Param_GetInt32: Get R.A0.BASIC.Dof=7 success
+[DEBG][L1] FX_L1_Param_GetInt32: Get R.A1.BASIC.Dof=7 success
+[DEBG][L1] FX_L1_Param_GetInt32: Get R.B.BASIC.Dof=6 success
+[DEBG][L1] FX_L1_Param_GetInt32: Get R.H.BASIC.Dof=2 success
+[DEBG][L1] FX_L1_Param_GetInt32: Get R.L.BASIC.Dof=0 success
+[INFO][L1] FX_L1_System_Link: DOF of [GentoLuna]: arm0=7, arm1=7, head=2, body=6, lift=0
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A0.L0.BASIC.LimitNeg=-173.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A0.L0.BASIC.LimitPos=173.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A0.L1.BASIC.LimitNeg=-118.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A0.L1.BASIC.LimitPos=118.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A0.L2.BASIC.LimitNeg=-173.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A0.L2.BASIC.LimitPos=173.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A0.L3.BASIC.LimitNeg=-145.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A0.L3.BASIC.LimitPos=45.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A0.L4.BASIC.LimitNeg=-173.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A0.L4.BASIC.LimitPos=173.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A0.L5.BASIC.LimitNeg=-60.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A0.L5.BASIC.LimitPos=60.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A0.L6.BASIC.LimitNeg=-90.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A0.L6.BASIC.LimitPos=90.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A1.L0.BASIC.LimitNeg=-173.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A1.L0.BASIC.LimitPos=173.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A1.L1.BASIC.LimitNeg=-118.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A1.L1.BASIC.LimitPos=118.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A1.L2.BASIC.LimitNeg=-173.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A1.L2.BASIC.LimitPos=173.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A1.L3.BASIC.LimitNeg=-145.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A1.L3.BASIC.LimitPos=45.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A1.L4.BASIC.LimitNeg=-173.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A1.L4.BASIC.LimitPos=173.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A1.L5.BASIC.LimitNeg=-60.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A1.L5.BASIC.LimitPos=60.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A1.L6.BASIC.LimitNeg=-90.0000 success
+[DEBG][L1] FX_L1_Param_GetFloat: Get R.A1.L6.BASIC.LimitPos=90.0000 success

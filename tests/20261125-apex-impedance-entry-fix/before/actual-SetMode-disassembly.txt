@@ -1,0 +1,278 @@
+000000000009dde0 <MarvinRobot::SetMode(int)>:
+   9dde0:	d102c3ff 	sub	sp, sp, #0xb0
+   9dde4:	d0000242 	adrp	x2, e7000 <rclcpp::Waitable::get_number_of_ready_guard_conditions()@Base>
+   9dde8:	a9087bfd 	stp	x29, x30, [sp, #128]
+   9ddec:	910203fd 	add	x29, sp, #0x80
+   9ddf0:	3dc13401 	ldr	q1, [x0, #1232]
+   9ddf4:	a90953f3 	stp	x19, x20, [sp, #144]
+   9ddf8:	aa0003f3 	mov	x19, x0
+   9ddfc:	f9478042 	ldr	x2, [x2, #3840]
+   9de00:	3dc13a60 	ldr	q0, [x19, #1248]
+   9de04:	f9400040 	ldr	x0, [x2]
+   9de08:	f9003fe0 	str	x0, [sp, #120]
+   9de0c:	d2800000 	mov	x0, #0x0                   	// #0
+   9de10:	3dc13e63 	ldr	q3, [x19, #1264]
+   9de14:	f9001bff 	str	xzr, [sp, #48]
+   9de18:	ad0003e1 	stp	q1, q0, [sp]
+   9de1c:	3dc14262 	ldr	q2, [x19, #1280]
+   9de20:	f9003bff 	str	xzr, [sp, #112]
+   9de24:	3dc14661 	ldr	q1, [x19, #1296]
+   9de28:	3d800be3 	str	q3, [sp, #32]
+   9de2c:	3dc14a60 	ldr	q0, [x19, #1312]
+   9de30:	3d8013e2 	str	q2, [sp, #64]
+   9de34:	ad0283e1 	stp	q1, q0, [sp, #80]
+   9de38:	35000321 	cbnz	w1, 9de9c <MarvinRobot::SetMode(int)+0xbc>
+   9de3c:	3958c260 	ldrb	w0, [x19, #1584]
+   9de40:	52800034 	mov	w20, #0x1                   	// #1
+   9de44:	35000940 	cbnz	w0, 9df6c <MarvinRobot::SetMode(int)+0x18c>
+   9de48:	3958ca60 	ldrb	w0, [x19, #1586]
+   9de4c:	35000cc0 	cbnz	w0, 9dfe4 <MarvinRobot::SetMode(int)+0x204>
+   9de50:	3958ce60 	ldrb	w0, [x19, #1587]
+   9de54:	35000aa0 	cbnz	w0, 9dfa8 <MarvinRobot::SetMode(int)+0x1c8>
+   9de58:	3958c660 	ldrb	w0, [x19, #1585]
+   9de5c:	35000b60 	cbnz	w0, 9dfc8 <MarvinRobot::SetMode(int)+0x1e8>
+   9de60:	5290d400 	mov	w0, #0x86a0                	// #34464
+   9de64:	72a00020 	movk	w0, #0x1, lsl #16
+   9de68:	97fe091e 	bl	202e0 <usleep@plt>
+   9de6c:	d0000241 	adrp	x1, e7000 <rclcpp::Waitable::get_number_of_ready_guard_conditions()@Base>
+   9de70:	f9478021 	ldr	x1, [x1, #3840]
+   9de74:	f9403fe0 	ldr	x0, [sp, #120]
+   9de78:	f9400022 	ldr	x2, [x1]
+   9de7c:	eb020000 	subs	x0, x0, x2
+   9de80:	d2800002 	mov	x2, #0x0                   	// #0
+   9de84:	54001ca1 	b.ne	9e218 <MarvinRobot::SetMode(int)+0x438>  // b.any
+   9de88:	2a1403e0 	mov	w0, w20
+   9de8c:	a9487bfd 	ldp	x29, x30, [sp, #128]
+   9de90:	a94953f3 	ldp	x19, x20, [sp, #144]
+   9de94:	9102c3ff 	add	sp, sp, #0xb0
+   9de98:	d65f03c0 	ret
+   9de9c:	7100043f 	cmp	w1, #0x1
+   9dea0:	540003c0 	b.eq	9df18 <MarvinRobot::SetMode(int)+0x138>  // b.none
+   9dea4:	71000c3f 	cmp	w1, #0x3
+   9dea8:	540012c1 	b.ne	9e100 <MarvinRobot::SetMode(int)+0x320>  // b.any
+   9deac:	3958c260 	ldrb	w0, [x19, #1584]
+   9deb0:	52800034 	mov	w20, #0x1                   	// #1
+   9deb4:	35000aa0 	cbnz	w0, 9e008 <MarvinRobot::SetMode(int)+0x228>
+   9deb8:	5290d400 	mov	w0, #0x86a0                	// #34464
+   9debc:	72a00020 	movk	w0, #0x1, lsl #16
+   9dec0:	97fe0908 	bl	202e0 <usleep@plt>
+   9dec4:	3958c260 	ldrb	w0, [x19, #1584]
+   9dec8:	35000ea0 	cbnz	w0, 9e09c <MarvinRobot::SetMode(int)+0x2bc>
+   9decc:	52942400 	mov	w0, #0xa120                	// #41248
+   9ded0:	72a000e0 	movk	w0, #0x7, lsl #16
+   9ded4:	97fe0903 	bl	202e0 <usleep@plt>
+   9ded8:	3958ca60 	ldrb	w0, [x19, #1586]
+   9dedc:	35000cc0 	cbnz	w0, 9e074 <MarvinRobot::SetMode(int)+0x294>
+   9dee0:	3958ce60 	ldrb	w0, [x19, #1587]
+   9dee4:	35000b40 	cbnz	w0, 9e04c <MarvinRobot::SetMode(int)+0x26c>
+   9dee8:	3958c660 	ldrb	w0, [x19, #1585]
+   9deec:	34fffba0 	cbz	w0, 9de60 <MarvinRobot::SetMode(int)+0x80>
+   9def0:	b9462661 	ldr	w1, [x19, #1572]
+   9def4:	d2e80b20 	mov	x0, #0x4059000000000000    	// #4636737291354636288
+   9def8:	9e670001 	fmov	d1, x0
+   9defc:	9e670000 	fmov	d0, x0
+   9df00:	910103e3 	add	x3, sp, #0x40
+   9df04:	910003e2 	mov	x2, sp
+   9df08:	52800040 	mov	w0, #0x2                   	// #2
+   9df0c:	97fffc61 	bl	9d090 <(anonymous namespace)::switch_obj_to_target(FXObjType, int, double, double, double*, double*)>
+   9df10:	0a000294 	and	w20, w20, w0
+   9df14:	17ffffd3 	b	9de60 <MarvinRobot::SetMode(int)+0x80>
+   9df18:	3958c260 	ldrb	w0, [x19, #1584]
+   9df1c:	2a0103f4 	mov	w20, w1
+   9df20:	350013c0 	cbnz	w0, 9e198 <MarvinRobot::SetMode(int)+0x3b8>
+   9df24:	52942400 	mov	w0, #0xa120                	// #41248
+   9df28:	72a000e0 	movk	w0, #0x7, lsl #16
+   9df2c:	97fe08ed 	bl	202e0 <usleep@plt>
+   9df30:	3958ca60 	ldrb	w0, [x19, #1586]
+   9df34:	35001200 	cbnz	w0, 9e174 <MarvinRobot::SetMode(int)+0x394>
+   9df38:	3958ce60 	ldrb	w0, [x19, #1587]
+   9df3c:	350010a0 	cbnz	w0, 9e150 <MarvinRobot::SetMode(int)+0x370>
+   9df40:	3958c660 	ldrb	w0, [x19, #1585]
+   9df44:	34fff8e0 	cbz	w0, 9de60 <MarvinRobot::SetMode(int)+0x80>
+   9df48:	1e649001 	fmov	d1, #1.000000000000000000e+01
+   9df4c:	b9461661 	ldr	w1, [x19, #1556]
+   9df50:	910103e3 	add	x3, sp, #0x40
+   9df54:	910003e2 	mov	x2, sp
+   9df58:	1e604020 	fmov	d0, d1
+   9df5c:	52800040 	mov	w0, #0x2                   	// #2
+   9df60:	97fffc4c 	bl	9d090 <(anonymous namespace)::switch_obj_to_target(FXObjType, int, double, double, double*, double*)>
+   9df64:	0a000294 	and	w20, w20, w0
+   9df68:	17ffffbe 	b	9de60 <MarvinRobot::SetMode(int)+0x80>
+   9df6c:	52807d01 	mov	w1, #0x3e8                 	// #1000
+   9df70:	52800000 	mov	w0, #0x0                   	// #0
+   9df74:	f90053f5 	str	x21, [sp, #160]
+   9df78:	97fe0ad2 	bl	20ac0 <FX_L1_State_SwitchToIdle@plt>
+   9df7c:	52807d01 	mov	w1, #0x3e8                 	// #1000
+   9df80:	2a0003f5 	mov	w21, w0
+   9df84:	2a1403e0 	mov	w0, w20
+   9df88:	97fe0ace 	bl	20ac0 <FX_L1_State_SwitchToIdle@plt>
+   9df8c:	2a0002b5 	orr	w21, w21, w0
+   9df90:	3958ca60 	ldrb	w0, [x19, #1586]
+   9df94:	710002bf 	cmp	w21, #0x0
+   9df98:	1a9f17f4 	cset	w20, eq  // eq = none
+   9df9c:	f94053f5 	ldr	x21, [sp, #160]
+   9dfa0:	34fff580 	cbz	w0, 9de50 <MarvinRobot::SetMode(int)+0x70>
+   9dfa4:	14000010 	b	9dfe4 <MarvinRobot::SetMode(int)+0x204>
+   9dfa8:	52807d01 	mov	w1, #0x3e8                 	// #1000
+   9dfac:	52800080 	mov	w0, #0x4                   	// #4
+   9dfb0:	97fe0ac4 	bl	20ac0 <FX_L1_State_SwitchToIdle@plt>
+   9dfb4:	7100001f 	cmp	w0, #0x0
+   9dfb8:	1a9f17e0 	cset	w0, eq  // eq = none
+   9dfbc:	0a000294 	and	w20, w20, w0
+   9dfc0:	3958c660 	ldrb	w0, [x19, #1585]
+   9dfc4:	34fff4e0 	cbz	w0, 9de60 <MarvinRobot::SetMode(int)+0x80>
+   9dfc8:	52807d01 	mov	w1, #0x3e8                 	// #1000
+   9dfcc:	52800040 	mov	w0, #0x2                   	// #2
+   9dfd0:	97fe0abc 	bl	20ac0 <FX_L1_State_SwitchToIdle@plt>
+   9dfd4:	7100001f 	cmp	w0, #0x0
+   9dfd8:	1a9f17e0 	cset	w0, eq  // eq = none
+   9dfdc:	0a000294 	and	w20, w20, w0
+   9dfe0:	17ffffa0 	b	9de60 <MarvinRobot::SetMode(int)+0x80>
+   9dfe4:	52807d01 	mov	w1, #0x3e8                 	// #1000
+   9dfe8:	52800060 	mov	w0, #0x3                   	// #3
+   9dfec:	97fe0ab5 	bl	20ac0 <FX_L1_State_SwitchToIdle@plt>
+   9dff0:	7100001f 	cmp	w0, #0x0
+   9dff4:	1a9f17e0 	cset	w0, eq  // eq = none
+   9dff8:	0a000294 	and	w20, w20, w0
+   9dffc:	3958ce60 	ldrb	w0, [x19, #1587]
+   9e000:	34fff2c0 	cbz	w0, 9de58 <MarvinRobot::SetMode(int)+0x78>
+   9e004:	17ffffe9 	b	9dfa8 <MarvinRobot::SetMode(int)+0x1c8>
+   9e008:	9110a263 	add	x3, x19, #0x428
+   9e00c:	910fc262 	add	x2, x19, #0x3f0
+   9e010:	2a1403e0 	mov	w0, w20
+   9e014:	52800001 	mov	w1, #0x0                   	// #0
+   9e018:	f90053f5 	str	x21, [sp, #160]
+   9e01c:	97fe0aa1 	bl	20aa0 <FX_L1_Runtime_SetJointKD@plt>
+   9e020:	2a0003f5 	mov	w21, w0
+   9e024:	2a1403e1 	mov	w1, w20
+   9e028:	2a1403e0 	mov	w0, w20
+   9e02c:	91126263 	add	x3, x19, #0x498
+   9e030:	91118262 	add	x2, x19, #0x460
+   9e034:	97fe0a9b 	bl	20aa0 <FX_L1_Runtime_SetJointKD@plt>
+   9e038:	2a0002b5 	orr	w21, w21, w0
+   9e03c:	710002bf 	cmp	w21, #0x0
+   9e040:	1a9f17f4 	cset	w20, eq  // eq = none
+   9e044:	f94053f5 	ldr	x21, [sp, #160]
+   9e048:	17ffff9c 	b	9deb8 <MarvinRobot::SetMode(int)+0xd8>
+   9e04c:	b9462e61 	ldr	w1, [x19, #1580]
+   9e050:	d2e80b20 	mov	x0, #0x4059000000000000    	// #4636737291354636288
+   9e054:	9e670001 	fmov	d1, x0
+   9e058:	9e670000 	fmov	d0, x0
+   9e05c:	910103e3 	add	x3, sp, #0x40
+   9e060:	910003e2 	mov	x2, sp
+   9e064:	52800080 	mov	w0, #0x4                   	// #4
+   9e068:	97fffc0a 	bl	9d090 <(anonymous namespace)::switch_obj_to_target(FXObjType, int, double, double, double*, double*)>
+   9e06c:	0a000294 	and	w20, w20, w0
+   9e070:	17ffff9e 	b	9dee8 <MarvinRobot::SetMode(int)+0x108>
+   9e074:	b9462a61 	ldr	w1, [x19, #1576]
+   9e078:	d2e80b20 	mov	x0, #0x4059000000000000    	// #4636737291354636288
+   9e07c:	9e670001 	fmov	d1, x0
+   9e080:	9e670000 	fmov	d0, x0
+   9e084:	910103e3 	add	x3, sp, #0x40
+   9e088:	910003e2 	mov	x2, sp
+   9e08c:	52800060 	mov	w0, #0x3                   	// #3
+   9e090:	97fffc00 	bl	9d090 <(anonymous namespace)::switch_obj_to_target(FXObjType, int, double, double, double*, double*)>
+   9e094:	0a000294 	and	w20, w20, w0
+   9e098:	17ffff92 	b	9dee0 <MarvinRobot::SetMode(int)+0x100>
+   9e09c:	b9462261 	ldr	w1, [x19, #1568]
+   9e0a0:	d2e80b20 	mov	x0, #0x4059000000000000    	// #4636737291354636288
+   9e0a4:	9e670001 	fmov	d1, x0
+   9e0a8:	9e670000 	fmov	d0, x0
+   9e0ac:	9110a263 	add	x3, x19, #0x428
+   9e0b0:	910fc262 	add	x2, x19, #0x3f0
+   9e0b4:	52800000 	mov	w0, #0x0                   	// #0
+   9e0b8:	f90053f5 	str	x21, [sp, #160]
+   9e0bc:	97fffbf5 	bl	9d090 <(anonymous namespace)::switch_obj_to_target(FXObjType, int, double, double, double*, double*)>
+   9e0c0:	12001c15 	and	w21, w0, #0xff
+   9e0c4:	d2e80b21 	mov	x1, #0x4059000000000000    	// #4636737291354636288
+   9e0c8:	9e670021 	fmov	d1, x1
+   9e0cc:	9e670020 	fmov	d0, x1
+   9e0d0:	b9462261 	ldr	w1, [x19, #1568]
+   9e0d4:	91126263 	add	x3, x19, #0x498
+   9e0d8:	91118262 	add	x2, x19, #0x460
+   9e0dc:	52800020 	mov	w0, #0x1                   	// #1
+   9e0e0:	97fffbec 	bl	9d090 <(anonymous namespace)::switch_obj_to_target(FXObjType, int, double, double, double*, double*)>
+   9e0e4:	12001c00 	and	w0, w0, #0xff
+   9e0e8:	710002bf 	cmp	w21, #0x0
+   9e0ec:	7a401804 	ccmp	w0, #0x0, #0x4, ne  // ne = any
+   9e0f0:	1a9f07e0 	cset	w0, ne  // ne = any
+   9e0f4:	0a000294 	and	w20, w20, w0
+   9e0f8:	f94053f5 	ldr	x21, [sp, #160]
+   9e0fc:	17ffff74 	b	9decc <MarvinRobot::SetMode(int)+0xec>
+   9e100:	b0000254 	adrp	x20, e7000 <rclcpp::Waitable::get_number_of_ready_guard_conditions()@Base>
+   9e104:	900000a1 	adrp	x1, b2000 <typeinfo name for rclcpp::experimental::buffers::BufferImplementationBase<std::shared_ptr<marvin_msgs::msg::JointcmdHead_<std::allocator<void> > const> >+0x40>
+   9e108:	d2800462 	mov	x2, #0x23                  	// #35
+   9e10c:	911e4021 	add	x1, x1, #0x790
+   9e110:	f947ba93 	ldr	x19, [x20, #3952]
+   9e114:	aa1303e0 	mov	x0, x19
+   9e118:	97fe083e 	bl	20210 <std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@plt>
+   9e11c:	f9400260 	ldr	x0, [x19]
+   9e120:	f85e8000 	ldur	x0, [x0, #-24]
+   9e124:	8b130000 	add	x0, x0, x19
+   9e128:	f9407813 	ldr	x19, [x0, #240]
+   9e12c:	b40007b3 	cbz	x19, 9e220 <MarvinRobot::SetMode(int)+0x440>
+   9e130:	3940e260 	ldrb	w0, [x19, #56]
+   9e134:	34000580 	cbz	w0, 9e1e4 <MarvinRobot::SetMode(int)+0x404>
+   9e138:	39410e61 	ldrb	w1, [x19, #67]
+   9e13c:	f947ba80 	ldr	x0, [x20, #3952]
+   9e140:	52800014 	mov	w20, #0x0                   	// #0
+   9e144:	97fe057f 	bl	1f740 <std::ostream::put(char)@plt>
+   9e148:	97fe070e 	bl	1fd80 <std::ostream::flush()@plt>
+   9e14c:	17ffff48 	b	9de6c <MarvinRobot::SetMode(int)+0x8c>
+   9e150:	1e649001 	fmov	d1, #1.000000000000000000e+01
+   9e154:	b9461e61 	ldr	w1, [x19, #1564]
+   9e158:	910103e3 	add	x3, sp, #0x40
+   9e15c:	910003e2 	mov	x2, sp
+   9e160:	1e604020 	fmov	d0, d1
+   9e164:	52800080 	mov	w0, #0x4                   	// #4
+   9e168:	97fffbca 	bl	9d090 <(anonymous namespace)::switch_obj_to_target(FXObjType, int, double, double, double*, double*)>
+   9e16c:	0a000294 	and	w20, w20, w0
+   9e170:	17ffff74 	b	9df40 <MarvinRobot::SetMode(int)+0x160>
+   9e174:	1e649001 	fmov	d1, #1.000000000000000000e+01
+   9e178:	b9461a61 	ldr	w1, [x19, #1560]
+   9e17c:	910103e3 	add	x3, sp, #0x40
+   9e180:	910003e2 	mov	x2, sp
+   9e184:	1e604020 	fmov	d0, d1
+   9e188:	52800060 	mov	w0, #0x3                   	// #3
+   9e18c:	97fffbc1 	bl	9d090 <(anonymous namespace)::switch_obj_to_target(FXObjType, int, double, double, double*, double*)>
+   9e190:	0a000294 	and	w20, w20, w0
+   9e194:	17ffff69 	b	9df38 <MarvinRobot::SetMode(int)+0x158>
+   9e198:	1e649001 	fmov	d1, #1.000000000000000000e+01
+   9e19c:	b9461261 	ldr	w1, [x19, #1552]
+   9e1a0:	9110a263 	add	x3, x19, #0x428
+   9e1a4:	910fc262 	add	x2, x19, #0x3f0
+   9e1a8:	1e604020 	fmov	d0, d1
+   9e1ac:	52800000 	mov	w0, #0x0                   	// #0
+   9e1b0:	f90053f5 	str	x21, [sp, #160]
+   9e1b4:	97fffbb7 	bl	9d090 <(anonymous namespace)::switch_obj_to_target(FXObjType, int, double, double, double*, double*)>
+   9e1b8:	12001c15 	and	w21, w0, #0xff
+   9e1bc:	1e649001 	fmov	d1, #1.000000000000000000e+01
+   9e1c0:	b9461261 	ldr	w1, [x19, #1552]
+   9e1c4:	2a1403e0 	mov	w0, w20
+   9e1c8:	91126263 	add	x3, x19, #0x498
+   9e1cc:	1e604020 	fmov	d0, d1
+   9e1d0:	91118262 	add	x2, x19, #0x460
+   9e1d4:	97fffbaf 	bl	9d090 <(anonymous namespace)::switch_obj_to_target(FXObjType, int, double, double, double*, double*)>
+   9e1d8:	0a0002b4 	and	w20, w21, w0
+   9e1dc:	f94053f5 	ldr	x21, [sp, #160]
+   9e1e0:	17ffff51 	b	9df24 <MarvinRobot::SetMode(int)+0x144>
+   9e1e4:	aa1303e0 	mov	x0, x19
+   9e1e8:	97fe080e 	bl	20220 <std::ctype<char>::_M_widen_init() const@plt>
+   9e1ec:	f9400262 	ldr	x2, [x19]
+   9e1f0:	90fffc60 	adrp	x0, 2a000 <void rclcpp::experimental::IntraProcessManager::add_owned_msg_to_buffers<marvin_msgs::msg::Jointfeedback_<std::allocator<void> >, std::allocator<void>, std::default_delete<marvin_msgs::msg::Jointfeedback_<std::allocator<void> > >, marvin_msgs::msg::Jointfeedback_<std::allocator<void> > >(std::unique_ptr<marvin_msgs::msg::Jointfeedback_<std::allocator<void> >, std::default_delete<marvin_msgs::msg::Jointfeedback_<std::allocator<void> > > >, std::vector<unsigned long, std::allocator<unsigned long> >, rclcpp::allocator::AllocRebind<marvin_msgs::msg::Jointfeedback_<std::allocator<void> > >::allocator_type&) [clone .isra.0]+0x170>
+   9e1f4:	91378000 	add	x0, x0, #0xde0
+   9e1f8:	52800141 	mov	w1, #0xa                   	// #10
+   9e1fc:	f9401842 	ldr	x2, [x2, #48]
+   9e200:	eb00005f 	cmp	x2, x0
+   9e204:	54fff9c0 	b.eq	9e13c <MarvinRobot::SetMode(int)+0x35c>  // b.none
+   9e208:	aa1303e0 	mov	x0, x19
+   9e20c:	d63f0040 	blr	x2
+   9e210:	12001c01 	and	w1, w0, #0xff
+   9e214:	17ffffca 	b	9e13c <MarvinRobot::SetMode(int)+0x35c>
+   9e218:	f90053f5 	str	x21, [sp, #160]
+   9e21c:	97fe05e1 	bl	1f9a0 <__stack_chk_fail@plt>
+   9e220:	f90053f5 	str	x21, [sp, #160]
+   9e224:	97fe0847 	bl	20340 <std::__throw_bad_cast()@plt>
+   9e228:	d503201f 	nop
+   9e22c:	d503201f 	nop
+

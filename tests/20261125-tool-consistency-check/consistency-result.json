@@ -1,0 +1,117 @@
+{
+  "recorded_at": "2026-11-25T10:05:55.3863641+08:00",
+  "expected_dynamics": [
+    1.8,
+    0,
+    0,
+    0,
+    0.004,
+    0,
+    0,
+    0.004,
+    0,
+    0.03
+  ],
+  "expected_kinematics": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "checks": [
+    {
+      "frame": 130419,
+      "side": "left",
+      "dynamics_match": true,
+      "kinematics_match": true,
+      "state": {
+        "cur": 0,
+        "cmd": 0,
+        "err": 0
+      }
+    },
+    {
+      "frame": 130419,
+      "side": "right",
+      "dynamics_match": true,
+      "kinematics_match": true,
+      "state": {
+        "cur": 0,
+        "cmd": 0,
+        "err": 0
+      }
+    },
+    {
+      "frame": 130624,
+      "side": "left",
+      "dynamics_match": true,
+      "kinematics_match": true,
+      "state": {
+        "cur": 0,
+        "cmd": 0,
+        "err": 0
+      }
+    },
+    {
+      "frame": 130624,
+      "side": "right",
+      "dynamics_match": true,
+      "kinematics_match": true,
+      "state": {
+        "cur": 0,
+        "cmd": 0,
+        "err": 0
+      }
+    },
+    {
+      "frame": 130826,
+      "side": "left",
+      "dynamics_match": true,
+      "kinematics_match": true,
+      "state": {
+        "cur": 0,
+        "cmd": 0,
+        "err": 0
+      }
+    },
+    {
+      "frame": 130826,
+      "side": "right",
+      "dynamics_match": true,
+      "kinematics_match": true,
+      "state": {
+        "cur": 0,
+        "cmd": 0,
+        "err": 0
+      }
+    }
+  ],
+  "all_match": true,
+  "frames_advance": true,
+  "apex_yaml_tool_arrays_match_screenshot": true,
+  "apex_init_behavior": "init_tool_dyna writes left/right ToolD from YAML. Source reviewed does not set ToolK; live ToolK readback is six zeros on both arms.",
+  "fxplatform_observed": "Current live window is disconnected; screenshot supplied by user showed both arrays 1.8,0,0,0,0.004,0,0,0.004,0,0.03 and both kinematics zero.",
+  "source_note": "Vendor UI input fields may reset at disconnect; reference UI source also has refresh_params_from_realtime_data. Screenshot and entry fields alone were not used as proof; three live controller SG samples establish current values.",
+  "parameter_writes_this_check": 0,
+  "reset_or_enable_or_home_calls_this_check": 0,
+  "current_servo_errors": {
+    "left": [
+      0,
+      "J1: 0x0000 - No error\nJ2: 0x0000 - No error\nJ3: 0x0000 - No error\nJ4: 0x0000 - No error\nJ5: 0x0000 - No error\nJ6: 0x0000 - No error\nJ7: 0x0000 - No error"
+    ],
+    "right": [
+      0,
+      "J1: 0x0000 - No error\nJ2: 0x0000 - No error\nJ3: 0x0000 - No error\nJ4: 0x0000 - No error\nJ5: 0x0000 - No error\nJ6: 0x0000 - No error\nJ7: 0x0000 - No error"
+    ]
+  },
+  "current_status": "Both idle, no current drive error. This does not prove impedance/PD recovery.",
+  "right_J6_velocity_samples": [
+    -48.43412,
+    -49.40926,
+    -45.896217
+  ],
+  "motion_note": "Right J6 velocity was nonzero during readonly samples; origin not determined. No movement commands issued. No mode test performed.",
+  "historical_alarm": "Earlier this session right J6 reported0xFF18 Motor stall after full power cycle, arm error102; PD entry had failed106. Do not mark fixed based on current idle or matching tools."
+}

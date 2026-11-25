@@ -1,0 +1,104 @@
+[
+  {
+    "control_ready": true,
+    "control_error": false,
+    "control_error_message": "",
+    "arm_state": [
+      2,
+      2,
+      1,
+      2,
+      0,
+      0
+    ],
+    "arm_state_age_sec": 0.0017757415771484375,
+    "current_mode": 2,
+    "speed_factor": 1.0,
+    "current_input_mode": -1
+  },
+  {
+    "control_ready": true,
+    "control_error": false,
+    "control_error_message": "",
+    "arm_state": [
+      2,
+      2,
+      1,
+      2,
+      0,
+      0
+    ],
+    "arm_state_age_sec": 0.006865978240966797,
+    "current_mode": 2,
+    "speed_factor": 1.0,
+    "current_input_mode": -1
+  },
+  {
+    "control_ready": true,
+    "control_error": false,
+    "control_error_message": "",
+    "arm_state": [
+      2,
+      2,
+      1,
+      2,
+      0,
+      0
+    ],
+    "arm_state_age_sec": 0.0052683353424072266,
+    "current_mode": 2,
+    "speed_factor": 1.0,
+    "current_input_mode": -1
+  },
+  {
+    "control_ready": true,
+    "control_error": false,
+    "control_error_message": "",
+    "arm_state": [
+      2,
+      2,
+      1,
+      2,
+      0,
+      0
+    ],
+    "arm_state_age_sec": 0.0008063316345214844,
+    "current_mode": 2,
+    "speed_factor": 1.0,
+    "current_input_mode": -1
+  },
+  {
+    "control_ready": true,
+    "control_error": false,
+    "control_error_message": "",
+    "arm_state": [
+      2,
+      2,
+      1,
+      2,
+      0,
+      0
+    ],
+    "arm_state_age_sec": 0.0018041133880615234,
+    "current_mode": 2,
+    "speed_factor": 1.0,
+    "current_input_mode": -1
+  },
+  {
+    "control_ready": true,
+    "control_error": false,
+    "control_error_message": "",
+    "arm_state": [
+      2,
+      2,
+      1,
+      2,
+      0,
+      0
+    ],
+    "arm_state_age_sec": 0.0014865398406982422,
+    "current_mode": 2,
+    "speed_factor": 1.0,
+    "current_input_mode": -1
+  }
+]

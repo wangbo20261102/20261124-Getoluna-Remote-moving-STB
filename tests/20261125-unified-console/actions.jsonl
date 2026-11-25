@@ -1,0 +1,12 @@
+{"started_at": 1795573491.1040776, "finished_at": 1795573491.2310321, "command": "display", "args": {"supported": false}, "ok": true, "result": {"message": "摄像头、MAXHUB、电量显示服务已就绪"}}
+{"started_at": 1795573530.4682317, "finished_at": 1795573530.50677, "command": "home", "args": {"home_confirmed": true, "supported": true}, "ok": false, "result": {"error": "控制器反馈已过期，未执行操作"}}
+{"started_at": 1795573539.6659505, "finished_at": 1795573539.671287, "command": "home", "args": {"home_confirmed": true, "supported": true}, "ok": false, "result": {"error": "控制器反馈已过期，未执行操作"}}
+{"started_at": 1795573542.0626583, "finished_at": 1795573542.0678315, "command": "clear", "args": {"supported": true}, "ok": false, "result": {"error": "控制器反馈已过期，未执行操作"}}
+{"started_at": 1795573544.2872825, "finished_at": 1795573544.291686, "command": "clear", "args": {"supported": true}, "ok": false, "result": {"error": "控制器反馈已过期，未执行操作"}}
+{"started_at": 1795573545.0330071, "finished_at": 1795573545.037798, "command": "clear", "args": {"supported": true}, "ok": false, "result": {"error": "控制器反馈已过期，未执行操作"}}
+{"started_at": 1795573545.9348533, "finished_at": 1795573545.9392107, "command": "clear", "args": {"supported": true}, "ok": false, "result": {"error": "控制器反馈已过期，未执行操作"}}
+{"started_at": 1795573549.220413, "finished_at": 1795573549.2801688, "command": "mode", "args": {"mode": 1, "supported": true}, "ok": false, "result": {"error": "控制器反馈已过期，未执行操作"}}
+{"started_at": 1795573550.0701258, "finished_at": 1795573550.0744264, "command": "mode", "args": {"mode": 3, "supported": true}, "ok": false, "result": {"error": "控制器反馈已过期，未执行操作"}}
+{"started_at": 1795573550.9133394, "finished_at": 1795573550.9187033, "command": "mode", "args": {"mode": 0, "supported": true}, "ok": false, "result": {"error": "控制器反馈已过期，未执行操作"}}
+{"started_at": 1795573554.1470346, "finished_at": 1795573554.2492683, "command": "robot_stop", "args": {"supported": true}, "ok": false, "result": {"error": "控制器反馈已过期，未执行操作"}}
+{"started_at": 1795573557.219884, "finished_at": 1795573557.330226, "command": "clear", "args": {"supported": true}, "ok": false, "result": {"error": "控制器反馈已过期，未执行操作"}}

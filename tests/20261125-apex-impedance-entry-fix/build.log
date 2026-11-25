@@ -1,0 +1,364 @@
+[ 20%] Building CXX object CMakeFiles/test_impedance_entry.dir/test_impedance_entry.cpp.o
+[ 40%] Building CXX object CMakeFiles/marvin_robot_node.dir/src/marvin_robot_node.cpp.o
+[ 60%] Linking CXX executable test_impedance_entry
+[ 60%] Built target test_impedance_entry
+[ 80%] Building CXX object CMakeFiles/marvin_robot_node.dir/src/marvin_robot.cpp.o
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp: In function ‘bool {anonymous}::l1_send()’:
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:20:18: error: ‘FX_L1_Comm_Send’ was not declared in this scope
+   20 |     return l1_ok(FX_L1_Comm_Send());
+      |                  ^~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp: In member function ‘bool MarvinRobot::init(const string&)’:
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:72:13: error: ‘FX_L1_Comm_Clear’ was not declared in this scope
+   72 |             FX_L1_Comm_Clear(0);
+      |             ^~~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:73:54: error: cannot convert ‘double’ to ‘FXObjType’
+   73 |             FX_L1_Runtime_SetSpeedRatio(FX_OBJ_ARM0, 100.0, 100.0);
+      |                                                      ^~~~~
+      |                                                      |
+      |                                                      double
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:895:85: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetSpeedRatio(unsigned int, FXObjType, double, double)’
+  895 |     FX_L1_SDK_API int FX_L1_Runtime_SetSpeedRatio(unsigned int thread_id, FXObjType obj_type, double vel_ratio, double acc_ratio);
+      |                                                                           ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:74:54: error: cannot convert ‘double’ to ‘FXObjType’
+   74 |             FX_L1_Runtime_SetSpeedRatio(FX_OBJ_ARM1, 100.0, 100.0);
+      |                                                      ^~~~~
+      |                                                      |
+      |                                                      double
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:895:85: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetSpeedRatio(unsigned int, FXObjType, double, double)’
+  895 |     FX_L1_SDK_API int FX_L1_Runtime_SetSpeedRatio(unsigned int thread_id, FXObjType obj_type, double vel_ratio, double acc_ratio);
+      |                                                                           ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:75:54: error: cannot convert ‘double’ to ‘FXObjType’
+   75 |             FX_L1_Runtime_SetSpeedRatio(FX_OBJ_BODY, 100.0, 100.0);
+      |                                                      ^~~~~
+      |                                                      |
+      |                                                      double
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:895:85: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetSpeedRatio(unsigned int, FXObjType, double, double)’
+  895 |     FX_L1_SDK_API int FX_L1_Runtime_SetSpeedRatio(unsigned int thread_id, FXObjType obj_type, double vel_ratio, double acc_ratio);
+      |                                                                           ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:76:54: error: cannot convert ‘double’ to ‘FXObjType’
+   76 |             FX_L1_Runtime_SetSpeedRatio(FX_OBJ_HEAD, 100.0, 100.0);
+      |                                                      ^~~~~
+      |                                                      |
+      |                                                      double
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:895:85: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetSpeedRatio(unsigned int, FXObjType, double, double)’
+  895 |     FX_L1_SDK_API int FX_L1_Runtime_SetSpeedRatio(unsigned int thread_id, FXObjType obj_type, double vel_ratio, double acc_ratio);
+      |                                                                           ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:77:51: error: cannot convert ‘double*’ to ‘FXObjType’
+   77 |             FX_L1_Runtime_SetJointKD(FX_OBJ_ARM0, K_A, D_A);
+      |                                                   ^~~
+      |                                                   |
+      |                                                   double*
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:932:82: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetJointKD(unsigned int, FXObjType, double*, double*)’
+  932 |     FX_L1_SDK_API int FX_L1_Runtime_SetJointKD(unsigned int thread_id, FXObjType obj_type, double k[7], double d[7]);
+      |                                                                        ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:78:51: error: cannot convert ‘double*’ to ‘FXObjType’
+   78 |             FX_L1_Runtime_SetJointKD(FX_OBJ_ARM1, K_B, D_B);
+      |                                                   ^~~
+      |                                                   |
+      |                                                   double*
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:932:82: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetJointKD(unsigned int, FXObjType, double*, double*)’
+  932 |     FX_L1_SDK_API int FX_L1_Runtime_SetJointKD(unsigned int thread_id, FXObjType obj_type, double k[7], double d[7]);
+      |                                                                        ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:79:13: error: ‘FX_L1_Comm_Send’ was not declared in this scope
+   79 |             FX_L1_Comm_Send();
+      |             ^~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp: In member function ‘bool MarvinRobot::init_tool_dyna(double*, double*)’:
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:102:9: error: ‘FX_L1_Comm_Clear’ was not declared in this scope
+  102 |         FX_L1_Comm_Clear(0);
+      |         ^~~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:103:45: error: cannot convert ‘double*’ to ‘FXObjType’
+  103 |         FX_L1_Runtime_SetToolD(FX_OBJ_ARM0, dynPara_A);
+      |                                             ^~~~~~~~~
+      |                                             |
+      |                                             double*
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:993:80: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetToolD(unsigned int, FXObjType, double*)’
+  993 |     FX_L1_SDK_API int FX_L1_Runtime_SetToolD(unsigned int thread_id, FXObjType obj_type, double d[10]);
+      |                                                                      ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:104:45: error: cannot convert ‘double*’ to ‘FXObjType’
+  104 |         FX_L1_Runtime_SetToolD(FX_OBJ_ARM1, dynPara_B);
+      |                                             ^~~~~~~~~
+      |                                             |
+      |                                             double*
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:993:80: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetToolD(unsigned int, FXObjType, double*)’
+  993 |     FX_L1_SDK_API int FX_L1_Runtime_SetToolD(unsigned int thread_id, FXObjType obj_type, double d[10]);
+      |                                                                      ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp: In member function ‘bool MarvinRobot::PosCmd(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 3>&, const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&)’:
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:314:9: error: ‘FX_L1_Comm_Clear’ was not declared in this scope
+  314 |         FX_L1_Comm_Clear(0);
+      |         ^~~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:315:51: error: cannot convert ‘double*’ to ‘FXObjType’
+  315 |         FX_L1_Runtime_SetJointPosCmd(FX_OBJ_ARM0, joint_cmd_A_deg);
+      |                                                   ^~~~~~~~~~~~~~~
+      |                                                   |
+      |                                                   double*
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:822:86: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetJointPosCmd(unsigned int, FXObjType, double*)’
+  822 |     FX_L1_SDK_API int FX_L1_Runtime_SetJointPosCmd(unsigned int thread_id, FXObjType obj_type, double pos_cmd[7]);
+      |                                                                            ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:316:51: error: cannot convert ‘double*’ to ‘FXObjType’
+  316 |         FX_L1_Runtime_SetJointPosCmd(FX_OBJ_ARM1, joint_cmd_B_deg);
+      |                                                   ^~~~~~~~~~~~~~~
+      |                                                   |
+      |                                                   double*
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:822:86: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetJointPosCmd(unsigned int, FXObjType, double*)’
+  822 |     FX_L1_SDK_API int FX_L1_Runtime_SetJointPosCmd(unsigned int thread_id, FXObjType obj_type, double pos_cmd[7]);
+      |                                                                            ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:317:51: error: cannot convert ‘double*’ to ‘FXObjType’
+  317 |         FX_L1_Runtime_SetJointPosCmd(FX_OBJ_BODY, joint_cmd_body_deg);
+      |                                                   ^~~~~~~~~~~~~~~~~~
+      |                                                   |
+      |                                                   double*
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:822:86: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetJointPosCmd(unsigned int, FXObjType, double*)’
+  822 |     FX_L1_SDK_API int FX_L1_Runtime_SetJointPosCmd(unsigned int thread_id, FXObjType obj_type, double pos_cmd[7]);
+      |                                                                            ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:318:51: error: cannot convert ‘double*’ to ‘FXObjType’
+  318 |         FX_L1_Runtime_SetJointPosCmd(FX_OBJ_LIFT, joint_cmd_lift_mm);
+      |                                                   ^~~~~~~~~~~~~~~~~
+      |                                                   |
+      |                                                   double*
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:822:86: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetJointPosCmd(unsigned int, FXObjType, double*)’
+  822 |     FX_L1_SDK_API int FX_L1_Runtime_SetJointPosCmd(unsigned int thread_id, FXObjType obj_type, double pos_cmd[7]);
+      |                                                                            ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:319:51: error: cannot convert ‘double*’ to ‘FXObjType’
+  319 |         FX_L1_Runtime_SetJointPosCmd(FX_OBJ_HEAD, joint_cmd_head_deg);
+      |                                                   ^~~~~~~~~~~~~~~~~~
+      |                                                   |
+      |                                                   double*
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:822:86: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetJointPosCmd(unsigned int, FXObjType, double*)’
+  822 |     FX_L1_SDK_API int FX_L1_Runtime_SetJointPosCmd(unsigned int thread_id, FXObjType obj_type, double pos_cmd[7]);
+      |                                                                            ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp: In member function ‘bool MarvinRobot::emptyCmd()’:
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:326:9: error: ‘FX_L1_Comm_Clear’ was not declared in this scope
+  326 |         FX_L1_Comm_Clear(0);
+      |         ^~~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp: In lambda function:
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:399:13: error: ‘FX_L1_Comm_Clear’ was not declared in this scope
+  399 |             FX_L1_Comm_Clear(0);
+      |             ^~~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:400:64: error: cannot convert ‘double*’ to ‘FXObjType’
+  400 |             return FX_L1_Runtime_SetJointPosCmd(FX_OBJ_ARM0,q[0])==0 &&
+      |                                                             ~~~^
+      |                                                                |
+      |                                                                double*
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:822:86: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetJointPosCmd(unsigned int, FXObjType, double*)’
+  822 |     FX_L1_SDK_API int FX_L1_Runtime_SetJointPosCmd(unsigned int thread_id, FXObjType obj_type, double pos_cmd[7]);
+      |                                                                            ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:401:64: error: cannot convert ‘double*’ to ‘FXObjType’
+  401 |                    FX_L1_Runtime_SetJointPosCmd(FX_OBJ_ARM1,q[1])==0 && l1_send();
+      |                                                             ~~~^
+      |                                                                |
+      |                                                                double*
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:822:86: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetJointPosCmd(unsigned int, FXObjType, double*)’
+  822 |     FX_L1_SDK_API int FX_L1_Runtime_SetJointPosCmd(unsigned int thread_id, FXObjType obj_type, double pos_cmd[7]);
+      |                                                                            ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp: In member function ‘bool MarvinRobot::EnterStaticImpedance()’:
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:402:9: error: no match for ‘operator=’ (operand types are ‘std::function<bool(const impedance_entry::Feedback&)>’ and ‘MarvinRobot::EnterStaticImpedance()::<lambda(const impedance_entry::Feedback&)>’)
+  402 |         };
+      |         ^
+In file included from /usr/include/c++/11/future:47,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:19,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/include/c++/11/bits/std_function.h:530:9: note: candidate: ‘template<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<_Functor>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = bool; _ArgTypes = {const impedance_entry::Feedback&}]’
+  530 |         operator=(_Functor&& __f)
+      |         ^~~~~~~~
+/usr/include/c++/11/bits/std_function.h:530:9: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/11/bits/move.h:57,
+                 from /usr/include/c++/11/bits/exception_ptr.h:43,
+                 from /usr/include/c++/11/exception:153,
+                 from /usr/include/c++/11/ios:39,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:3,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/include/c++/11/type_traits: In substitution of ‘template<bool _Cond, class _Tp> using __enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<bool(const impedance_entry::Feedback&)>&]’:
+/usr/include/c++/11/bits/std_function.h:353:8:   required by substitution of ‘template<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<bool(const impedance_entry::Feedback&)>::_Callable<MarvinRobot::EnterStaticImpedance()::<lambda(const impedance_entry::Feedback&)>, MarvinRobot::EnterStaticImpedance()::<lambda(const impedance_entry::Feedback&)>, std::__invoke_result<MarvinRobot::EnterStaticImpedance()::<lambda(const impedance_entry::Feedback&)>&, const impedance_entry::Feedback&> >; _Tp = std::function<bool(const impedance_entry::Feedback&)>&; _Res = bool; _ArgTypes = {const impedance_entry::Feedback&}]’
+/usr/include/c++/11/bits/std_function.h:530:2:   required by substitution of ‘template<class _Functor> std::function<bool(const impedance_entry::Feedback&)>::_Requires<std::function<bool(const impedance_entry::Feedback&)>::_Callable<_Functor, typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<bool(const impedance_entry::Feedback&)> >::value), std::decay<_Tp> >::type::type, std::__invoke_result<typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<bool(const impedance_entry::Feedback&)> >::value), std::decay<_Tp> >::type::type&, const impedance_entry::Feedback&> >, std::function<bool(const impedance_entry::Feedback&)>&> std::function<bool(const impedance_entry::Feedback&)>::operator=<_Functor>(_Functor&&) [with _Functor = MarvinRobot::EnterStaticImpedance()::<lambda(const impedance_entry::Feedback&)>]’
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:402:9:   required from here
+/usr/include/c++/11/type_traits:2205:11: error: no type named ‘type’ in ‘struct std::enable_if<false, std::function<bool(const impedance_entry::Feedback&)>&>’
+ 2205 |     using __enable_if_t = typename enable_if<_Cond, _Tp>::type;
+      |           ^~~~~~~~~~~~~
+In file included from /usr/include/c++/11/future:47,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:19,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/include/c++/11/bits/std_function.h:540:9: note: candidate: ‘template<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = bool; _ArgTypes = {const impedance_entry::Feedback&}]’
+  540 |         operator=(reference_wrapper<_Functor> __f) noexcept
+      |         ^~~~~~~~
+/usr/include/c++/11/bits/std_function.h:540:9: note:   template argument deduction/substitution failed:
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:402:9: note:   ‘MarvinRobot::EnterStaticImpedance()::<lambda(const impedance_entry::Feedback&)>’ is not derived from ‘std::reference_wrapper<_Tp>’
+  402 |         };
+      |         ^
+In file included from /usr/include/c++/11/future:47,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:19,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/include/c++/11/bits/std_function.h:469:7: note: candidate: ‘std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = bool; _ArgTypes = {const impedance_entry::Feedback&}]’
+  469 |       operator=(const function& __x)
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/std_function.h:469:33: note:   no known conversion for argument 1 from ‘MarvinRobot::EnterStaticImpedance()::<lambda(const impedance_entry::Feedback&)>’ to ‘const std::function<bool(const impedance_entry::Feedback&)>&’
+  469 |       operator=(const function& __x)
+      |                 ~~~~~~~~~~~~~~~~^~~
+/usr/include/c++/11/bits/std_function.h:487:7: note: candidate: ‘std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = bool; _ArgTypes = {const impedance_entry::Feedback&}]’
+  487 |       operator=(function&& __x) noexcept
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/std_function.h:487:28: note:   no known conversion for argument 1 from ‘MarvinRobot::EnterStaticImpedance()::<lambda(const impedance_entry::Feedback&)>’ to ‘std::function<bool(const impedance_entry::Feedback&)>&&’
+  487 |       operator=(function&& __x) noexcept
+      |                 ~~~~~~~~~~~^~~
+/usr/include/c++/11/bits/std_function.h:501:7: note: candidate: ‘std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = bool; _ArgTypes = {const impedance_entry::Feedback&}; std::nullptr_t = std::nullptr_t]’
+  501 |       operator=(nullptr_t) noexcept
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/std_function.h:501:17: note:   no known conversion for argument 1 from ‘MarvinRobot::EnterStaticImpedance()::<lambda(const impedance_entry::Feedback&)>’ to ‘std::nullptr_t’
+  501 |       operator=(nullptr_t) noexcept
+      |                 ^~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp: In member function ‘bool MarvinRobot::SetMode(int)’:
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:477:17: error: ‘FX_L1_Comm_Clear’ was not declared in this scope
+  477 |                 FX_L1_Comm_Clear(0);
+      |                 ^~~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:478:55: error: cannot convert ‘double*’ to ‘FXObjType’
+  478 |                 FX_L1_Runtime_SetJointKD(FX_OBJ_ARM0, K_A, D_A);
+      |                                                       ^~~
+      |                                                       |
+      |                                                       double*
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:932:82: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetJointKD(unsigned int, FXObjType, double*, double*)’
+  932 |     FX_L1_SDK_API int FX_L1_Runtime_SetJointKD(unsigned int thread_id, FXObjType obj_type, double k[7], double d[7]);
+      |                                                                        ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:479:55: error: cannot convert ‘double*’ to ‘FXObjType’
+  479 |                 FX_L1_Runtime_SetJointKD(FX_OBJ_ARM1, K_B, D_B);
+      |                                                       ^~~
+      |                                                       |
+      |                                                       double*
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:932:82: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetJointKD(unsigned int, FXObjType, double*, double*)’
+  932 |     FX_L1_SDK_API int FX_L1_Runtime_SetJointKD(unsigned int thread_id, FXObjType obj_type, double k[7], double d[7]);
+      |                                                                        ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp: In member function ‘void MarvinRobot::SetKDL(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)’:
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:618:13: error: ‘FX_L1_Comm_Clear’ was not declared in this scope
+  618 |             FX_L1_Comm_Clear(0);
+      |             ^~~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:619:37: error: invalid conversion from ‘double*’ to ‘unsigned int’ [-fpermissive]
+  619 |             FX_L1_Runtime_SetBodyPD(K_L, D_L);
+      |                                     ^~~
+      |                                     |
+      |                                     double*
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:619:36: error: too few arguments to function ‘int FX_L1_Runtime_SetBodyPD(unsigned int, double*, double*)’
+  619 |             FX_L1_Runtime_SetBodyPD(K_L, D_L);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:1040:23: note: declared here
+ 1040 |     FX_L1_SDK_API int FX_L1_Runtime_SetBodyPD(unsigned int thread_id, double p[6], double d[6]);
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:620:13: error: ‘FX_L1_Comm_Send’ was not declared in this scope
+  620 |             FX_L1_Comm_Send();
+      |             ^~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp: In member function ‘void MarvinRobot::set_speed_arm(int, int)’:
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:630:9: error: ‘FX_L1_Comm_Clear’ was not declared in this scope
+  630 |         FX_L1_Comm_Clear(0);
+      |         ^~~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:631:50: error: cannot convert ‘double’ to ‘FXObjType’
+  631 |         FX_L1_Runtime_SetSpeedRatio(FX_OBJ_ARM0, static_cast<double>(vel_scale), static_cast<double>(acc_scale));
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  double
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:895:85: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetSpeedRatio(unsigned int, FXObjType, double, double)’
+  895 |     FX_L1_SDK_API int FX_L1_Runtime_SetSpeedRatio(unsigned int thread_id, FXObjType obj_type, double vel_ratio, double acc_ratio);
+      |                                                                           ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:632:50: error: cannot convert ‘double’ to ‘FXObjType’
+  632 |         FX_L1_Runtime_SetSpeedRatio(FX_OBJ_ARM1, static_cast<double>(vel_scale), static_cast<double>(acc_scale));
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  double
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:895:85: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetSpeedRatio(unsigned int, FXObjType, double, double)’
+  895 |     FX_L1_SDK_API int FX_L1_Runtime_SetSpeedRatio(unsigned int thread_id, FXObjType obj_type, double vel_ratio, double acc_ratio);
+      |                                                                           ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:633:9: error: ‘FX_L1_Comm_Send’ was not declared in this scope
+  633 |         FX_L1_Comm_Send();
+      |         ^~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp: In member function ‘void MarvinRobot::set_speed_body(int, int)’:
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:639:9: error: ‘FX_L1_Comm_Clear’ was not declared in this scope
+  639 |         FX_L1_Comm_Clear(0);
+      |         ^~~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:640:50: error: cannot convert ‘double’ to ‘FXObjType’
+  640 |         FX_L1_Runtime_SetSpeedRatio(FX_OBJ_BODY, static_cast<double>(vel_scale), static_cast<double>(acc_scale));
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  double
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:895:85: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetSpeedRatio(unsigned int, FXObjType, double, double)’
+  895 |     FX_L1_SDK_API int FX_L1_Runtime_SetSpeedRatio(unsigned int thread_id, FXObjType obj_type, double vel_ratio, double acc_ratio);
+      |                                                                           ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:641:50: error: cannot convert ‘double’ to ‘FXObjType’
+  641 |         FX_L1_Runtime_SetSpeedRatio(FX_OBJ_LIFT, static_cast<double>(vel_scale), static_cast<double>(acc_scale));
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  double
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:895:85: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetSpeedRatio(unsigned int, FXObjType, double, double)’
+  895 |     FX_L1_SDK_API int FX_L1_Runtime_SetSpeedRatio(unsigned int thread_id, FXObjType obj_type, double vel_ratio, double acc_ratio);
+      |                                                                           ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:642:9: error: ‘FX_L1_Comm_Send’ was not declared in this scope
+  642 |         FX_L1_Comm_Send();
+      |         ^~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp: In member function ‘void MarvinRobot::set_speed_head(int, int)’:
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:648:9: error: ‘FX_L1_Comm_Clear’ was not declared in this scope
+  648 |         FX_L1_Comm_Clear(0);
+      |         ^~~~~~~~~~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:649:50: error: cannot convert ‘double’ to ‘FXObjType’
+  649 |         FX_L1_Runtime_SetSpeedRatio(FX_OBJ_HEAD, static_cast<double>(vel_scale), static_cast<double>(acc_scale));
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  double
+In file included from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.h:9,
+                 from /home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:1:
+/usr/local/include/gentosdk/L1Robot/L1Robot.h:895:85: note:   initializing argument 2 of ‘int FX_L1_Runtime_SetSpeedRatio(unsigned int, FXObjType, double, double)’
+  895 |     FX_L1_SDK_API int FX_L1_Runtime_SetSpeedRatio(unsigned int thread_id, FXObjType obj_type, double vel_ratio, double acc_ratio);
+      |                                                                           ~~~~~~~~~~^~~~~~~~
+/home/nvidia/luna-test-runs/20261125-apex-impedance-entry-fix/src/marvin_robot.cpp:650:9: error: ‘FX_L1_Comm_Send’ was not declared in this scope
+  650 |         FX_L1_Comm_Send();
+      |         ^~~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/marvin_robot_node.dir/build.make:90: CMakeFiles/marvin_robot_node.dir/src/marvin_robot.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/marvin_robot_node.dir/all] Error 2
+gmake: *** [Makefile:101: all] Error 2

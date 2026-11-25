@@ -1,0 +1,502 @@
+0000000000049190 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)>:
+   49190:	a9bb7bfd 	stp	x29, x30, [sp, #-80]!
+   49194:	910003fd 	mov	x29, sp
+   49198:	a90153f3 	stp	x19, x20, [sp, #16]
+   4919c:	a9025bf5 	stp	x21, x22, [sp, #32]
+   491a0:	a90363f7 	stp	x23, x24, [sp, #48]
+   491a4:	d12083ff 	sub	sp, sp, #0x820
+   491a8:	f90203ff 	str	xzr, [sp, #1024]
+   491ac:	d00004e3 	adrp	x3, e7000 <rclcpp::Waitable::get_number_of_ready_guard_conditions()@Base>
+   491b0:	aa0003f3 	mov	x19, x0
+   491b4:	912fc018 	add	x24, x0, #0xbf0
+   491b8:	f9478063 	ldr	x3, [x3, #3840]
+   491bc:	aa0103f7 	mov	x23, x1
+   491c0:	aa0203f5 	mov	x21, x2
+   491c4:	f9400060 	ldr	x0, [x3]
+   491c8:	f9040fe0 	str	x0, [sp, #2072]
+   491cc:	d2800000 	mov	x0, #0x0                   	// #0
+   491d0:	089fff1f 	stlrb	wzr, [x24]
+   491d4:	396de260 	ldrb	w0, [x19, #2936]
+   491d8:	910023f6 	add	x22, sp, #0x8
+   491dc:	d00004f4 	adrp	x20, e7000 <rclcpp::Waitable::get_number_of_ready_guard_conditions()@Base>
+   491e0:	34000320 	cbz	w0, 49244 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0xb4>
+   491e4:	d00004f4 	adrp	x20, e7000 <rclcpp::Waitable::get_number_of_ready_guard_conditions()@Base>
+   491e8:	f9477a80 	ldr	x0, [x20, #3824]
+   491ec:	39400000 	ldrb	w0, [x0]
+   491f0:	f90433f9 	str	x25, [sp, #2144]
+   491f4:	f90437fa 	str	x26, [sp, #2152]
+   491f8:	392de27f 	strb	wzr, [x19, #2936]
+   491fc:	34002280 	cbz	w0, 4964c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x4bc>
+   49200:	910023f6 	add	x22, sp, #0x8
+   49204:	aa1303e0 	mov	x0, x19
+   49208:	aa1603e8 	mov	x8, x22
+   4920c:	97ff5d89 	bl	20830 <rclcpp::Node::get_logger() const@plt>
+   49210:	f94007e0 	ldr	x0, [sp, #8]
+   49214:	b4000040 	cbz	x0, 4921c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x8c>
+   49218:	f9400000 	ldr	x0, [x0]
+   4921c:	52800281 	mov	w1, #0x14                  	// #20
+   49220:	97ff5b68 	bl	1ffc0 <rcutils_logging_logger_is_enabled_for@plt>
+   49224:	f9400be1 	ldr	x1, [sp, #16]
+   49228:	12001c19 	and	w25, w0, #0xff
+   4922c:	b4000061 	cbz	x1, 49238 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0xa8>
+   49230:	aa0103e0 	mov	x0, x1
+   49234:	97fffeeb 	bl	48de0 <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()>
+   49238:	35000cf9 	cbnz	w25, 493d4 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x244>
+   4923c:	f94433f9 	ldr	x25, [sp, #2144]
+   49240:	f94437fa 	ldr	x26, [sp, #2152]
+   49244:	f9421660 	ldr	x0, [x19, #1064]
+   49248:	940151b6 	bl	9d920 <MarvinRobot::is_connected() const>
+   4924c:	72001c1f 	tst	w0, #0xff
+   49250:	54000600 	b.eq	49310 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x180>  // b.none
+   49254:	395d2260 	ldrb	w0, [x19, #1864]
+   49258:	34001300 	cbz	w0, 494b8 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x328>
+   4925c:	f94002e0 	ldr	x0, [x23]
+   49260:	f9400017 	ldr	x23, [x0]
+   49264:	710006ff 	cmp	w23, #0x1
+   49268:	7a438ae4 	ccmp	w23, #0x3, #0x4, hi  // hi = pmore
+   4926c:	54000d80 	b.eq	4941c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x28c>  // b.none
+   49270:	f94002a2 	ldr	x2, [x21]
+   49274:	d00002c3 	adrp	x3, a3000 <_IO_stdin_used+0xa40>
+   49278:	d2800824 	mov	x4, #0x41                  	// #65
+   4927c:	91084063 	add	x3, x3, #0x210
+   49280:	91004040 	add	x0, x2, #0x10
+   49284:	d2800001 	mov	x1, #0x0                   	// #0
+   49288:	3900205f 	strb	wzr, [x2, #8]
+   4928c:	f9400402 	ldr	x2, [x0, #8]
+   49290:	97ff5ce4 	bl	20620 <std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@plt>
+   49294:	f9477a94 	ldr	x20, [x20, #3824]
+   49298:	39400280 	ldrb	w0, [x20]
+   4929c:	34002160 	cbz	w0, 496c8 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x538>
+   492a0:	aa1303e0 	mov	x0, x19
+   492a4:	aa1603e8 	mov	x8, x22
+   492a8:	97ff5d62 	bl	20830 <rclcpp::Node::get_logger() const@plt>
+   492ac:	f94007e0 	ldr	x0, [sp, #8]
+   492b0:	b4000040 	cbz	x0, 492b8 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x128>
+   492b4:	f9400000 	ldr	x0, [x0]
+   492b8:	52800501 	mov	w1, #0x28                  	// #40
+   492bc:	97ff5b41 	bl	1ffc0 <rcutils_logging_logger_is_enabled_for@plt>
+   492c0:	f9400be1 	ldr	x1, [sp, #16]
+   492c4:	12001c14 	and	w20, w0, #0xff
+   492c8:	b4000061 	cbz	x1, 492d4 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x144>
+   492cc:	aa0103e0 	mov	x0, x1
+   492d0:	97fffec4 	bl	48de0 <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()>
+   492d4:	34000634 	cbz	w20, 49398 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x208>
+   492d8:	aa1603e8 	mov	x8, x22
+   492dc:	aa1303e0 	mov	x0, x19
+   492e0:	97ff5d54 	bl	20830 <rclcpp::Node::get_logger() const@plt>
+   492e4:	f94007e2 	ldr	x2, [sp, #8]
+   492e8:	b4000042 	cbz	x2, 492f0 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x160>
+   492ec:	f9400042 	ldr	x2, [x2]
+   492f0:	d00002c3 	adrp	x3, a3000 <_IO_stdin_used+0xa40>
+   492f4:	f00004e0 	adrp	x0, e8000 <__data_start>
+   492f8:	2a1703e4 	mov	w4, w23
+   492fc:	910bc063 	add	x3, x3, #0x2f0
+   49300:	9110c000 	add	x0, x0, #0x430
+   49304:	52800501 	mov	w1, #0x28                  	// #40
+   49308:	97ff5b92 	bl	20150 <rcutils_log@plt>
+   4930c:	14000020 	b	4938c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x1fc>
+   49310:	f9477a94 	ldr	x20, [x20, #3824]
+   49314:	f94002a1 	ldr	x1, [x21]
+   49318:	39400280 	ldrb	w0, [x20]
+   4931c:	3900203f 	strb	wzr, [x1, #8]
+   49320:	34001180 	cbz	w0, 49550 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x3c0>
+   49324:	aa1303e0 	mov	x0, x19
+   49328:	aa1603e8 	mov	x8, x22
+   4932c:	97ff5d41 	bl	20830 <rclcpp::Node::get_logger() const@plt>
+   49330:	f94007e0 	ldr	x0, [sp, #8]
+   49334:	b4000040 	cbz	x0, 4933c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x1ac>
+   49338:	f9400000 	ldr	x0, [x0]
+   4933c:	528003c1 	mov	w1, #0x1e                  	// #30
+   49340:	97ff5b20 	bl	1ffc0 <rcutils_logging_logger_is_enabled_for@plt>
+   49344:	f9400be1 	ldr	x1, [sp, #16]
+   49348:	12001c14 	and	w20, w0, #0xff
+   4934c:	b4000061 	cbz	x1, 49358 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x1c8>
+   49350:	aa0103e0 	mov	x0, x1
+   49354:	97fffea3 	bl	48de0 <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()>
+   49358:	34000214 	cbz	w20, 49398 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x208>
+   4935c:	aa1603e8 	mov	x8, x22
+   49360:	aa1303e0 	mov	x0, x19
+   49364:	97ff5d33 	bl	20830 <rclcpp::Node::get_logger() const@plt>
+   49368:	f94007e2 	ldr	x2, [sp, #8]
+   4936c:	b4000042 	cbz	x2, 49374 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x1e4>
+   49370:	f9400042 	ldr	x2, [x2]
+   49374:	d00002c3 	adrp	x3, a3000 <_IO_stdin_used+0xa40>
+   49378:	f00004e0 	adrp	x0, e8000 <__data_start>
+   4937c:	91150063 	add	x3, x3, #0x540
+   49380:	910fa000 	add	x0, x0, #0x3e8
+   49384:	528003c1 	mov	w1, #0x1e                  	// #30
+   49388:	97ff5b72 	bl	20150 <rcutils_log@plt>
+   4938c:	f9400be0 	ldr	x0, [sp, #16]
+   49390:	b4000040 	cbz	x0, 49398 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x208>
+   49394:	97fffe93 	bl	48de0 <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()>
+   49398:	52800020 	mov	w0, #0x1                   	// #1
+   4939c:	089fff00 	stlrb	w0, [x24]
+   493a0:	d00004e0 	adrp	x0, e7000 <rclcpp::Waitable::get_number_of_ready_guard_conditions()@Base>
+   493a4:	f9478000 	ldr	x0, [x0, #3840]
+   493a8:	f9440fe2 	ldr	x2, [sp, #2072]
+   493ac:	f9400001 	ldr	x1, [x0]
+   493b0:	eb010042 	subs	x2, x2, x1
+   493b4:	d2800001 	mov	x1, #0x0                   	// #0
+   493b8:	54002a01 	b.ne	498f8 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x768>  // b.any
+   493bc:	912083ff 	add	sp, sp, #0x820
+   493c0:	a94153f3 	ldp	x19, x20, [sp, #16]
+   493c4:	a9425bf5 	ldp	x21, x22, [sp, #32]
+   493c8:	a94363f7 	ldp	x23, x24, [sp, #48]
+   493cc:	a8c57bfd 	ldp	x29, x30, [sp], #80
+   493d0:	d65f03c0 	ret
+   493d4:	aa1603e8 	mov	x8, x22
+   493d8:	aa1303e0 	mov	x0, x19
+   493dc:	97ff5d15 	bl	20830 <rclcpp::Node::get_logger() const@plt>
+   493e0:	f94007e2 	ldr	x2, [sp, #8]
+   493e4:	b4000042 	cbz	x2, 493ec <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x25c>
+   493e8:	f9400042 	ldr	x2, [x2]
+   493ec:	d00002c3 	adrp	x3, a3000 <_IO_stdin_used+0xa40>
+   493f0:	f00004e0 	adrp	x0, e8000 <__data_start>
+   493f4:	91046063 	add	x3, x3, #0x118
+   493f8:	91118000 	add	x0, x0, #0x460
+   493fc:	52800281 	mov	w1, #0x14                  	// #20
+   49400:	97ff5b54 	bl	20150 <rcutils_log@plt>
+   49404:	f9400be0 	ldr	x0, [sp, #16]
+   49408:	b4fff1a0 	cbz	x0, 4923c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0xac>
+   4940c:	97fffe75 	bl	48de0 <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()>
+   49410:	f94433f9 	ldr	x25, [sp, #2144]
+   49414:	f94437fa 	ldr	x26, [sp, #2152]
+   49418:	17ffff8b 	b	49244 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0xb4>
+   4941c:	f9421660 	ldr	x0, [x19, #1064]
+   49420:	2a1703e1 	mov	w1, w23
+   49424:	9401526f 	bl	9dde0 <MarvinRobot::SetMode(int)>
+   49428:	f9477a94 	ldr	x20, [x20, #3824]
+   4942c:	72001c1f 	tst	w0, #0xff
+   49430:	54000ce0 	b.eq	495cc <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x43c>  // b.none
+   49434:	f94002a1 	ldr	x1, [x21]
+   49438:	52800022 	mov	w2, #0x1                   	// #1
+   4943c:	39400280 	ldrb	w0, [x20]
+   49440:	39002022 	strb	w2, [x1, #8]
+   49444:	34002140 	cbz	w0, 4986c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x6dc>
+   49448:	aa1303e0 	mov	x0, x19
+   4944c:	aa1603e8 	mov	x8, x22
+   49450:	97ff5cf8 	bl	20830 <rclcpp::Node::get_logger() const@plt>
+   49454:	f94007e0 	ldr	x0, [sp, #8]
+   49458:	b4000040 	cbz	x0, 49460 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x2d0>
+   4945c:	f9400000 	ldr	x0, [x0]
+   49460:	52800281 	mov	w1, #0x14                  	// #20
+   49464:	97ff5ad7 	bl	1ffc0 <rcutils_logging_logger_is_enabled_for@plt>
+   49468:	f9400be1 	ldr	x1, [sp, #16]
+   4946c:	12001c14 	and	w20, w0, #0xff
+   49470:	b4000061 	cbz	x1, 4947c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x2ec>
+   49474:	aa0103e0 	mov	x0, x1
+   49478:	97fffe5a 	bl	48de0 <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()>
+   4947c:	34fff8f4 	cbz	w20, 49398 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x208>
+   49480:	aa1603e8 	mov	x8, x22
+   49484:	aa1303e0 	mov	x0, x19
+   49488:	97ff5cea 	bl	20830 <rclcpp::Node::get_logger() const@plt>
+   4948c:	f94007e2 	ldr	x2, [sp, #8]
+   49490:	b4000042 	cbz	x2, 49498 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x308>
+   49494:	f9400042 	ldr	x2, [x2]
+   49498:	d00002c3 	adrp	x3, a3000 <_IO_stdin_used+0xa40>
+   4949c:	f00004e0 	adrp	x0, e8000 <__data_start>
+   494a0:	2a1703e4 	mov	w4, w23
+   494a4:	910f4063 	add	x3, x3, #0x3d0
+   494a8:	91106000 	add	x0, x0, #0x418
+   494ac:	52800281 	mov	w1, #0x14                  	// #20
+   494b0:	97ff5b28 	bl	20150 <rcutils_log@plt>
+   494b4:	17ffffb6 	b	4938c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x1fc>
+   494b8:	f94002a2 	ldr	x2, [x21]
+   494bc:	d2800424 	mov	x4, #0x21                  	// #33
+   494c0:	d2800001 	mov	x1, #0x0                   	// #0
+   494c4:	d00002d5 	adrp	x21, a3000 <_IO_stdin_used+0xa40>
+   494c8:	91004040 	add	x0, x2, #0x10
+   494cc:	910542a3 	add	x3, x21, #0x150
+   494d0:	3900205f 	strb	wzr, [x2, #8]
+   494d4:	f9400402 	ldr	x2, [x0, #8]
+   494d8:	97ff5c52 	bl	20620 <std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@plt>
+   494dc:	f9477a94 	ldr	x20, [x20, #3824]
+   494e0:	39400280 	ldrb	w0, [x20]
+   494e4:	34001380 	cbz	w0, 49754 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x5c4>
+   494e8:	aa1303e0 	mov	x0, x19
+   494ec:	aa1603e8 	mov	x8, x22
+   494f0:	97ff5cd0 	bl	20830 <rclcpp::Node::get_logger() const@plt>
+   494f4:	f94007e0 	ldr	x0, [sp, #8]
+   494f8:	b4000040 	cbz	x0, 49500 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x370>
+   494fc:	f9400000 	ldr	x0, [x0]
+   49500:	528003c1 	mov	w1, #0x1e                  	// #30
+   49504:	97ff5aaf 	bl	1ffc0 <rcutils_logging_logger_is_enabled_for@plt>
+   49508:	f9400be1 	ldr	x1, [sp, #16]
+   4950c:	12001c14 	and	w20, w0, #0xff
+   49510:	b4000061 	cbz	x1, 4951c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x38c>
+   49514:	aa0103e0 	mov	x0, x1
+   49518:	97fffe32 	bl	48de0 <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()>
+   4951c:	34fff3f4 	cbz	w20, 49398 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x208>
+   49520:	aa1603e8 	mov	x8, x22
+   49524:	aa1303e0 	mov	x0, x19
+   49528:	97ff5cc2 	bl	20830 <rclcpp::Node::get_logger() const@plt>
+   4952c:	f94007e2 	ldr	x2, [sp, #8]
+   49530:	b4000042 	cbz	x2, 49538 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x3a8>
+   49534:	f9400042 	ldr	x2, [x2]
+   49538:	f00004e0 	adrp	x0, e8000 <__data_start>
+   4953c:	910542a3 	add	x3, x21, #0x150
+   49540:	91112000 	add	x0, x0, #0x448
+   49544:	528003c1 	mov	w1, #0x1e                  	// #30
+   49548:	97ff5b02 	bl	20150 <rcutils_log@plt>
+   4954c:	17ffff90 	b	4938c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x1fc>
+   49550:	97ff5900 	bl	1f950 <rcutils_logging_initialize@plt>
+   49554:	34ffee80 	cbz	w0, 49324 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x194>
+   49558:	d00004f4 	adrp	x20, e7000 <rclcpp::Waitable::get_number_of_ready_guard_conditions()@Base>
+   4955c:	d2801222 	mov	x2, #0x91                  	// #145
+   49560:	d2800021 	mov	x1, #0x1                   	// #1
+   49564:	910063f5 	add	x21, sp, #0x18
+   49568:	f947e694 	ldr	x20, [x20, #4040]
+   4956c:	d00002c0 	adrp	x0, a3000 <_IO_stdin_used+0xa40>
+   49570:	9112a000 	add	x0, x0, #0x4a8
+   49574:	911063f7 	add	x23, sp, #0x418
+   49578:	f9400283 	ldr	x3, [x20]
+   4957c:	97ff5cb5 	bl	20850 <fwrite@plt>
+   49580:	aa1503e8 	mov	x8, x21
+   49584:	97ff5a03 	bl	1fd90 <rcutils_get_error_string@plt>
+   49588:	aa1703e8 	mov	x8, x23
+   4958c:	97ff5a01 	bl	1fd90 <rcutils_get_error_string@plt>
+   49590:	aa1703e0 	mov	x0, x23
+   49594:	97ff58eb 	bl	1f940 <strlen@plt>
+   49598:	aa0003e2 	mov	x2, x0
+   4959c:	f9400283 	ldr	x3, [x20]
+   495a0:	aa1503e0 	mov	x0, x21
+   495a4:	d2800021 	mov	x1, #0x1                   	// #1
+   495a8:	97ff5caa 	bl	20850 <fwrite@plt>
+   495ac:	f9400283 	ldr	x3, [x20]
+   495b0:	d2800022 	mov	x2, #0x1                   	// #1
+   495b4:	aa0203e1 	mov	x1, x2
+   495b8:	f00002c0 	adrp	x0, a4000 <_IO_stdin_used+0x1a40>
+   495bc:	91392000 	add	x0, x0, #0xe48
+   495c0:	97ff5ca4 	bl	20850 <fwrite@plt>
+   495c4:	97ff5ad7 	bl	20120 <rcutils_reset_error@plt>
+   495c8:	17ffff57 	b	49324 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x194>
+   495cc:	f94002a1 	ldr	x1, [x21]
+   495d0:	39400280 	ldrb	w0, [x20]
+   495d4:	3900203f 	strb	wzr, [x1, #8]
+   495d8:	34001040 	cbz	w0, 497e0 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x650>
+   495dc:	aa1303e0 	mov	x0, x19
+   495e0:	aa1603e8 	mov	x8, x22
+   495e4:	97ff5c93 	bl	20830 <rclcpp::Node::get_logger() const@plt>
+   495e8:	f94007e0 	ldr	x0, [sp, #8]
+   495ec:	b4000040 	cbz	x0, 495f4 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x464>
+   495f0:	f9400000 	ldr	x0, [x0]
+   495f4:	52800501 	mov	w1, #0x28                  	// #40
+   495f8:	97ff5a72 	bl	1ffc0 <rcutils_logging_logger_is_enabled_for@plt>
+   495fc:	f9400be1 	ldr	x1, [sp, #16]
+   49600:	12001c14 	and	w20, w0, #0xff
+   49604:	b4000061 	cbz	x1, 49610 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x480>
+   49608:	aa0103e0 	mov	x0, x1
+   4960c:	97fffdf5 	bl	48de0 <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()>
+   49610:	34ffec54 	cbz	w20, 49398 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x208>
+   49614:	aa1603e8 	mov	x8, x22
+   49618:	aa1303e0 	mov	x0, x19
+   4961c:	97ff5c85 	bl	20830 <rclcpp::Node::get_logger() const@plt>
+   49620:	f94007e2 	ldr	x2, [sp, #8]
+   49624:	b4000042 	cbz	x2, 4962c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x49c>
+   49628:	f9400042 	ldr	x2, [x2]
+   4962c:	d00002c3 	adrp	x3, a3000 <_IO_stdin_used+0xa40>
+   49630:	f00004e0 	adrp	x0, e8000 <__data_start>
+   49634:	2a1703e4 	mov	w4, w23
+   49638:	91122063 	add	x3, x3, #0x488
+   4963c:	91100000 	add	x0, x0, #0x400
+   49640:	52800501 	mov	w1, #0x28                  	// #40
+   49644:	97ff5ac3 	bl	20150 <rcutils_log@plt>
+   49648:	17ffff51 	b	4938c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x1fc>
+   4964c:	97ff58c1 	bl	1f950 <rcutils_logging_initialize@plt>
+   49650:	34ffdd80 	cbz	w0, 49200 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x70>
+   49654:	d00004f6 	adrp	x22, e7000 <rclcpp::Waitable::get_number_of_ready_guard_conditions()@Base>
+   49658:	d2801222 	mov	x2, #0x91                  	// #145
+   4965c:	d2800021 	mov	x1, #0x1                   	// #1
+   49660:	910063f9 	add	x25, sp, #0x18
+   49664:	f947e6d6 	ldr	x22, [x22, #4040]
+   49668:	d00002c0 	adrp	x0, a3000 <_IO_stdin_used+0xa40>
+   4966c:	91020000 	add	x0, x0, #0x80
+   49670:	911063fa 	add	x26, sp, #0x418
+   49674:	f94002c3 	ldr	x3, [x22]
+   49678:	97ff5c76 	bl	20850 <fwrite@plt>
+   4967c:	aa1903e8 	mov	x8, x25
+   49680:	97ff59c4 	bl	1fd90 <rcutils_get_error_string@plt>
+   49684:	aa1a03e8 	mov	x8, x26
+   49688:	97ff59c2 	bl	1fd90 <rcutils_get_error_string@plt>
+   4968c:	aa1a03e0 	mov	x0, x26
+   49690:	97ff58ac 	bl	1f940 <strlen@plt>
+   49694:	aa0003e2 	mov	x2, x0
+   49698:	f94002c3 	ldr	x3, [x22]
+   4969c:	aa1903e0 	mov	x0, x25
+   496a0:	d2800021 	mov	x1, #0x1                   	// #1
+   496a4:	97ff5c6b 	bl	20850 <fwrite@plt>
+   496a8:	f94002c3 	ldr	x3, [x22]
+   496ac:	d2800022 	mov	x2, #0x1                   	// #1
+   496b0:	aa0203e1 	mov	x1, x2
+   496b4:	f00002c0 	adrp	x0, a4000 <_IO_stdin_used+0x1a40>
+   496b8:	91392000 	add	x0, x0, #0xe48
+   496bc:	97ff5c65 	bl	20850 <fwrite@plt>
+   496c0:	97ff5a98 	bl	20120 <rcutils_reset_error@plt>
+   496c4:	17fffecf 	b	49200 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x70>
+   496c8:	97ff58a2 	bl	1f950 <rcutils_logging_initialize@plt>
+   496cc:	34ffdea0 	cbz	w0, 492a0 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x110>
+   496d0:	d00004f4 	adrp	x20, e7000 <rclcpp::Waitable::get_number_of_ready_guard_conditions()@Base>
+   496d4:	d2801222 	mov	x2, #0x91                  	// #145
+   496d8:	d2800021 	mov	x1, #0x1                   	// #1
+   496dc:	910063f5 	add	x21, sp, #0x18
+   496e0:	f947e694 	ldr	x20, [x20, #4040]
+   496e4:	d00002c0 	adrp	x0, a3000 <_IO_stdin_used+0xa40>
+   496e8:	91096000 	add	x0, x0, #0x258
+   496ec:	f9400283 	ldr	x3, [x20]
+   496f0:	f90433f9 	str	x25, [sp, #2144]
+   496f4:	f90437fa 	str	x26, [sp, #2152]
+   496f8:	911063f9 	add	x25, sp, #0x418
+   496fc:	97ff5c55 	bl	20850 <fwrite@plt>
+   49700:	aa1503e8 	mov	x8, x21
+   49704:	97ff59a3 	bl	1fd90 <rcutils_get_error_string@plt>
+   49708:	aa1903e8 	mov	x8, x25
+   4970c:	97ff59a1 	bl	1fd90 <rcutils_get_error_string@plt>
+   49710:	aa1903e0 	mov	x0, x25
+   49714:	97ff588b 	bl	1f940 <strlen@plt>
+   49718:	aa0003e2 	mov	x2, x0
+   4971c:	f9400283 	ldr	x3, [x20]
+   49720:	d2800021 	mov	x1, #0x1                   	// #1
+   49724:	aa1503e0 	mov	x0, x21
+   49728:	97ff5c4a 	bl	20850 <fwrite@plt>
+   4972c:	f9400283 	ldr	x3, [x20]
+   49730:	d2800022 	mov	x2, #0x1                   	// #1
+   49734:	aa0203e1 	mov	x1, x2
+   49738:	f00002c0 	adrp	x0, a4000 <_IO_stdin_used+0x1a40>
+   4973c:	91392000 	add	x0, x0, #0xe48
+   49740:	97ff5c44 	bl	20850 <fwrite@plt>
+   49744:	97ff5a77 	bl	20120 <rcutils_reset_error@plt>
+   49748:	f94433f9 	ldr	x25, [sp, #2144]
+   4974c:	f94437fa 	ldr	x26, [sp, #2152]
+   49750:	17fffed4 	b	492a0 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x110>
+   49754:	97ff587f 	bl	1f950 <rcutils_logging_initialize@plt>
+   49758:	34ffec80 	cbz	w0, 494e8 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x358>
+   4975c:	d00004f4 	adrp	x20, e7000 <rclcpp::Waitable::get_number_of_ready_guard_conditions()@Base>
+   49760:	d2801222 	mov	x2, #0x91                  	// #145
+   49764:	d2800021 	mov	x1, #0x1                   	// #1
+   49768:	910063f7 	add	x23, sp, #0x18
+   4976c:	f947e694 	ldr	x20, [x20, #4040]
+   49770:	d00002c0 	adrp	x0, a3000 <_IO_stdin_used+0xa40>
+   49774:	9105e000 	add	x0, x0, #0x178
+   49778:	f9400283 	ldr	x3, [x20]
+   4977c:	f90433f9 	str	x25, [sp, #2144]
+   49780:	f90437fa 	str	x26, [sp, #2152]
+   49784:	911063f9 	add	x25, sp, #0x418
+   49788:	97ff5c32 	bl	20850 <fwrite@plt>
+   4978c:	aa1703e8 	mov	x8, x23
+   49790:	97ff5980 	bl	1fd90 <rcutils_get_error_string@plt>
+   49794:	aa1903e8 	mov	x8, x25
+   49798:	97ff597e 	bl	1fd90 <rcutils_get_error_string@plt>
+   4979c:	aa1903e0 	mov	x0, x25
+   497a0:	97ff5868 	bl	1f940 <strlen@plt>
+   497a4:	aa0003e2 	mov	x2, x0
+   497a8:	f9400283 	ldr	x3, [x20]
+   497ac:	d2800021 	mov	x1, #0x1                   	// #1
+   497b0:	aa1703e0 	mov	x0, x23
+   497b4:	97ff5c27 	bl	20850 <fwrite@plt>
+   497b8:	f9400283 	ldr	x3, [x20]
+   497bc:	d2800022 	mov	x2, #0x1                   	// #1
+   497c0:	aa0203e1 	mov	x1, x2
+   497c4:	f00002c0 	adrp	x0, a4000 <_IO_stdin_used+0x1a40>
+   497c8:	91392000 	add	x0, x0, #0xe48
+   497cc:	97ff5c21 	bl	20850 <fwrite@plt>
+   497d0:	97ff5a54 	bl	20120 <rcutils_reset_error@plt>
+   497d4:	f94433f9 	ldr	x25, [sp, #2144]
+   497d8:	f94437fa 	ldr	x26, [sp, #2152]
+   497dc:	17ffff43 	b	494e8 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x358>
+   497e0:	97ff585c 	bl	1f950 <rcutils_logging_initialize@plt>
+   497e4:	34ffefc0 	cbz	w0, 495dc <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x44c>
+   497e8:	d00004f4 	adrp	x20, e7000 <rclcpp::Waitable::get_number_of_ready_guard_conditions()@Base>
+   497ec:	d2801222 	mov	x2, #0x91                  	// #145
+   497f0:	d2800021 	mov	x1, #0x1                   	// #1
+   497f4:	910063f5 	add	x21, sp, #0x18
+   497f8:	f947e694 	ldr	x20, [x20, #4040]
+   497fc:	d00002c0 	adrp	x0, a3000 <_IO_stdin_used+0xa40>
+   49800:	910fc000 	add	x0, x0, #0x3f0
+   49804:	f9400283 	ldr	x3, [x20]
+   49808:	f90433f9 	str	x25, [sp, #2144]
+   4980c:	f90437fa 	str	x26, [sp, #2152]
+   49810:	911063f9 	add	x25, sp, #0x418
+   49814:	97ff5c0f 	bl	20850 <fwrite@plt>
+   49818:	aa1503e8 	mov	x8, x21
+   4981c:	97ff595d 	bl	1fd90 <rcutils_get_error_string@plt>
+   49820:	aa1903e8 	mov	x8, x25
+   49824:	97ff595b 	bl	1fd90 <rcutils_get_error_string@plt>
+   49828:	aa1903e0 	mov	x0, x25
+   4982c:	97ff5845 	bl	1f940 <strlen@plt>
+   49830:	aa0003e2 	mov	x2, x0
+   49834:	f9400283 	ldr	x3, [x20]
+   49838:	d2800021 	mov	x1, #0x1                   	// #1
+   4983c:	aa1503e0 	mov	x0, x21
+   49840:	97ff5c04 	bl	20850 <fwrite@plt>
+   49844:	f9400283 	ldr	x3, [x20]
+   49848:	d2800022 	mov	x2, #0x1                   	// #1
+   4984c:	aa0203e1 	mov	x1, x2
+   49850:	f00002c0 	adrp	x0, a4000 <_IO_stdin_used+0x1a40>
+   49854:	91392000 	add	x0, x0, #0xe48
+   49858:	97ff5bfe 	bl	20850 <fwrite@plt>
+   4985c:	97ff5a31 	bl	20120 <rcutils_reset_error@plt>
+   49860:	f94433f9 	ldr	x25, [sp, #2144]
+   49864:	f94437fa 	ldr	x26, [sp, #2152]
+   49868:	17ffff5d 	b	495dc <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x44c>
+   4986c:	97ff5839 	bl	1f950 <rcutils_logging_initialize@plt>
+   49870:	34ffdec0 	cbz	w0, 49448 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x2b8>
+   49874:	d00004f4 	adrp	x20, e7000 <rclcpp::Waitable::get_number_of_ready_guard_conditions()@Base>
+   49878:	d2801222 	mov	x2, #0x91                  	// #145
+   4987c:	d2800021 	mov	x1, #0x1                   	// #1
+   49880:	910063f5 	add	x21, sp, #0x18
+   49884:	f947e694 	ldr	x20, [x20, #4040]
+   49888:	d00002c0 	adrp	x0, a3000 <_IO_stdin_used+0xa40>
+   4988c:	910ce000 	add	x0, x0, #0x338
+   49890:	f9400283 	ldr	x3, [x20]
+   49894:	f90433f9 	str	x25, [sp, #2144]
+   49898:	f90437fa 	str	x26, [sp, #2152]
+   4989c:	911063f9 	add	x25, sp, #0x418
+   498a0:	97ff5bec 	bl	20850 <fwrite@plt>
+   498a4:	aa1503e8 	mov	x8, x21
+   498a8:	97ff593a 	bl	1fd90 <rcutils_get_error_string@plt>
+   498ac:	aa1903e8 	mov	x8, x25
+   498b0:	97ff5938 	bl	1fd90 <rcutils_get_error_string@plt>
+   498b4:	aa1903e0 	mov	x0, x25
+   498b8:	97ff5822 	bl	1f940 <strlen@plt>
+   498bc:	aa0003e2 	mov	x2, x0
+   498c0:	f9400283 	ldr	x3, [x20]
+   498c4:	d2800021 	mov	x1, #0x1                   	// #1
+   498c8:	aa1503e0 	mov	x0, x21
+   498cc:	97ff5be1 	bl	20850 <fwrite@plt>
+   498d0:	f9400283 	ldr	x3, [x20]
+   498d4:	d2800022 	mov	x2, #0x1                   	// #1
+   498d8:	aa0203e1 	mov	x1, x2
+   498dc:	f00002c0 	adrp	x0, a4000 <_IO_stdin_used+0x1a40>
+   498e0:	91392000 	add	x0, x0, #0xe48
+   498e4:	97ff5bdb 	bl	20850 <fwrite@plt>
+   498e8:	97ff5a0e 	bl	20120 <rcutils_reset_error@plt>
+   498ec:	f94433f9 	ldr	x25, [sp, #2144]
+   498f0:	f94437fa 	ldr	x26, [sp, #2152]
+   498f4:	17fffed5 	b	49448 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x2b8>
+   498f8:	f90433f9 	str	x25, [sp, #2144]
+   498fc:	f90437fa 	str	x26, [sp, #2152]
+   49900:	97ff5828 	bl	1f9a0 <__stack_chk_fail@plt>
+   49904:	f90433f9 	str	x25, [sp, #2144]
+   49908:	f90437fa 	str	x26, [sp, #2152]
+   4990c:	f9400be1 	ldr	x1, [sp, #16]
+   49910:	aa0003f3 	mov	x19, x0
+   49914:	b4000061 	cbz	x1, 49920 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x790>
+   49918:	aa0103e0 	mov	x0, x1
+   4991c:	97fffd31 	bl	48de0 <std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()>
+   49920:	aa1303e0 	mov	x0, x19
+   49924:	97ff5bcf 	bl	20860 <_Unwind_Resume@plt>
+   49928:	17fffff7 	b	49904 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x774>
+   4992c:	17fffff6 	b	49904 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x774>
+   49930:	17fffff5 	b	49904 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x774>
+   49934:	17fffff4 	b	49904 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x774>
+   49938:	17fffff3 	b	49904 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x774>
+   4993c:	17fffff2 	b	49904 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x774>
+   49940:	17fffff1 	b	49904 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x774>
+   49944:	17fffff2 	b	4990c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x77c>
+   49948:	17fffff1 	b	4990c <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x77c>
+   4994c:	17ffffee 	b	49904 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x774>
+   49950:	17ffffed 	b	49904 <MarvinRobotNode::set_mode_callback(std::shared_ptr<marvin_msgs::srv::Int_Request_<std::allocator<void> > >, std::shared_ptr<marvin_msgs::srv::Int_Response_<std::allocator<void> > >)+0x774>
+   49954:	d503201f 	nop
+   49958:	d503201f 	nop
+   4995c:	d503201f 	nop
+

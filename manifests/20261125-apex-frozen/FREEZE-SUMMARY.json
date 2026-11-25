@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-25",
+  "time_zone": "Asia/Shanghai",
+  "status": "Frozen copies verified locally and on robot; GitHub publication authorized",
+  "archive_name": "20261125-apex-impedance-frozen",
+  "robot_archive": {
+    "verified": true,
+    "archive": {
+      "name": "robot-apex-runtime-and-records.tar.gz",
+      "bytes": 318003340,
+      "sha256": "0411921d5f52b6db8a008e0fe3400a9b643b636f243fcb38bb7e5f97631783b6"
+    },
+    "entries_verified": 9381,
+    "source_changed_during_capture": 1,
+    "source_truncated_during_capture": 0
+  },
+  "windows_archive": {
+    "verified": true,
+    "archive": {
+      "name": "windows-apex-and-local-evidence.tar.gz",
+      "bytes": 322410137,
+      "sha256": "aa8abe476dc7a58deb04eb0bf4dda0c899e1988700974ffc6c2954266e2467b9"
+    },
+    "entries_verified": 5610,
+    "source_changed_during_capture": 0,
+    "source_truncated_during_capture": 0
+  },
+  "total_entries_verified": 14991,
+  "archive_bytes": 640413477,
+  "raw_captured_bytes": 1863123570,
+  "active_deployed_file_count": 23,
+  "all_active_files_match": true,
+  "all_robot_local_archive_hashes_match": true,
+  "apex_backend_sha256": "060945ed9b2efeced2767840369ede8cfe527d53c04fbc2a12ee35118b126f6d",
+  "robot_archive_location": "/home/nvidia/luna-archive-exports/20261125-apex-impedance-frozen",
+  "local_archive_location": "E:\\Github\\Mubea-EV-Gentoluna-Remote moving STB\\archives\\20261125-apex-impedance-frozen",
+  "operational_changes_during_freeze": 0,
+  "motion_commands_during_freeze": 0,
+  "services_started_stopped_or_restarted_during_freeze": 0,
+  "robot_state_at_verification": {
+    "ok": true,
+    "data": {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.004073381423950195,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    }
+  },
+  "live_log_note": "manual-chassis-telemetry.jsonl was captured to 332167954 bytes; source grew to332208958 during capture. Snapshot preserves its captured prefix; later append data is outside this frozen interval.",
+  "historical_baselines": "Previous 20261124-before-0p2 baseline and existing releases are preserved; this is not a disk image or controller EEPROM export.",
+  "release": "https://github.com/wangbo20261102/20261124-Getoluna-Remote-moving-STB/releases/tag/apex-impedance-frozen-20261125",
+  "publication_receipt": "Stored separately after publication to avoid commit self-reference"
+}

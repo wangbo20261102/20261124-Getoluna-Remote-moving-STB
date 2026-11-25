@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "archive": {
+    "name": "robot-apex-runtime-and-records.tar.gz",
+    "bytes": 318003340,
+    "sha256": "0411921d5f52b6db8a008e0fe3400a9b643b636f243fcb38bb7e5f97631783b6"
+  },
+  "entries_verified": 9381,
+  "source_changed_during_capture": 1,
+  "source_truncated_during_capture": 0
+}

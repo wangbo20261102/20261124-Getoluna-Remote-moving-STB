@@ -1,0 +1,17 @@
+{
+  "files_scanned": 14981,
+  "findings": [],
+  "reviewed_false_positives": [
+    {
+      "path": "windows/Apex-Teleop-installation/Apex Teleop.exe",
+      "kind": "Chromium locale table",
+      "match_sha256": "601724a460808810f2809eb0d06d417ad6ed0a507c9e9e9689668381ff6c1dcd"
+    }
+  ],
+  "credential_directories_not_selected": [
+    ".ssh",
+    "credential manager",
+    "runtime console authentication tokens"
+  ],
+  "matched_values_printed": false
+}

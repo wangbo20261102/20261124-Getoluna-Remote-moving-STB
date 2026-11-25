@@ -1,0 +1,6 @@
+/logs/
+/snapshots/
+/ui-state.json
+/vendor/
+/ui.lock
+__pycache__/

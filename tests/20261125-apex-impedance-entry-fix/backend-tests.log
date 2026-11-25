@@ -1,0 +1,19 @@
+test_failed_mode_keeps_tool_paused (__main__.BackendModeTests) ... ok
+test_fault_never_cleared_or_enabled_implicitly (__main__.BackendModeTests) ... ok
+test_idle_and_position_remain_explicit_modes (__main__.BackendModeTests) ... ok
+test_invalid_mode_never_sent (__main__.BackendModeTests) ... ok
+test_mode_rpc_has_bounded_transition_deadline (__main__.BackendModeTests) ... ok
+test_moving_wrist_prevents_enable (__main__.BackendModeTests) ... ok
+test_real_drive_fault_is_terminal (__main__.BackendModeTests) ... ok
+test_settle_wait_does_not_repeat_mode_requests (__main__.BackendModeTests) ... ok
+test_simultaneous_mode_changes_rejected (__main__.BackendModeTests) ... ok
+test_stale_joint_feedback_prevents_enable (__main__.BackendModeTests) ... ok
+test_success_reply_without_controller_state_is_rejected (__main__.BackendModeTests) ... ok
+test_temporary_normal_state_mismatch_waits_for_confirmation (__main__.BackendModeTests) ... ok
+test_tool_restored_only_after_feedback_success (__main__.BackendModeTests) ... ok
+test_wrist_limit_guard (__main__.BackendModeTests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.018s
+
+OK

@@ -1,0 +1,4 @@
+{"remote": "/var/log/syslog", "ret": 0, "bytes": 8392}
+{"remote": "/var/log/syslog.1", "ret": 0, "bytes": 239673}
+{"remote": "/var/log/kern.log", "ret": 0, "bytes": 7812}
+{"remote": "/home/FUSION/Config/cfg/robot.ini", "ret": 0, "bytes": 18522}

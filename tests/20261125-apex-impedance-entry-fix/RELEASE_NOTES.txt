@@ -1,0 +1,14 @@
+Apex 阻抗入口修复候选，2026-11-25
+
+正式部署仅包含 ros_state.py；install_backend.sh 校验原文件 SHA-256、备份到 /var/backups/luna-apex-mode-entry.*、安装并重启 apex-backend.service。不会停止或重启 Robot，不调用模式、Home 或清错。
+
+14 项后端测试通过。临时 127.0.0.1:18080 后端通过原有 Robot ROS 服务完成两轮待机→位置保持→阻抗，Tool 初始关闭/开启各一轮，每轮 6 次新鲜状态为双臂2、ready=true、error=false。耗时3.060/3.623秒。
+
+已由用户完成 sudo 安装。已从原始 Apex 桌面按钮点击待机，再点击阻抗：界面显示 Switched to mode 3、Arm A2/Arm B2；连续6次控制器反馈新鲜、ready=true、error=false。正式后端 SHA256 为 060945ed9b2efeced2767840369ede8cfe527d53c04fbc2a12ee35118b126f6d。实际备份位于 /var/backups/luna-apex-mode-entry.sz1f8HE0/ros_state.py。
+
+回退：在现场终端用 sudo 将安装输出的 Backup 路径复制回 /opt/kernelmind/apex/install/apex_backend/lib/python3.10/site-packages/apex_backend/ros_state.py，再 sudo systemctl restart apex-backend.service。回退后模式 RPC 将恢复原2秒行为。
+
+before/ 保留原文件、系统配置与哈希。src/、CMakeLists.txt、test_impedance_entry.cpp 是未采用的源码研究：其参考源码与当前厂家 Robot ABI 不匹配，没有部署，不属于正式安装内容。
+
+原来的 Robot 二进制和夹爪 SDK 保持不变，摄像头、动画、语音与底盘阈值均未修改。工具质量当前配置为双侧1.5 kg；本次没有改变该值。
+

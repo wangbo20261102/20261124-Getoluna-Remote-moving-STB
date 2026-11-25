@@ -1,0 +1,37 @@
+ExecStart={ path=/bin/bash ; argv[]=/bin/bash -lc source /etc/apex/apex_ros_env.sh; exec ros2 run apex_backend backend ; ignore_errors=no ; start_time=[Wed 2026-11-25 13:40:55 CST] ; stop_time=[n/a] ; pid=3577381 ; code=(null) ; status=0/0 }
+Id=apex-backend.service
+ActiveState=active
+SubState=running
+UnitFileState=enabled
+
+ExecStart={ path=/usr/local/lib/luna-apex-wrist/launch_robot.sh ; argv[]=/usr/local/lib/luna-apex-wrist/launch_robot.sh ; ignore_errors=no ; start_time=[Wed 2026-11-25 13:46:20 CST] ; stop_time=[n/a] ; pid=3908872 ; code=(null) ; status=0/0 }
+Id=apex-robot.service
+ActiveState=active
+SubState=running
+UnitFileState=disabled
+
+ExecStart={ path=/bin/bash ; argv[]=/bin/bash /etc/apex/apex-launch-teleop.sh ; ignore_errors=no ; start_time=[Wed 2026-11-25 13:46:27 CST] ; stop_time=[n/a] ; pid=3913926 ; code=(null) ; status=0/0 }
+Id=apex-teleop.service
+ActiveState=active
+SubState=running
+UnitFileState=disabled
+
+ExecStart={ path=/usr/bin/python3 ; argv[]=/usr/bin/python3 -B -u /usr/local/lib/luna-apex-wrist/tool_lease.py ; ignore_errors=no ; start_time=[Wed 2026-11-25 13:46:51 CST] ; stop_time=[n/a] ; pid=3938872 ; code=(null) ; status=0/0 }
+Id=apex-tool.service
+ActiveState=active
+SubState=running
+UnitFileState=disabled
+
+ExecStart={ path=/bin/bash ; argv[]=/bin/bash -lc source /etc/apex/apex_ros_env.sh; exec ros2 launch gmsl_quadcam quad_csi_quickview.launch.py params_file:=/home/nvidia/d435-preview/apex-color1080.yaml ; ignore_errors=no ; start_time=[Wed 2026-11-25 13:46:12 CST] ; stop_time=[n/a] ; pid=3906975 ; code=(null) ; status=0/0 }
+Id=apex-camera.service
+ActiveState=active
+SubState=running
+UnitFileState=enabled
+
+ExecStart={ path=/bin/bash ; argv[]=/bin/bash /home/nvidia/luna-test-runs/20261124-full-body-cooperation/start_manual_chassis.sh ; ignore_errors=no ; start_time=[Wed 2026-11-25 13:46:27 CST] ; stop_time=[n/a] ; pid=3913954 ; code=(null) ; status=0/0 }
+Id=luna-pico-manual-chassis.service
+ActiveState=active
+SubState=running
+UnitFileState=enabled
+
+STDERR:

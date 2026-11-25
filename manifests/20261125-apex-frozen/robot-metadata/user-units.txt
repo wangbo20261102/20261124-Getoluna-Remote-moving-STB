@@ -1,0 +1,55 @@
+# /home/nvidia/.config/systemd/user/luna-camera-fast-marmots.service
+[Unit]
+Description=Luna battery overlay with faster marmot sparring actions
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/nvidia/luna-test-runs/20261124-camera-fast-marmots/preview_guard.py
+Restart=on-failure
+RestartSec=10
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+KillMode=control-group
+TimeoutStopSec=8
+
+[Install]
+WantedBy=default.target
+
+# /home/nvidia/.config/systemd/user/luna-maxhub-client.service
+[Unit]
+Description=Keep MAXHUB WT12 display client available after boot
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/nvidia/luna-test-runs/20261125-maxhub-startup-fix/maxhub_client_guard.py
+Restart=on-failure
+RestartSec=5
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/run/luna-maxhub/Xauthority
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+StandardOutput=append:/home/nvidia/luna-test-runs/20261125-maxhub-startup-fix/guard.log
+StandardError=append:/home/nvidia/luna-test-runs/20261125-maxhub-startup-fix/guard.log
+
+[Install]
+WantedBy=default.target
+
+# /home/nvidia/.config/systemd/user/luna-battery-voice-warning.service
+[Unit]
+Description=Luna below 30 percent battery voice warning every 10 seconds
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/nvidia/luna-test-runs/20261124-battery-voice-charging-stop/battery_voice.py
+Restart=on-failure
+RestartSec=5
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+TimeoutStopSec=4
+
+[Install]
+WantedBy=default.target
+
+STDERR:

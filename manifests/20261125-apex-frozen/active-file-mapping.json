@@ -1,0 +1,200 @@
+{
+  "files": [
+    {
+      "robot_path": "/opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/config/luna/robot_param.yaml",
+      "repo_path": "current-config/teleop-robot_param.yaml",
+      "sha256": "2b6d1ad05f93effe719f11e224f1e4556c70df7bd142294c84c65f77d55bd1f7",
+      "bytes": 1179,
+      "snapshot_member": "robot/opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/config/luna/robot_param.yaml"
+    },
+    {
+      "robot_path": "/opt/kernelmind/apex/install/marvin_ros_control/share/marvin_ros_control/config/robot_param_luna.yaml",
+      "repo_path": "current-config/robot-control.yaml",
+      "sha256": "02ee7cd1d854439a4d2d2dec552dc63a558a9b0bad8a08a4a9ed064f7ea2722c",
+      "bytes": 1334,
+      "snapshot_member": "robot/opt/kernelmind/apex/install/marvin_ros_control/share/marvin_ros_control/config/robot_param_luna.yaml"
+    },
+    {
+      "robot_path": "/opt/kernelmind/apex/install/marvin_teleop/lib/marvin_teleop/controller_udp.py",
+      "repo_path": "current-config/controller_udp.py",
+      "sha256": "ecea99de72e36d513090a7d44cdb6cd572eaa2304be60f8741688796ac1a972d",
+      "bytes": 44519,
+      "snapshot_member": "robot/opt/kernelmind/apex/install/marvin_teleop/lib/marvin_teleop/controller_udp.py"
+    },
+    {
+      "robot_path": "/opt/kernelmind/apex/install/marvin_teleop/lib/marvin_teleop/elbow_home_alignment.py",
+      "repo_path": "current-config/elbow_home_alignment.py",
+      "sha256": "7cba3ca43f2a5e2d1757bcda3c7ba667cceebbc5a3c5108745c8b674cf5ff068",
+      "bytes": 4003,
+      "snapshot_member": "robot/opt/kernelmind/apex/install/marvin_teleop/lib/marvin_teleop/elbow_home_alignment.py"
+    },
+    {
+      "robot_path": "/usr/local/lib/luna-apex-wrist/sdk/libGentoSDK.so",
+      "repo_path": "current-config/libGentoSDK.release-fix.so",
+      "sha256": "07cecbce36ebcd89e915cf5a7f274db2159251f68dcab83d707a5d3f7a85aa43",
+      "bytes": 2592672,
+      "snapshot_member": "robot/usr/local/lib/luna-apex-wrist/sdk/libGentoSDK.so"
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261124-elbow-home-alignment/calibration.json",
+      "repo_path": "current-config/calibration.json",
+      "sha256": "77d41357ed9c79354a4556b667272869e15a3915f9af4530440a81ad040ba7e5",
+      "bytes": 685,
+      "snapshot_member": "robot/home/nvidia/luna-test-runs/20261124-elbow-home-alignment/calibration.json"
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261124-full-body-cooperation/pico_chassis_bridge.py",
+      "repo_path": "current-config/pico_chassis_bridge.py",
+      "sha256": "219682ee44d18d8e03e8c3131fd78757f03bb6825983388639ac6c5673c2955f",
+      "bytes": 12746,
+      "snapshot_member": "robot/home/nvidia/luna-test-runs/20261124-full-body-cooperation/pico_chassis_bridge.py"
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261124-full-body-cooperation/start_manual_chassis.sh",
+      "repo_path": "current-config/start_manual_chassis.sh",
+      "sha256": "159083f14027460ac68581a1c393b47063b9c0ca8f49194a187102f0424fdefa",
+      "bytes": 260,
+      "snapshot_member": "robot/home/nvidia/luna-test-runs/20261124-full-body-cooperation/start_manual_chassis.sh"
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261124-camera-fast-marmots/animations.json",
+      "repo_path": "current-config/animations.json",
+      "sha256": "8f4702e3b5236e062f8f02868b7c53cf4b2c991cbf06745241ef633bacf89c47",
+      "bytes": 565,
+      "snapshot_member": "robot/home/nvidia/luna-test-runs/20261124-camera-fast-marmots/animations.json"
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261124-camera-fast-marmots/camera-preview.py",
+      "repo_path": "current-config/camera-preview.py",
+      "sha256": "4dceafaf7a89d99fdd11c5fc8b8a44e0889d7f30e5b18d80970049815b804b4b",
+      "bytes": 3089,
+      "snapshot_member": "robot/home/nvidia/luna-test-runs/20261124-camera-fast-marmots/camera-preview.py"
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261124-camera-fast-marmots/preview_guard.py",
+      "repo_path": "current-config/preview_guard.py",
+      "sha256": "2fd3a25b47f525efbc90d1655950915522602f4b91d7b358e5f36348bdd0d0da",
+      "bytes": 3325,
+      "snapshot_member": "robot/home/nvidia/luna-test-runs/20261124-camera-fast-marmots/preview_guard.py"
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261124-battery-voice-charging-stop/battery_voice.py",
+      "repo_path": "current-config/battery_voice.py",
+      "sha256": "a5e88332751453c6859a680642e230ea796211d07053666e6c3151413fa43155",
+      "bytes": 9190,
+      "snapshot_member": "robot/home/nvidia/luna-test-runs/20261124-battery-voice-charging-stop/battery_voice.py"
+    },
+    {
+      "robot_path": "/home/nvidia/d435-preview/apex-color1080.yaml",
+      "repo_path": "current-config/camera-color1080.yaml",
+      "sha256": "dbf46ab4f63732039f9ca106ff48aeec52f3ba5942fa3bb912c26b035cf6a3c4",
+      "bytes": 745,
+      "snapshot_member": "robot/home/nvidia/d435-preview/apex-color1080.yaml"
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261125-camera-device-fix/resolve_color_camera.py",
+      "repo_path": "current-config/resolve_color_camera.py",
+      "sha256": "6024c43c1d78af792c8e92841034ea8301f6e2710f60a963dec82407a9e3c417",
+      "bytes": 2998,
+      "snapshot_member": "robot/home/nvidia/luna-test-runs/20261125-camera-device-fix/resolve_color_camera.py"
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261125-maxhub-startup-fix/maxhub_client_guard.py",
+      "repo_path": "current-config/maxhub_client_guard.py",
+      "sha256": "ed7318f82a84b2a10e6de6bd71311b114be2546e85a0c5a0639d0424d84a4ef4",
+      "bytes": 3594,
+      "snapshot_member": "robot/home/nvidia/luna-test-runs/20261125-maxhub-startup-fix/maxhub_client_guard.py"
+    },
+    {
+      "robot_path": "/home/nvidia/luna-ready-20261123/start-maxhub.sh",
+      "repo_path": "current-config/start-maxhub.sh",
+      "sha256": "86b89b10349c30ea96e2d172a64d9f3e6fceb2084431f1b3bdb425bd857c28c1",
+      "bytes": 417,
+      "snapshot_member": "robot/home/nvidia/luna-ready-20261123/start-maxhub.sh"
+    },
+    {
+      "robot_path": "/etc/systemd/system/apex-camera.service.d/70-d435-device.conf",
+      "repo_path": "current-config/70-d435-device.conf",
+      "sha256": "9b77b591e72fa61f4b3b82bde157e43aeb7c94495048145a0dc4a2ba6b79a932",
+      "bytes": 119,
+      "snapshot_member": "robot/etc/systemd/system/apex-camera.service.d/70-d435-device.conf"
+    },
+    {
+      "robot_path": "/home/nvidia/.config/systemd/user/luna-maxhub-client.service",
+      "repo_path": "current-config/luna-maxhub-client.service",
+      "sha256": "24537cb6e0bf715961a694746c157ab577789524366492159f03b32c8b64e2c2",
+      "bytes": 584,
+      "snapshot_member": "robot/home/nvidia/.config/systemd/user/luna-maxhub-client.service"
+    },
+    {
+      "robot_path": "/home/nvidia/.config/systemd/user/luna-camera-fast-marmots.service",
+      "repo_path": "current-config/luna-camera-fast-marmots.service",
+      "sha256": "a2cbaa9eeb7a6e8b1192416cbc906dec56a2f7cfe1b479467c7214035601235a",
+      "bytes": 448,
+      "snapshot_member": "robot/home/nvidia/.config/systemd/user/luna-camera-fast-marmots.service"
+    },
+    {
+      "robot_path": "/home/nvidia/.config/systemd/user/luna-battery-voice-warning.service",
+      "repo_path": "current-config/luna-battery-voice-warning.service",
+      "sha256": "c31ef76fe0b8373923084630b86c17cb68a72c68b0912acfaa0c1f3aa1458e6d",
+      "bytes": 436,
+      "snapshot_member": "robot/home/nvidia/.config/systemd/user/luna-battery-voice-warning.service"
+    },
+    {
+      "robot_path": "/etc/systemd/system/luna-pico-manual-chassis.service",
+      "repo_path": "current-config/luna-pico-manual-chassis.service",
+      "sha256": "f64d448cb2b87504a45d78cdfbc73f1797f581ffc40409e670d0f9b25554df3d",
+      "bytes": 493,
+      "snapshot_member": "robot/etc/systemd/system/luna-pico-manual-chassis.service"
+    },
+    {
+      "robot_path": "/opt/kernelmind/apex/install/apex_backend/lib/python3.10/site-packages/apex_backend/ros_state.py",
+      "repo_path": "current-config/apex-ros_state.py",
+      "sha256": "060945ed9b2efeced2767840369ede8cfe527d53c04fbc2a12ee35118b126f6d",
+      "bytes": 26144,
+      "snapshot_member": "robot/opt/kernelmind/apex/install/apex_backend/lib/python3.10/site-packages/apex_backend/ros_state.py"
+    },
+    {
+      "robot_path": "/opt/kernelmind/apex/install/marvin_ros_control/lib/marvin_ros_control/marvin_robot_node",
+      "repo_path": "current-config/marvin_robot_node",
+      "sha256": "e198ceecc0846ee0eaeddb6bb5e1a34934a23e5c363f66f20c14c957d5071a07",
+      "bytes": 1824344,
+      "snapshot_member": "robot/opt/kernelmind/apex/install/marvin_ros_control/lib/marvin_ros_control/marvin_robot_node"
+    }
+  ],
+  "prior_copies_preserved": [
+    {
+      "path": "current-config/robot-control.yaml",
+      "previous_copy": "manifests/history/20261125-before-apex-freeze/current-config/robot-control.yaml",
+      "previous_sha256": "54ea33096348d3d60395176e0eb5bed96845f85877b162fff7c64400db487fea",
+      "current_sha256": "02ee7cd1d854439a4d2d2dec552dc63a558a9b0bad8a08a4a9ed064f7ea2722c"
+    },
+    {
+      "path": "tests/20261125-apex-impedance-entry-fix/src/marvin_robot_node.cpp",
+      "previous_copy": "manifests/history/20261125-before-apex-freeze/tests/20261125-apex-impedance-entry-fix/src/marvin_robot_node.cpp",
+      "previous_sha256": "2ea4f0a5d963ecc268113ee31d43e8bd0accc859473a3a36c4d2e0acc4f1fc63",
+      "current_sha256": "96de66e0ae25a1a07e3a7a70f9aa621be9ca6bcd1c123a01d5dd744004c28003"
+    },
+    {
+      "path": "tests/20261125-camera-device-fix/device-selection.json",
+      "previous_copy": "manifests/history/20261125-before-apex-freeze/tests/20261125-camera-device-fix/device-selection.json",
+      "previous_sha256": "437ff5d42bb2096a8863c2b55bbb6f8c788214592d788095f257437d9d5c2004",
+      "current_sha256": "a42a08f9957ff99df0439d04b4f1c0f5bdc2bbd03ebf1b07e9cb7ac7bad8c79c"
+    },
+    {
+      "path": "tests/20261125-maxhub-startup-fix/guard.log",
+      "previous_copy": "manifests/history/20261125-before-apex-freeze/tests/20261125-maxhub-startup-fix/guard.log",
+      "previous_sha256": "3f4732ce85a5b9e1187d16142ea9fc6758ed5cb66b29aeee135a62797f975c81",
+      "current_sha256": "daf1da336962dbccb6a877ae8be0e57d042bacf78d175aacd2f5da56336245ce"
+    },
+    {
+      "path": "docs/AGENTS.md",
+      "previous_copy": "manifests/history/20261125-before-apex-freeze/docs/AGENTS.md",
+      "previous_sha256": "90476674663cb118d2d2ef18a4985133e4d81e66b0975cacd0e5a141ad7b454c",
+      "current_sha256": "ac6d0cc613f7cca5488d4a9af71750d0b4161b55fbbb7770f6efd23a20e8dfd7"
+    }
+  ],
+  "runtime_files_modified": false,
+  "source": "E:\\Github\\Mubea-EV-Gentoluna-Remote moving STB\\archives\\20261125-apex-impedance-frozen",
+  "note": "Repository current-config files are archival mirrors. Runtime and installation paths were not written."
+}
