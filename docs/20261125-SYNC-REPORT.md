@@ -1,5 +1,11 @@
 # 2026-11-25 联机补采、配置一致性与运行状态
 
+## 后续追加：工具参数运行时核验已完成
+
+下文为补采时的历史状态。其后用户明确确认空载、双腕支撑且 FXPlatform 已断开，已启动 Robot 并仅执行 set_ready；运行中的 `/marvin_robot_node/get_parameters` 同时返回左右两组原工具参数，与文件完全一致。6 次新鲜控制器反馈均 ready=true、error=false、所有部件为待机 0。未调用 Home 或改变关节模式，Teleop/Tool/底盘桥未启动，双腕仍需物理支撑。详细证据见 `tests/20261125-tool-runtime-verification/` 和 `manifests/robot-runtime-verified.json`。
+
+这关闭了“Robot 尚未启动、未核实进程加载”的待办；没有把 ROS 参数读回写成控制器 EEPROM 独立读回或断电验证。
+
 ## 补采范围
 
 机器人重新接通后，以只读方式取得 2,491 个文件条目、约 412.6 MB 的机器人端快照，包括 2026-11-24/25 独立版本、229 MiB 左右的全身协同底盘遥测、SDK 安装与回退文件、相机/投屏入口、原始部署脚本及仍保留的 ROS 节点/launch 日志。下载的 110.7 MB tar.gz 已与机器人端 SHA-256 比对通过。

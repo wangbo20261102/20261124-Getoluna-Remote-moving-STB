@@ -18,6 +18,11 @@
       "sha256": "c2154270afa4ce95dc2c1787f7c7549db87cd49376c1dd7cde8fcf81cfef67d4"
     },
     {
+      "path": "archive-tools/__pycache__/publish_runtime_verified.cpython-312.pyc",
+      "bytes": 11703,
+      "sha256": "49763d3fb9caaf6b3dba530d11cfd61d5f45fd2e3d54a0311e349d7597cf6be8"
+    },
+    {
       "path": "archive-tools/build_connected_supplement.py",
       "bytes": 2751,
       "sha256": "977be648030b921b69b51de06113616f63c0ee45028f7b9976bb7ddc3a133555"
@@ -26,6 +31,11 @@
       "path": "archive-tools/build_package.py",
       "bytes": 2662,
       "sha256": "5e4614bacfe4d4e87db731c498ec57adf787e21b80eac42c6c44a8aa40ca12f6"
+    },
+    {
+      "path": "archive-tools/build_runtime_verified_supplement.py",
+      "bytes": 2783,
+      "sha256": "153e055759ed5f230120294aa993fdd5764ceaeba5fe83789f4c9ab451ee61b1"
     },
     {
       "path": "archive-tools/capture_robot_20261125.py",
@@ -56,6 +66,11 @@
       "path": "archive-tools/publish_release.py",
       "bytes": 6614,
       "sha256": "0a6a4f0e68a8b12319d9935292aeb11a00311714499b33fdc47d36229f948953"
+    },
+    {
+      "path": "archive-tools/publish_runtime_verified.py",
+      "bytes": 7033,
+      "sha256": "fdf13134e3820feffe495d8d1667f0a7ffcc770edc4f7c6e25ae8ff81d75aadc"
     },
     {
       "path": "archive-tools/verify_archive.py",
@@ -244,13 +259,13 @@
     },
     {
       "path": "docs/20261125-SYNC-REPORT.md",
-      "bytes": 4698,
-      "sha256": "a01155eecdf19db807f47d92881cce1cba1ba20dd644a3eef732521363bd387d"
+      "bytes": 5461,
+      "sha256": "f81c6edf8b2efbae9ffba4e979777999d00f7f0d92a7c6a5e559d484d22e5f10"
     },
     {
       "path": "docs/AGENTS.md",
-      "bytes": 6910,
-      "sha256": "b79aac39a2210668c1bbd80eb0d72f8b49b1623f527da46da30ef6cb285d278b"
+      "bytes": 8477,
+      "sha256": "90476674663cb118d2d2ef18a4985133e4d81e66b0975cacd0e5a141ad7b454c"
     },
     {
       "path": "docs/conversation-20261125-visible-redacted.json",
@@ -269,8 +284,8 @@
     },
     {
       "path": "docs/CURRENT-STATE.md",
-      "bytes": 3880,
-      "sha256": "d0e1cb9a187967135769db7e4e2d8df12fd088a36431dd1b812d5e0c0adeb1ab"
+      "bytes": 4226,
+      "sha256": "fe3d594a7c37462d5e694adb78611eee8ec88807ea09852b26036f02bf8effba"
     },
     {
       "path": "docs/DAY-REPORT.md",
@@ -353,6 +368,11 @@
       "sha256": "8c57439c20272d636fbc054a83d98295e6832cfc303523b7528acf6b6e0f3b13"
     },
     {
+      "path": "manifests/history/20261125-before-tool-runtime-FILE-MANIFEST.json",
+      "bytes": 1427494,
+      "sha256": "868a6a5f8c6991b3aa42eaa41b155d59949b2e773d0bb49a0df8a0312b3c310c"
+    },
+    {
       "path": "manifests/persistent-chassis-service.json",
       "bytes": 655,
       "sha256": "6f13223b8d4e94a38af0bfde254c876c3103061cbef0c96f4c872e219dddd2bd"
@@ -373,6 +393,11 @@
       "sha256": "37f664857579a638108569cce5ed245c158ed5400dbb8223e770e7f191d20260"
     },
     {
+      "path": "manifests/robot-runtime-verified.json",
+      "bytes": 1326,
+      "sha256": "34f66d5a24503ffbdb400608bab921d825cbc78b3e25ba4e577f4a9b97687672"
+    },
+    {
       "path": "manifests/robot-snapshot-files.json",
       "bytes": 1296763,
       "sha256": "5ae8461314d1c69417e43b9ec9ad9193a734c2cf2235e3011462f88eb69fafe1"
@@ -389,8 +414,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6676,
-      "sha256": "b447a7388a303ee2201cf5a992b00795b195208a088b94b94b7c7305132b79fe"
+      "bytes": 6883,
+      "sha256": "8bd1f66f55b1d5011d168607043075ea0dc0e0a1af499590acacedf4960ae944"
     },
     {
       "path": "reference/vendor-tool-dialog/SOURCE.json",
@@ -24918,6 +24943,61 @@
       "sha256": "ac9df774c4a75ad6a8e214469b6b0a6292ac8e3095f194a831ef54f2cbe151b8"
     },
     {
+      "path": "tests/20261125-tool-runtime-verification/battery-before.json",
+      "bytes": 689,
+      "sha256": "358381aa95e9b33dfb955d268bc2567395c2f49b6f4dee03e1ad4a0aee668d18"
+    },
+    {
+      "path": "tests/20261125-tool-runtime-verification/control-config.yaml",
+      "bytes": 1334,
+      "sha256": "54ea33096348d3d60395176e0eb5bed96845f85877b162fff7c64400db487fea"
+    },
+    {
+      "path": "tests/20261125-tool-runtime-verification/files-before.sha256",
+      "bytes": 284,
+      "sha256": "766c876e1c8bd7ac6287ae317d30205e7d34263efc8b6cb47940f9ea6d9cb9c6"
+    },
+    {
+      "path": "tests/20261125-tool-runtime-verification/README.md",
+      "bytes": 1269,
+      "sha256": "81f51f8d61454f990a05169017b506065b038a3c683dca2988e19edd530744db"
+    },
+    {
+      "path": "tests/20261125-tool-runtime-verification/robot-parameter-response.txt",
+      "bytes": 765,
+      "sha256": "d9a06301e7dd29144c5a49cae072f5b745b2869e5f85d3af6b157f3d2f23b9e5"
+    },
+    {
+      "path": "tests/20261125-tool-runtime-verification/robot-startup-journal.txt",
+      "bytes": 6877,
+      "sha256": "fb46fbcc38c7707c9a523c0d436363c1e714b84fd73ef48ac0c363ed95aed663"
+    },
+    {
+      "path": "tests/20261125-tool-runtime-verification/set-ready-result.txt",
+      "bytes": 184,
+      "sha256": "cea8687b35259d196a29d1a5eacd73bd7854c33c7368f0950e2b9ab97da64aa0"
+    },
+    {
+      "path": "tests/20261125-tool-runtime-verification/status-before.json",
+      "bytes": 194,
+      "sha256": "1bad4e378a6be1b6224125bce5e9ee1f79e6514bbd1602cf4d397c8257a0ce17"
+    },
+    {
+      "path": "tests/20261125-tool-runtime-verification/status-samples.json",
+      "bytes": 2200,
+      "sha256": "aacc3a14fcabddb8b725be21431a2abff2ccfa852536c6f3597b2e8268c45c31"
+    },
+    {
+      "path": "tests/20261125-tool-runtime-verification/verification-result.json",
+      "bytes": 1326,
+      "sha256": "34f66d5a24503ffbdb400608bab921d825cbc78b3e25ba4e577f4a9b97687672"
+    },
+    {
+      "path": "tests/20261125-tool-runtime-verification/verification-start-robot-time.txt",
+      "bytes": 26,
+      "sha256": "f73225a260387737332fd242e8fb3af0a9ad1ce2d60851a72a35a2999a59e371"
+    },
+    {
       "path": "workspace-records/analyze_direct_final.py",
       "bytes": 2362,
       "sha256": "5585f7372f3d90f5322fb40720024e73b2d9ebcc6841233f26631041390f095d"
@@ -28193,6 +28273,6 @@
       "sha256": "1a0acda8107bd8a5b5742c746f2ea35b7996b7695f3e58b4a5034ffc00732389"
     }
   ],
-  "file_count": 5638,
-  "total_bytes": 2630428022
+  "file_count": 5654,
+  "total_bytes": 2631896392
 }

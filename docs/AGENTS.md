@@ -34,3 +34,10 @@
 - D435 的彩色接口重启后从 video12 变成 video14，旧 video12 是红外，造成黑帧与 CUDA 700。当前厂家 URI 解析器不支持直接使用 `/dev/v4l/by-path/...`，所以在系统 Camera 服务新增 drop-in `/etc/systemd/system/apex-camera.service.d/70-d435-device.conf`，每次启动前运行 `/home/nvidia/luna-test-runs/20261125-camera-device-fix/resolve_color_camera.py`，通过 USB 彩色接口 03、序列号 344223024944 和 YUYV 1920×1080 能力识别实际编号，只更新相机配置的两个 RGB 来源字段。不可再写死 `/dev/video12`。相机应保留在当前 USB 物理端口；该版本固定身份路径包含端口信息。
 - 已明确启用系统 `apex-camera.service` 开机启动；用户 `luna-maxhub-client.service`、`luna-camera-fast-marmots.service`、`luna-battery-voice-warning.service` 均 enabled，用户 linger 已启用。未启用 Robot/Teleop/Tool 的自动运动。
 - 用户已确认画面恢复；重跑设备识别确认配置不变，原动画配置、语音程序及手肘控制参数哈希保持不变。没有执行整机重启验证，不将“enabled 已核对”写成“已实测断电重启成功”。独立版本中保留前后配置、错误与恢复证据。
+
+### 2026-11-25 后续联机补采与工具参数核验
+
+- 已补采机器人端资料并同步到 `E:\Github\Mubea-EV-Gentoluna-Remote moving STB` 与 GitHub `wangbo20261102/20261124-Getoluna-Remote-moving-STB`。当前部署文件有 21 项机器人/本地/Git 提交哈希一致的清单。昨日完整 systemd journal 无可读记录，仍存 ROS 日志与原导出诊断记录已保留，不声称追回未保留日志。
+- 原临时底盘用户服务重启后消失；现为持久系统服务 `luna-pico-manual-chassis.service`，WantedBy/Requisite/PartOf 均关联 `apex-teleop.service`，随操作人员启动 Teleop 才启动，不随整机开机自动启动运动。桥程序和 0.2 m/s、0.2 rad/s 上限未变。
+- FXPlatform 工具参数窗口的输入变量在初始化和断连重置时设为全 0，并非工具参数读回。机器人控制配置文件仍为双侧 `[1.8,0,0,0,0.004,0,0,0.004,0,0.03]`，原始配置 SHA-256 `54ea33096348d3d60395176e0eb5bed96845f85877b162fff7c64400db487fea` 未变。
+- 用户随后确认空载、双腕已支撑、FXPlatform 已断开，已启动 Robot 并仅执行 `/control/set_ready`。运行中的 Robot 参数服务返回左右两组工具数组与保存值一致；6 次反馈均新鲜、ready=true、error=false，各部件待机 0。未调用 Home、模式切换、遥操或夹爪动作；继续保留双腕支撑直到现场正常进入保持模式。核验是 Robot 运行参数读回，不是控制器 EEPROM 独立读回，也没有整机断电测试。证据在 `20261125-tool-runtime-verification`。

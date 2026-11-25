@@ -1,0 +1,48 @@
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [INFO] [launch]: All log files can be found below /var/log/apex/ros/2026-11-25-08-41-10-129658-vision-34814
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [INFO] [launch]: Default logging verbosity is set to INFO
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [INFO] [marvin_robot_node-1]: process started with pid [34869]
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [INFO] [robot_state_publisher-2]: process started with pid [34871]
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] Arm active: 1
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] Head active: 1
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] Body active: 1
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] Lift active: 0
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] Joint names loading
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] Joint names loaded from parameters:
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] [INFO] [1795567270.538135744] [marvin_robot_node]: PD command cycle time: 2 ms
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [WARN] [1795567270.600261184] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600520256] [robot_state_publisher]: got segment Arm_L1_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600665568] [robot_state_publisher]: got segment Arm_L2_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600680960] [robot_state_publisher]: got segment Arm_L3_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600689472] [robot_state_publisher]: got segment Arm_L4_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600696672] [robot_state_publisher]: got segment Arm_L5_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600703328] [robot_state_publisher]: got segment Arm_L6_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600710816] [robot_state_publisher]: got segment Arm_L7_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600717312] [robot_state_publisher]: got segment Arm_R1_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600724352] [robot_state_publisher]: got segment Arm_R2_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600730880] [robot_state_publisher]: got segment Arm_R3_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600737568] [robot_state_publisher]: got segment Arm_R4_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600744000] [robot_state_publisher]: got segment Arm_R5_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600750688] [robot_state_publisher]: got segment Arm_R6_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600756768] [robot_state_publisher]: got segment Arm_R7_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600763712] [robot_state_publisher]: got segment Head_J1_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600770272] [robot_state_publisher]: got segment Head_J2_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600776352] [robot_state_publisher]: got segment Leg_J1_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600782592] [robot_state_publisher]: got segment Leg_J2_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600789792] [robot_state_publisher]: got segment Leg_J3_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600796288] [robot_state_publisher]: got segment Leg_J4_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600802496] [robot_state_publisher]: got segment Leg_J5_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600808896] [robot_state_publisher]: got segment Leg_J6_Link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600815904] [robot_state_publisher]: got segment base_link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [robot_state_publisher-2] [INFO] [1795567270.600822176] [robot_state_publisher]: got segment tracking_base_link
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] Link ms: 3
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] [INFO] marvin_robot: Successfully linked to robot at IP: 6.6.7.190, latency: 3 ms
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] [INFO] [1795567270.653948224] [CAN]: Successfully opened CAN socket on interface vcan0
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] [INFO] [1795567270.654037696] [CAN]: Successfully opened CAN socket on interface vcan1
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] [INFO] [1795567270.654245152] [marvin_robot_node]: Robot successfully connected.
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] [INFO] [1795567270.665987360] [marvin_robot_node]: Robot info initialized: type=Gento_Luna, controller_version=263172 (4.4.4)
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] [INFO] [1795567270.666117056] [marvin_robot_node]: CMD_Joint_Pos debug publisher: disabled
+Nov 25 08:41:10 vision launch_robot.sh[34814]: [marvin_robot_node-1] [INFO] [1795567270.666131040] [marvin_robot_node]: Joint command timestamp check: enabled
+Nov 25 08:41:11 vision launch_robot.sh[34814]: [marvin_robot_node-1] [INFO] [1795567271.210486016] [marvin_robot_node]: speed ratio 100
+Nov 25 08:41:11 vision launch_robot.sh[34814]: [marvin_robot_node-1] [INFO] [1795567271.210646560] [marvin_robot_node]: acc ratio 100
+Nov 25 08:41:11 vision launch_robot.sh[34814]: [marvin_robot_node-1] [INFO] [1795567271.263419584] [marvin_robot_node]: Marvin Robot Node initialized.
+Nov 25 08:42:47 vision launch_robot.sh[34814]: [marvin_robot_node-1] [INFO] [1795567367.131890592] [marvin_robot_node]: Robot is ready.

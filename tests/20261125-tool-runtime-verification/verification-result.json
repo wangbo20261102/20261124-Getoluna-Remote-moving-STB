@@ -1,0 +1,63 @@
+{
+  "checked_at_unix": 1795567413.6568384,
+  "operator_confirmed": "Empty, both wrists supported, FXPlatform disconnected",
+  "robot_service_started": true,
+  "set_ready_only": true,
+  "left_tool": [
+    1.8,
+    0,
+    0,
+    0,
+    0.004,
+    0,
+    0,
+    0.004,
+    0,
+    0.03
+  ],
+  "right_tool": [
+    1.8,
+    0,
+    0,
+    0,
+    0.004,
+    0,
+    0,
+    0.004,
+    0,
+    0.03
+  ],
+  "readback_scope": "Live /marvin_robot_node/get_parameters, not a controller EEPROM readback",
+  "both_live_node_parameter_arrays_match_saved_config": true,
+  "controller_feedback_samples_healthy": true,
+  "final_state": {
+    "control_ready": true,
+    "control_error": false,
+    "control_error_message": "",
+    "arm_state": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arm_state_age_sec": 0.0006182193756103516,
+    "current_mode": 0,
+    "speed_factor": 1.0,
+    "current_input_mode": -1
+  },
+  "no_mode_change_sent": true,
+  "no_home_sent": true,
+  "no_teleop_started": true,
+  "no_gripper_action_sent": true,
+  "no_motion_test_performed": true,
+  "config_sha256": "54ea33096348d3d60395176e0eb5bed96845f85877b162fff7c64400db487fea",
+  "maxhub_client_pid": "5625",
+  "camera_voice_maxhub_services": [
+    "active",
+    "active",
+    "active"
+  ],
+  "controller_nonvolatile_tool_storage_not_tested": true
+}

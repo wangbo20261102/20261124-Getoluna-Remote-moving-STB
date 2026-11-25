@@ -1,3 +1,7 @@
+# 最新追加：Robot 工具参数已完成运行时读回
+
+在现场确认支撑后启动 Robot、仅 set_ready。左右工具数组与文件一致，控制器 ready=true/error=false，部件待机 0，未切换保持模式，请保留支撑。详见 `tests/20261125-tool-runtime-verification`。以下为先前各阶段的历史记录。
+
 # 2026-11-25 当前状态补充
 
 以 [联机同步报告](20261125-SYNC-REPORT.md) 与 `manifests/robot-active-file-consistency.json` 为当前依据。以下 11 月 24 日参数仍保留；原文中的临时底盘服务已由系统 `luna-pico-manual-chassis.service` 取代，随操作人员启动 Teleop 后启动，归档时未运行。当前摄像头、MAXHUB、显示/语音服务已确认运行；Robot/Teleop 当前未启动，未确认控制器实时工具补偿。

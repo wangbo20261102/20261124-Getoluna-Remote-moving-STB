@@ -1,0 +1,122 @@
+[
+  {
+    "ok": true,
+    "data": {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.0028772354125976562,
+      "current_mode": 0,
+      "speed_factor": 1.0,
+      "current_input_mode": -1
+    }
+  },
+  {
+    "ok": true,
+    "data": {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.0022683143615722656,
+      "current_mode": 0,
+      "speed_factor": 1.0,
+      "current_input_mode": -1
+    }
+  },
+  {
+    "ok": true,
+    "data": {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.004991054534912109,
+      "current_mode": 0,
+      "speed_factor": 1.0,
+      "current_input_mode": -1
+    }
+  },
+  {
+    "ok": true,
+    "data": {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.00044608116149902344,
+      "current_mode": 0,
+      "speed_factor": 1.0,
+      "current_input_mode": -1
+    }
+  },
+  {
+    "ok": true,
+    "data": {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.00152587890625,
+      "current_mode": 0,
+      "speed_factor": 1.0,
+      "current_input_mode": -1
+    }
+  },
+  {
+    "ok": true,
+    "data": {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.0006182193756103516,
+      "current_mode": 0,
+      "speed_factor": 1.0,
+      "current_input_mode": -1
+    }
+  }
+]
