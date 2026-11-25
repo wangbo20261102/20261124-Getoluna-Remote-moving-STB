@@ -1,0 +1,27 @@
+/VR_reader:
+  ros__parameters:
+    body_retarget_mode: per_segment
+    enable_tcp: true
+    glove_mode: false
+    human_scale_table:
+      head: 1.0
+      left_elbow: 1.2
+      left_foot: 1.1
+      left_hand: 1.5
+      left_hip: 1.1
+      left_knee: 1.2
+      left_shoulder: 1.0
+      pelvis: 1.0
+      right_elbow: 1.2
+      right_foot: 1.1
+      right_hand: 1.5
+      right_hip: 1.1
+      right_knee: 1.2
+      right_shoulder: 1.0
+      torso: 1.0
+    robot_height: 1.7
+    robot_ip: 6.6.7.190
+    tcp_heartbeat_timeout: 5.0
+    tcp_port: 9010
+    use_sim_time: false
+

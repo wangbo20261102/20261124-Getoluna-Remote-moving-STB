@@ -1,0 +1,11 @@
+6e60943ee1b7830334ca79778574edcb06c202c1b01e558374dc8371eb7655a0  /home/nvidia/luna-test-runs/20261124-camera-animal-trails/animation_control.py
+a633409706d02080bc79e27515fb1ddff1435b9bb4d485eb841fcea95969e8c9  /home/nvidia/luna-test-runs/20261124-camera-animal-trails/battery_overlay.py
+4dceafaf7a89d99fdd11c5fc8b8a44e0889d7f30e5b18d80970049815b804b4b  /home/nvidia/luna-test-runs/20261124-camera-animal-trails/camera-preview.py
+c469ad8a85592ebbb4b27aabe90a5d69c1f55f79018e4d45e26a50163f01ac0a  /home/nvidia/luna-test-runs/20261124-camera-animal-trails/preview_guard.py
+ab3efeb91eecb06bdf14c4e20fb7b68fce5b0b882c07e6fa592f240ed2c1fbf6  /home/nvidia/luna-test-runs/20261124-camera-animal-trails/render_qa.py
+8154ce2c3729af062620e10bd84ce22c023668da6447b2dffd3506b903a181d3  /home/nvidia/luna-test-runs/20261124-camera-animal-trails/test_motion.py
+51e39943b1e78456fa3fcab5964aa58d337e80b00ac33226e649a24b9f8aef33  /home/nvidia/luna-test-runs/20261124-camera-animal-trails/test_overlay.py
+ceb6c5cd0146db2e7afac4092b7063471bdd8c4685d44ecbba9d03e25fc467c5  /home/nvidia/luna-test-runs/20261124-camera-animal-trails/verify_pixels.py
+f026c9b7497eaeca764e73a8c4e87da44cf6aca3dd12901d06ac2687efa0fbbd  /home/nvidia/luna-test-runs/20261124-camera-animal-trails/animations.json
+a5e88332751453c6859a680642e230ea796211d07053666e6c3151413fa43155  /home/nvidia/luna-test-runs/20261124-battery-voice-charging-stop/battery_voice.py
+c31ef76fe0b8373923084630b86c17cb68a72c68b0912acfaa0c1f3aa1458e6d  /home/nvidia/.config/systemd/user/luna-battery-voice-warning.service

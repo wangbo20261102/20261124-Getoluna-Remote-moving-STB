@@ -1,3 +1,7 @@
+# 2026-11-25 当前状态补充
+
+以 [联机同步报告](20261125-SYNC-REPORT.md) 与 `manifests/robot-active-file-consistency.json` 为当前依据。以下 11 月 24 日参数仍保留；原文中的临时底盘服务已由系统 `luna-pico-manual-chassis.service` 取代，随操作人员启动 Teleop 后启动，归档时未运行。当前摄像头、MAXHUB、显示/语音服务已确认运行；Robot/Teleop 当前未启动，未确认控制器实时工具补偿。
+
 # 当日最终配置与接续说明
 
 以下为最后成功联机操作时的确认结果。归档时连接超时，不能据此声称这些服务此刻仍在运行，也不能将历史电量作为当前值。

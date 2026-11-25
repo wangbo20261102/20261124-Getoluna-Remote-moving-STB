@@ -1,0 +1,7 @@
+d81747c496b7c0adf957b87385b59037c5abf5ba393006f39d6bab838a880d03  /home/nvidia/luna-test-runs/20261124-camera-battery-overlay/battery_overlay.py
+fefad02b317e3445596b04a91dacc0e89432bf53fe1ce43de4d364b276e47be0  /home/nvidia/luna-test-runs/20261124-camera-battery-overlay/camera-preview.py
+c5b932b713a79b67eff6c3d7c5c041792e1566e6521cc7c63d456abd9b93267d  /home/nvidia/luna-test-runs/20261124-camera-battery-overlay/preview_guard.py
+a7571ba571fea95a6e5677371f04b8ea7e0cf570d5f281e38d35229697328fa6  /home/nvidia/luna-test-runs/20261124-camera-battery-overlay/render_qa.py
+51e39943b1e78456fa3fcab5964aa58d337e80b00ac33226e649a24b9f8aef33  /home/nvidia/luna-test-runs/20261124-camera-battery-overlay/test_overlay.py
+a5e88332751453c6859a680642e230ea796211d07053666e6c3151413fa43155  /home/nvidia/luna-test-runs/20261124-battery-voice-charging-stop/battery_voice.py
+c31ef76fe0b8373923084630b86c17cb68a72c68b0912acfaa0c1f3aa1458e6d  /home/nvidia/.config/systemd/user/luna-battery-voice-warning.service

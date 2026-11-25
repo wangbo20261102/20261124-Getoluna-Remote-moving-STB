@@ -1,0 +1,17 @@
+[Unit]
+Description=Luna camera preview with battery status for MAXHUB
+After=graphical-session.target
+Conflicts=luna-maxhub-preview-guard.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/nvidia/luna-test-runs/20261124-camera-battery-overlay/preview_guard.py
+Restart=on-failure
+RestartSec=10
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+KillMode=control-group
+TimeoutStopSec=8
+
+[Install]
+WantedBy=default.target

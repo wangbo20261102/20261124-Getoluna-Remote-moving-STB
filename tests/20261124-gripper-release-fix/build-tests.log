@@ -1,0 +1,9 @@
+[ 50%] Building CXX object CMakeFiles/protocol_test.dir/home/nvidia/luna-test-runs/20261124-gripper-release-fix/source/test_protocol.cpp.o
+[100%] Linking CXX executable protocol_test
+[100%] Built target protocol_test
+[ 50%] Building CXX object CMakeFiles/manual_test.dir/test_manual.cpp.o
+[100%] Linking CXX executable manual_test
+[100%] Built target manual_test
+[ 50%] Building CXX object CMakeFiles/ros_adapter_test.dir/test_ros_adapter.cpp.o
+[100%] Linking CXX executable ros_adapter_test
+[100%] Built target ros_adapter_test

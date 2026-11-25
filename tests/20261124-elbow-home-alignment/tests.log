@@ -1,0 +1,12 @@
+test_disabled_passthrough (test_elbow_home_alignment.Tests) ... ok
+test_grips_held_never_calibrate (test_elbow_home_alignment.Tests) ... ok
+test_load_saved_calibration_requires_fresh_body (test_elbow_home_alignment.Tests) ... ok
+test_neutral_equals_home (test_elbow_home_alignment.Tests) ... ok
+test_one_to_one_motion_and_torso_rotation (test_elbow_home_alignment.Tests) ... ok
+test_tracking_loss_disables_enable (test_elbow_home_alignment.Tests) ... ok
+test_unsteady_pose_never_calibrates (test_elbow_home_alignment.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.072s
+
+OK

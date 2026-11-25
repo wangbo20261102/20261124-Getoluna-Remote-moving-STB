@@ -1,0 +1,100 @@
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [gstreamer] gstCamera::Capture() -- an error occurred retrieving the next image buffer
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaOverlayText(mFontMapGPU, maxGlyphSize, mFontMapWidth, ((GlyphCommand*)mCommandGPU) + mCmdIndex, numCommands, color, image, image, format, width, height, stream)
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaFont.cu:566
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaGetLastError()
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaYUV-YUYV.cu:160
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaUYVYToRGB(input, (uchar3*)output, width, height, stream)
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaColorspace.cpp:98
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaConvertColor(latestYUV, mFormatYUV, nextRGB, format, mOptions->width, mOptions->height, stream)
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cpp/codec/gstBufferManager.cpp:445
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [gstreamer] gstBufferManager -- unsupported image format (rgb8)
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                     supported formats are:
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgb8
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgba8
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgb32f
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgba32f
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [gstreamer] gstCamera::Capture() -- an error occurred retrieving the next image buffer
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaOverlayText(mFontMapGPU, maxGlyphSize, mFontMapWidth, ((GlyphCommand*)mCommandGPU) + mCmdIndex, numCommands, color, image, image, format, width, height, stream)
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:35 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaFont.cu:566
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaGetLastError()
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaYUV-YUYV.cu:160
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaUYVYToRGB(input, (uchar3*)output, width, height, stream)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaColorspace.cpp:98
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaConvertColor(latestYUV, mFormatYUV, nextRGB, format, mOptions->width, mOptions->height, stream)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cpp/codec/gstBufferManager.cpp:445
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer] gstBufferManager -- unsupported image format (rgb8)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                     supported formats are:
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgb8
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgba8
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgb32f
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgba32f
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer] gstCamera::Capture() -- an error occurred retrieving the next image buffer
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaOverlayText(mFontMapGPU, maxGlyphSize, mFontMapWidth, ((GlyphCommand*)mCommandGPU) + mCmdIndex, numCommands, color, image, image, format, width, height, stream)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaFont.cu:566
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaGetLastError()
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaYUV-YUYV.cu:160
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaUYVYToRGB(input, (uchar3*)output, width, height, stream)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaColorspace.cpp:98
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaConvertColor(latestYUV, mFormatYUV, nextRGB, format, mOptions->width, mOptions->height, stream)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cpp/codec/gstBufferManager.cpp:445
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer] gstBufferManager -- unsupported image format (rgb8)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                     supported formats are:
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgb8
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgba8
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgb32f
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgba32f
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer] gstCamera::Capture() -- an error occurred retrieving the next image buffer
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaOverlayText(mFontMapGPU, maxGlyphSize, mFontMapWidth, ((GlyphCommand*)mCommandGPU) + mCmdIndex, numCommands, color, image, image, format, width, height, stream)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaFont.cu:566
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaGetLastError()
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaYUV-YUYV.cu:160
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaUYVYToRGB(input, (uchar3*)output, width, height, stream)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaColorspace.cpp:98
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaConvertColor(latestYUV, mFormatYUV, nextRGB, format, mOptions->width, mOptions->height, stream)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cpp/codec/gstBufferManager.cpp:445
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer] gstBufferManager -- unsupported image format (rgb8)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                     supported formats are:
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgb8
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgba8
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgb32f
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgba32f
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer] gstCamera::Capture() -- an error occurred retrieving the next image buffer
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaOverlayText(mFontMapGPU, maxGlyphSize, mFontMapWidth, ((GlyphCommand*)mCommandGPU) + mCmdIndex, numCommands, color, image, image, format, width, height, stream)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaFont.cu:566
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer] gstreamer message qos ==> v4l2src0
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaGetLastError()
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaYUV-YUYV.cu:160
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaUYVYToRGB(input, (uchar3*)output, width, height, stream)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaColorspace.cpp:98
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaConvertColor(latestYUV, mFormatYUV, nextRGB, format, mOptions->width, mOptions->height, stream)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cpp/codec/gstBufferManager.cpp:445
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer] gstBufferManager -- unsupported image format (rgb8)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                     supported formats are:
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgb8
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgba8
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgb32f
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer]                        * rgba32f
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [gstreamer] gstCamera::Capture() -- an error occurred retrieving the next image buffer
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]   cudaOverlayText(mFontMapGPU, maxGlyphSize, mFontMapWidth, ((GlyphCommand*)mCommandGPU) + mCmdIndex, numCommands, color, image, image, format, width, height, stream)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      an illegal memory access was encountered (error 700) (hex 0x2BC)
+Nov 25 08:13:36 vision bash[6078]: [quad_csi_quickview-2] [cuda]      /home/marvin/apex_gento_devel/src/Apex_Deploy/components/gmsl_quadcam_cpp/src/cuda/cudaFont.cu:566

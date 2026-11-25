@@ -27,3 +27,10 @@
 | 20261124-hand-scale-1p5 | **最终手部 1.5**，其他参数/校正不变证据 |
 
 冻结基准目录为完整包中的 `frozen-baseline/`，原始位置为 `E:\Github\Mubea-EV-Gentoluna-baselines\20261124-before-0p2`。不可把基准和当前参数混用。
+
+## 2026-11-25 增补
+
+- `20261125-camera-device-fix`：彩色接口按固定身份识别，Camera 启动前解析设备编号。
+- `20261125-maxhub-startup-fix`：MAXHUB 客户端开机自启与监督，旧入口不重复开预览。
+- `current-config/luna-pico-manual-chassis.service`：持久定义，随 Teleop 启停，未自动启动机器人。
+- `robot-snapshot/20261125-connected`：原始补采快照，位于本地与本次发布补充包；文件清单在 manifests。

@@ -1,0 +1,9 @@
+2932700d86ef43a021250fa643528f4addac518c8d6b40d07e6c03799d61d81b  /home/nvidia/luna-test-runs/20261124-camera-charging-animations/animation_control.py
+a2cd33bdb7ad64e829f3f5b2a5b80a7e71e791020de984ebee7220872505cf63  /home/nvidia/luna-test-runs/20261124-camera-charging-animations/battery_overlay.py
+4dceafaf7a89d99fdd11c5fc8b8a44e0889d7f30e5b18d80970049815b804b4b  /home/nvidia/luna-test-runs/20261124-camera-charging-animations/camera-preview.py
+c7a6bb8b62c81604900e075475531f018ff831b57635770d73582c07c9bd2371  /home/nvidia/luna-test-runs/20261124-camera-charging-animations/make_sprites.py
+6bf3be4fa157fbc4e4cdfe49e1367424aab9b4bbc80e409e01439b4d1c3e42ee  /home/nvidia/luna-test-runs/20261124-camera-charging-animations/preview_guard.py
+51e39943b1e78456fa3fcab5964aa58d337e80b00ac33226e649a24b9f8aef33  /home/nvidia/luna-test-runs/20261124-camera-charging-animations/test_overlay.py
+600cdc80cd4891e888dbdfac04dbec3f1b336078f251de8b0b9207dc4656ddd4  /home/nvidia/luna-test-runs/20261124-camera-charging-animations/verify_render.py
+3c84742f20c01c3a744b30e896e1ea8ba2c386d402187d649d177e525b416df2  /home/nvidia/luna-test-runs/20261124-camera-charging-animations/animations.json
+c31ef76fe0b8373923084630b86c17cb68a72c68b0912acfaa0c1f3aa1458e6d  /home/nvidia/.config/systemd/user/luna-battery-voice-warning.service

@@ -5,3 +5,7 @@
 /publication-result.json
 __pycache__/
 *.pyc
+
+/robot-snapshot/
+/publication-*.json
+/tests/20261124-full-body-cooperation/manual-chassis-telemetry.jsonl

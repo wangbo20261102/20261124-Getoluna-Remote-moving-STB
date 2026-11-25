@@ -1,0 +1,25 @@
+{
+  "capture": {
+    "archive": "/home/nvidia/luna-archive-exports/20261125-connected-sync/robot-connected-snapshot.tar.gz",
+    "bytes": 110689931,
+    "sha256": "1146fa2cb2ec4e07482524442b8418a505f9b3b929b88c6a1264a3d326ddd918",
+    "files": 2491,
+    "source_bytes": 412582795,
+    "errors": [
+      {
+        "source": "/home/nvidia/.config/systemd/user/luna-pico-manual-chassis-20261124.service",
+        "error": "not present at this known path"
+      }
+    ]
+  },
+  "historical_conflicts_preserved": [],
+  "large_files": [
+    {
+      "raw_path": "tests/20261124-full-body-cooperation/manual-chassis-telemetry.jsonl",
+      "git_browsable_compressed_path": "tests/20261124-full-body-cooperation/manual-chassis-telemetry.jsonl.gz",
+      "raw_sha256": "798559e7c5a6b2f2386348b4e41a7e1dbbe3c1e1ba5b8fdfef53ce8940c8d470",
+      "raw_bytes": 239206400
+    }
+  ],
+  "robot_originals_changed": false
+}

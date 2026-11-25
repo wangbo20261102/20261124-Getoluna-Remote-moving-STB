@@ -1,0 +1,11 @@
+{
+  "robot_path": "/etc/systemd/system/luna-pico-manual-chassis.service",
+  "repo_path": "current-config/luna-pico-manual-chassis.service",
+  "sha256": "f64d448cb2b87504a45d78cdfbc73f1797f581ffc40409e670d0f9b25554df3d",
+  "checked_at_unix": 1795566814.9690344,
+  "service_state": "Requisite=apex-teleop.service\nPartOf=apex-teleop.service\nActiveState=inactive\nUnitFileState=enabled\n",
+  "teleop_state": "MainPID=0\nActiveState=inactive\n",
+  "boot_auto_movement_enabled": false,
+  "activation_policy": "WantedBy/Requisite/PartOf=apex-teleop.service; starts with operator-started Teleop, not multi-user.target.",
+  "bridge_live_test_performed": false
+}

@@ -1,0 +1,19 @@
+[Unit]
+Description=PICO manual chassis bridge while Apex Teleop is running
+After=apex-teleop.service
+Requisite=apex-teleop.service
+PartOf=apex-teleop.service
+
+[Service]
+Type=simple
+User=nvidia
+Group=nvidia
+WorkingDirectory=/home/nvidia/luna-test-runs/20261124-full-body-cooperation
+ExecStart=/bin/bash /home/nvidia/luna-test-runs/20261124-full-body-cooperation/start_manual_chassis.sh
+Restart=on-failure
+RestartSec=3
+KillSignal=SIGINT
+TimeoutStopSec=10
+
+[Install]
+WantedBy=apex-teleop.service

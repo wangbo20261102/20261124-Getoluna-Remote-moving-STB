@@ -26,3 +26,11 @@
 - 按用户最新要求，任一电池有效 SOC < 30% 且未充电时，经机器人现有扬声器播报“warning，请立即充电”，相邻播报开始间隔约 10 秒。触发后保持提醒，直到确认开始充电或整机断电；电量读数跳动、反馈暂失或语音服务重启不自行消除提醒。确认任一有效电池开始充电时，立即中断当前播报并暂停后续播报；停止充电后若仍低于 30%，重新触发。图像叠加显示保持不变。
 - 当前独立版本：`E:\Github\Mubea-EV-Gentoluna-tests\20261124-battery-voice-charging-stop`；机器人同名目录位于 `/home/nvidia/luna-test-runs/`；用户服务仍为 `luna-battery-voice-warning.service`，已启用自动启动。前一版本与实际播放报告保留在 `20261124-battery-voice-warning`。服务只读电量，不控制机器人使能或修改厂家阈值。
 - 首轮 3 次扬声器测试已完成，用户确认“已听到 3 次，正常”。此后追加 10 次测试也已完成，10 次播放返回码均为 0，开始间隔约 10 秒；两轮共 13 次。详细结果见独立目录 `playback-test-*.json` 与 `test-completion-summary.json`，不要将测试播报视为真实电量报警。
+
+## 2026-11-25 开机显示恢复与摄像头固定身份
+
+- 当天重启后，昨天显示/语音服务与配置仍在，但 DongleClient 没有启动入口，且桌面分辨率恢复为 1520×720。新增并启用用户服务 `luna-maxhub-client.service`，程序位于 `/home/nvidia/luna-test-runs/20261125-maxhub-startup-fix/maxhub_client_guard.py`，本地同名独立版本位于 `E:\Github\Mubea-EV-Gentoluna-tests`。它保留已有客户端，仅在客户端缺失时完成现有免密准备、恢复 1920×1080@60、启动客户端；退出后再次启动，不启动第二个摄像头预览，不控制 Robot/Teleop/Tool。
+- 原 `~/luna-ready-20261123/start-maxhub.sh` 已备份并改为通过上述客户端服务和当前 `luna-camera-fast-marmots.service` 启动显示；不要恢复旧版直接启动额外 camera-preview.py 的逻辑。
+- D435 的彩色接口重启后从 video12 变成 video14，旧 video12 是红外，造成黑帧与 CUDA 700。当前厂家 URI 解析器不支持直接使用 `/dev/v4l/by-path/...`，所以在系统 Camera 服务新增 drop-in `/etc/systemd/system/apex-camera.service.d/70-d435-device.conf`，每次启动前运行 `/home/nvidia/luna-test-runs/20261125-camera-device-fix/resolve_color_camera.py`，通过 USB 彩色接口 03、序列号 344223024944 和 YUYV 1920×1080 能力识别实际编号，只更新相机配置的两个 RGB 来源字段。不可再写死 `/dev/video12`。相机应保留在当前 USB 物理端口；该版本固定身份路径包含端口信息。
+- 已明确启用系统 `apex-camera.service` 开机启动；用户 `luna-maxhub-client.service`、`luna-camera-fast-marmots.service`、`luna-battery-voice-warning.service` 均 enabled，用户 linger 已启用。未启用 Robot/Teleop/Tool 的自动运动。
+- 用户已确认画面恢复；重跑设备识别确认配置不变，原动画配置、语音程序及手肘控制参数哈希保持不变。没有执行整机重启验证，不将“enabled 已核对”写成“已实测断电重启成功”。独立版本中保留前后配置、错误与恢复证据。

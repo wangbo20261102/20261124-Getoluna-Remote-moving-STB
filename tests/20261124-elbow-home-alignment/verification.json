@@ -1,0 +1,194 @@
+{
+  "only_requested_config_changes": true,
+  "installed_code_matches_candidate": true,
+  "display": "active",
+  "maxhub": "7497 ./DongleClient",
+  "calibration_verification": {
+    "frames": 60,
+    "duration_s": 0.9581542015075684,
+    "neutral_elbow_torso_m": [
+      [
+        -0.09434368322969335,
+        0.24156094205287043,
+        -0.05925445585950094
+      ],
+      [
+        -0.08280175654679217,
+        -0.24976942483988182,
+        -0.05433280738339869
+      ]
+    ],
+    "std_m": [
+      [
+        0.0004668426739594149,
+        0.00023931664358885395,
+        0.00013240496138689647
+      ],
+      [
+        0.00024812467156300514,
+        0.00036332621015970813,
+        8.512260419709032e-05
+      ]
+    ],
+    "corrected_mean_error_m": [
+      [
+        -8.876453536319866e-18,
+        -5.551115123125783e-17,
+        1.4802973661668754e-17
+      ],
+      [
+        -2.2284872153629138e-17,
+        -3.14563190310461e-17,
+        -2.3592239273284576e-17
+      ]
+    ],
+    "max_sample_error_m": [
+      0.0008071903989774968,
+      0.0007576645825553586
+    ],
+    "offsets": {
+      "left_elbow": [
+        0.09454944052969334,
+        0.015305638047129588,
+        -0.08984004504049907
+      ],
+      "right_elbow": [
+        0.08300911944679217,
+        -0.007097155260118199,
+        -0.09476169221660133
+      ]
+    },
+    "elbow_scales": [
+      1.0,
+      1.0
+    ],
+    "robot_moved": false,
+    "capture_note": "Read complete torso/elbow objects from first IP fragments; later body keypoints not needed with unity arm-chain scales."
+  },
+  "live_validation_pending": false,
+  "synchronized_live_verification": {
+    "frames": 60,
+    "status": {
+      "enabled": true,
+      "calibrated": true,
+      "ready": true,
+      "collecting": false,
+      "samples": 38,
+      "error": null,
+      "offsets": {
+        "left_elbow": [
+          0.03378452362319276,
+          0.00731863360514165,
+          -0.08411091925690488
+        ],
+        "right_elbow": [
+          0.02512930545355622,
+          0.0027408644266812,
+          -0.09461282592845553
+        ]
+      }
+    },
+    "no_motion_commands": true,
+    "mean_elbow_torso_m": [
+      [
+        0.0012566199009365956,
+        0.2568754621921189,
+        -0.14906834846574574
+      ],
+      [
+        0.002384002104943767,
+        -0.25685589776352696,
+        -0.14900245950020502
+      ]
+    ],
+    "mean_error_cm": [
+      [
+        0.10508626009365957,
+        0.0008882092118848531,
+        0.002615243425431827
+      ],
+      [
+        0.21766392049437688,
+        0.001068233647311308,
+        0.009204009979495397
+      ]
+    ],
+    "max_error_cm": [
+      0.2235133856138593,
+      0.33870215531926295
+    ],
+    "std_cm": [
+      [
+        0.045602011372714614,
+        0.020950851374179198,
+        0.013613133052794085
+      ],
+      [
+        0.048960720637679825,
+        0.01804823140986564,
+        0.009534706612794652
+      ]
+    ]
+  },
+  "calibration": {
+    "version": 1,
+    "offsets": {
+      "left_elbow": [
+        0.03378452362319276,
+        0.00731863360514165,
+        -0.08411091925690488
+      ],
+      "right_elbow": [
+        0.02512930545355622,
+        0.0027408644266812,
+        -0.09461282592845553
+      ]
+    },
+    "reference": {
+      "left_elbow": [
+        -0.03357876632319276,
+        0.24954794649485837,
+        -0.06498358164309513
+      ],
+      "right_elbow": [
+        -0.02492194255355622,
+        -0.2596074445266812,
+        -0.05448167367154448
+      ]
+    },
+    "home": {
+      "left_elbow": [
+        0.0002057573,
+        0.2568665801,
+        -0.1490945009
+      ],
+      "right_elbow": [
+        0.0002073629,
+        -0.2568665801,
+        -0.1490944996
+      ]
+    }
+  },
+  "final_robot_status": {
+    "ok": true,
+    "data": {
+      "control_ready": true,
+      "control_error": false,
+      "control_error_message": "",
+      "arm_state": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        0
+      ],
+      "arm_state_age_sec": 0.00830531120300293,
+      "current_mode": 2,
+      "speed_factor": 1.0,
+      "current_input_mode": 1
+    }
+  },
+  "home_sent_by_assistant": false,
+  "interpretation": "Measured error is calibrated PICO input target versus model Home elbow in torso coordinates; this is not a claim of physical joint positioning accuracy."
+}

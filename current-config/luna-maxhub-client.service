@@ -1,0 +1,17 @@
+[Unit]
+Description=Keep MAXHUB WT12 display client available after boot
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/nvidia/luna-test-runs/20261125-maxhub-startup-fix/maxhub_client_guard.py
+Restart=on-failure
+RestartSec=5
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/run/luna-maxhub/Xauthority
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+StandardOutput=append:/home/nvidia/luna-test-runs/20261125-maxhub-startup-fix/guard.log
+StandardError=append:/home/nvidia/luna-test-runs/20261125-maxhub-startup-fix/guard.log
+
+[Install]
+WantedBy=default.target

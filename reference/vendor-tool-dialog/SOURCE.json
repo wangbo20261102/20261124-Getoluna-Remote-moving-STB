@@ -1,0 +1,22 @@
+{
+  "local_source": "E:\\Github\\MUbea-Gentoluna-ARM&Body2\\reference\\vendor\\local_desktop_sdk\\tianji-robot-SDK-Gento_Skye-Luna\\FX_PLATFORM\\UI.py",
+  "sha256": "d94c6f1e71bd8f2bda8fa6222788ddd40d1c45903d04773d0c058e10e130833b",
+  "zero_initialization_lines": [
+    1550,
+    1551,
+    1553,
+    1554
+  ],
+  "dialog_function_line": 2644,
+  "runtime_write_lines": [
+    2731,
+    2735
+  ],
+  "connection_reset_lines": [
+    5387,
+    5388,
+    5389,
+    5390
+  ],
+  "note": "Reference vendor source inspected. No running FXPlatform application or controller parameters modified."
+}

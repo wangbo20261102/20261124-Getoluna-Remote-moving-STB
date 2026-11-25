@@ -1,0 +1,30 @@
+{
+  "fresh": false,
+  "threshold_percent": 30,
+  "rows": [
+    {
+      "id": 1,
+      "valid": false,
+      "energy": null,
+      "color": "unknown",
+      "text": "电池 1：--  数据不可用"
+    },
+    {
+      "id": 2,
+      "valid": false,
+      "energy": null,
+      "color": "unknown",
+      "text": "电池 2：--  数据不可用"
+    }
+  ],
+  "texts": {
+    "b1_normal": " ",
+    "b1_red": " ",
+    "b1_unknown": "电池 1：--  数据不可用",
+    "b2_normal": " ",
+    "b2_red": " ",
+    "b2_unknown": "电池 2：--  数据不可用",
+    "warning": " ",
+    "stale": "电量数据不可用，请检查连接"
+  }
+}

@@ -1,0 +1,10 @@
+86805fb540cbb0abbc644001f328af54cfe24e2d4fcdb35f4a08be2c52ccac6e  /home/nvidia/luna-test-runs/20261124-camera-marmot-animation/animation_control.py
+1aee96ce39d6fd426191db6677cb94a034e5f283acae356e25251672ac14bc4f  /home/nvidia/luna-test-runs/20261124-camera-marmot-animation/battery_overlay.py
+4dceafaf7a89d99fdd11c5fc8b8a44e0889d7f30e5b18d80970049815b804b4b  /home/nvidia/luna-test-runs/20261124-camera-marmot-animation/camera-preview.py
+2fdba1331d2b41b6a7f1cb6275e8b5fa46d8932a12ed9fbceba31bd01d7462c6  /home/nvidia/luna-test-runs/20261124-camera-marmot-animation/make_marmots.py
+ced831df04dbaa6a2a524b3228e28533634b58e66542012e5f96850e0576364a  /home/nvidia/luna-test-runs/20261124-camera-marmot-animation/preview_guard.py
+314a6ece4e6850f423eeade76357c1cd597d66593bed12b4162fe2ab5d4a8997  /home/nvidia/luna-test-runs/20261124-camera-marmot-animation/render_qa.py
+567930a87899b5866d282aeed6e6a64186fcbe66b02887aa9246369bde4bee33  /home/nvidia/luna-test-runs/20261124-camera-marmot-animation/test_motion.py
+51e39943b1e78456fa3fcab5964aa58d337e80b00ac33226e649a24b9f8aef33  /home/nvidia/luna-test-runs/20261124-camera-marmot-animation/test_overlay.py
+fa2794541a71b178055201956e4bdfede99b29f192be687a1685cb1c924e4deb  /home/nvidia/luna-test-runs/20261124-camera-marmot-animation/animations.json
+a5e88332751453c6859a680642e230ea796211d07053666e6c3151413fa43155  /home/nvidia/luna-test-runs/20261124-battery-voice-charging-stop/battery_voice.py

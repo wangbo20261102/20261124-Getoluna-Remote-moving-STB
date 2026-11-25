@@ -1,0 +1,7 @@
+protocol 2 0.0151249
+manual 2 0.0264683
+ros_adapter 2 67.3529
+trigger_without_position 2 20.453
+wrist_recovery 2 38.389
+release_reliability 2 32.9562
+---

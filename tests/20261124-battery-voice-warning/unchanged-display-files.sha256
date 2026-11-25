@@ -1,0 +1,5 @@
+d81747c496b7c0adf957b87385b59037c5abf5ba393006f39d6bab838a880d03  /home/nvidia/luna-test-runs/20261124-camera-battery-overlay/battery_overlay.py
+fefad02b317e3445596b04a91dacc0e89432bf53fe1ce43de4d364b276e47be0  /home/nvidia/luna-test-runs/20261124-camera-battery-overlay/camera-preview.py
+c5b932b713a79b67eff6c3d7c5c041792e1566e6521cc7c63d456abd9b93267d  /home/nvidia/luna-test-runs/20261124-camera-battery-overlay/preview_guard.py
+b458338906943dc164d42fa68ebd272f0c0e5fdd799ec42ae25da55e9331ba01  /opt/luna-battery-screen/battery_audio.py
+351e3154a0ab8a0b1cc41bfebe8777292ec687b3bb6a57114c385835a6675af5  /opt/luna-battery-screen/battery_screen.py

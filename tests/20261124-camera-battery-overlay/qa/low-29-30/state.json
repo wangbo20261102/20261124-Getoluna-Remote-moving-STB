@@ -1,0 +1,30 @@
+{
+  "fresh": true,
+  "threshold_percent": 30,
+  "rows": [
+    {
+      "id": 1,
+      "valid": true,
+      "energy": 29,
+      "color": "red",
+      "text": "电池 1：29%  充电中"
+    },
+    {
+      "id": 2,
+      "valid": true,
+      "energy": 30,
+      "color": "normal",
+      "text": "电池 2：30%  充电中"
+    }
+  ],
+  "texts": {
+    "b1_normal": " ",
+    "b1_red": "电池 1：29%  充电中",
+    "b1_unknown": " ",
+    "b2_normal": "电池 2：30%  充电中",
+    "b2_red": " ",
+    "b2_unknown": " ",
+    "warning": "电量低于 30%，请优先充电",
+    "stale": " "
+  }
+}

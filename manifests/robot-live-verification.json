@@ -1,0 +1,162 @@
+{
+  "checked_at_unix": 1795566684.5883863,
+  "files": [
+    {
+      "robot_path": "/opt/kernelmind/apex/install/marvin_teleop/share/marvin_teleop/config/luna/robot_param.yaml",
+      "repo_path": "current-config/teleop-robot_param.yaml",
+      "sha256": "2b6d1ad05f93effe719f11e224f1e4556c70df7bd142294c84c65f77d55bd1f7",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/opt/kernelmind/apex/install/marvin_ros_control/share/marvin_ros_control/config/robot_param_luna.yaml",
+      "repo_path": "current-config/robot-control.yaml",
+      "sha256": "54ea33096348d3d60395176e0eb5bed96845f85877b162fff7c64400db487fea",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/opt/kernelmind/apex/install/marvin_teleop/lib/marvin_teleop/controller_udp.py",
+      "repo_path": "current-config/controller_udp.py",
+      "sha256": "ecea99de72e36d513090a7d44cdb6cd572eaa2304be60f8741688796ac1a972d",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/opt/kernelmind/apex/install/marvin_teleop/lib/marvin_teleop/elbow_home_alignment.py",
+      "repo_path": "current-config/elbow_home_alignment.py",
+      "sha256": "7cba3ca43f2a5e2d1757bcda3c7ba667cceebbc5a3c5108745c8b674cf5ff068",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/usr/local/lib/luna-apex-wrist/sdk/libGentoSDK.so",
+      "repo_path": "current-config/libGentoSDK.release-fix.so",
+      "sha256": "07cecbce36ebcd89e915cf5a7f274db2159251f68dcab83d707a5d3f7a85aa43",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261124-elbow-home-alignment/calibration.json",
+      "repo_path": "current-config/calibration.json",
+      "sha256": "77d41357ed9c79354a4556b667272869e15a3915f9af4530440a81ad040ba7e5",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261124-full-body-cooperation/pico_chassis_bridge.py",
+      "repo_path": "current-config/pico_chassis_bridge.py",
+      "sha256": "219682ee44d18d8e03e8c3131fd78757f03bb6825983388639ac6c5673c2955f",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261124-full-body-cooperation/start_manual_chassis.sh",
+      "repo_path": "current-config/start_manual_chassis.sh",
+      "sha256": "159083f14027460ac68581a1c393b47063b9c0ca8f49194a187102f0424fdefa",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261124-camera-fast-marmots/animations.json",
+      "repo_path": "current-config/animations.json",
+      "sha256": "8f4702e3b5236e062f8f02868b7c53cf4b2c991cbf06745241ef633bacf89c47",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261124-camera-fast-marmots/camera-preview.py",
+      "repo_path": "current-config/camera-preview.py",
+      "sha256": "4dceafaf7a89d99fdd11c5fc8b8a44e0889d7f30e5b18d80970049815b804b4b",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261124-camera-fast-marmots/preview_guard.py",
+      "repo_path": "current-config/preview_guard.py",
+      "sha256": "2fd3a25b47f525efbc90d1655950915522602f4b91d7b358e5f36348bdd0d0da",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261124-battery-voice-charging-stop/battery_voice.py",
+      "repo_path": "current-config/battery_voice.py",
+      "sha256": "a5e88332751453c6859a680642e230ea796211d07053666e6c3151413fa43155",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/home/nvidia/d435-preview/apex-color1080.yaml",
+      "repo_path": "current-config/camera-color1080.yaml",
+      "sha256": "dbf46ab4f63732039f9ca106ff48aeec52f3ba5942fa3bb912c26b035cf6a3c4",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261125-camera-device-fix/resolve_color_camera.py",
+      "repo_path": "current-config/resolve_color_camera.py",
+      "sha256": "6024c43c1d78af792c8e92841034ea8301f6e2710f60a963dec82407a9e3c417",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/home/nvidia/luna-test-runs/20261125-maxhub-startup-fix/maxhub_client_guard.py",
+      "repo_path": "current-config/maxhub_client_guard.py",
+      "sha256": "ed7318f82a84b2a10e6de6bd71311b114be2546e85a0c5a0639d0424d84a4ef4",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/home/nvidia/luna-ready-20261123/start-maxhub.sh",
+      "repo_path": "current-config/start-maxhub.sh",
+      "sha256": "86b89b10349c30ea96e2d172a64d9f3e6fceb2084431f1b3bdb425bd857c28c1",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/etc/systemd/system/apex-camera.service.d/70-d435-device.conf",
+      "repo_path": "current-config/70-d435-device.conf",
+      "sha256": "9b77b591e72fa61f4b3b82bde157e43aeb7c94495048145a0dc4a2ba6b79a932",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/home/nvidia/.config/systemd/user/luna-maxhub-client.service",
+      "repo_path": "current-config/luna-maxhub-client.service",
+      "sha256": "24537cb6e0bf715961a694746c157ab577789524366492159f03b32c8b64e2c2",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/home/nvidia/.config/systemd/user/luna-camera-fast-marmots.service",
+      "repo_path": "current-config/luna-camera-fast-marmots.service",
+      "sha256": "a2cbaa9eeb7a6e8b1192416cbc906dec56a2f7cfe1b479467c7214035601235a",
+      "matches_snapshot_and_local": true
+    },
+    {
+      "robot_path": "/home/nvidia/.config/systemd/user/luna-battery-voice-warning.service",
+      "repo_path": "current-config/luna-battery-voice-warning.service",
+      "sha256": "c31ef76fe0b8373923084630b86c17cb68a72c68b0912acfaa0c1f3aa1458e6d",
+      "matches_snapshot_and_local": true
+    }
+  ],
+  "all_file_hashes_match": true,
+  "runtime_parameters": {
+    "/quad_csi_quickview/get_parameters": {
+      "available": true,
+      "values": []
+    },
+    "/VR_reader/get_parameters": {
+      "available": false,
+      "note": "No live parameter service; no module started by verification."
+    },
+    "/marvin_robot_node/get_parameters": {
+      "available": false,
+      "note": "No live parameter service; no module started by verification."
+    }
+  },
+  "camera_frame_count": 40,
+  "camera_observed_hz": 9.68058601624969,
+  "camera_image": {
+    "quad_size": [
+      3840,
+      2160
+    ],
+    "scene_mean_rgb": [
+      72.85228066456719,
+      102.37102763646641,
+      119.13034661660207
+    ],
+    "scene_stddev_rgb": [
+      63.53166797679817,
+      33.598419511894825,
+      42.57546634071899
+    ],
+    "nonblack_scene": true
+  },
+  "motion_commands_sent": false,
+  "robot_sdk_connection_opened": false,
+  "services_started_or_restarted": false
+}

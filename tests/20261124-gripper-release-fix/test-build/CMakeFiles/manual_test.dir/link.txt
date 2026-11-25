@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/manual_test.dir/test_manual.cpp.o -o manual_test 

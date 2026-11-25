@@ -1,0 +1,17 @@
+total 0
+lrwxrwxrwx 1 root root 13 Nov 25 07:52 platform-14160000.pcie-pci-0004:01:00.0-usb-0:2:1.0-video-index0 -> ../../video10
+lrwxrwxrwx 1 root root 13 Nov 25 07:52 platform-14160000.pcie-pci-0004:01:00.0-usb-0:2:1.0-video-index1 -> ../../video11
+lrwxrwxrwx 1 root root 13 Nov 25 07:52 platform-14160000.pcie-pci-0004:01:00.0-usb-0:2:1.0-video-index2 -> ../../video12
+lrwxrwxrwx 1 root root 13 Nov 25 07:52 platform-14160000.pcie-pci-0004:01:00.0-usb-0:2:1.0-video-index3 -> ../../video13
+lrwxrwxrwx 1 root root 13 Nov 25 07:52 platform-14160000.pcie-pci-0004:01:00.0-usb-0:2:1.3-video-index0 -> ../../video14
+lrwxrwxrwx 1 root root 13 Nov 25 07:52 platform-14160000.pcie-pci-0004:01:00.0-usb-0:2:1.3-video-index1 -> ../../video15
+lrwxrwxrwx 1 root root 12 Nov 25 07:53 platform-14180000.pcie-pci-0000:01:00.0-usb-0:1.3:1.4-video-index0 -> ../../video8
+lrwxrwxrwx 1 root root 12 Nov 25 07:53 platform-14180000.pcie-pci-0000:01:00.0-usb-0:1.3:1.4-video-index1 -> ../../video9
+lrwxrwxrwx 1 root root 12 Nov 25 07:52 platform-tegra-capture-vi-video-index0 -> ../../video0
+lrwxrwxrwx 1 root root 12 Nov 25 07:52 platform-tegra-capture-vi-video-index10 -> ../../video1
+lrwxrwxrwx 1 root root 12 Nov 25 07:52 platform-tegra-capture-vi-video-index12 -> ../../video2
+lrwxrwxrwx 1 root root 12 Nov 25 07:52 platform-tegra-capture-vi-video-index14 -> ../../video3
+lrwxrwxrwx 1 root root 12 Nov 25 07:52 platform-tegra-capture-vi-video-index16 -> ../../video4
+lrwxrwxrwx 1 root root 12 Nov 25 07:52 platform-tegra-capture-vi-video-index18 -> ../../video5
+lrwxrwxrwx 1 root root 12 Nov 25 07:52 platform-tegra-capture-vi-video-index20 -> ../../video6
+lrwxrwxrwx 1 root root 12 Nov 25 07:52 platform-tegra-capture-vi-video-index22 -> ../../video7

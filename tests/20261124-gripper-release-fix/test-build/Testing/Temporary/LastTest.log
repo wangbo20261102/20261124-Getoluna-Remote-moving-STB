@@ -1,0 +1,361 @@
+Start testing: Nov 24 14:38 CST
+----------------------------------------------------------
+6/6 Testing: release_reliability
+6/6 Test: release_reliability
+Command: "/home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build/ros_adapter_test" "--release-reliability"
+Directory: /home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build
+"release_reliability" start time: Nov 24 14:38 CST
+Output:
+----------------------------------------------------------
+[INFO] [1795502333.576225728] [release_test_1614735.release_owner]: CTAG ARM1/485A passed read-only preflight
+[INFO] [1795502334.530586336] [release_test_1614735.release_owner]: CTAG ARM0/485A passed read-only preflight
+PASS release test preflight
+[INFO] [1795502335.099810400] [release_test_1614735.release_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502335.605458560] [release_test_1614735.release_owner]: ARM0 close command acknowledged (target 9000)
+PASS left closed before release fault injection
+[INFO] [1795502336.137582880] [release_test_1614735.release_owner]: ARM0 trigger 0.00 requested open
+[INFO] [1795502337.639757888] [release_test_1614735.release_owner]: ARM0 open execution verified by feedback after missing ACK
+PASS lost opening ACK verified at open endpoint without a second gesture
+[INFO] [1795502338.563416352] [release_test_1614735.release_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502339.167244640] [release_test_1614735.release_owner]: ARM0 close command acknowledged (target 9000)
+PASS left closed before release fault injection
+[INFO] [1795502339.699605984] [release_test_1614735.release_owner]: ARM0 trigger 0.00 requested open
+[WARN] [1795502341.208140416] [release_test_1614735.release_owner]: ARM0 open start unconfirmed at stationary position 9000; retrying once
+[INFO] [1795502341.308359968] [release_test_1614735.release_owner]: ARM0 open execution verified by feedback after missing ACK
+[INFO] [1795502341.308472608] [release_test_1614735.release_owner]: ARM0 open command acknowledged (target 0)
+PASS lost opening write retried after verified stationary feedback
+[INFO] [1795502342.445832448] [release_test_1614735.release_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502342.947450368] [release_test_1614735.release_owner]: ARM0 close command acknowledged (target 9000)
+PASS left closed before release fault injection
+PASS single missing live status reply injected
+[INFO] [1795502344.764980736] [release_test_1614735.release_owner]: ARM0 trigger 0.00 requested open
+[INFO] [1795502345.276810464] [release_test_1614735.release_owner]: ARM0 open command acknowledged (target 0)
+PASS release gesture preserved through transient status loss
+[INFO] [1795502345.502628704] [release_test_1614735.release_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502346.009830592] [release_test_1614735.release_owner]: ARM0 close command acknowledged (target 9000)
+PASS close moving before missing stop ACK
+[INFO] [1795502346.017425056] [release_test_1614735.release_owner]: ARM0 trigger 0.00 requested open
+[WARN] [1795502346.821805312] [release_test_1614735.release_owner]: ARM0 stop ACK unavailable; verifying stationary feedback
+[INFO] [1795502347.423342720] [release_test_1614735.release_owner]: ARM0 stopped at position 0
+[INFO] [1795502347.924814336] [release_test_1614735.release_owner]: ARM0 open command acknowledged (target 0)
+PASS missing stop ACK confirmed before opening without regrip
+[INFO] [1795502348.631851584] [release_test_1614735.release_owner]: ARM0 trigger 1.00 requested close
+PASS close moving before lost stop write
+[INFO] [1795502349.142226368] [release_test_1614735.release_owner]: ARM0 close command acknowledged (target 9000)
+[INFO] [1795502349.142593248] [release_test_1614735.release_owner]: ARM0 trigger 0.00 requested open
+[WARN] [1795502349.955914272] [release_test_1614735.release_owner]: ARM0 stop ACK unavailable; verifying stationary feedback
+[WARN] [1795502350.156713088] [release_test_1614735.release_owner]: ARM0 still moving after unconfirmed stop; retrying stop once
+[INFO] [1795502350.658172512] [release_test_1614735.release_owner]: ARM0 stopped at position 0
+[INFO] [1795502351.162125440] [release_test_1614735.release_owner]: ARM0 open command acknowledged (target 0)
+PASS lost stop write retried only after verified moving feedback
+[INFO] [1795502351.882050432] [release_test_1614735.release_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502352.383141632] [release_test_1614735.release_owner]: ARM0 close command acknowledged (target 9000)
+PASS left closed before release fault injection
+[INFO] [1795502352.914491712] [release_test_1614735.release_owner]: ARM0 trigger 0.00 requested open
+PASS opening moving despite lost ACK
+[INFO] [1795502354.422912928] [release_test_1614735.release_owner]: ARM0 open execution verified by feedback after missing ACK
+PASS side grip release still stops verified opening
+[INFO] [1795502355.577605664] [release_test_1614735.release_owner]: ARM0 stopped at position 9000
+PASS left closed before release fault injection
+[INFO] [1795502356.591322912] [release_test_1614735.release_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502356.896998624] [release_test_1614735.release_owner]: ARM0 trigger 0.00 requested open
+PASS opening write loss injected before cancellation
+[INFO] [1795502358.929458944] [release_test_1614735.release_owner]: ARM0 stopped at position 9000
+[INFO] [1795502360.734380416] [release_test_1614735.release_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502361.260344896] [release_test_1614735.release_owner]: ARM0 close command acknowledged (target 9000)
+[INFO] [1795502361.641274240] [release_test_1614735.release_owner]: ARM0 trigger 0.00 requested open
+[INFO] [1795502362.149959552] [release_test_1614735.release_owner]: ARM0 open command acknowledged (target 0)
+PASS fresh gesture works after cancelled opening
+[INFO] [1795502362.881804736] [release_test_1614735.release_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502363.382830304] [release_test_1614735.release_owner]: ARM0 close command acknowledged (target 9000)
+PASS left closed before release fault injection
+[INFO] [1795502363.918891712] [release_test_1614735.release_owner]: ARM0 trigger 0.00 requested open
+PASS first of two opening write losses injected
+[WARN] [1795502365.428685472] [release_test_1614735.release_owner]: ARM0 open start unconfirmed at stationary position 9000; retrying once
+PASS second opening write loss injected
+[WARN] [1795502366.529678848] [release_test_1614735.release_owner]: ARM0 suspended: opening start still unconfirmed after one stationary retry; first check in 2s
+[INFO] [1795502369.030844896] [release_test_1614735.release_owner]: ARM0 recovered on check 1; fresh gesture required
+<end of output>
+Test time =  38.32 sec
+----------------------------------------------------------
+Test Passed.
+"release_reliability" end time: Nov 24 14:39 CST
+"release_reliability" time elapsed: 00:00:38
+----------------------------------------------------------
+
+5/6 Testing: wrist_recovery
+5/6 Test: wrist_recovery
+Command: "/home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build/ros_adapter_test" "--recovery"
+Directory: /home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build
+"wrist_recovery" start time: Nov 24 14:38 CST
+Output:
+----------------------------------------------------------
+[INFO] [1795502333.608309632] [ack_test_1614723.ack_owner]: CTAG ARM1/485A passed read-only preflight
+[INFO] [1795502334.559183136] [ack_test_1614723.ack_owner]: CTAG ARM0/485A passed read-only preflight
+PASS both drives ready for lost start ACK
+[INFO] [1795502335.135593440] [ack_test_1614723.ack_owner]: ARM0 trigger 1.00 requested close
+[WARN] [1795502336.337014944] [ack_test_1614723.ack_owner]: ARM0 suspended: ARM0/485A function=0x06 register=0x0108 received=0: start acknowledgement missing or damaged; first check in 2s
+PASS ambiguous start followed by one protective stop
+[INFO] [1795502336.443620288] [ack_test_1614723.ack_owner]: ARM1 trigger 1.00 requested close
+[INFO] [1795502336.947156896] [ack_test_1614723.ack_owner]: ARM1 close command acknowledged (target 9000)
+PASS right closes while left is suspended
+[WARN] [1795502337.137879200] [ack_test_1614723.ack_owner]: ARM0 stop ACK unavailable; verifying stationary feedback
+[INFO] [1795502338.837810784] [ack_test_1614723.ack_owner]: ARM0 recovered on check 1; fresh gesture required
+[INFO] [1795502340.010643264] [ack_test_1614723.ack_owner]: ARM0 trigger 1.00 requested close
+[WARN] [1795502341.214796416] [ack_test_1614723.ack_owner]: ARM0 suspended: ARM0/485A function=0x06 register=0x0108 received=0: start acknowledgement missing or damaged; first check in 2s
+PASS fresh gesture accepted only after confirmed stop
+[INFO] [1795502341.317001088] [ack_test_1614723.ack_owner]: ARM1 trigger 0.00 requested open
+[INFO] [1795502341.825953312] [ack_test_1614723.ack_owner]: ARM1 open command acknowledged (target 0)
+PASS peer opens during five-round recovery
+[WARN] [1795502342.016138048] [ack_test_1614723.ack_owner]: ARM0 stop ACK unavailable; verifying stationary feedback
+[WARN] [1795502343.315030272] [ack_test_1614723.ack_owner]: ARM0 check 1 failed: drive not enabled in absolute position mode
+[WARN] [1795502345.415405408] [ack_test_1614723.ack_owner]: ARM0 check 2 failed: drive not enabled in absolute position mode
+[WARN] [1795502347.515784480] [ack_test_1614723.ack_owner]: ARM0 check 3 failed: drive not enabled in absolute position mode
+[WARN] [1795502349.616229056] [ack_test_1614723.ack_owner]: ARM0 check 4 failed: drive not enabled in absolute position mode
+PASS fifth left check reached
+[INFO] [1795502352.131252992] [ack_test_1614723.ack_owner]: ARM0 recovered on check 5; fresh gesture required
+[INFO] [1795502353.340485088] [ack_test_1614723.ack_owner]: ARM0 trigger 1.00 requested close
+[WARN] [1795502354.555810272] [ack_test_1614723.ack_owner]: ARM0 suspended: ARM0/485A function=0x06 register=0x0108 received=0: start acknowledgement missing or damaged; first check in 2s
+PASS fifth healthy round allowed new input
+[WARN] [1795502356.666901632] [ack_test_1614723.ack_owner]: ARM0 check 1 failed: drive not enabled in absolute position mode
+[WARN] [1795502358.767297888] [ack_test_1614723.ack_owner]: ARM0 check 2 failed: drive not enabled in absolute position mode
+[WARN] [1795502360.867721312] [ack_test_1614723.ack_owner]: ARM0 check 3 failed: drive not enabled in absolute position mode
+[WARN] [1795502362.968091840] [ack_test_1614723.ack_owner]: ARM0 check 4 failed: drive not enabled in absolute position mode
+[WARN] [1795502365.068478336] [ack_test_1614723.ack_owner]: ARM0 check 5 failed: drive not enabled in absolute position mode
+[ERROR] [1795502365.068621024] [ack_test_1614723.ack_owner]: ARM0 still suspended after five failed checks; stop not confirmed; retrying in 2s
+PASS five consecutive bad rounds observed
+[INFO] [1795502365.876301088] [ack_test_1614723.ack_owner]: ARM1 trigger 1.00 requested close
+[INFO] [1795502366.384055040] [ack_test_1614723.ack_owner]: ARM1 close command acknowledged (target 9000)
+PASS peer responds while left is suspended
+[INFO] [1795502367.571479264] [ack_test_1614723.ack_owner]: ARM0 recovered on check 6; fresh gesture required
+PASS sixth read-only recovery check reached
+[INFO] [1795502368.804398560] [ack_test_1614723.ack_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502369.309756000] [ack_test_1614723.ack_owner]: ARM0 close command acknowledged (target 9000)
+PASS fresh gesture accepted after sixth check
+[INFO] [1795502369.621810304] [ack_test_1614723.ack_owner]: ARM0 stopped at position 4200
+<end of output>
+Test time =  38.50 sec
+----------------------------------------------------------
+Test Passed.
+"wrist_recovery" end time: Nov 24 14:39 CST
+"wrist_recovery" time elapsed: 00:00:38
+----------------------------------------------------------
+
+2/6 Testing: manual
+2/6 Test: manual
+Command: "/home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build/manual_test"
+Directory: /home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build
+"manual" start time: Nov 24 14:39 CST
+Output:
+----------------------------------------------------------
+ARM0/485A position=4200 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM1/485A position=4200 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM0/485A position=4200 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM0/485A position=9000 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM1/485A position=4200 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM1/485A position=0 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM0/485A position=9000 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM1/485A position=0 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM0/485A position=0 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM1/485A position=0 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM0/485A position=4200 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM1/485A position=4200 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM1/485A: target readback mismatch
+ARM0/485A: drive fault A=1 alarm B=4096
+ARM0/485A position=4200 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM1/485A position=4200 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM0/485A: drive fault A=0 alarm B=4100
+ARM0 stationary confirmed
+ARM1 stationary confirmed
+ARM0/485A position=4200 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM1/485A position=4200 speed=0 status=0x8005 fault_A=0x0 alarm_B=0x1000
+ARM1/485A: ARM1/485A function=0x06 register=0x0108 received=0: start acknowledgement missing or damaged
+ARM0 stationary confirmed
+ARM1 stationary confirmed
+PASS manual selection, limits, drop alarm, mixed alarms, readback and lost ACK
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"manual" end time: Nov 24 14:39 CST
+"manual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+1/6 Testing: protocol
+1/6 Test: protocol
+Command: "/home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build/protocol_test"
+Directory: /home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build
+"protocol" start time: Nov 24 14:39 CST
+Output:
+----------------------------------------------------------
+passed: independent arms, preflight, release-before-press, timeout, CRC, target readback, start and stop
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"protocol" end time: Nov 24 14:39 CST
+"protocol" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: trigger_without_position
+4/6 Test: trigger_without_position
+Command: "/home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build/ros_adapter_test" "--no-position"
+Directory: /home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build
+"trigger_without_position" start time: Nov 24 14:39 CST
+Output:
+----------------------------------------------------------
+[INFO] [1795502371.854252544] [trigger_test_1653912.trigger_owner]: CTAG ARM1/485A passed read-only preflight
+[INFO] [1795502372.793018112] [trigger_test_1653912.trigger_owner]: CTAG ARM0/485A passed read-only preflight
+PASS initial feedback before removing position telemetry
+PASS position telemetry absent on both wrists
+[INFO] [1795502373.799109344] [trigger_test_1653912.trigger_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502373.799238304] [trigger_test_1653912.trigger_owner]: ARM1 trigger 1.00 requested close
+[INFO] [1795502374.776363712] [trigger_test_1653912.trigger_owner]: ARM1 close command acknowledged (target 9000)
+[INFO] [1795502374.906548608] [trigger_test_1653912.trigger_owner]: ARM0 close command acknowledged (target 9000)
+PASS one command per wrist for this trigger edge
+[INFO] [1795502374.910542752] [trigger_test_1653912.trigger_owner]: ARM0 trigger 0.00 requested open
+[INFO] [1795502374.910668576] [trigger_test_1653912.trigger_owner]: ARM1 trigger 0.00 requested open
+[INFO] [1795502375.717890848] [trigger_test_1653912.trigger_owner]: ARM0 open command acknowledged (target 0)
+[INFO] [1795502376.202245632] [trigger_test_1653912.trigger_owner]: ARM1 open command acknowledged (target 0)
+PASS one command per wrist for this trigger edge
+[INFO] [1795502376.204079424] [trigger_test_1653912.trigger_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502376.204178304] [trigger_test_1653912.trigger_owner]: ARM1 trigger 1.00 requested close
+[INFO] [1795502377.014702496] [trigger_test_1653912.trigger_owner]: ARM1 close command acknowledged (target 9000)
+[INFO] [1795502377.142334592] [trigger_test_1653912.trigger_owner]: ARM0 close command acknowledged (target 9000)
+PASS one command per wrist for this trigger edge
+[INFO] [1795502377.150901152] [trigger_test_1653912.trigger_owner]: ARM0 trigger 0.00 requested open
+[INFO] [1795502377.151013728] [trigger_test_1653912.trigger_owner]: ARM1 trigger 0.00 requested open
+[INFO] [1795502377.954886112] [trigger_test_1653912.trigger_owner]: ARM0 open command acknowledged (target 0)
+[INFO] [1795502378.440281056] [trigger_test_1653912.trigger_owner]: ARM1 open command acknowledged (target 0)
+PASS one command per wrist for this trigger edge
+[INFO] [1795502378.444778432] [trigger_test_1653912.trigger_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502378.444892704] [trigger_test_1653912.trigger_owner]: ARM1 trigger 1.00 requested close
+[INFO] [1795502379.253266816] [trigger_test_1653912.trigger_owner]: ARM1 close command acknowledged (target 9000)
+[INFO] [1795502379.382744960] [trigger_test_1653912.trigger_owner]: ARM0 close command acknowledged (target 9000)
+PASS one command per wrist for this trigger edge
+[INFO] [1795502379.393334656] [trigger_test_1653912.trigger_owner]: ARM0 trigger 0.00 requested open
+[INFO] [1795502379.393448768] [trigger_test_1653912.trigger_owner]: ARM1 trigger 0.00 requested open
+[INFO] [1795502380.675581408] [trigger_test_1653912.trigger_owner]: ARM1 open command acknowledged (target 0)
+[INFO] [1795502380.818751360] [trigger_test_1653912.trigger_owner]: ARM0 open command acknowledged (target 0)
+PASS one command per wrist for this trigger edge
+[INFO] [1795502380.827723648] [trigger_test_1653912.trigger_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502380.827846464] [trigger_test_1653912.trigger_owner]: ARM1 trigger 1.00 requested close
+[INFO] [1795502381.630247808] [trigger_test_1653912.trigger_owner]: ARM0 close command acknowledged (target 9000)
+[INFO] [1795502382.101962400] [trigger_test_1653912.trigger_owner]: ARM1 close command acknowledged (target 9000)
+PASS one command per wrist for this trigger edge
+[INFO] [1795502382.108697280] [trigger_test_1653912.trigger_owner]: ARM0 trigger 0.00 requested open
+[INFO] [1795502382.108804992] [trigger_test_1653912.trigger_owner]: ARM1 trigger 0.00 requested open
+[INFO] [1795502382.917591520] [trigger_test_1653912.trigger_owner]: ARM1 open command acknowledged (target 0)
+[INFO] [1795502383.053054816] [trigger_test_1653912.trigger_owner]: ARM0 open command acknowledged (target 0)
+PASS one command per wrist for this trigger edge
+[INFO] [1795502383.056474400] [trigger_test_1653912.trigger_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502383.056582528] [trigger_test_1653912.trigger_owner]: ARM1 trigger 1.00 requested close
+[INFO] [1795502383.864373184] [trigger_test_1653912.trigger_owner]: ARM0 close command acknowledged (target 9000)
+[INFO] [1795502384.340426624] [trigger_test_1653912.trigger_owner]: ARM1 close command acknowledged (target 9000)
+PASS one command per wrist for this trigger edge
+[INFO] [1795502384.349156736] [trigger_test_1653912.trigger_owner]: ARM0 trigger 0.00 requested open
+[INFO] [1795502384.349260640] [trigger_test_1653912.trigger_owner]: ARM1 trigger 0.00 requested open
+[INFO] [1795502385.151635040] [trigger_test_1653912.trigger_owner]: ARM1 open command acknowledged (target 0)
+[INFO] [1795502385.290071648] [trigger_test_1653912.trigger_owner]: ARM0 open command acknowledged (target 0)
+PASS one command per wrist for this trigger edge
+[INFO] [1795502385.296106624] [trigger_test_1653912.trigger_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502385.296230624] [trigger_test_1653912.trigger_owner]: ARM1 trigger 1.00 requested close
+[INFO] [1795502386.101154176] [trigger_test_1653912.trigger_owner]: ARM0 close command acknowledged (target 9000)
+[INFO] [1795502386.576837600] [trigger_test_1653912.trigger_owner]: ARM1 close command acknowledged (target 9000)
+PASS one command per wrist for this trigger edge
+[INFO] [1795502386.583060224] [trigger_test_1653912.trigger_owner]: ARM0 trigger 0.00 requested open
+[INFO] [1795502386.583230304] [trigger_test_1653912.trigger_owner]: ARM1 trigger 0.00 requested open
+[INFO] [1795502387.388465600] [trigger_test_1653912.trigger_owner]: ARM1 open command acknowledged (target 0)
+[INFO] [1795502387.531873472] [trigger_test_1653912.trigger_owner]: ARM0 open command acknowledged (target 0)
+PASS one command per wrist for this trigger edge
+PASS six open-close cycles per hand without ordinary position feedback
+<end of output>
+Test time =  20.54 sec
+----------------------------------------------------------
+Test Passed.
+"trigger_without_position" end time: Nov 24 14:39 CST
+"trigger_without_position" time elapsed: 00:00:20
+----------------------------------------------------------
+
+3/6 Testing: ros_adapter
+3/6 Test: ros_adapter
+Command: "/home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build/ros_adapter_test"
+Directory: /home/nvidia/luna-test-runs/20261124-gripper-release-fix/test-build
+"ros_adapter" start time: Nov 24 14:38 CST
+Output:
+----------------------------------------------------------
+[INFO] [1795502333.591616032] [wrist_test_1614717.test_owner]: CTAG ARM1/485A passed read-only preflight
+[INFO] [1795502334.548024608] [wrist_test_1614717.test_owner]: CTAG ARM0/485A passed read-only preflight
+PASS both preflights and ROS feedback
+[INFO] [1795502336.186047360] [wrist_test_1614717.test_owner]: ARM0 trigger 1.00 requested close
+PASS three missing mode replies before start
+[WARN] [1795502339.071415296] [wrist_test_1614717.test_owner]: ARM0 suspended: ARM0/485A function=0x03 register=0x0100 received=0: empty wrist register reply; first check in 2s
+[INFO] [1795502341.372157152] [wrist_test_1614717.test_owner]: ARM0 recovered on check 1; fresh gesture required
+PASS empty reply on idle ARM0
+[INFO] [1795502348.809963456] [wrist_test_1614717.test_owner]: ARM0 trigger 1.00 requested close
+PASS truncated left staging reply injected
+[WARN] [1795502349.955609408] [wrist_test_1614717.test_owner]: ARM0 suspended: ARM0/485A function=0x10 register=0x0102 received=0: unacknowledged target failed readback; first check in 2s
+[INFO] [1795502352.257338272] [wrist_test_1614717.test_owner]: ARM0 recovered on check 1; fresh gesture required
+[INFO] [1795502354.673483360] [wrist_test_1614717.test_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502356.139889536] [wrist_test_1614717.test_owner]: ARM0 close command acknowledged (target 9000)
+PASS left closes on ARM0
+[INFO] [1795502356.366471584] [wrist_test_1614717.test_owner]: ARM0 trigger 0.00 requested open
+[INFO] [1795502356.871597408] [wrist_test_1614717.test_owner]: ARM0 open command acknowledged (target 0)
+PASS left release opens ARM0
+[INFO] [1795502357.094440576] [wrist_test_1614717.test_owner]: ARM1 trigger 1.00 requested close
+[INFO] [1795502358.352972736] [wrist_test_1614717.test_owner]: ARM1 close command acknowledged (target 9000)
+PASS right closes on ARM1
+[INFO] [1795502358.581467520] [wrist_test_1614717.test_owner]: ARM1 trigger 0.00 requested open
+[INFO] [1795502359.086881056] [wrist_test_1614717.test_owner]: ARM1 open command acknowledged (target 0)
+PASS right release opens ARM1
+[INFO] [1795502359.314818720] [wrist_test_1614717.test_owner]: ARM0 trigger 1.00 requested close
+[INFO] [1795502360.015015328] [wrist_test_1614717.test_owner]: ARM0 close command acknowledged (target 9000)
+PASS left motion in progress
+PASS disconnect stops ARM0
+simulated disconnect to stop acknowledgement: 105 ms
+[INFO] [1795502360.326959776] [wrist_test_1614717.test_owner]: ARM0 stopped at position 0
+[INFO] [1795502362.145060672] [wrist_test_1614717.test_owner]: ARM1 trigger 1.00 requested close
+[INFO] [1795502362.658869856] [wrist_test_1614717.test_owner]: ARM1 close command acknowledged (target 9000)
+PASS fresh gesture accepted on reconnect
+[INFO] [1795502362.883132640] [wrist_test_1614717.test_owner]: ARM1 trigger 0.00 requested open
+[INFO] [1795502363.390173344] [wrist_test_1614717.test_owner]: ARM1 open command acknowledged (target 0)
+PASS right opened for cancellation test
+[INFO] [1795502363.612561920] [wrist_test_1614717.test_owner]: ARM1 trigger 1.00 requested close
+PASS right prepared target, trigger pending
+[INFO] [1795502365.438174944] [wrist_test_1614717.test_owner]: ARM1 trigger 1.00 requested close
+[INFO] [1795502365.947259232] [wrist_test_1614717.test_owner]: ARM1 close command acknowledged (target 9000)
+PASS adapter accepts fresh gesture after cancellation
+PASS right reaches closed position before feedback-loss test
+[INFO] [1795502366.178120064] [wrist_test_1614717.test_owner]: ARM1 trigger 0.00 requested open
+[INFO] [1795502366.682476064] [wrist_test_1614717.test_owner]: ARM1 open command acknowledged (target 0)
+[WARN] [1795502367.394948992] [wrist_test_1614717.test_owner]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+PASS lost moving feedback sends stop
+PASS first recovery round missing a post-stop reply
+[WARN] [1795502370.295726816] [wrist_test_1614717.test_owner]: ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+[INFO] [1795502372.798145248] [wrist_test_1614717.test_owner]: ARM1 recovered on check 2; fresh gesture required
+[INFO] [1795502374.663050976] [wrist_test_1614717.test_owner]: ARM1 trigger 1.00 requested close
+[INFO] [1795502375.168751360] [wrist_test_1614717.test_owner]: ARM1 close command acknowledged (target 9000)
+PASS fresh press accepted after verified stop
+[INFO] [1795502375.174504736] [wrist_test_1614717.test_owner]: ARM1 trigger 0.00 requested open
+[INFO] [1795502377.999548928] [wrist_test_1614717.test_owner]: ARM1 trigger 1.00 requested close
+[INFO] [1795502378.502662208] [wrist_test_1614717.test_owner]: ARM1 close command acknowledged (target 9000)
+PASS new simulated motion before sustained loss
+[WARN] [1795502379.213653536] [wrist_test_1614717.test_owner]: ARM1 suspended: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply; first check in 2s
+PASS stop sent once on sustained loss
+[WARN] [1795502382.115224896] [wrist_test_1614717.test_owner]: ARM1 check 1 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+[WARN] [1795502385.016212416] [wrist_test_1614717.test_owner]: ARM1 check 2 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+[WARN] [1795502387.917937792] [wrist_test_1614717.test_owner]: ARM1 check 3 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+[WARN] [1795502390.819010304] [wrist_test_1614717.test_owner]: ARM1 check 4 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+[WARN] [1795502393.719763776] [wrist_test_1614717.test_owner]: ARM1 check 5 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+[ERROR] [1795502393.719892160] [wrist_test_1614717.test_owner]: ARM1 still suspended after five failed checks; stop not confirmed; retrying in 2s
+[WARN] [1795502396.621170752] [wrist_test_1614717.test_owner]: ARM1 check 6 failed: ARM1/485A function=0x03 register=0x0401 received=0: empty wrist register reply
+[INFO] [1795502398.652319424] [wrist_test_1614717.test_owner]: ARM1 stopped at position 9000
+<end of output>
+Test time =  67.46 sec
+----------------------------------------------------------
+Test Passed.
+"ros_adapter" end time: Nov 24 14:39 CST
+"ros_adapter" time elapsed: 00:01:07
+----------------------------------------------------------
+
+End testing: Nov 24 14:39 CST

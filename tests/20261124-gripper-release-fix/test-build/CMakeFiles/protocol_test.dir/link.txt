@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/protocol_test.dir/home/nvidia/luna-test-runs/20261124-gripper-release-fix/source/test_protocol.cpp.o -o protocol_test 
